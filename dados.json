@@ -1,0 +1,18 @@
+{
+  "ultimaAtualizacao": "2025-08-30T22:58:19.152Z",
+  "totalLivros": 1,
+  "totalDisponiveis": 1,
+  "livros": [
+    {
+      "titulo": "O Código da Vinci",
+      "autor": "Dan Brown",
+      "genero": "Romance",
+      "ano": "2015",
+      "localizacao": "Estante A, A2. Romance",
+      "estante": "Estante A",
+      "secao": "A2. Romance",
+      "disponiveis": 10,
+      "status": "Disponível"
+    }
+  ]
+}
