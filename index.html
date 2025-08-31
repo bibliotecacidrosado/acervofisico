@@ -3,11 +3,11 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Acervo da Biblioteca Cid Rosado</title>
+  <title>Acervo Físico - Biblioteca Cid Rosado</title>
   <style>
     body { 
       font-family: Arial, sans-serif; 
-      max-width: 900px; 
+      max-width: 1200px; 
       margin: 20px auto; 
       padding: 20px; 
       background: #f5f5f5;
@@ -23,26 +23,32 @@
       margin: 15px 0; 
       font-weight: bold; 
       font-size: 16px;
+      background: white;
+      padding: 15px;
+      border-radius: 8px;
+      box-shadow: 0 2px 4px rgba(0,0,0,0.1);
     }
     #busca {
       width: 100%; 
-      padding: 10px; 
+      padding: 12px 15px; 
       margin-bottom: 15px; 
       border-radius: 5px; 
       border: 1px solid #ccc; 
-      font-size: 14px;
+      font-size: 16px;
+      box-sizing: border-box;
     }
     .lista-container {
-      max-height: 500px; 
+      max-height: 600px; 
       overflow-y: auto; 
       border: 1px solid #ccc; 
       border-radius: 5px;
+      background: white;
     }
     .cabecalho, .livro {
       display: flex; 
-      padding: 10px; 
+      padding: 12px; 
       align-items: center; 
-      gap: 10px;
+      gap: 15px;
     }
     .cabecalho {
       position: sticky; 
@@ -54,6 +60,9 @@
     }
     .livro:nth-child(odd) {background: #fff;}
     .livro:nth-child(even) {background: #f9f9f9;}
+    .livro:hover {
+      background: #f0f0f0;
+    }
     .livro span, .cabecalho span {
       flex: 1; 
       min-width: 120px;
@@ -66,6 +75,8 @@
       display: flex;
       justify-content: space-between;
       margin-bottom: 15px;
+      flex-wrap: wrap;
+      gap: 10px;
     }
     .btn {
       background: #4CAF50;
@@ -74,147 +85,257 @@
       padding: 10px 15px;
       border-radius: 5px;
       cursor: pointer;
+      font-size: 14px;
     }
     .btn:hover {
       background: #45a049;
     }
+    .btn-atualizar {
+      background: #2196F3;
+    }
+    .btn-atualizar:hover {
+      background: #0b7dda;
+    }
+    .filtros {
+      display: flex;
+      gap: 10px;
+      align-items: center;
+    }
+    select {
+      padding: 8px;
+      border-radius: 5px;
+      border: 1px solid #ccc;
+    }
+    .loading {
+      text-align: center;
+      padding: 20px;
+      color: #666;
+    }
+    .error {
+      background: #ffebee;
+      color: #c62828;
+      padding: 15px;
+      border-radius: 5px;
+      margin: 15px 0;
+      text-align: center;
+    }
 
     /* --- Responsividade --- */
-    @media (max-width: 600px) {
-      .cabecalho {display: none;} /* tira cabeçalho no celular */
+    @media (max-width: 768px) {
+      .cabecalho {display: none;}
       .livro {
         flex-direction: column; 
         align-items: flex-start; 
-        padding: 12px;
+        padding: 15px;
         border-bottom: 1px solid #ddd;
+        gap: 8px;
       }
       .livro span {
         min-width: unset;
         flex: none;
         display: block;
         width: 100%;
+        padding: 3px 0;
       }
       .livro span::before {
         font-weight: bold;
         color: #333;
         display: inline-block;
-        width: 100%;
+        width: 120px;
       }
       .livro span:nth-child(1)::before { content: "Título: "; }
       .livro span:nth-child(2)::before { content: "Autor: "; }
-      .livro span:nth-child(3)::before { content: "Categoria: "; }
-      .livro span:nth-child(4)::before { content: "Disponibilidade: "; }
+      .livro span:nth-child(3)::before { content: "Gênero: "; }
+      .livro span:nth-child(4)::before { content: "Localização: "; }
+      .livro span:nth-child(5)::before { content: "Disponibilidade: "; }
       
       .controles {
         flex-direction: column;
-        gap: 10px;
+      }
+      
+      .filtros {
+        flex-direction: column;
+        align-items: stretch;
       }
     }
   </style>
 </head>
 <body>
-  <h1>Acervo da Biblioteca Escolar</h1>
+  <h1>Acervo Físico - Biblioteca Cid Rosado</h1>
   
   <div class="controles">
-    <button class="btn" onclick="carregarDados()">Carregar Dados</button>
-    <div>
-      <label for="filtroStatus">Filtrar por status:</label>
-      <select id="filtroStatus" onchange="filtrarLivros()">
-        <option value="todos">Todos</option>
-        <option value="Disponível">Disponível</option>
-        <option value="Indisponível">Indisponível</option>
-      </select>
+    <button class="btn btn-atualizar" onclick="carregarDados()">
+      <span id="btn-text">Carregar Dados</span>
+      <span id="loading-icon" style="display:none;">⏳</span>
+    </button>
+    <div class="filtros">
+      <div>
+        <label for="filtroStatus">Filtrar por status:</label>
+        <select id="filtroStatus" onchange="filtrarLivros()">
+          <option value="todos">Todos</option>
+          <option value="Disponível">Disponível</option>
+          <option value="Indisponível">Indisponível</option>
+        </select>
+      </div>
+      <div>
+        <label for="filtroGenero">Filtrar por gênero:</label>
+        <select id="filtroGenero" onchange="filtrarLivros()">
+          <option value="todos">Todos os gêneros</option>
+          <!-- Opções serão preenchidas dinamicamente -->
+        </select>
+      </div>
     </div>
   </div>
   
   <div class="resumo" id="resumo">
     Total de livros no acervo: 0 | Disponíveis para empréstimo: 0
   </div>
-  <input type="text" id="busca" placeholder="Buscar por título, autor ou categoria..." oninput="filtrarLivros()">
+  
+  <div id="mensagem"></div>
+  
+  <input type="text" id="busca" placeholder="Buscar por título, autor, gênero ou localização..." oninput="filtrarLivros()">
 
   <div class="lista-container">
     <!-- Cabeçalho da lista -->
     <div class="cabecalho">
       <span>Título</span>
       <span>Autor</span>
-      <span>Categoria</span>
+      <span>Gênero</span>
+      <span>Localização</span>
       <span>Disponibilidade</span>
     </div>
-    <div id="listaLivros"></div>
+    <div id="listaLivros">
+      <div class="loading" id="loading-message">
+        <p>Clique em "Carregar Dados" para exibir o acervo</p>
+      </div>
+    </div>
   </div>
 
   <script>
+    // URL do arquivo JSON no GitHub - SUBSTITUA pela URL real do seu repositório
+    const URL_JSON = 'https://raw.githubusercontent.com/bibliotecacidrosado/acervofisico/refs/heads/main/dados.json';
+    
     let livrosAcervo = [];
     let dadosCompletos = [];
+    let generosDisponiveis = [];
 
-    // Dados de exemplo - no GitHub você pode carregar de um arquivo JSON
-    const dadosExemplo = {
-      livros: [
-        { 
-          titulo: "Dom Casmurro", 
-          autor: "Machado de Assis", 
-          genero: "Literatura Brasileira", 
-          ano: "1899", 
-          total: 5, 
-          emprestados: 2, 
-          disponiveis: 3, 
-          status: "Disponível" 
-        },
-        { 
-          titulo: "O Cortiço", 
-          autor: "Aluísio Azevedo", 
-          genero: "Literatura Brasileira", 
-          ano: "1890", 
-          total: 3, 
-          emprestados: 3, 
-          disponiveis: 0, 
-          status: "Indisponível" 
-        },
-        { 
-          titulo: "Iracema", 
-          autor: "José de Alencar", 
-          genero: "Romance Indianista", 
-          ano: "1865", 
-          total: 4, 
-          emprestados: 1, 
-          disponiveis: 3, 
-          status: "Disponível" 
-        }
-      ],
-      totalLivros: 12,
-      totalDisponiveis: 6
-    };
-
-    function carregarDados() {
-      // Em produção, você pode carregar de um arquivo JSON
-      // fetch('acervo.json')
-      //   .then(response => response.json())
-      //   .then(dados => {
-      //     dadosCompletos = dados.livros;
-      //     livrosAcervo = [...dadosCompletos];
-      //     atualizarLista(dados);
-      //   });
+    function mostrarMensagem(texto, tipo) {
+      const mensagemDiv = document.getElementById('mensagem');
+      mensagemDiv.innerHTML = `<div class="${tipo}">${texto}</div>`;
       
-      // Usando dados de exemplo por enquanto
-      dadosCompletos = dadosExemplo.livros;
-      livrosAcervo = [...dadosExemplo.livros];
-      atualizarLista(dadosExemplo);
+      if (tipo !== 'error') {
+        setTimeout(() => {
+          mensagemDiv.innerHTML = '';
+        }, 3000);
+      }
+    }
+
+    function toggleCarregando(mostrar) {
+      const btnText = document.getElementById('btn-text');
+      const loadingIcon = document.getElementById('loading-icon');
+      
+      if (mostrar) {
+        btnText.style.display = 'none';
+        loadingIcon.style.display = 'inline';
+      } else {
+        btnText.style.display = 'inline';
+        loadingIcon.style.display = 'none';
+      }
+    }
+
+    async function carregarDados() {
+      try {
+        toggleCarregando(true);
+        mostrarMensagem('Carregando dados do acervo...', 'loading');
+        
+        const response = await fetch(URL_JSON);
+        
+        if (!response.ok) {
+          throw new Error(`Erro ao carregar: ${response.status} ${response.statusText}`);
+        }
+        
+        const dados = await response.json();
+        
+        // Verificar se os dados têm a estrutura esperada
+        if (!dados.livros || !Array.isArray(dados.livros)) {
+          throw new Error('Formato inválido do arquivo JSON');
+        }
+        
+        dadosCompletos = dados.livros;
+        livrosAcervo = [...dadosCompletos];
+        
+        // Extrair gêneros únicos para o filtro
+        extrairGeneros();
+        
+        // Preencher a lista de livros
+        atualizarLista(dados);
+        
+        mostrarMensagem('Dados carregados com sucesso!', 'success');
+        
+      } catch (error) {
+        console.error('Erro ao carregar dados:', error);
+        mostrarMensagem(`Erro ao carregar dados: ${error.message}`, 'error');
+        
+        // Mostrar dados de exemplo em caso de erro
+        usarDadosExemplo();
+      } finally {
+        toggleCarregando(false);
+      }
+    }
+
+    function extrairGeneros() {
+      const generosSet = new Set();
+      dadosCompletos.forEach(livro => {
+        if (livro.genero && livro.genero.trim() !== '') {
+          generosSet.add(livro.genero);
+        }
+      });
+      
+      generosDisponiveis = Array.from(generosSet).sort();
+      
+      const filtroGenero = document.getElementById('filtroGenero');
+      // Manter a primeira opção ("Todos os gêneros")
+      while (filtroGenero.options.length > 1) {
+        filtroGenero.remove(1);
+      }
+      
+      // Adicionar os gêneros extraídos
+      generosDisponiveis.forEach(genero => {
+        const option = document.createElement('option');
+        option.value = genero;
+        option.textContent = genero;
+        filtroGenero.appendChild(option);
+      });
     }
 
     function atualizarLista(dados){
       const lista = document.getElementById('listaLivros');
-      lista.innerHTML = '';
       const resumo = document.getElementById('resumo');
+      
+      // Atualizar resumo
       resumo.textContent = `Total de livros no acervo: ${dados.totalLivros} | Disponíveis para empréstimo: ${dados.totalDisponiveis}`;
-
+      
+      // Limpar lista
+      lista.innerHTML = '';
+      
+      // Verificar se há livros para mostrar
+      if (!dados.livros || dados.livros.length === 0) {
+        lista.innerHTML = '<div class="loading">Nenhum livro encontrado</div>';
+        return;
+      }
+      
+      // Adicionar livros à lista
       dados.livros.forEach(l => {
         const div = document.createElement('div');
         div.className = 'livro';
         div.innerHTML = `
-          <span>${l.titulo}</span>
-          <span>${l.autor}</span>
-          <span>${l.genero}</span>
-          <span class="status ${l.status === 'Disponível' ? 'disponivel' : 'indisponivel'}">${l.status}</span>`;
+          <span>${l.titulo || 'Não informado'}</span>
+          <span>${l.autor || 'Não informado'}</span>
+          <span>${l.genero || 'Não informado'}</span>
+          <span>${l.localizacao || 'Não informado'}</span>
+          <span class="status ${l.status === 'Disponível' ? 'disponivel' : 'indisponivel'}">
+            ${l.disponiveis > 0 ? `${l.disponiveis} exemplar(es) ${l.status}` : l.status}
+          </span>`;
         lista.appendChild(div);
       });
     }
@@ -222,25 +343,73 @@
     function filtrarLivros(){
       const termo = document.getElementById('busca').value.toLowerCase();
       const statusFiltro = document.getElementById('filtroStatus').value;
+      const generoFiltro = document.getElementById('filtroGenero').value;
       
       const listaFiltrada = dadosCompletos.filter(l => {
+        // Filtro por termo de busca
         const correspondeTermo = 
-          l.titulo.toLowerCase().includes(termo) ||
-          l.autor.toLowerCase().includes(termo) ||
-          l.genero.toLowerCase().includes(termo);
+          (l.titulo && l.titulo.toLowerCase().includes(termo)) ||
+          (l.autor && l.autor.toLowerCase().includes(termo)) ||
+          (l.genero && l.genero.toLowerCase().includes(termo)) ||
+          (l.localizacao && l.localizacao.toLowerCase().includes(termo));
         
+        // Filtro por status
         const correspondeStatus = statusFiltro === 'todos' || l.status === statusFiltro;
         
-        return correspondeTermo && correspondeStatus;
+        // Filtro por gênero
+        const correspondeGenero = generoFiltro === 'todos' || l.genero === generoFiltro;
+        
+        return correspondeTermo && correspondeStatus && correspondeGenero;
       });
 
-      const totalLivros = listaFiltrada.reduce((acc, l) => acc + l.total, 0);
-      const totalDisponiveis = listaFiltrada.reduce((acc, l) => acc + l.disponiveis, 0);
+      const totalLivros = listaFiltrada.length;
+      const totalDisponiveis = listaFiltrada.filter(l => l.status === 'Disponível').length;
 
-      atualizarLista({livros: listaFiltrada, totalLivros, totalDisponiveis});
+      atualizarLista({
+        livros: listaFiltrada, 
+        totalLivros, 
+        totalDisponiveis
+      });
     }
 
-    window.onload = carregarDados;
+    function usarDadosExemplo() {
+      const dadosExemplo = {
+        livros: [
+          { 
+            titulo: "Dom Casmurro", 
+            autor: "Machado de Assis", 
+            genero: "Literatura Brasileira", 
+            localizacao: "Estante A, Prateleira 3",
+            disponiveis: 3, 
+            status: "Disponível" 
+          },
+          { 
+            titulo: "O Cortiço", 
+            autor: "Aluísio Azevedo", 
+            genero: "Literatura Brasileira", 
+            localizacao: "Estante B, Prateleira 1",
+            disponiveis: 0, 
+            status: "Indisponível" 
+          }
+        ],
+        totalLivros: 2,
+        totalDisponiveis: 1
+      };
+      
+      dadosCompletos = dadosExemplo.livros;
+      livrosAcervo = [...dadosExemplo.livros];
+      extrairGeneros();
+      atualizarLista(dadosExemplo);
+      
+      mostrarMensagem('Usando dados de exemplo. Verifique a URL do JSON.', 'error');
+    }
+
+    // Inicializar a página
+    document.getElementById('busca').addEventListener('keypress', function(e) {
+      if (e.key === 'Enter') {
+        filtrarLivros();
+      }
+    });
   </script>
 </body>
 </html>
