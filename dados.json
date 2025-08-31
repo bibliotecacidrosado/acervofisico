@@ -1,5 +1,5 @@
 {
-  "ultimaAtualizacao": "2025-08-31T01:39:42.364Z",
+  "ultimaAtualizacao": "2025-08-31T01:54:14.047Z",
   "totalLivros": 1,
   "totalExemplares": 10,
   "totalDisponiveis": 1,
@@ -13,8 +13,8 @@
       "estante": "Estante A",
       "secao": "A2. Romance",
       "exemplares": 10,
-      "emprestados": 1,
-      "disponiveis": 9,
+      "emprestados": 0,
+      "disponiveis": 10,
       "status": "Disponível"
     }
   ]
