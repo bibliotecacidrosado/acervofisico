@@ -1,21 +1,21 @@
 {
-  "ultimaAtualizacao": "2025-08-31T01:54:14.047Z",
+  "ultimaAtualizacao": "2025-08-31T02:13:02.280Z",
   "totalLivros": 1,
   "totalExemplares": 10,
-  "totalDisponiveis": 1,
+  "totalDisponiveis": 10,
   "livros": [
     {
-      "titulo": "O Código da Vinci",
+      "titulo": "O C?digo da Vinci",
       "autor": "Dan Brown",
       "genero": "Romance",
       "ano": "2015",
-      "localizacao": "Estante A, A2. Romance",
-      "estante": "Estante A",
-      "secao": "A2. Romance",
+      "editora": "Abril",
+      "cidade": "S?o Paulo",
       "exemplares": 10,
       "emprestados": 0,
       "disponiveis": 10,
-      "status": "Disponível"
+      "localizacao": "Estante A, A2. Romance",
+      "status": "Dispon?vel"
     }
   ]
 }
