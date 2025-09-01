@@ -4,21 +4,69 @@
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Acervo Físico - Biblioteca Cid Rosado</title>
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
   <style>
+    :root {
+      --cor-primaria: #ff8c00;
+      --cor-secundaria: #ffb74d;
+      --cor-texto: #333;
+      --cor-fundo: #f5f5f5;
+      --cor-borda: #ddd;
+      --cor-disponivel: #2e7d32;
+      --cor-indisponivel: #c62828;
+      --cor-destaque: #1565c0;
+      --sombra: 0 2px 8px rgba(0,0,0,0.1);
+    }
+    
+    * {
+      box-sizing: border-box;
+      margin: 0;
+      padding: 0;
+    }
+    
     body { 
-      font-family: Arial, sans-serif; 
+      font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif; 
       max-width: 1200px; 
       margin: 20px auto; 
       padding: 20px; 
-      background: #f5f5f5;
+      background: var(--cor-fundo);
+      color: var(--cor-texto);
+      line-height: 1.6;
     }
+    
+    header {
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      flex-wrap: wrap;
+      gap: 15px;
+      margin-bottom: 20px;
+    }
+    
     h1 {
-      background: orange; 
+      background: var(--cor-primaria); 
       color: #fff; 
-      padding: 15px; 
+      padding: 15px 20px; 
       text-align: center; 
       border-radius: 8px;
+      flex: 1;
+      min-width: 300px;
+      box-shadow: var(--sombra);
     }
+    
+    .info-biblioteca {
+      background: white;
+      padding: 15px;
+      border-radius: 8px;
+      text-align: center;
+      box-shadow: var(--sombra);
+    }
+    
+    .info-biblioteca p {
+      margin: 5px 0;
+      font-size: 14px;
+    }
+    
     .resumo {
       margin: 15px 0; 
       font-weight: bold; 
@@ -26,50 +74,87 @@
       background: white;
       padding: 15px;
       border-radius: 8px;
-      box-shadow: 0 2px 4px rgba(0,0,0,0.1);
+      box-shadow: var(--sombra);
+      display: flex;
+      justify-content: space-around;
+      flex-wrap: wrap;
+      gap: 15px;
     }
+    
+    .resumo-item {
+      text-align: center;
+      padding: 10px;
+      border-radius: 6px;
+      background: #f9f9f9;
+      flex: 1;
+      min-width: 180px;
+    }
+    
+    .resumo-numero {
+      font-size: 24px;
+      color: var(--cor-destaque);
+      margin-top: 5px;
+    }
+    
     #busca {
       width: 100%; 
       padding: 12px 15px; 
       margin-bottom: 15px; 
       border-radius: 5px; 
-      border: 1px solid #ccc; 
+      border: 1px solid var(--cor-borda); 
       font-size: 16px;
       box-sizing: border-box;
+      box-shadow: var(--sombra);
     }
+    
     .lista-container {
       max-height: 600px; 
       overflow-y: auto; 
-      border: 1px solid #ccc; 
+      border: 1px solid var(--cor-borda); 
       border-radius: 5px;
       background: white;
+      box-shadow: var(--sombra);
+      margin-bottom: 20px;
     }
+    
     .cabecalho, .livro {
       display: flex; 
       padding: 12px; 
       align-items: center; 
       gap: 15px;
     }
+    
     .cabecalho {
       position: sticky; 
       top: 0; 
-      background: #ffb74d; 
+      background: var(--cor-secundaria); 
       font-weight: bold; 
       z-index: 2; 
-      border-bottom: 2px solid #ff9800;
+      border-bottom: 2px solid var(--cor-primaria);
+      cursor: pointer;
     }
+    
+    .cabecalho span:hover {
+      color: white;
+    }
+    
     .livro:nth-child(odd) {background: #fff;}
     .livro:nth-child(even) {background: #f9f9f9;}
     .livro:hover {
       background: #f0f0f0;
     }
+    
     .livro span, .cabecalho span {
       flex: 1; 
       min-width: 120px;
+      overflow: hidden;
+      text-overflow: ellipsis;
+      white-space: nowrap;
     }
+    
     .status {font-weight: bold;}
-    .disponivel {color: green;}
-    .indisponivel {color: red;}
+    .disponivel {color: var(--cor-disponivel);}
+    .indisponivel {color: var(--cor-indisponivel);}
     
     .controles {
       display: flex;
@@ -78,39 +163,62 @@
       flex-wrap: wrap;
       gap: 10px;
     }
+    
     .btn {
-      background: #4CAF50;
+      background: var(--cor-destaque);
       color: white;
       border: none;
       padding: 10px 15px;
       border-radius: 5px;
       cursor: pointer;
       font-size: 14px;
+      display: flex;
+      align-items: center;
+      gap: 5px;
+      box-shadow: var(--sombra);
+      transition: background 0.3s;
     }
+    
     .btn:hover {
-      background: #45a049;
+      background: #0d47a1;
     }
+    
     .btn-atualizar {
       background: #2196F3;
     }
+    
     .btn-atualizar:hover {
       background: #0b7dda;
     }
+    
+    .btn-exportar {
+      background: #4CAF50;
+    }
+    
+    .btn-exportar:hover {
+      background: #388E3C;
+    }
+    
     .filtros {
       display: flex;
       gap: 10px;
       align-items: center;
+      flex-wrap: wrap;
     }
-    select {
+    
+    select, input[type="number"] {
       padding: 8px;
       border-radius: 5px;
-      border: 1px solid #ccc;
+      border: 1px solid var(--cor-borda);
+      box-shadow: var(--sombra);
     }
+    
     .loading {
       text-align: center;
       padding: 20px;
       color: #666;
     }
+    
     .error {
       background: #ffebee;
       color: #c62828;
@@ -119,10 +227,85 @@
       margin: 15px 0;
       text-align: center;
     }
+    
+    .success {
+      background: #e8f5e9;
+      color: #2e7d32;
+      padding: 15px;
+      border-radius: 5px;
+      margin: 15px 0;
+      text-align: center;
+    }
+    
+    .paginacao {
+      display: flex;
+      justify-content: center;
+      gap: 10px;
+      margin-top: 20px;
+    }
+    
+    .paginacao button {
+      padding: 8px 12px;
+      background: white;
+      border: 1px solid var(--cor-borda);
+      border-radius: 4px;
+      cursor: pointer;
+    }
+    
+    .paginacao button.active {
+      background: var(--cor-primaria);
+      color: white;
+      border-color: var(--cor-primaria);
+    }
+    
+    .paginacao button:hover:not(.active) {
+      background: #f0f0f0;
+    }
+    
+    .tooltip {
+      position: relative;
+      display: inline-block;
+      border-bottom: 1px dotted #ccc;
+      cursor: help;
+    }
+    
+    .tooltip .tooltiptext {
+      visibility: hidden;
+      width: 200px;
+      background-color: #555;
+      color: #fff;
+      text-align: center;
+      border-radius: 6px;
+      padding: 5px;
+      position: absolute;
+      z-index: 1;
+      bottom: 125%;
+      left: 50%;
+      margin-left: -100px;
+      opacity: 0;
+      transition: opacity 0.3s;
+      font-size: 14px;
+      font-weight: normal;
+    }
+    
+    .tooltip:hover .tooltiptext {
+      visibility: visible;
+      opacity: 1;
+    }
+    
+    .status-ordenacao {
+      margin-left: 5px;
+      font-size: 12px;
+    }
 
     /* --- Responsividade --- */
     @media (max-width: 768px) {
+      header {
+        flex-direction: column;
+      }
+      
       .cabecalho {display: none;}
+      
       .livro {
         flex-direction: column; 
         align-items: flex-start; 
@@ -130,6 +313,7 @@
         border-bottom: 1px solid #ddd;
         gap: 8px;
       }
+      
       .livro span {
         min-width: unset;
         flex: none;
@@ -137,12 +321,14 @@
         width: 100%;
         padding: 3px 0;
       }
+      
       .livro span::before {
         font-weight: bold;
         color: #333;
         display: inline-block;
         width: 120px;
       }
+      
       .livro span:nth-child(1)::before { content: "Título: "; }
       .livro span:nth-child(2)::before { content: "Autor: "; }
       .livro span:nth-child(3)::before { content: "Gênero: "; }
@@ -157,20 +343,35 @@
         flex-direction: column;
         align-items: stretch;
       }
+      
+      .resumo {
+        flex-direction: column;
+      }
     }
   </style>
 </head>
 <body>
-  <h1>Acervo Físico - Biblioteca Cid Rosado</h1>
+  <header>
+    <h1>Acervo Físico - Biblioteca Cid Rosado</h1>
+    <div class="info-biblioteca">
+      <p><i class="fas fa-sync-alt"></i> Última atualização: <span id="ultima-atualizacao">N/A</span></p>
+      <p><i class="fas fa-database"></i> Fonte: Google Sheets → GitHub Pages</p>
+    </div>
+  </header>
   
   <div class="controles">
-    <button class="btn btn-atualizar" onclick="carregarDados()">
-      <span id="btn-text">Carregar Dados</span>
-      <span id="loading-icon" style="display:none;">⏳</span>
-    </button>
+    <div>
+      <button class="btn btn-atualizar" onclick="carregarDados()">
+        <span id="btn-text"><i class="fas fa-sync"></i> Atualizar Dados</span>
+        <span id="loading-icon" style="display:none;"><i class="fas fa-spinner fa-spin"></i></span>
+      </button>
+      <button class="btn btn-exportar" onclick="exportarParaCSV()">
+        <i class="fas fa-download"></i> Exportar CSV
+      </button>
+    </div>
     <div class="filtros">
       <div>
-        <label for="filtroStatus">Filtrar por status:</label>
+        <label for="filtroStatus">Status:</label>
         <select id="filtroStatus" onchange="filtrarLivros()">
           <option value="todos">Todos</option>
           <option value="Disponível">Disponível</option>
@@ -178,17 +379,36 @@
         </select>
       </div>
       <div>
-        <label for="filtroGenero">Filtrar por gênero:</label>
+        <label for="filtroGenero">Gênero:</label>
         <select id="filtroGenero" onchange="filtrarLivros()">
           <option value="todos">Todos os gêneros</option>
           <!-- Opções serão preenchidas dinamicamente -->
         </select>
       </div>
+      <div>
+        <label for="itensPorPagina">Itens por página:</label>
+        <input type="number" id="itensPorPagina" min="5" max="100" value="20" onchange="alterarItensPorPagina()">
+      </div>
     </div>
   </div>
   
   <div class="resumo" id="resumo">
-    Total de livros no acervo: 0 | Disponíveis para empréstimo: 0
+    <div class="resumo-item">
+      <div>Total de livros</div>
+      <div class="resumo-numero" id="total-livros">0</div>
+    </div>
+    <div class="resumo-item">
+      <div>Disponíveis</div>
+      <div class="resumo-numero" id="total-disponiveis">0</div>
+    </div>
+    <div class="resumo-item">
+      <div>Emprestados</div>
+      <div class="resumo-numero" id="total-indisponiveis">0</div>
+    </div>
+    <div class="resumo-item">
+      <div>Gêneros diferentes</div>
+      <div class="resumo-numero" id="total-generos">0</div>
+    </div>
   </div>
   
   <div id="mensagem"></div>
@@ -198,26 +418,74 @@
   <div class="lista-container">
     <!-- Cabeçalho da lista -->
     <div class="cabecalho">
-      <span>Título</span>
-      <span>Autor</span>
-      <span>Gênero</span>
-      <span>Localização</span>
-      <span>Disponibilidade</span>
+      <span onclick="ordenarPor('titulo')">Título <i class="fas fa-sort status-ordenacao" id="ordenacao-titulo"></i></span>
+      <span onclick="ordenarPor('autor')">Autor <i class="fas fa-sort status-ordenacao" id="ordenacao-autor"></i></span>
+      <span onclick="ordenarPor('genero')">Gênero <i class="fas fa-sort status-ordenacao" id="ordenacao-genero"></i></span>
+      <span onclick="ordenarPor('localizacao')">Localização <i class="fas fa-sort status-ordenacao" id="ordenacao-localizacao"></i></span>
+      <span onclick="ordenarPor('disponiveis')">Disponibilidade <i class="fas fa-sort status-ordenacao" id="ordenacao-disponiveis"></i></span>
     </div>
     <div id="listaLivros">
       <div class="loading" id="loading-message">
-        <p>Clique em "Carregar Dados" para exibir o acervo</p>
+        <p><i class="fas fa-book-open"></i> Clique em "Atualizar Dados" para exibir o acervo</p>
       </div>
     </div>
   </div>
 
+  <div class="paginacao" id="paginacao"></div>
+
   <script>
-    // URL do arquivo JSON no GitHub - SUBSTITUA pela URL real do seu repositório
+    // URL do arquivo JSON no GitHub
     const URL_JSON = 'https://raw.githubusercontent.com/bibliotecacidrosado/acervofisico/refs/heads/main/dados.json';
+    const CACHE_KEY = 'bibliotecaAcervoCache';
+    const CACHE_TIMESTAMP_KEY = 'bibliotecaAcervoCacheTimestamp';
+    const CACHE_DURATION = 30 * 60 * 1000; // 30 minutos em milissegundos
     
     let livrosAcervo = [];
     let dadosCompletos = [];
     let generosDisponiveis = [];
+    let paginaAtual = 1;
+    let itensPorPagina = 20;
+    let ordenacao = { campo: null, direcao: 'asc' };
+    let ultimaBusca = '';
+
+    // Inicialização
+    document.addEventListener('DOMContentLoaded', function() {
+      verificarCache();
+      document.getElementById('itensPorPagina').value = itensPorPagina;
+      document.getElementById('busca').addEventListener('keypress', function(e) {
+        if (e.key === 'Enter') {
+          filtrarLivros();
+        }
+      });
+    });
+
+    function verificarCache() {
+      const cacheTimestamp = localStorage.getItem(CACHE_TIMESTAMP_KEY);
+      const agora = new Date().getTime();
+      
+      if (cacheTimestamp && agora - cacheTimestamp < CACHE_DURATION) {
+        const cacheData = localStorage.getItem(CACHE_KEY);
+        if (cacheData) {
+          try {
+            const dados = JSON.parse(cacheData);
+            dadosCompletos = dados.livros || [];
+            livrosAcervo = [...dadosCompletos];
+            extrairGeneros();
+            atualizarResumo(dados);
+            atualizarLista(dados);
+            atualizarUltimaAtualizacao(new Date(parseInt(cacheTimestamp)));
+            mostrarMensagem('Dados carregados do cache. Clique em "Atualizar Dados" para verificar se há novas informações.', 'success');
+            return true;
+          } catch (e) {
+            console.error('Erro ao ler cache:', e);
+            localStorage.removeItem(CACHE_KEY);
+            localStorage.removeItem(CACHE_TIMESTAMP_KEY);
+          }
+        }
+      }
+      
+      return false;
+    }
 
     function mostrarMensagem(texto, tipo) {
       const mensagemDiv = document.getElementById('mensagem');
@@ -226,7 +494,7 @@
       if (tipo !== 'error') {
         setTimeout(() => {
           mensagemDiv.innerHTML = '';
-        }, 3000);
+        }, 5000);
       }
     }
 
@@ -248,7 +516,9 @@
         toggleCarregando(true);
         mostrarMensagem('Carregando dados do acervo...', 'loading');
         
-        const response = await fetch(URL_JSON);
+        // Adicionar parâmetro aleatório para evitar cache
+        const urlComCacheBuster = `${URL_JSON}?t=${new Date().getTime()}`;
+        const response = await fetch(urlComCacheBuster);
         
         if (!response.ok) {
           throw new Error(`Erro ao carregar: ${response.status} ${response.statusText}`);
@@ -256,18 +526,26 @@
         
         const dados = await response.json();
         
-        // Verificar se os dados têm a estrutura esperada
+        // Validar estrutura dos dados
         if (!dados.livros || !Array.isArray(dados.livros)) {
-          throw new Error('Formato inválido do arquivo JSON');
+          throw new Error('Formato inválido do arquivo JSON. Esperada uma propriedade "livros" do tipo array.');
         }
         
-        dadosCompletos = dados.livros;
+        // Validar cada livro
+        const livrosValidados = dados.livros.map(validarLivro);
+        
+        dadosCompletos = livrosValidados;
         livrosAcervo = [...dadosCompletos];
+        
+        // Salvar no cache
+        salvarNoCache(dadosCompletos);
         
         // Extrair gêneros únicos para o filtro
         extrairGeneros();
         
         // Preencher a lista de livros
+        paginaAtual = 1;
+        atualizarResumo(dados);
         atualizarLista(dados);
         
         mostrarMensagem('Dados carregados com sucesso!', 'success');
@@ -276,10 +554,46 @@
         console.error('Erro ao carregar dados:', error);
         mostrarMensagem(`Erro ao carregar dados: ${error.message}`, 'error');
         
-        // Mostrar dados de exemplo em caso de erro
-        usarDadosExemplo();
+        // Tentar usar cache em caso de erro
+        if (!verificarCache()) {
+          // Mostrar dados de exemplo se não houver cache
+          usarDadosExemplo();
+        }
       } finally {
         toggleCarregando(false);
+      }
+    }
+
+    function validarLivro(livro) {
+      // Fornecer valores padrão para campos obrigatórios
+      return {
+        titulo: livro.titulo || 'Título não informado',
+        autor: livro.autor || 'Autor não informado',
+        genero: livro.genero || 'Gênero não informado',
+        localizacao: livro.localizacao || 'Localização não informada',
+        disponiveis: parseInt(livro.disponiveis) || 0,
+        status: parseInt(livro.disponiveis) > 0 ? 'Disponível' : 'Indisponível',
+        // Preservar quaisquer outros campos
+        ...livro
+      };
+    }
+
+    function salvarNoCache(dados) {
+      try {
+        const timestamp = new Date().getTime();
+        localStorage.setItem(CACHE_KEY, JSON.stringify({ livros: dados }));
+        localStorage.setItem(CACHE_TIMESTAMP_KEY, timestamp);
+        atualizarUltimaAtualizacao(new Date(timestamp));
+      } catch (e) {
+        console.error('Erro ao salvar no cache:', e);
+        mostrarMensagem('Erro ao salvar dados no cache do navegador. Os dados podem não persistir entre sessões.', 'error');
+      }
+    }
+
+    function atualizarUltimaAtualizacao(data) {
+      const elemento = document.getElementById('ultima-atualizacao');
+      if (elemento) {
+        elemento.textContent = data.toLocaleString('pt-BR');
       }
     }
 
@@ -306,14 +620,27 @@
         option.textContent = genero;
         filtroGenero.appendChild(option);
       });
+      
+      // Atualizar contagem de gêneros no resumo
+      document.getElementById('total-generos').textContent = generosDisponiveis.length;
     }
 
-    function atualizarLista(dados){
+    function atualizarResumo(dados) {
+      const totalLivros = dados.livros?.length || 0;
+      const totalDisponiveis = dados.livros?.filter(l => l.status === 'Disponível').length || 0;
+      const totalIndisponiveis = totalLivros - totalDisponiveis;
+      
+      document.getElementById('total-livros').textContent = totalLivros;
+      document.getElementById('total-disponiveis').textContent = totalDisponiveis;
+      document.getElementById('total-indisponiveis').textContent = totalIndisponiveis;
+    }
+
+    function atualizarLista(dados) {
       const lista = document.getElementById('listaLivros');
       const resumo = document.getElementById('resumo');
       
       // Atualizar resumo
-      resumo.textContent = `Total de livros no acervo: ${dados.totalLivros} | Disponíveis para empréstimo: ${dados.totalDisponiveis}`;
+      atualizarResumo(dados);
       
       // Limpar lista
       lista.innerHTML = '';
@@ -321,15 +648,45 @@
       // Verificar se há livros para mostrar
       if (!dados.livros || dados.livros.length === 0) {
         lista.innerHTML = '<div class="loading">Nenhum livro encontrado</div>';
+        document.getElementById('paginacao').innerHTML = '';
         return;
       }
       
+      // Aplicar ordenação se houver
+      let livrosParaExibir = [...dados.livros];
+      if (ordenacao.campo) {
+        livrosParaExibir.sort((a, b) => {
+          let valorA = a[ordenacao.campo] || '';
+          let valorB = b[ordenacao.campo] || '';
+          
+          // Converter para número se for campo numérico
+          if (ordenacao.campo === 'disponiveis') {
+            valorA = parseInt(valorA) || 0;
+            valorB = parseInt(valorB) || 0;
+          } else {
+            // Converter para string para comparação case-insensitive
+            valorA = String(valorA).toLowerCase();
+            valorB = String(valorB).toLowerCase();
+          }
+          
+          if (valorA < valorB) return ordenacao.direcao === 'asc' ? -1 : 1;
+          if (valorA > valorB) return ordenacao.direcao === 'asc' ? 1 : -1;
+          return 0;
+        });
+      }
+      
+      // Calcular paginação
+      const totalPaginas = Math.ceil(livrosParaExibir.length / itensPorPagina);
+      const inicio = (paginaAtual - 1) * itensPorPagina;
+      const fim = inicio + itensPorPagina;
+      const livrosPagina = livrosParaExibir.slice(inicio, fim);
+      
       // Adicionar livros à lista
-      dados.livros.forEach(l => {
+      livrosPagina.forEach(l => {
         const div = document.createElement('div');
         div.className = 'livro';
         div.innerHTML = `
-          <span>${l.titulo || 'Não informado'}</span>
+          <span class="tooltip">${l.titulo || 'Não informado'}${l.titulo ? `<span class="tooltiptext">${l.titulo}</span>` : ''}</span>
           <span>${l.autor || 'Não informado'}</span>
           <span>${l.genero || 'Não informado'}</span>
           <span>${l.localizacao || 'Não informado'}</span>
@@ -338,12 +695,67 @@
           </span>`;
         lista.appendChild(div);
       });
+      
+      // Atualizar controles de paginação
+      atualizarPaginacao(totalPaginas);
     }
 
-    function filtrarLivros(){
+    function atualizarPaginacao(totalPaginas) {
+      const paginacaoDiv = document.getElementById('paginacao');
+      paginacaoDiv.innerHTML = '';
+      
+      if (totalPaginas <= 1) return;
+      
+      // Botão anterior
+      if (paginaAtual > 1) {
+        const btnAnterior = document.createElement('button');
+        btnAnterior.innerHTML = '&laquo; Anterior';
+        btnAnterior.addEventListener('click', () => {
+          paginaAtual--;
+          filtrarLivros();
+        });
+        paginacaoDiv.appendChild(btnAnterior);
+      }
+      
+      // Páginas
+      const inicio = Math.max(1, paginaAtual - 2);
+      const fim = Math.min(totalPaginas, inicio + 4);
+      
+      for (let i = inicio; i <= fim; i++) {
+        const btnPagina = document.createElement('button');
+        btnPagina.textContent = i;
+        if (i === paginaAtual) {
+          btnPagina.classList.add('active');
+        }
+        btnPagina.addEventListener('click', () => {
+          paginaAtual = i;
+          filtrarLivros();
+        });
+        paginacaoDiv.appendChild(btnPagina);
+      }
+      
+      // Próximo botão
+      if (paginaAtual < totalPaginas) {
+        const btnProximo = document.createElement('button');
+        btnProximo.innerHTML = 'Próximo &raquo;';
+        btnProximo.addEventListener('click', () => {
+          paginaAtual++;
+          filtrarLivros();
+        });
+        paginacaoDiv.appendChild(btnProximo);
+      }
+    }
+
+    function filtrarLivros() {
       const termo = document.getElementById('busca').value.toLowerCase();
       const statusFiltro = document.getElementById('filtroStatus').value;
       const generoFiltro = document.getElementById('filtroGenero').value;
+      
+      // Resetar para primeira página ao filtrar
+      if (termo !== ultimaBusca) {
+        paginaAtual = 1;
+        ultimaBusca = termo;
+      }
       
       const listaFiltrada = dadosCompletos.filter(l => {
         // Filtro por termo de busca
@@ -362,14 +774,73 @@
         return correspondeTermo && correspondeStatus && correspondeGenero;
       });
 
-      const totalLivros = listaFiltrada.length;
-      const totalDisponiveis = listaFiltrada.filter(l => l.status === 'Disponível').length;
-
       atualizarLista({
-        livros: listaFiltrada, 
-        totalLivros, 
-        totalDisponiveis
+        livros: listaFiltrada
       });
+    }
+
+    function ordenarPor(campo) {
+      // Se já estamos ordenando por este campo, inverter a direção
+      if (ordenacao.campo === campo) {
+        ordenacao.direcao = ordenacao.direcao === 'asc' ? 'desc' : 'asc';
+      } else {
+        // Caso contrário, definir novo campo e direção padrão ascendente
+        ordenacao.campo = campo;
+        ordenacao.direcao = 'asc';
+      }
+      
+      // Atualizar ícones de ordenação
+      document.querySelectorAll('.status-ordenacao').forEach(icon => {
+        icon.className = 'fas fa-sort status-ordenacao';
+      });
+      
+      const iconElement = document.getElementById(`ordenacao-${campo}`);
+      if (iconElement) {
+        iconElement.className = `fas fa-sort-${ordenacao.direcao === 'asc' ? 'up' : 'down'} status-ordenacao`;
+      }
+      
+      // Reaplicar filtros com nova ordenação
+      filtrarLivros();
+    }
+
+    function alterarItensPorPagina() {
+      const novoValor = parseInt(document.getElementById('itensPorPagina').value);
+      if (!isNaN(novoValor) && novoValor >= 5 && novoValor <= 100) {
+        itensPorPagina = novoValor;
+        paginaAtual = 1;
+        filtrarLivros();
+      } else {
+        document.getElementById('itensPorPagina').value = itensPorPagina;
+        mostrarMensagem('Por favor, insira um valor entre 5 e 100 para itens por página.', 'error');
+      }
+    }
+
+    function exportarParaCSV() {
+      if (dadosCompletos.length === 0) {
+        mostrarMensagem('Não há dados para exportar.', 'error');
+        return;
+      }
+      
+      // Criar cabeçalhos CSV
+      let csv = 'Título,Autor,Gênero,Localização,Disponíveis,Status\n';
+      
+      // Adicionar dados
+      dadosCompletos.forEach(livro => {
+        csv += `"${livro.titulo || ''}","${livro.autor || ''}","${livro.genero || ''}","${livro.localizacao || ''}",${livro.disponiveis || 0},"${livro.status || ''}"\n`;
+      });
+      
+      // Criar blob e link de download
+      const blob = new Blob([csv], { type: 'text/csv;charset=utf-8;' });
+      const url = URL.createObjectURL(blob);
+      const link = document.createElement('a');
+      link.setAttribute('href', url);
+      link.setAttribute('download', `acervo_biblioteca_${new Date().toISOString().split('T')[0]}.csv`);
+      link.style.visibility = 'hidden';
+      document.body.appendChild(link);
+      link.click();
+      document.body.removeChild(link);
+      
+      mostrarMensagem('Exportação para CSV concluída com sucesso!', 'success');
     }
 
     function usarDadosExemplo() {
@@ -390,26 +861,34 @@
             localizacao: "Estante B, Prateleira 1",
             disponiveis: 0, 
             status: "Indisponível" 
+          },
+          { 
+            titulo: "Iracema", 
+            autor: "José de Alencar", 
+            genero: "Literatura Brasileira", 
+            localizacao: "Estante A, Prateleira 2",
+            disponiveis: 2, 
+            status: "Disponível" 
+          },
+          { 
+            titulo: "Memórias Póstumas de Brás Cubas", 
+            autor: "Machado de Assis", 
+            genero: "Literatura Brasileira", 
+            localizacao: "Estante C, Prateleira 1",
+            disponiveis: 1, 
+            status: "Disponível" 
           }
-        ],
-        totalLivros: 2,
-        totalDisponiveis: 1
+        ]
       };
       
-      dadosCompletos = dadosExemplo.livros;
-      livrosAcervo = [...dadosExemplo.livros];
+      dadosCompletos = dadosExemplo.livros.map(validarLivro);
+      livrosAcervo = [...dadosCompletos];
       extrairGeneros();
+      paginaAtual = 1;
       atualizarLista(dadosExemplo);
       
       mostrarMensagem('Usando dados de exemplo. Verifique a URL do JSON.', 'error');
     }
-
-    // Inicializar a página
-    document.getElementById('busca').addEventListener('keypress', function(e) {
-      if (e.key === 'Enter') {
-        filtrarLivros();
-      }
-    });
   </script>
 </body>
 </html>
