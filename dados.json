@@ -1,22 +1,9 @@
 {
-  "ultimaAtualizacao": "2025-09-01T19:16:33.666Z",
+  "ultimaAtualizacao": "2025-09-01T21:44:35.712Z",
   "totalLivros": 2,
   "totalExemplares": 11,
-  "totalDisponiveis": 11,
+  "totalDisponiveis": 1,
   "livros": [
-    {
-      "titulo": "O C?digo da Vinci",
-      "autor": "Dan Brown",
-      "genero": "Romance",
-      "ano": "2015",
-      "editora": "Abril",
-      "cidade": "S?o Paulo",
-      "exemplares": 10,
-      "emprestados": 0,
-      "disponiveis": 10,
-      "localizacao": "Estante A, A2. Romance",
-      "status": "Dispon?vel"
-    },
     {
       "titulo": "Aprendendo a amar e a curar",
       "autor": "Moacyr Scliar",
@@ -29,6 +16,19 @@
       "disponiveis": 1,
       "localizacao": "Estante A, A1. Novela",
       "status": "Dispon?vel"
+    },
+    {
+      "titulo": "Hamlet",
+      "autor": "William Shakespeare",
+      "genero": "Teatro (textos dram?ticos)",
+      "ano": "2009",
+      "editora": "N?o informado",
+      "cidade": "N?o informado",
+      "exemplares": 10,
+      "emprestados": 0,
+      "disponiveis": 0,
+      "localizacao": "Estante B, A17. Romance / Autores Variados",
+      "status": "Indispon?vel"
     }
   ]
 }
