@@ -1033,6 +1033,49 @@ async function carregarDados() {
     toggleCarregando(false);
   }
 }
+
+// Função para corrigir caracteres especiais - VERSÃO DEFINITIVA
+function corrigirCaracteres(texto) {
+  if (!texto) return texto;
+  
+  let textoCorrigido = texto.toString();
+  
+  // Primeiro corrigir palavras completas
+  textoCorrigido = textoCorrigido.replace(/S\?o/g, 'São');
+  textoCorrigido = textoCorrigido.replace(/Dispon\?vel/g, 'Disponível');
+  textoCorrigido = textoCorrigido.replace(/Indispon\?vel/g, 'Indisponível');
+  
+  // Depois corrigir caracteres individuais (esta é a ordem mais comum no português)
+  textoCorrigido = textoCorrigido.replace(/\?/g, 'ã'); // a til
+  textoCorrigido = textoCorrigido.replace(/\?/g, 'á'); // a agudo
+  textoCorrigido = textoCorrigido.replace(/\?/g, 'à'); // a grave
+  textoCorrigido = textoCorrigido.replace(/\?/g, 'â'); // a circunflexo
+  textoCorrigido = textoCorrigido.replace(/\?/g, 'ä'); // a trema
+  textoCorrigido = textoCorrigido.replace(/\?/g, 'é'); // e agudo
+  textoCorrigido = textoCorrigido.replace(/\?/g, 'è'); // e grave
+  textoCorrigido = textoCorrigido.replace(/\?/g, 'ê'); // e circunflexo
+  textoCorrigido = textoCorrigido.replace(/\?/g, 'ë'); // e trema
+  textoCorrigido = textoCorrigido.replace(/\?/g, 'í'); // i agudo
+  textoCorrigido = textoCorrigido.replace(/\?/g, 'ì'); // i grave
+  textoCorrigido = textoCorrigido.replace(/\?/g, 'î'); // i circunflexo
+  textoCorrigido = textoCorrigido.replace(/\?/g, 'ï'); // i trema
+  textoCorrigido = textoCorrigido.replace(/\?/g, 'ó'); // o agudo
+  textoCorrigido = textoCorrigido.replace(/\?/g, 'ò'); // o grave
+  textoCorrigido = textoCorrigido.replace(/\?/g, 'ô'); // o circunflexo
+  textoCorrigido = textoCorrigido.replace(/\?/g, 'ö'); // o trema
+  textoCorrigido = textoCorrigido.replace(/\?/g, 'ú'); // u agudo
+  textoCorrigido = textoCorrigido.replace(/\?/g, 'ù'); // u grave
+  textoCorrigido = textoCorrigido.replace(/\?/g, 'û'); // u circunflexo
+  textoCorrigido = textoCorrigido.replace(/\?/g, 'ü'); // u trema
+  textoCorrigido = textoCorrigido.replace(/\?/g, 'ç'); // c cedilha
+  textoCorrigido = textoCorrigido.replace(/\?/g, 'Ç'); // C cedilha
+  textoCorrigido = textoCorrigido.replace(/\?/g, 'ñ'); // n til
+  textoCorrigido = textoCorrigido.replace(/\?/g, 'Ñ'); // N til
+  
+  return textoCorrigido;
+}
+
+// ... o resto do código permanece igual ...
   </script>
 </body>
 </html>
