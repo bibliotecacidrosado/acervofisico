@@ -1,7 +1,7 @@
 {
-  "ultimaAtualizacao": "2025-09-01T21:51:40.407Z",
-  "totalLivros": 2,
-  "totalExemplares": 11,
+  "ultimaAtualizacao": "2025-09-01T22:01:21.648Z",
+  "totalLivros": 3,
+  "totalExemplares": 12,
   "totalDisponiveis": 1,
   "livros": [
     {
@@ -28,6 +28,19 @@
       "emprestados": 0,
       "disponiveis": 0,
       "localizacao": "Estante B, A17. Romance / Autores Variados",
+      "status": "Indispon?vel"
+    },
+    {
+      "titulo": "Aprendendo a Amar e a Curar",
+      "autor": "Moacyr Scliar",
+      "genero": "Novela",
+      "ano": "2003",
+      "editora": "Scipione",
+      "cidade": "S?o Paulo",
+      "exemplares": 1,
+      "emprestados": 0,
+      "disponiveis": 0,
+      "localizacao": "Estante A, A1. Novela",
       "status": "Indispon?vel"
     }
   ]
