@@ -1,8 +1,8 @@
 {
-  "ultimaAtualizacao": "2025-09-01T19:16:31.063Z",
+  "ultimaAtualizacao": "2025-09-01T19:16:33.666Z",
   "totalLivros": 2,
   "totalExemplares": 11,
-  "totalDisponiveis": 10,
+  "totalDisponiveis": 11,
   "livros": [
     {
       "titulo": "O C?digo da Vinci",
@@ -26,9 +26,9 @@
       "cidade": "S?o Paulo",
       "exemplares": 1,
       "emprestados": 0,
-      "disponiveis": 0,
+      "disponiveis": 1,
       "localizacao": "Estante A, A1. Novela",
-      "status": "Indispon?vel"
+      "status": "Dispon?vel"
     }
   ]
 }
