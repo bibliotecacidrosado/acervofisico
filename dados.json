@@ -1,35 +1,9 @@
 {
-  "ultimaAtualizacao": "2025-09-01T22:01:21.648Z",
-  "totalLivros": 3,
-  "totalExemplares": 12,
+  "ultimaAtualizacao": "2025-09-01T23:05:52.934Z",
+  "totalLivros": 1,
+  "totalExemplares": 1,
   "totalDisponiveis": 1,
   "livros": [
-    {
-      "titulo": "Aprendendo a amar e a curar",
-      "autor": "Moacyr Scliar",
-      "genero": "Novela",
-      "ano": "2003",
-      "editora": "Scipione",
-      "cidade": "S?o Paulo",
-      "exemplares": 1,
-      "emprestados": 0,
-      "disponiveis": 1,
-      "localizacao": "Estante A, A1. Novela",
-      "status": "Dispon?vel"
-    },
-    {
-      "titulo": "Hamlet",
-      "autor": "William Shakespeare",
-      "genero": "Teatro (textos dram?ticos)",
-      "ano": "2009",
-      "editora": "N?o informado",
-      "cidade": "N?o informado",
-      "exemplares": 10,
-      "emprestados": 0,
-      "disponiveis": 0,
-      "localizacao": "Estante B, A17. Romance / Autores Variados",
-      "status": "Indispon?vel"
-    },
     {
       "titulo": "Aprendendo a Amar e a Curar",
       "autor": "Moacyr Scliar",
@@ -39,9 +13,10 @@
       "cidade": "S?o Paulo",
       "exemplares": 1,
       "emprestados": 0,
-      "disponiveis": 0,
+      "disponiveis": 1,
       "localizacao": "Estante A, A1. Novela",
-      "status": "Indispon?vel"
+      "status": "Dispon?vel",
+      "capa": "https://drive.google.com/open?id=1H2uXw4Rld1Pog11ifp6FkQTq9x2Kbq5i"
     }
   ]
 }
