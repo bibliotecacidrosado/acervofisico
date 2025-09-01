@@ -42,6 +42,7 @@
       padding: 15px; 
       border-radius: 8px;
       margin-bottom: 10px;
+      font-size: 1.5rem;
     }
     
     .info-biblioteca {
@@ -104,6 +105,7 @@
       border-radius: 5px;
       background: white;
       margin-bottom: 20px;
+      overflow-x: auto;
     }
     
     .cabecalho, .livro {
@@ -111,6 +113,7 @@
       grid-template-columns: 2fr 1.5fr 1fr 1.5fr 1.2fr;
       padding: 12px; 
       gap: 10px;
+      min-width: 600px;
     }
     
     .cabecalho {
@@ -144,7 +147,7 @@
       text-align: center;
     }
 
-    /* --- Responsividade --- */
+    /* --- Versão Mobile --- */
     @media (max-width: 768px) {
       .resumo {
         grid-template-columns: 1fr;
@@ -154,26 +157,34 @@
         grid-template-columns: 1fr;
       }
       
-      .cabecalho {display: none;}
+      .cabecalho {
+        display: none;
+      }
       
       .livro {
         display: block; 
         padding: 15px;
         border-bottom: 1px solid #ddd;
+        min-width: unset;
       }
       
-      .livro span {
+      .livro > span {
         display: block;
         width: 100%;
-        padding: 3px 0;
+        padding: 5px 0;
+        margin-bottom: 5px;
       }
       
-      .livro span::before {
+      .livro > span::before {
         font-weight: bold;
         color: #333;
         display: inline-block;
-        width: 120px;
+        width: 100px;
         content: attr(data-label);
+      }
+      
+      .lista-container {
+        overflow-x: visible;
       }
     }
   </style>
@@ -360,54 +371,55 @@
       document.getElementById('total-disponiveis').textContent = totalDisponiveis;
     }
 
-    function atualizarLista(dados){
-      // Aplicar correção de caracteres
-      dados = processarDadosComCorrecao(dados);
-      
-      const lista = document.getElementById('listaLivros');
-      const resumo = document.getElementById('resumo');
-      
-      // Atualizar resumo
-      atualizarResumo(dados);
-      
-      // Limpar lista
-      lista.innerHTML = '';
-      
-      // Verificar se há livros para mostrar
-      if (!dados.livros || dados.livros.length === 0) {
-        lista.innerHTML = '<div class="loading">Nenhum livro encontrado</div>';
-        return;
-      }
-      
-      // Adicionar livros à lista
-      dados.livros.forEach(l => {
-        const div = document.createElement('div');
-        div.className = 'livro';
-        
-        // Preparar para mobile
-        if (window.innerWidth <= 768) {
-          div.innerHTML = `
-            <span data-label="Título: ">${l.titulo || 'Não informado'}</span>
-            <span data-label="Autor: ">${l.autor || 'Não informado'}</span>
-            <span data-label="Gênero: ">${l.genero || 'Não informado'}</span>
-            <span data-label="Localização: ">${l.localizacao || 'Não informado'}</span>
-            <span data-label="Status: " class="status ${l.status === 'Disponível' ? 'disponivel' : 'indisponivel'}">
-              ${l.disponiveis > 0 ? `${l.disponiveis} exemplar(es) ${l.status}` : l.status}
-            </span>`;
-        } else {
-          div.innerHTML = `
-            <span>${l.titulo || 'Não informado'}</span>
-            <span>${l.autor || 'Não informado'}</span>
-            <span>${l.genero || 'Não informado'}</span>
-            <span>${l.localizacao || 'Não informado'}</span>
-            <span class="status ${l.status === 'Disponível' ? 'disponivel' : 'indisponivel'}">
-              ${l.disponiveis > 0 ? `${l.disponiveis} exemplar(es) ${l.status}` : l.status}
-            </span>`;
-        }
-        
-        lista.appendChild(div);
-      });
+    <script>
+function atualizarLista(dados){
+  // Aplicar correção de caracteres
+  dados = processarDadosComCorrecao(dados);
+  
+  const lista = document.getElementById('listaLivros');
+  const resumo = document.getElementById('resumo');
+  
+  // Atualizar resumo
+  atualizarResumo(dados);
+  
+  // Limpar lista
+  lista.innerHTML = '';
+  
+  // Verificar se há livros para mostrar
+  if (!dados.livros || dados.livros.length === 0) {
+    lista.innerHTML = '<div class="loading">Nenhum livro encontrado</div>';
+    return;
+  }
+  
+  // Adicionar livros à lista
+  dados.livros.forEach(l => {
+    const div = document.createElement('div');
+    div.className = 'livro';
+    
+    // Preparar para mobile - adicionar atributos data-label
+    if (window.innerWidth <= 768) {
+      div.innerHTML = `
+        <span data-label="Título: ">${l.titulo || 'Não informado'}</span>
+        <span data-label="Autor: ">${l.autor || 'Não informado'}</span>
+        <span data-label="Gênero: ">${l.genero || 'Não informado'}</span>
+        <span data-label="Localização: ">${l.localizacao || 'Não informado'}</span>
+        <span data-label="Status: " class="status ${l.status === 'Disponível' ? 'disponivel' : 'indisponivel'}">
+          ${l.disponiveis > 0 ? `${l.disponiveis} exemplar(es) ${l.status}` : l.status}
+        </span>`;
+    } else {
+      div.innerHTML = `
+        <span>${l.titulo || 'Não informado'}</span>
+        <span>${l.autor || 'Não informado'}</span>
+        <span>${l.genero || 'Não informado'}</span>
+        <span>${l.localizacao || 'Não informado'}</span>
+        <span class="status ${l.status === 'Disponível' ? 'disponivel' : 'indisponivel'}">
+          ${l.disponiveis > 0 ? `${l.disponiveis} exemplar(es) ${l.status}` : l.status}
+        </span>`;
     }
+    
+    lista.appendChild(div);
+  });
+}
 
     function filtrarLivros(){
       const termo = document.getElementById('busca').value.toLowerCase();
