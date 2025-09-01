@@ -889,6 +889,150 @@
       
       mostrarMensagem('Usando dados de exemplo. Verifique a URL do JSON.', 'error');
     }
+  
+
+    <script>
+// Função para corrigir caracteres especiais
+function corrigirCaracteres(texto) {
+  if (!texto) return texto;
+  
+  const mapaCaracteres = {
+    'S?o': 'São',
+    'Dispon?vel': 'Disponível',
+    'Indispon?vel': 'Indisponível',
+    '?': 'ã',
+    '?': 'á',
+    '?': 'à',
+    '?': 'â',
+    '?': 'ä',
+    '?': 'é',
+    '?': 'è',
+    '?': 'ê',
+    '?': 'ë',
+    '?': 'í',
+    '?': 'ì',
+    '?': 'î',
+    '?': 'ï',
+    '?': 'ó',
+    '?': 'ò',
+    '?': 'ô',
+    '?': 'ö',
+    '?': 'ú',
+    '?': 'ù',
+    '?': 'û',
+    '?': 'ü',
+    '?': 'ç',
+    '?': 'Ç',
+    '?': 'ñ',
+    '?': 'Ñ'
+  };
+
+  let textoCorrigido = texto.toString();
+  
+  for (const [errado, correto] of Object.entries(mapaCaracteres)) {
+    const regex = new RegExp(errado, 'g');
+    textoCorrigido = textoCorrigido.replace(regex, correto);
+  }
+  
+  return textoCorrigido;
+}
+
+// Função para processar os dados com correção de caracteres
+function processarDadosComCorrecao(dados) {
+  if (dados && dados.livros) {
+    dados.livros.forEach(livro => {
+      livro.titulo = corrigirCaracteres(livro.titulo);
+      livro.autor = corrigirCaracteres(livro.autor);
+      livro.genero = corrigirCaracteres(livro.genero);
+      livro.editora = corrigirCaracteres(livro.editora);
+      livro.cidade = corrigirCaracteres(livro.cidade);
+      livro.localizacao = corrigirCaracteres(livro.localizacao);
+      livro.status = corrigirCaracteres(livro.status);
+    });
+  }
+  return dados;
+}
+
+// Modifique a função atualizarLista para usar a correção
+function atualizarLista(dados){
+  // Aplicar correção de caracteres
+  dados = processarDadosComCorrecao(dados);
+  
+  const lista = document.getElementById('listaLivros');
+  const resumo = document.getElementById('resumo');
+  
+  // Resto do código original...
+  // Atualizar resumo
+  resumo.textContent = `Total de livros no acervo: ${dados.totalLivros} | Disponíveis para empréstimo: ${dados.totalDisponiveis}`;
+  
+  // Limpar lista
+  lista.innerHTML = '';
+  
+  // Verificar se há livros para mostrar
+  if (!dados.livros || dados.livros.length === 0) {
+    lista.innerHTML = '<div class="loading">Nenhum livro encontrado</div>';
+    return;
+  }
+  
+  // Adicionar livros à lista
+  dados.livros.forEach(l => {
+    const div = document.createElement('div');
+    div.className = 'livro';
+    div.innerHTML = `
+      <span>${l.titulo || 'Não informado'}</span>
+      <span>${l.autor || 'Não informado'}</span>
+      <span>${l.genero || 'Não informado'}</span>
+      <span>${l.localizacao || 'Não informado'}</span>
+      <span class="status ${l.status === 'Disponível' ? 'disponivel' : 'indisponivel'}">
+        ${l.disponiveis > 0 ? `${l.disponiveis} exemplar(es) ${l.status}` : l.status}
+      </span>`;
+    lista.appendChild(div);
+  });
+}
+
+// Modifique a função carregarDados para usar a correção
+async function carregarDados() {
+  try {
+    toggleCarregando(true);
+    mostrarMensagem('Carregando dados do acervo...', 'loading');
+    
+    const response = await fetch(URL_JSON);
+    
+    if (!response.ok) {
+      throw new Error(`Erro ao carregar: ${response.status} ${response.statusText}`);
+    }
+    
+    const dados = await response.json();
+    
+    // Aplicar correção de caracteres
+    const dadosCorrigidos = processarDadosComCorrecao(dados);
+    
+    // Verificar se os dados têm a estrutura esperada
+    if (!dadosCorrigidos.livros || !Array.isArray(dadosCorrigidos.livros)) {
+      throw new Error('Formato inválido do arquivo JSON');
+    }
+    
+    dadosCompletos = dadosCorrigidos.livros;
+    livrosAcervo = [...dadosCompletos];
+    
+    // Extrair gêneros únicos para o filtro
+    extrairGeneros();
+    
+    // Preencher a lista de livros
+    atualizarLista(dadosCorrigidos);
+    
+    mostrarMensagem('Dados carregados com sucesso!', 'success');
+    
+  } catch (error) {
+    console.error('Erro ao carregar dados:', error);
+    mostrarMensagem(`Erro ao carregar dados: ${error.message}`, 'error');
+    
+    // Mostrar dados de exemplo em caso de erro
+    usarDadosExemplo();
+  } finally {
+    toggleCarregando(false);
+  }
+}
   </script>
 </body>
 </html>
