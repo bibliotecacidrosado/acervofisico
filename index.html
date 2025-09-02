@@ -300,42 +300,60 @@
       }
     }
 
-    async function carregarDados() {
-      try {
-        mostrarMensagem('Carregando dados do acervo...', 'loading');
-        
-        const response = await fetch(URL_JSON);
-        
-        if (!response.ok) {
-          throw new Error(`Erro ao carregar: ${response.status}`);
-        }
-        
-        const dados = await response.json();
-        
-        // Aplicar correção de caracteres
-        const dadosCorrigidos = processarDadosComCorrecao(dados);
-        
-        // Verificar se os dados têm a estrutura esperada
-        if (!dadosCorrigidos.livros || !Array.isArray(dadosCorrigidos.livros)) {
-          throw new Error('Formato inválido do arquivo JSON');
-        }
-        
-        dadosCompletos = dadosCorrigidos.livros;
-        livrosAcervo = [...dadosCompletos];
-        
-        // Extrair gêneros únicos para o filtro
-        extrairGeneros();
-        
-        // Preencher a lista de livros
-        atualizarLista(dadosCorrigidos);
-        
-        mostrarMensagem('Dados carregados com sucesso!', 'success');
-        
-      } catch (error) {
-        console.error('Erro ao carregar dados:', error);
-        mostrarMensagem('Erro ao carregar dados. Verifique a conexão.', 'error');
-        document.getElementById('loading-message').innerHTML = '<p>Erro ao carregar o acervo</p>';
+    function atualizarResumo(dados) {
+      const totalLivros = dados.livros?.length || 0;
+      const totalDisponiveis = dados.livros?.filter(l => l.status === 'Disponível').length || 0;
+      
+      document.getElementById('total-livros').textContent = totalLivros;
+      document.getElementById('total-disponiveis').textContent = totalDisponiveis;
+    }
+
+    function atualizarLista(dados) {
+      // Aplicar correção de caracteres
+      dados = processarDadosComCorrecao(dados);
+      
+      const lista = document.getElementById('listaLivros');
+      
+      // Atualizar resumo
+      atualizarResumo(dados);
+      
+      // Limpar lista
+      lista.innerHTML = '';
+      
+      // Verificar se há livros para mostrar
+      if (!dados.livros || dados.livros.length === 0) {
+        lista.innerHTML = '<div class="loading">Nenhum livro encontrado</div>';
+        return;
       }
+      
+      // Adicionar livros à lista
+      dados.livros.forEach(l => {
+        const div = document.createElement('div');
+        div.className = 'livro';
+        
+        // Preparar para mobile - adicionar atributos data-label
+        if (window.innerWidth <= 768) {
+          div.innerHTML = `
+            <span data-label="Título: ">${l.titulo || 'Não informado'}</span>
+            <span data-label="Autor: ">${l.autor || 'Não informado'}</span>
+            <span data-label="Gênero: ">${l.genero || 'Não informado'}</span>
+            <span data-label="Localização: ">${l.localizacao || 'Não informado'}</span>
+            <span data-label="Status: " class="status ${l.status === 'Disponível' ? 'disponivel' : 'indisponivel'}">
+              ${l.disponiveis > 0 ? `${l.disponiveis} exemplar(es) ${l.status}` : l.status}
+            </span>`;
+        } else {
+          div.innerHTML = `
+            <span>${l.titulo || 'Não informado'}</span>
+            <span>${l.autor || 'Não informado'}</span>
+            <span>${l.genero || 'Não informado'}</span>
+            <span>${l.localizacao || 'Não informado'}</span>
+            <span class="status ${l.status === 'Disponível' ? 'disponivel' : 'indisponivel'}">
+              ${l.disponiveis > 0 ? `${l.disponiveis} exemplar(es) ${l.status}` : l.status}
+            </span>`;
+        }
+        
+        lista.appendChild(div);
+      });
     }
 
     function extrairGeneros() {
@@ -363,64 +381,6 @@
       });
     }
 
-    function atualizarResumo(dados) {
-      const totalLivros = dados.livros?.length || 0;
-      const totalDisponiveis = dados.livros?.filter(l => l.status === 'Disponível').length || 0;
-      
-      document.getElementById('total-livros').textContent = totalLivros;
-      document.getElementById('total-disponiveis').textContent = totalDisponiveis;
-    }
-
-    <script>
-function atualizarLista(dados){
-  // Aplicar correção de caracteres
-  dados = processarDadosComCorrecao(dados);
-  
-  const lista = document.getElementById('listaLivros');
-  const resumo = document.getElementById('resumo');
-  
-  // Atualizar resumo
-  atualizarResumo(dados);
-  
-  // Limpar lista
-  lista.innerHTML = '';
-  
-  // Verificar se há livros para mostrar
-  if (!dados.livros || dados.livros.length === 0) {
-    lista.innerHTML = '<div class="loading">Nenhum livro encontrado</div>';
-    return;
-  }
-  
-  // Adicionar livros à lista
-  dados.livros.forEach(l => {
-    const div = document.createElement('div');
-    div.className = 'livro';
-    
-    // Preparar para mobile - adicionar atributos data-label
-    if (window.innerWidth <= 768) {
-      div.innerHTML = `
-        <span data-label="Título: ">${l.titulo || 'Não informado'}</span>
-        <span data-label="Autor: ">${l.autor || 'Não informado'}</span>
-        <span data-label="Gênero: ">${l.genero || 'Não informado'}</span>
-        <span data-label="Localização: ">${l.localizacao || 'Não informado'}</span>
-        <span data-label="Status: " class="status ${l.status === 'Disponível' ? 'disponivel' : 'indisponivel'}">
-          ${l.disponiveis > 0 ? `${l.disponiveis} exemplar(es) ${l.status}` : l.status}
-        </span>`;
-    } else {
-      div.innerHTML = `
-        <span>${l.titulo || 'Não informado'}</span>
-        <span>${l.autor || 'Não informado'}</span>
-        <span>${l.genero || 'Não informado'}</span>
-        <span>${l.localizacao || 'Não informado'}</span>
-        <span class="status ${l.status === 'Disponível' ? 'disponivel' : 'indisponivel'}">
-          ${l.disponiveis > 0 ? `${l.disponiveis} exemplar(es) ${l.status}` : l.status}
-        </span>`;
-    }
-    
-    lista.appendChild(div);
-  });
-}
-
     function filtrarLivros(){
       const termo = document.getElementById('busca').value.toLowerCase();
       const statusFiltro = document.getElementById('filtroStatus').value;
@@ -444,10 +404,49 @@ function atualizarLista(dados){
       });
 
       atualizarLista({
-        livros: listaFiltrada, 
-        totalLivros: listaFiltrada.length,
-        totalDisponiveis: listaFiltrada.filter(l => l.status === 'Disponível').length
+        livros: listaFiltrada
       });
+    }
+
+    async function carregarDados() {
+      try {
+        mostrarMensagem('Carregando dados do acervo...', 'loading');
+        
+        const response = await fetch(URL_JSON);
+        
+        if (!response.ok) {
+          throw new Error(`Erro HTTP: ${response.status}`);
+        }
+        
+        const dados = await response.json();
+        
+        // Verificar se os dados têm a estrutura esperada
+        if (!dados.livros || !Array.isArray(dados.livros)) {
+          throw new Error('Formato inválido do arquivo JSON. Esperada propriedade "livros" com array.');
+        }
+        
+        // Aplicar correção de caracteres
+        const dadosCorrigidos = {
+          livros: processarDadosComCorrecao(dados).livros || []
+        };
+        
+        dadosCompletos = dadosCorrigidos.livros;
+        livrosAcervo = [...dadosCompletos];
+        
+        // Extrair gêneros únicos para o filtro
+        extrairGeneros();
+        
+        // Preencher a lista de livros
+        atualizarLista(dadosCorrigidos);
+        
+        mostrarMensagem('Dados carregados com sucesso!', 'success');
+        
+      } catch (error) {
+        console.error('Erro ao carregar dados:', error);
+        mostrarMensagem(`Erro ao carregar dados: ${error.message}`, 'error');
+        document.getElementById('listaLivros').innerHTML = 
+          '<div class="error">Erro ao carregar o acervo. Verifique o console para detalhes.</div>';
+      }
     }
 
     // Carregar dados automaticamente ao abrir a página
