@@ -252,50 +252,26 @@
     let dadosCompletos = [];
     let generosDisponiveis = [];
 
-    // Função para corrigir problemas de codificação de caracteres
-function corrigirCaracteres(texto) {
-  if (!texto || typeof texto !== 'string') return texto;
-  
-  // Primeiro, decodificar possíveis sequências de escape Unicode
-  let textoCorrigido = texto.replace(/\\u00e3/g, 'ã')
-                            .replace(/\\u00e1/g, 'á')
-                            .replace(/\\u00e9/g, 'é')
-                            .replace(/\\u00ed/g, 'í')
-                            .replace(/\\u00f3/g, 'ó')
-                            .replace(/\\u00fa/g, 'ú')
-                            .replace(/\\u00e0/g, 'à')
-                            .replace(/\\u00e2/g, 'â')
-                            .replace(/\\u00ea/g, 'ê')
-                            .replace(/\\u00f4/g, 'ô')
-                            .replace(/\\u00e7/g, 'ç')
-                            .replace(/\\u00c3/g, 'Ã')
-                            .replace(/\\u00c1/g, 'Á')
-                            .replace(/\\u00c9/g, 'É')
-                            .replace(/\\u00cd/g, 'Í')
-                            .replace(/\\u00d3/g, 'Ó')
-                            .replace(/\\u00da/g, 'Ú')
-                            .replace(/\\u00c2/g, 'Â')
-                            .replace(/\\u00ca/g, 'Ê')
-                            .replace(/\\u00d4/g, 'Ô')
-                            .replace(/\\u00c7/g, 'Ç');
-  
-  // Depois, substituir caracteres problemáticos comuns
-  // ESCAPAR caracteres especiais de regex com \\
-  const substituicoes = {
-    'S\\?o': 'São',
-    'Dispon\\?vel': 'Disponível',
-    'Indispon\\?vel': 'Indisponível',
-    'Pra que Serve\\?': 'Pra que Serve?', // Mantém a interrogação intencional
-    '\\?': 'ã' // Substituição genérica apenas quando fizer sentido
-  };
-  
-  for (const [erro, correcao] of Object.entries(substituicoes)) {
-    // Usar new RegExp com a flag 'g' para substituir todas as ocorrências
-    textoCorrigido = textoCorrigido.replace(new RegExp(erro, 'g'), correcao);
-  }
-  
-  return textoCorrigido;
-}
+    // Função para corrigir caracteres especiais
+    function corrigirCaracteres(texto) {
+      if (!texto) return texto;
+      
+      return texto.toString()
+        .replace(/S\?o/g, 'São')
+        .replace(/Dispon\?vel/g, 'Disponível')
+        .replace(/Indispon\?vel/g, 'Indisponível')
+        .replace(/\?/g, 'ã')
+        .replace(/\?/g, 'á')
+        .replace(/\?/g, 'â')
+        .replace(/\?/g, 'é')
+        .replace(/\?/g, 'ê')
+        .replace(/\?/g, 'í')
+        .replace(/\?/g, 'ó')
+        .replace(/\?/g, 'ô')
+        .replace(/\?/g, 'ú')
+        .replace(/\?/g, 'ç')
+        .replace(/\?/g, 'ü');
+    }
 
     // Função para processar os dados com correção de caracteres
     function processarDadosComCorrecao(dados) {
