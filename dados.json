@@ -1,8 +1,8 @@
 {
-  "ultimaAtualizacao": "2025-09-03T19:23:10.697Z",
-  "totalLivros": 3,
-  "totalExemplares": 4,
-  "totalDisponiveis": 4,
+  "ultimaAtualizacao": "2025-09-03T19:32:20.794Z",
+  "totalLivros": 4,
+  "totalExemplares": 5,
+  "totalDisponiveis": 5,
   "livros": [
     {
       "titulo": "Aprendendo a Amar e a Curar",
@@ -45,6 +45,20 @@
       "localizacao": "Estante A, A1. Novela",
       "status": "Dispon?vel",
       "capa": "https://drive.google.com/open?id=1NJkN51hNZXk_h_yzSZqaejm_GnXeU6kO"
+    },
+    {
+      "titulo": "Carta Errante, Av? Atrapalhada, Menina Aniversariante",
+      "autor": "Mirna Pinsky",
+      "genero": "Novela",
+      "ano": "2001",
+      "editora": "FTD",
+      "cidade": "S?o Paulo",
+      "exemplares": 1,
+      "emprestados": 0,
+      "disponiveis": 1,
+      "localizacao": "Estante A, A1. Novela",
+      "status": "Dispon?vel",
+      "capa": "https://drive.google.com/open?id=1iZNtc1vx6FpFfSMYVfTCShN1qnvP9L6M"
     }
   ]
 }
