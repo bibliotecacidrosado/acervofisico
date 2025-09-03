@@ -1,8 +1,8 @@
 {
-  "ultimaAtualizacao": "2025-09-03T19:15:31.533Z",
-  "totalLivros": 2,
-  "totalExemplares": 2,
-  "totalDisponiveis": 2,
+  "ultimaAtualizacao": "2025-09-03T19:23:10.697Z",
+  "totalLivros": 3,
+  "totalExemplares": 4,
+  "totalDisponiveis": 4,
   "livros": [
     {
       "titulo": "Aprendendo a Amar e a Curar",
@@ -31,6 +31,20 @@
       "localizacao": "Estante A, A1. Novela",
       "status": "Dispon?vel",
       "capa": "https://drive.google.com/open?id=1TeMRN0MkWSQ0liq4DEt-YvV7fCLXeaBG"
+    },
+    {
+      "titulo": "Vida e Paix?o de Pandonar, o Cruel",
+      "autor": "Jo?o Ubaldo Ribeiro",
+      "genero": "Novela",
+      "ano": "2001",
+      "editora": "Nova Fronteira",
+      "cidade": "Rio de Janeiro",
+      "exemplares": 2,
+      "emprestados": 0,
+      "disponiveis": 2,
+      "localizacao": "Estante A, A1. Novela",
+      "status": "Dispon?vel",
+      "capa": "https://drive.google.com/open?id=1NJkN51hNZXk_h_yzSZqaejm_GnXeU6kO"
     }
   ]
 }
