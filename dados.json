@@ -1,8 +1,8 @@
 {
-  "ultimaAtualizacao": "2025-09-01T23:49:40.642Z",
-  "totalLivros": 1,
-  "totalExemplares": 1,
-  "totalDisponiveis": 1,
+  "ultimaAtualizacao": "2025-09-03T19:15:31.533Z",
+  "totalLivros": 2,
+  "totalExemplares": 2,
+  "totalDisponiveis": 2,
   "livros": [
     {
       "titulo": "Aprendendo a Amar e a Curar",
@@ -17,6 +17,20 @@
       "localizacao": "Estante A, A1. Novela",
       "status": "Dispon?vel",
       "capa": "https://drive.google.com/open?id=1H2uXw4Rld1Pog11ifp6FkQTq9x2Kbq5i"
+    },
+    {
+      "titulo": "Pra que Serve?",
+      "autor": "Ruth Rocha",
+      "genero": "Novela",
+      "ano": "2003",
+      "editora": "Salamandra",
+      "cidade": "S?o Paulo",
+      "exemplares": 1,
+      "emprestados": 0,
+      "disponiveis": 1,
+      "localizacao": "Estante A, A1. Novela",
+      "status": "Dispon?vel",
+      "capa": "https://drive.google.com/open?id=1TeMRN0MkWSQ0liq4DEt-YvV7fCLXeaBG"
     }
   ]
 }
