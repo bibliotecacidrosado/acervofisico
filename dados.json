@@ -1,8 +1,8 @@
 {
-  "ultimaAtualizacao": "2025-09-04T20:16:15.046Z",
-  "totalLivros": 59,
-  "totalExemplares": 472,
-  "totalDisponiveis": 472,
+  "ultimaAtualizacao": "2025-09-04T20:17:54.998Z",
+  "totalLivros": 60,
+  "totalExemplares": 473,
+  "totalDisponiveis": 473,
   "livros": [
     {
       "titulo": "Aprendendo a Amar e a Curar ",
@@ -829,6 +829,20 @@
       "localizacao": "Estante A, A8. Histórias em Quadrinhos",
       "status": "Disponível",
       "capa": "https://drive.google.com/open?id=10ZwtisuHZXXijA2Y4ETHNu_I8Gz77ol7"
+    },
+    {
+      "titulo": "D. Pedro",
+      "autor": "Paulo rezzutti",
+      "genero": "Biografia",
+      "ano": 2015,
+      "editora": "Pantograf grafica e editora ltda.",
+      "cidade": "Rio de janeiro. ",
+      "exemplares": 1,
+      "emprestados": 0,
+      "disponiveis": 1,
+      "localizacao": "Estante A, A9. Biografia",
+      "status": "Disponível",
+      "capa": "https://drive.google.com/open?id=1r3Kb5TihE3JLGBRItgq8Q380oN0PP10W"
     }
   ]
 }
