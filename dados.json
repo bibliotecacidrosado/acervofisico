@@ -1,8 +1,8 @@
 {
-  "ultimaAtualizacao": "2025-09-04T17:26:50.719Z",
-  "totalLivros": 12,
-  "totalExemplares": 18,
-  "totalDisponiveis": 18,
+  "ultimaAtualizacao": "2025-09-04T17:27:44.147Z",
+  "totalLivros": 13,
+  "totalExemplares": 19,
+  "totalDisponiveis": 19,
   "livros": [
     {
       "titulo": "Aprendendo a Amar e a Curar ",
@@ -171,6 +171,20 @@
       "localizacao": "Estante A, A3. Romance",
       "status": "Disponível",
       "capa": "https://drive.google.com/open?id=1inTBqt15iekMJfpN7aQt7LYLVYIHYwdS"
+    },
+    {
+      "titulo": "Viagem ao centro da Terra",
+      "autor": "Júlio Verne ",
+      "genero": "Romance",
+      "ano": 2003,
+      "editora": "Martin Claret Ltda",
+      "cidade": "São Paulo ",
+      "exemplares": 1,
+      "emprestados": 0,
+      "disponiveis": 1,
+      "localizacao": "Estante B, B1. Romance",
+      "status": "Disponível",
+      "capa": "https://drive.google.com/open?id=1MPrUGNnqTuK4rWNc-qEQxIcZYdofu56z"
     }
   ]
 }
