@@ -1,8 +1,8 @@
 {
-  "ultimaAtualizacao": "2025-09-04T19:51:36.034Z",
-  "totalLivros": 33,
-  "totalExemplares": 174,
-  "totalDisponiveis": 174,
+  "ultimaAtualizacao": "2025-09-04T19:52:21.569Z",
+  "totalLivros": 34,
+  "totalExemplares": 177,
+  "totalDisponiveis": 177,
   "livros": [
     {
       "titulo": "Aprendendo a Amar e a Curar ",
@@ -465,6 +465,20 @@
       "localizacao": "Estante B, B2. Romance",
       "status": "Disponível",
       "capa": "https://drive.google.com/open?id=1GdhJSlSHwJ4CjD0kZtbL6GQB-Qo-hlIo"
+    },
+    {
+      "titulo": "minidicionário Houaiss da língua portuguesa",
+      "autor": "Instituto Antônio Houaiss",
+      "genero": "Dicionário",
+      "ano": 2001,
+      "editora": "Objetiva",
+      "cidade": "Rio de Janeiro",
+      "exemplares": 3,
+      "emprestados": 0,
+      "disponiveis": 3,
+      "localizacao": "Estante B, B6. Dicionário de L. Portuguesa",
+      "status": "Disponível",
+      "capa": "https://drive.google.com/open?id=1vrVw6GRQu4cbdMAXFJMQRLYtgT5lGZJe"
     }
   ]
 }
