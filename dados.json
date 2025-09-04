@@ -1,8 +1,8 @@
 {
-  "ultimaAtualizacao": "2025-09-04T19:59:57.445Z",
-  "totalLivros": 43,
-  "totalExemplares": 236,
-  "totalDisponiveis": 236,
+  "ultimaAtualizacao": "2025-09-04T20:03:36.666Z",
+  "totalLivros": 44,
+  "totalExemplares": 239,
+  "totalDisponiveis": 239,
   "livros": [
     {
       "titulo": "Aprendendo a Amar e a Curar ",
@@ -605,6 +605,20 @@
       "localizacao": "Estante A, A6. Romance / Machado de Assis",
       "status": "Disponível",
       "capa": "https://drive.google.com/open?id=1Uj38kjDA3iiXlFEMrDjPiK_C4ZWenHuJ"
+    },
+    {
+      "titulo": "Preta, parda e pintada",
+      "autor": "Helena Gomes ",
+      "genero": "Literatura Infantojuvenil",
+      "ano": 2018,
+      "editora": "Berlendis & Vertecchia Editores",
+      "cidade": "São Paulo ",
+      "exemplares": 3,
+      "emprestados": 0,
+      "disponiveis": 3,
+      "localizacao": "Corredor H, CoH. Literatura Infantojuvenil",
+      "status": "Disponível",
+      "capa": "https://drive.google.com/open?id=1f9Z64YjyNJJgxJQXBEW8y_YdZD-0vKua"
     }
   ]
 }
