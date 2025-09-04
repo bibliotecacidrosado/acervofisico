@@ -252,44 +252,7 @@
     let dadosCompletos = [];
     let generosDisponiveis = [];
 
-    // Função para corrigir caracteres especiais
-    function corrigirCaracteres(texto) {
-      if (!texto) return texto;
-      
-      return texto.toString()
-        .replace(/S\?o/g, 'São')
-        .replace(/Dispon\?vel/g, 'Disponível')
-        .replace(/Indispon\?vel/g, 'Indisponível')
-        .replace(/\?/g, 'ã')
-        .replace(/\?/g, 'á')
-        .replace(/\?/g, 'â')
-        .replace(/\?/g, 'é')
-        .replace(/\?/g, 'ê')
-        .replace(/\?/g, 'í')
-        .replace(/\?/g, 'ó')
-        .replace(/\?/g, 'ô')
-        .replace(/\?/g, 'ú')
-        .replace(/\?/g, 'ç')
-        .replace(/\?/g, 'ü');
-    }
-
-    // Função para processar os dados com correção de caracteres
-    function processarDadosComCorrecao(dados) {
-      if (dados && dados.livros) {
-        dados.livros.forEach(livro => {
-          livro.titulo = corrigirCaracteres(livro.titulo);
-          livro.autor = corrigirCaracteres(livro.autor);
-          livro.genero = corrigirCaracteres(livro.genero);
-          livro.editora = corrigirCaracteres(livro.editora);
-          livro.cidade = corrigirCaracteres(livro.cidade);
-          livro.localizacao = corrigirCaracteres(livro.localizacao);
-          livro.status = corrigirCaracteres(livro.status);
-        });
-      }
-      return dados;
-    }
-
-    function mostrarMensagem(texto, tipo) {
+   function mostrarMensagem(texto, tipo) {
       const mensagemDiv = document.getElementById('mensagem');
       mensagemDiv.innerHTML = `<div class="${tipo}">${texto}</div>`;
       
@@ -310,7 +273,7 @@
 
     function atualizarLista(dados) {
       // Aplicar correção de caracteres
-      dados = processarDadosComCorrecao(dados);
+      dados = dados;
       
       const lista = document.getElementById('listaLivros');
       
@@ -427,9 +390,7 @@
         
         // Aplicar correção de caracteres
         const dadosCorrigidos = {
-          livros: processarDadosComCorrecao(dados).livros || []
-        };
-        
+                
         dadosCompletos = dadosCorrigidos.livros;
         livrosAcervo = [...dadosCompletos];
         
