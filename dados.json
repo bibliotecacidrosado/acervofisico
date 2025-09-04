@@ -1,8 +1,8 @@
 {
-  "ultimaAtualizacao": "2025-09-04T17:32:52.385Z",
-  "totalLivros": 15,
-  "totalExemplares": 23,
-  "totalDisponiveis": 23,
+  "ultimaAtualizacao": "2025-09-04T17:34:00.804Z",
+  "totalLivros": 16,
+  "totalExemplares": 32,
+  "totalDisponiveis": 32,
   "livros": [
     {
       "titulo": "Aprendendo a Amar e a Curar ",
@@ -213,6 +213,20 @@
       "localizacao": "Estante A, A5. Romance",
       "status": "Disponível",
       "capa": "https://drive.google.com/open?id=1v13eC2Xx_oWSZ_IZCsUCHWlPhoFdcRde"
+    },
+    {
+      "titulo": "A Moreninha.",
+      "autor": "Joaquim Manuel de Macedo ",
+      "genero": "Romance",
+      "ano": 1968,
+      "editora": "Editora Ftd s.a",
+      "cidade": "São Paulo ",
+      "exemplares": 9,
+      "emprestados": 0,
+      "disponiveis": 9,
+      "localizacao": "Estante A, A2. Romance",
+      "status": "Disponível",
+      "capa": "https://drive.google.com/open?id=17_Cb9xzkW-Jbo5NdPMTA31x5_7edWZ4S"
     }
   ]
 }
