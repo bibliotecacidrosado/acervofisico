@@ -1,8 +1,8 @@
 {
-  "ultimaAtualizacao": "2025-09-04T17:22:26.534Z",
-  "totalLivros": 10,
-  "totalExemplares": 15,
-  "totalDisponiveis": 15,
+  "ultimaAtualizacao": "2025-09-04T17:26:04.117Z",
+  "totalLivros": 11,
+  "totalExemplares": 16,
+  "totalDisponiveis": 16,
   "livros": [
     {
       "titulo": "Aprendendo a Amar e a Curar ",
@@ -143,6 +143,20 @@
       "localizacao": "Estante A, A2. Romance",
       "status": "Disponível",
       "capa": "https://drive.google.com/open?id=1oO4cYq8xX4CmOCK5Dk33HWBJrTYSpReg"
+    },
+    {
+      "titulo": "Uma segunda chance ",
+      "autor": "Colleen Hoover ",
+      "genero": "Romance",
+      "ano": 2022,
+      "editora": "Galera Record Ltda ",
+      "cidade": "Rio de Janeiro ",
+      "exemplares": 1,
+      "emprestados": 0,
+      "disponiveis": 1,
+      "localizacao": "Estante B, B3. Romance",
+      "status": "Disponível",
+      "capa": "https://drive.google.com/open?id=1aGwKdEmADsB-LVlVI0aUhZzH6kqsmgsN"
     }
   ]
 }
