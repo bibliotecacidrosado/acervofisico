@@ -1,8 +1,8 @@
 {
-  "ultimaAtualizacao": "2025-09-04T20:03:59.256Z",
-  "totalLivros": 45,
-  "totalExemplares": 240,
-  "totalDisponiveis": 240,
+  "ultimaAtualizacao": "2025-09-04T20:06:08.435Z",
+  "totalLivros": 46,
+  "totalExemplares": 248,
+  "totalDisponiveis": 248,
   "livros": [
     {
       "titulo": "Aprendendo a Amar e a Curar ",
@@ -633,6 +633,20 @@
       "localizacao": "Estante D, D3. Formação Pedagógica",
       "status": "Disponível",
       "capa": "https://drive.google.com/open?id=1AoetgCqunoLly4Axp8Fb-iVCxxDR4qJW"
+    },
+    {
+      "titulo": "Machado de Assis para principiantes ",
+      "autor": "Machado de Assis ",
+      "genero": "Romance",
+      "ano": 2003,
+      "editora": "Editora Ática",
+      "cidade": "Sao paulo ",
+      "exemplares": 8,
+      "emprestados": 0,
+      "disponiveis": 8,
+      "localizacao": "Estante A, A6. Romance / Machado de Assis",
+      "status": "Disponível",
+      "capa": "https://drive.google.com/open?id=1L-7hwZcL2CxkdminNuJZPkOyq70lYB3h"
     }
   ]
 }
