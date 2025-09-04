@@ -1,8 +1,8 @@
 {
-  "ultimaAtualizacao": "2025-09-04T20:10:18.682Z",
-  "totalLivros": 53,
-  "totalExemplares": 392,
-  "totalDisponiveis": 392,
+  "ultimaAtualizacao": "2025-09-04T20:10:53.054Z",
+  "totalLivros": 54,
+  "totalExemplares": 393,
+  "totalDisponiveis": 393,
   "livros": [
     {
       "titulo": "Aprendendo a Amar e a Curar ",
@@ -745,6 +745,20 @@
       "localizacao": "Corredor H, CoH. Literatura Infantojuvenil",
       "status": "Disponível",
       "capa": "https://drive.google.com/open?id=17ui8NiD2VVSCrI4Ncf1gB0K1DFRmpJ47"
+    },
+    {
+      "titulo": "Fala sério mãe ",
+      "autor": "Thalita Rebouças",
+      "genero": "Romance",
+      "ano": 2021,
+      "editora": "Sociedade Literaria",
+      "cidade": "Rio de Janeiro ",
+      "exemplares": 1,
+      "emprestados": 0,
+      "disponiveis": 1,
+      "localizacao": "Estante B, B1. Romance",
+      "status": "Disponível",
+      "capa": "https://drive.google.com/open?id=1MvFuBqtFRIlVysSIunjY64S_yb3J__eA"
     }
   ]
 }
