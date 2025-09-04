@@ -1,8 +1,8 @@
 {
-  "ultimaAtualizacao": "2025-09-04T19:58:44.091Z",
-  "totalLivros": 40,
-  "totalExemplares": 228,
-  "totalDisponiveis": 228,
+  "ultimaAtualizacao": "2025-09-04T19:58:53.439Z",
+  "totalLivros": 41,
+  "totalExemplares": 229,
+  "totalDisponiveis": 229,
   "livros": [
     {
       "titulo": "Aprendendo a Amar e a Curar ",
@@ -563,6 +563,20 @@
       "localizacao": "Estante B, B1. Romance",
       "status": "Disponível",
       "capa": "https://drive.google.com/open?id=12ehu30sljuTUPn6wVqCHJ55BR8hO6ind"
+    },
+    {
+      "titulo": "O corsário negro",
+      "autor": "Emilio salgari",
+      "genero": "Romance",
+      "ano": 2011,
+      "editora": "Iluminuras",
+      "cidade": "São Paulo ",
+      "exemplares": 1,
+      "emprestados": 0,
+      "disponiveis": 1,
+      "localizacao": "Estante A, A2. Romance",
+      "status": "Disponível",
+      "capa": "https://drive.google.com/open?id=1GOvuOFWuL6KZuHtBn3yioyRJDFAshZHs"
     }
   ]
 }
