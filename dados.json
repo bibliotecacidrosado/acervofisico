@@ -1,8 +1,8 @@
 {
-  "ultimaAtualizacao": "2025-09-04T19:50:04.180Z",
-  "totalLivros": 30,
-  "totalExemplares": 123,
-  "totalDisponiveis": 123,
+  "ultimaAtualizacao": "2025-09-04T19:50:13.057Z",
+  "totalLivros": 31,
+  "totalExemplares": 152,
+  "totalDisponiveis": 152,
   "livros": [
     {
       "titulo": "Aprendendo a Amar e a Curar ",
@@ -423,6 +423,20 @@
       "localizacao": "Estante C, C5. Literatura Infantojuvenil",
       "status": "Disponível",
       "capa": "https://drive.google.com/open?id=1OUAtHPj13gdy0lcMHT2VPOg2F8261ljf"
+    },
+    {
+      "titulo": "Torto arado ",
+      "autor": "Itamar Vieira junior",
+      "genero": "Literatura Infantojuvenil",
+      "ano": 2021,
+      "editora": "Embira",
+      "cidade": "São Paulo ",
+      "exemplares": 29,
+      "emprestados": 0,
+      "disponiveis": 29,
+      "localizacao": "Estante C, C7. Literatura Infantojuvenil / Torto Arado / Carta à minha filha",
+      "status": "Disponível",
+      "capa": "https://drive.google.com/open?id=1Qc_Ud-836hSdhLFgBLaw82rmymE6P0N8"
     }
   ]
 }
