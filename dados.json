@@ -1,8 +1,8 @@
 {
-  "ultimaAtualizacao": "2025-09-04T20:07:48.634Z",
-  "totalLivros": 51,
-  "totalExemplares": 373,
-  "totalDisponiveis": 373,
+  "ultimaAtualizacao": "2025-09-04T20:08:33.093Z",
+  "totalLivros": 52,
+  "totalExemplares": 391,
+  "totalDisponiveis": 391,
   "livros": [
     {
       "titulo": "Aprendendo a Amar e a Curar ",
@@ -717,6 +717,20 @@
       "localizacao": "Estante A, A2. Romance",
       "status": "Disponível",
       "capa": "https://drive.google.com/open?id=1I0_m_uhdM5nBtWE2qcLZLcAEEojIWEIQ"
+    },
+    {
+      "titulo": "Extraordinárias.",
+      "autor": "Duda porto de souza/ aryane cararo. ",
+      "genero": "Biografia",
+      "ano": 2017,
+      "editora": "SCHWARCZ S.A",
+      "cidade": "São Paulo ",
+      "exemplares": 18,
+      "emprestados": 0,
+      "disponiveis": 18,
+      "localizacao": "Estante A, A9. Biografia",
+      "status": "Disponível",
+      "capa": "https://drive.google.com/open?id=1uGqDW2s5tFBs4YDdt66lFy_3paCsL9QP"
     }
   ]
 }
