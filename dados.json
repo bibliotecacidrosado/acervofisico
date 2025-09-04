@@ -1,8 +1,8 @@
 {
-  "ultimaAtualizacao": "2025-09-04T19:57:45.451Z",
-  "totalLivros": 38,
-  "totalExemplares": 189,
-  "totalDisponiveis": 189,
+  "ultimaAtualizacao": "2025-09-04T19:58:35.843Z",
+  "totalLivros": 39,
+  "totalExemplares": 227,
+  "totalDisponiveis": 227,
   "livros": [
     {
       "titulo": "Aprendendo a Amar e a Curar ",
@@ -535,6 +535,20 @@
       "localizacao": "Estante C, C4. Literatura Infantojuvenil",
       "status": "Disponível",
       "capa": "https://drive.google.com/open?id=1IRnQY1J7DTmXUgAJGLCP4yiMvAXaITEX"
+    },
+    {
+      "titulo": "carta a minha filha ",
+      "autor": "Maya Angelou ",
+      "genero": "Literatura Infantojuvenil",
+      "ano": 2021,
+      "editora": "Nova fronteira ",
+      "cidade": "Rio de janeiro ",
+      "exemplares": 38,
+      "emprestados": 0,
+      "disponiveis": 38,
+      "localizacao": "Estante C, C7. Literatura Infantojuvenil / Torto Arado / Carta à minha filha",
+      "status": "Disponível",
+      "capa": "https://drive.google.com/open?id=1PFiuDtx2dNf7WBrasOK0X5E8h-A10Evz"
     }
   ]
 }
