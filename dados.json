@@ -1,8 +1,8 @@
 {
-  "ultimaAtualizacao": "2025-09-04T19:53:27.435Z",
-  "totalLivros": 36,
-  "totalExemplares": 186,
-  "totalDisponiveis": 186,
+  "ultimaAtualizacao": "2025-09-04T19:56:12.307Z",
+  "totalLivros": 37,
+  "totalExemplares": 188,
+  "totalDisponiveis": 188,
   "livros": [
     {
       "titulo": "Aprendendo a Amar e a Curar ",
@@ -507,6 +507,20 @@
       "localizacao": "Estante A, A1. Novela",
       "status": "Disponível",
       "capa": "https://drive.google.com/open?id=1AXyWxWJKRodQJt0EsKNe1gwDR8_QMEym"
+    },
+    {
+      "titulo": "Rosa",
+      "autor": "Odilon Moraes",
+      "genero": "Literatura Infantojuvenil",
+      "ano": 2017,
+      "editora": "Olho de vidro",
+      "cidade": "Curitiba-PR ",
+      "exemplares": 2,
+      "emprestados": 0,
+      "disponiveis": 2,
+      "localizacao": "Corredor H, CoH. Literatura Infantojuvenil",
+      "status": "Disponível",
+      "capa": "https://drive.google.com/open?id=1TUka9hFnprC30avtevJLgvYiHQma-Qb6"
     }
   ]
 }
