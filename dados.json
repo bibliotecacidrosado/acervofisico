@@ -1,8 +1,8 @@
 {
-  "ultimaAtualizacao": "2025-09-04T19:52:21.569Z",
-  "totalLivros": 34,
-  "totalExemplares": 177,
-  "totalDisponiveis": 177,
+  "ultimaAtualizacao": "2025-09-04T19:53:20.912Z",
+  "totalLivros": 35,
+  "totalExemplares": 178,
+  "totalDisponiveis": 178,
   "livros": [
     {
       "titulo": "Aprendendo a Amar e a Curar ",
@@ -479,6 +479,20 @@
       "localizacao": "Estante B, B6. Dicionário de L. Portuguesa",
       "status": "Disponível",
       "capa": "https://drive.google.com/open?id=1vrVw6GRQu4cbdMAXFJMQRLYtgT5lGZJe"
+    },
+    {
+      "titulo": "Dom casmurro ",
+      "autor": "Machado de Assis ",
+      "genero": "Romance",
+      "ano": 1978,
+      "editora": "EDITORA EGERIA LTDA. ",
+      "cidade": "São paulo ",
+      "exemplares": 1,
+      "emprestados": 0,
+      "disponiveis": 1,
+      "localizacao": "Estante A, A6. Romance / Machado de Assis",
+      "status": "Disponível",
+      "capa": "https://drive.google.com/open?id=1rh9tMA9ErPb5M6pFPdUPsFALjRT5uZMS"
     }
   ]
 }
