@@ -1,8 +1,8 @@
 {
-  "ultimaAtualizacao": "2025-09-04T19:50:00.154Z",
-  "totalLivros": 29,
-  "totalExemplares": 122,
-  "totalDisponiveis": 122,
+  "ultimaAtualizacao": "2025-09-04T19:50:04.180Z",
+  "totalLivros": 30,
+  "totalExemplares": 123,
+  "totalDisponiveis": 123,
   "livros": [
     {
       "titulo": "Aprendendo a Amar e a Curar ",
@@ -409,6 +409,20 @@
       "localizacao": "Corredor H, CoH. Literatura Infantojuvenil",
       "status": "Disponível",
       "capa": "https://drive.google.com/open?id=1ysr17dMod3CTJCnpHUkU75MfUT12ilSN"
+    },
+    {
+      "titulo": "A Esperança ",
+      "autor": "Suzanne Collins ",
+      "genero": "Literatura Infantojuvenil",
+      "ano": 2011,
+      "editora": "ROCCO LTDA",
+      "cidade": "Rio de Janeiro ",
+      "exemplares": 1,
+      "emprestados": 0,
+      "disponiveis": 1,
+      "localizacao": "Estante C, C5. Literatura Infantojuvenil",
+      "status": "Disponível",
+      "capa": "https://drive.google.com/open?id=1OUAtHPj13gdy0lcMHT2VPOg2F8261ljf"
     }
   ]
 }
