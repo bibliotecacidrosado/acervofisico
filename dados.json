@@ -1,8 +1,8 @@
 {
-  "ultimaAtualizacao": "2025-09-04T19:53:20.912Z",
-  "totalLivros": 35,
-  "totalExemplares": 178,
-  "totalDisponiveis": 178,
+  "ultimaAtualizacao": "2025-09-04T19:53:27.435Z",
+  "totalLivros": 36,
+  "totalExemplares": 186,
+  "totalDisponiveis": 186,
   "livros": [
     {
       "titulo": "Aprendendo a Amar e a Curar ",
@@ -493,6 +493,20 @@
       "localizacao": "Estante A, A6. Romance / Machado de Assis",
       "status": "Disponível",
       "capa": "https://drive.google.com/open?id=1rh9tMA9ErPb5M6pFPdUPsFALjRT5uZMS"
+    },
+    {
+      "titulo": "Bisa Bia, Bisa Bel",
+      "autor": "Ana Maria Machado",
+      "genero": "Novela",
+      "ano": 2001,
+      "editora": "Moderna",
+      "cidade": "São Paulo",
+      "exemplares": 8,
+      "emprestados": 0,
+      "disponiveis": 8,
+      "localizacao": "Estante A, A1. Novela",
+      "status": "Disponível",
+      "capa": "https://drive.google.com/open?id=1AXyWxWJKRodQJt0EsKNe1gwDR8_QMEym"
     }
   ]
 }
