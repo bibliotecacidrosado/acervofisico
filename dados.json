@@ -1,8 +1,8 @@
 {
-  "ultimaAtualizacao": "2025-09-04T17:43:52.315Z",
-  "totalLivros": 22,
-  "totalExemplares": 39,
-  "totalDisponiveis": 39,
+  "ultimaAtualizacao": "2025-09-04T17:44:05.553Z",
+  "totalLivros": 23,
+  "totalExemplares": 40,
+  "totalDisponiveis": 40,
   "livros": [
     {
       "titulo": "Aprendendo a Amar e a Curar ",
@@ -311,6 +311,20 @@
       "localizacao": "Estante A, A2. Romance",
       "status": "Disponível",
       "capa": "https://drive.google.com/open?id=1hcGng2qr8JH6T6NGFloV8IjDs3I18xsL"
+    },
+    {
+      "titulo": "O Campeonato.",
+      "autor": "Flávio Carneiro.",
+      "genero": "Romance",
+      "ano": 2009,
+      "editora": "Lendo e Aprendendo Ltda.",
+      "cidade": "Rio de Janeiro.",
+      "exemplares": 1,
+      "emprestados": 0,
+      "disponiveis": 1,
+      "localizacao": "Estante A, A4. Romance",
+      "status": "Disponível",
+      "capa": "https://drive.google.com/open?id=1MvYNzqGK66m2aGP-Oyp2f0aiSk022f87"
     }
   ]
 }
