@@ -1,8 +1,8 @@
 {
-  "ultimaAtualizacao": "2025-09-04T20:11:12.338Z",
-  "totalLivros": 55,
-  "totalExemplares": 394,
-  "totalDisponiveis": 394,
+  "ultimaAtualizacao": "2025-09-04T20:11:30.120Z",
+  "totalLivros": 56,
+  "totalExemplares": 395,
+  "totalDisponiveis": 395,
   "livros": [
     {
       "titulo": "Aprendendo a Amar e a Curar ",
@@ -773,6 +773,20 @@
       "localizacao": "Estante A, A2. Romance",
       "status": "Disponível",
       "capa": "https://drive.google.com/open?id=12slo2aYx5bGkKozSNLDpi3U7PH7T1IFp"
+    },
+    {
+      "titulo": "Nascidos na era digital",
+      "autor": "John Palfrey e URS gasser ",
+      "genero": "Formação Pedagógica (Educação)",
+      "ano": 2011,
+      "editora": "Grupo A",
+      "cidade": "Porto Alegre",
+      "exemplares": 1,
+      "emprestados": 0,
+      "disponiveis": 1,
+      "localizacao": "Estante D, D3. Formação Pedagógica",
+      "status": "Disponível",
+      "capa": "https://drive.google.com/open?id=1YLgGKs4n_XaxJdY_67JUVrQ30DTdgffi"
     }
   ]
 }
