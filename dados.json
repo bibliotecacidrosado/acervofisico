@@ -1,8 +1,8 @@
 {
-  "ultimaAtualizacao": "2025-09-04T19:46:29.874Z",
-  "totalLivros": 27,
-  "totalExemplares": 120,
-  "totalDisponiveis": 120,
+  "ultimaAtualizacao": "2025-09-04T19:49:07.834Z",
+  "totalLivros": 28,
+  "totalExemplares": 121,
+  "totalDisponiveis": 121,
   "livros": [
     {
       "titulo": "Aprendendo a Amar e a Curar ",
@@ -381,6 +381,20 @@
       "localizacao": "Estante A, A1. Novela",
       "status": "Disponível",
       "capa": "https://drive.google.com/open?id=1u8TFMcMusmX6P6SPI7pueq7lr1No7ftf"
+    },
+    {
+      "titulo": "Concursos, vestibulares e ENEM ",
+      "autor": "Vários autores ISBN",
+      "genero": "Formação Pedagógica (Educação)",
+      "ano": 2009,
+      "editora": "Difusão cultural do livro",
+      "cidade": "São Paulo ",
+      "exemplares": 1,
+      "emprestados": 0,
+      "disponiveis": 1,
+      "localizacao": "Estante D, D1. Formação Pedagógica",
+      "status": "Disponível",
+      "capa": "https://drive.google.com/open?id=1hynyC-qB4gmhb4H1b3icpe3TD2O9Sdzl"
     }
   ]
 }
