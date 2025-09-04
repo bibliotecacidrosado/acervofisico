@@ -1,8 +1,8 @@
 {
-  "ultimaAtualizacao": "2025-09-04T17:40:26.855Z",
-  "totalLivros": 21,
-  "totalExemplares": 38,
-  "totalDisponiveis": 38,
+  "ultimaAtualizacao": "2025-09-04T17:43:52.315Z",
+  "totalLivros": 22,
+  "totalExemplares": 39,
+  "totalDisponiveis": 39,
   "livros": [
     {
       "titulo": "Aprendendo a Amar e a Curar ",
@@ -297,6 +297,20 @@
       "localizacao": "Estante C, C4. Literatura Infantojuvenil",
       "status": "Disponível",
       "capa": "https://drive.google.com/open?id=1Wvn6hfBBDH7VsSsAYYnLRbJfragMszjV"
+    },
+    {
+      "titulo": "O Casamento ",
+      "autor": "Nicholas Sparks",
+      "genero": "Romance",
+      "ano": 2003,
+      "editora": "Arqueiro LTdA",
+      "cidade": "São Paulo ",
+      "exemplares": 1,
+      "emprestados": 0,
+      "disponiveis": 1,
+      "localizacao": "Estante A, A2. Romance",
+      "status": "Disponível",
+      "capa": "https://drive.google.com/open?id=1hcGng2qr8JH6T6NGFloV8IjDs3I18xsL"
     }
   ]
 }
