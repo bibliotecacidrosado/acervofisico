@@ -15,11 +15,7 @@
       --cor-indisponivel: #c62828;
     }
     
-    * {
-      box-sizing: border-box;
-      margin: 0;
-      padding: 0;
-    }
+    * { box-sizing: border-box; margin: 0; padding: 0; }
     
     body { 
       font-family: Arial, sans-serif; 
@@ -31,10 +27,7 @@
       line-height: 1.5;
     }
     
-    header {
-      text-align: center;
-      margin-bottom: 20px;
-    }
+    header { text-align: center; margin-bottom: 20px; }
     
     h1 {
       background: var(--cor-primaria); 
@@ -45,147 +38,50 @@
       font-size: 1.5rem;
     }
     
-    .info-biblioteca {
-      background: white;
-      padding: 10px;
-      border-radius: 8px;
-      font-size: 14px;
-      margin-bottom: 15px;
-    }
+    .info-biblioteca { background: white; padding: 10px; border-radius: 8px; font-size: 14px; margin-bottom: 15px; }
     
-    .resumo {
-      background: white;
-      padding: 15px;
-      border-radius: 8px;
-      margin-bottom: 15px;
-      display: grid;
-      grid-template-columns: 1fr 1fr;
-      gap: 10px;
-    }
+    .resumo { background: white; padding: 15px; border-radius: 8px; margin-bottom: 15px; display: grid; grid-template-columns: 1fr 1fr; gap: 10px; }
     
-    .resumo-item {
-      text-align: center;
-      padding: 10px;
-      background: #f9f9f9;
-      border-radius: 6px;
-    }
+    .resumo-item { text-align: center; padding: 10px; background: #f9f9f9; border-radius: 6px; }
     
-    .resumo-numero {
-      font-size: 20px;
-      font-weight: bold;
-      color: var(--cor-primaria);
-      margin-top: 5px;
-    }
+    .resumo-numero { font-size: 20px; font-weight: bold; color: var(--cor-primaria); margin-top: 5px; }
     
-    #busca {
-      width: 100%; 
-      padding: 12px; 
-      margin-bottom: 15px; 
-      border-radius: 5px; 
-      border: 1px solid var(--cor-borda); 
-      font-size: 16px;
-    }
+    #busca { width: 100%; padding: 12px; margin-bottom: 15px; border-radius: 5px; border: 1px solid var(--cor-borda); font-size: 16px; }
     
-    .filtros {
-      display: grid;
-      grid-template-columns: 1fr 1fr;
-      gap: 10px;
-      margin-bottom: 15px;
-    }
+    .filtros { display: grid; grid-template-columns: 1fr 1fr; gap: 10px; margin-bottom: 15px; }
     
-    select {
-      padding: 10px;
-      border-radius: 5px;
-      border: 1px solid var(--cor-borda);
-      width: 100%;
-    }
+    select { padding: 10px; border-radius: 5px; border: 1px solid var(--cor-borda); width: 100%; }
     
-    .lista-container {
-      border: 1px solid var(--cor-borda); 
-      border-radius: 5px;
-      background: white;
-      margin-bottom: 20px;
-      overflow-x: auto;
-    }
+    .ordenar-container { margin-bottom: 15px; display: flex; gap: 10px; align-items: center; flex-wrap: wrap; }
+    .ordenar-container select { width: auto; flex: 1; }
     
-    .cabecalho, .livro {
-      display: grid; 
-      grid-template-columns: 2fr 1.5fr 1fr 1.5fr 1.2fr;
-      padding: 12px; 
-      gap: 10px;
-      min-width: 600px;
-    }
+    .lista-container { border: 1px solid var(--cor-borda); border-radius: 5px; background: white; margin-bottom: 20px; overflow-x: auto; }
     
-    .cabecalho {
-      background: var(--cor-secundaria); 
-      font-weight: bold; 
-      border-bottom: 2px solid var(--cor-primaria);
-    }
+    .cabecalho, .livro { display: grid; grid-template-columns: 2fr 1.5fr 1fr 1.5fr 1.2fr; padding: 12px; gap: 10px; min-width: 600px; }
     
-    .livro:nth-child(odd) {background: #fff;}
-    .livro:nth-child(even) {background: #f9f9f9;}
-    .livro:hover {
-      background: #f0f0f0;
-    }
+    .cabecalho { background: var(--cor-secundaria); font-weight: bold; border-bottom: 2px solid var(--cor-primaria); cursor: pointer; }
     
-    .status {font-weight: bold;}
-    .disponivel {color: var(--cor-disponivel);}
-    .indisponivel {color: var(--cor-indisponivel);}
+    .livro:nth-child(odd) { background: #fff; }
+    .livro:nth-child(even) { background: #f9f9f9; }
+    .livro:hover { background: #f0f0f0; }
     
-    .loading {
-      text-align: center;
-      padding: 40px;
-      color: #666;
-    }
+    .status { font-weight: bold; }
+    .disponivel { color: var(--cor-disponivel); }
+    .indisponivel { color: var(--cor-indisponivel); }
     
-    .error {
-      background: #ffebee;
-      color: #c62828;
-      padding: 15px;
-      border-radius: 5px;
-      margin: 15px 0;
-      text-align: center;
-    }
+    .loading { text-align: center; padding: 40px; color: #666; }
+    
+    .error { background: #ffebee; color: #c62828; padding: 15px; border-radius: 5px; margin: 15px 0; text-align: center; }
 
     /* --- Versão Mobile --- */
     @media (max-width: 768px) {
-      .resumo {
-        grid-template-columns: 1fr;
-      }
-      
-      .filtros {
-        grid-template-columns: 1fr;
-      }
-      
-      .cabecalho {
-        display: none;
-      }
-      
-      .livro {
-        display: block; 
-        padding: 15px;
-        border-bottom: 1px solid #ddd;
-        min-width: unset;
-      }
-      
-      .livro > span {
-        display: block;
-        width: 100%;
-        padding: 5px 0;
-        margin-bottom: 5px;
-      }
-      
-      .livro > span::before {
-        font-weight: bold;
-        color: #333;
-        display: inline-block;
-        width: 100px;
-        content: attr(data-label);
-      }
-      
-      .lista-container {
-        overflow-x: visible;
-      }
+      .resumo { grid-template-columns: 1fr; }
+      .filtros { grid-template-columns: 1fr; }
+      .cabecalho { display: none; }
+      .livro { display: block; padding: 15px; border-bottom: 1px solid #ddd; min-width: unset; }
+      .livro > span { display: block; width: 100%; padding: 5px 0; margin-bottom: 5px; }
+      .livro > span::before { font-weight: bold; color: #333; display: inline-block; width: 100px; content: attr(data-label); }
+      .lista-container { overflow-x: visible; }
     }
   </style>
 </head>
@@ -223,19 +119,31 @@
     <div>
       <select id="filtroGenero" onchange="filtrarLivros()">
         <option value="todos">Todos os gêneros</option>
-        <!-- Opções serão preenchidas dinamicamente -->
       </select>
     </div>
   </div>
 
+  <!-- Botão de ordenar para mobile -->
+  <div class="ordenar-container">
+    <label for="ordenarSelect">Ordenar por:</label>
+    <select id="ordenarSelect" onchange="ordenarPorSelecao()">
+      <option value="">--Selecione--</option>
+      <option value="titulo">Título</option>
+      <option value="autor">Autor</option>
+      <option value="genero">Gênero</option>
+      <option value="localizacao">Localização</option>
+      <option value="status">Status</option>
+    </select>
+    <button onclick="alternarOrdem()">Alternar Ordem ▲▼</button>
+  </div>
+
   <div class="lista-container">
-    <!-- Cabeçalho da lista -->
     <div class="cabecalho">
-      <span>Título</span>
-      <span>Autor</span>
-      <span>Gênero</span>
-      <span>Localização</span>
-      <span>Status</span>
+      <span onclick="ordenarColuna('titulo')">Título</span>
+      <span onclick="ordenarColuna('autor')">Autor</span>
+      <span onclick="ordenarColuna('genero')">Gênero</span>
+      <span onclick="ordenarColuna('localizacao')">Localização</span>
+      <span onclick="ordenarColuna('status')">Status</span>
     </div>
     <div id="listaLivros">
       <div class="loading" id="loading-message">
@@ -245,63 +153,48 @@
   </div>
 
   <script>
-    // URL do arquivo JSON no GitHub
     const URL_JSON = 'https://raw.githubusercontent.com/bibliotecacidrosado/acervofisico/refs/heads/main/dados.json';
     
     let livrosAcervo = [];
     let dadosCompletos = [];
     let generosDisponiveis = [];
 
+    let colunaOrdenacaoAtual = '';
+    let ordemAscendente = true;
+
     function mostrarMensagem(texto, tipo) {
       const mensagemDiv = document.getElementById('mensagem');
       mensagemDiv.innerHTML = `<div class="${tipo}">${texto}</div>`;
-      
       if (tipo !== 'error') {
-        setTimeout(() => {
-          mensagemDiv.innerHTML = '';
-        }, 3000);
+        setTimeout(() => { mensagemDiv.innerHTML = ''; }, 3000);
       }
     }
 
     function atualizarResumo(dados) {
       const totalLivros = dados.livros?.length || 0;
       const totalDisponiveis = dados.livros?.filter(l => l.status === 'Disponível').length || 0;
-      
       document.getElementById('total-livros').textContent = totalLivros;
       document.getElementById('total-disponiveis').textContent = totalDisponiveis;
     }
 
-function formatarStatus(livro) {
-  if (!livro.disponiveis || livro.disponiveis === 0) {
-    return livro.status;
-  }
-  const pluralExemplar = livro.disponiveis > 1 ? 'Exemplares' : 'Exemplar';
-  const pluralStatus = livro.disponiveis > 1 ? 's' : '';
-  return `${livro.disponiveis} ${pluralExemplar} ${livro.status}${pluralStatus}`;
-}
+    function formatarStatus(livro) {
+      if (!livro.disponiveis || livro.disponiveis === 0) return livro.status;
+      const pluralExemplar = livro.disponiveis > 1 ? 'Exemplares' : 'Exemplar';
+      const pluralStatus = livro.disponiveis > 1 ? 's' : '';
+      return `${livro.disponiveis} ${pluralExemplar} ${livro.status}${pluralStatus}`;
+    }
 
-    
     function atualizarLista(dados) {
       const lista = document.getElementById('listaLivros');
-      
-      // Atualizar resumo
       atualizarResumo(dados);
-      
-      // Limpar lista
       lista.innerHTML = '';
-      
-      // Verificar se há livros para mostrar
       if (!dados.livros || dados.livros.length === 0) {
         lista.innerHTML = '<div class="loading">Nenhum livro encontrado</div>';
         return;
       }
-      
-      // Adicionar livros à lista
       dados.livros.forEach(l => {
         const div = document.createElement('div');
         div.className = 'livro';
-        
-        // Preparar para mobile - adicionar atributos data-label
         if (window.innerWidth <= 768) {
           div.innerHTML = `
             <span data-label="Título: ">${l.titulo || 'Não informado'}</span>
@@ -309,7 +202,7 @@ function formatarStatus(livro) {
             <span data-label="Gênero: ">${l.genero || 'Não informado'}</span>
             <span data-label="Localização: ">${l.localizacao || 'Não informado'}</span>
             <span data-label="Status: " class="status ${l.status === 'Disponível' ? 'disponivel' : 'indisponivel'}">
-              ${l.disponiveis > 0 ? `${l.disponiveis} exemplar(es) ${l.status}` : l.status}
+              ${formatarStatus(l)}
             </span>`;
         } else {
           div.innerHTML = `
@@ -318,11 +211,9 @@ function formatarStatus(livro) {
             <span>${l.genero || 'Não informado'}</span>
             <span>${l.localizacao || 'Não informado'}</span>
             <span class="status ${l.status === 'Disponível' ? 'disponivel' : 'indisponivel'}">
-  ${formatarStatus(l)}
-</span>
-
+              ${formatarStatus(l)}
+            </span>`;
         }
-        
         lista.appendChild(div);
       });
     }
@@ -330,24 +221,14 @@ function formatarStatus(livro) {
     function extrairGeneros() {
       const generosSet = new Set();
       dadosCompletos.forEach(livro => {
-        if (livro.genero && livro.genero.trim() !== '') {
-          generosSet.add(livro.genero);
-        }
+        if (livro.genero && livro.genero.trim() !== '') generosSet.add(livro.genero);
       });
-      
       generosDisponiveis = Array.from(generosSet).sort();
-      
       const filtroGenero = document.getElementById('filtroGenero');
-      // Manter a primeira opção ("Todos os gêneros")
-      while (filtroGenero.options.length > 1) {
-        filtroGenero.remove(1);
-      }
-      
-      // Adicionar os gêneros extraídos
+      while (filtroGenero.options.length > 1) filtroGenero.remove(1);
       generosDisponiveis.forEach(genero => {
         const option = document.createElement('option');
-        option.value = genero;
-        option.textContent = genero;
+        option.value = genero; option.textContent = genero;
         filtroGenero.appendChild(option);
       });
     }
@@ -358,70 +239,76 @@ function formatarStatus(livro) {
       const generoFiltro = document.getElementById('filtroGenero').value;
       
       const listaFiltrada = dadosCompletos.filter(l => {
-        // Filtro por termo de busca
         const correspondeTermo = 
           (l.titulo && l.titulo.toLowerCase().includes(termo)) ||
           (l.autor && l.autor.toLowerCase().includes(termo)) ||
           (l.genero && l.genero.toLowerCase().includes(termo)) ||
           (l.localizacao && l.localizacao.toLowerCase().includes(termo));
-        
-        // Filtro por status
         const correspondeStatus = statusFiltro === 'todos' || l.status === statusFiltro;
-        
-        // Filtro por gênero
         const correspondeGenero = generoFiltro === 'todos' || l.genero === generoFiltro;
-        
         return correspondeTermo && correspondeStatus && correspondeGenero;
       });
 
-      atualizarLista({
-        livros: listaFiltrada
+      atualizarLista({ livros: listaFiltrada });
+    }
+
+    function ordenarLista() {
+      if (!colunaOrdenacaoAtual) return;
+      const listaOrdenada = [...dadosCompletos].sort((a, b) => {
+        let valA = (a[colunaOrdenacaoAtual] || '').toString().toLowerCase();
+        let valB = (b[colunaOrdenacaoAtual] || '').toString().toLowerCase();
+        if (valA < valB) return ordemAscendente ? -1 : 1;
+        if (valA > valB) return ordemAscendente ? 1 : -1;
+        return 0;
       });
+      atualizarLista({ livros: listaOrdenada });
+    }
+
+    function ordenarColuna(coluna) {
+      if (colunaOrdenacaoAtual === coluna) ordemAscendente = !ordemAscendente;
+      else { colunaOrdenacaoAtual = coluna; ordemAscendente = true; }
+      ordenarLista();
+    }
+
+    function ordenarPorSelecao() {
+      const select = document.getElementById('ordenarSelect');
+      const coluna = select.value;
+      if (!coluna) return;
+      colunaOrdenacaoAtual = coluna;
+      ordemAscendente = true;
+      ordenarLista();
+    }
+
+    function alternarOrdem() {
+      ordemAscendente = !ordemAscendente;
+      ordenarLista();
     }
 
     async function carregarDados() {
       try {
         mostrarMensagem('Carregando dados do acervo...', 'loading');
-        
         const response = await fetch(URL_JSON);
-        
-        if (!response.ok) {
-          throw new Error(`Erro HTTP: ${response.status}`);
-        }
-        
+        if (!response.ok) throw new Error(`Erro HTTP: ${response.status}`);
         const dados = await response.json();
-        
-        // Verificar se os dados têm a estrutura esperada
-        if (!dados.livros || !Array.isArray(dados.livros)) {
-          throw new Error('Formato inválido do arquivo JSON. Esperada propriedade "livros" com array.');
-        }
-        
+        if (!dados.livros || !Array.isArray(dados.livros)) throw new Error('Formato inválido do arquivo JSON.');
+
         dadosCompletos = dados.livros;
         livrosAcervo = [...dadosCompletos];
-        
-        // Extrair gêneros únicos para o filtro
+
         extrairGeneros();
-        
-        // Preencher a lista de livros
         atualizarLista(dados);
-        
         mostrarMensagem('Dados carregados com sucesso!', 'success');
-        
       } catch (error) {
         console.error('Erro ao carregar dados:', error);
         mostrarMensagem(`Erro ao carregar dados: ${error.message}`, 'error');
-        document.getElementById('listaLivros').innerHTML = 
-          '<div class="error">Erro ao carregar o acervo. Verifique o console para detalhes.</div>';
+        document.getElementById('listaLivros').innerHTML = '<div class="error">Erro ao carregar o acervo. Verifique o console para detalhes.</div>';
       }
     }
 
-    // Carregar dados automaticamente ao abrir a página
     document.addEventListener('DOMContentLoaded', function() {
       carregarDados();
       document.getElementById('busca').addEventListener('keypress', function(e) {
-        if (e.key === 'Enter') {
-          filtrarLivros();
-        }
+        if (e.key === 'Enter') filtrarLivros();
       });
     });
   </script>
