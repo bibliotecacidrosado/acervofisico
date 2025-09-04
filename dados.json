@@ -1,8 +1,8 @@
 {
-  "ultimaAtualizacao": "2025-09-04T19:56:12.307Z",
-  "totalLivros": 37,
-  "totalExemplares": 188,
-  "totalDisponiveis": 188,
+  "ultimaAtualizacao": "2025-09-04T19:57:45.451Z",
+  "totalLivros": 38,
+  "totalExemplares": 189,
+  "totalDisponiveis": 189,
   "livros": [
     {
       "titulo": "Aprendendo a Amar e a Curar ",
@@ -521,6 +521,20 @@
       "localizacao": "Corredor H, CoH. Literatura Infantojuvenil",
       "status": "Disponível",
       "capa": "https://drive.google.com/open?id=1TUka9hFnprC30avtevJLgvYiHQma-Qb6"
+    },
+    {
+      "titulo": "Os Caras Malvados ",
+      "autor": "Aaron Blabey",
+      "genero": "Literatura Infantojuvenil",
+      "ano": 2014,
+      "editora": "POSIGRAF LTDA",
+      "cidade": "São Paulo ",
+      "exemplares": 1,
+      "emprestados": 0,
+      "disponiveis": 1,
+      "localizacao": "Estante C, C4. Literatura Infantojuvenil",
+      "status": "Disponível",
+      "capa": "https://drive.google.com/open?id=1IRnQY1J7DTmXUgAJGLCP4yiMvAXaITEX"
     }
   ]
 }
