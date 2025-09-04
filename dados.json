@@ -1,8 +1,8 @@
 {
-  "ultimaAtualizacao": "2025-09-04T17:44:18.354Z",
-  "totalLivros": 24,
-  "totalExemplares": 50,
-  "totalDisponiveis": 50,
+  "ultimaAtualizacao": "2025-09-04T19:42:25.843Z",
+  "totalLivros": 25,
+  "totalExemplares": 116,
+  "totalDisponiveis": 116,
   "livros": [
     {
       "titulo": "Aprendendo a Amar e a Curar ",
@@ -339,6 +339,20 @@
       "localizacao": "Estante C, C2. Literatura Infantojuvenil",
       "status": "Disponível",
       "capa": "https://drive.google.com/open?id=1qpHKmrR4uz0eiJ633vjS7hrFBtkc32ea"
+    },
+    {
+      "titulo": "Sherlock Holmes ",
+      "autor": "Artur Conan Doyle",
+      "genero": "Literatura Infantojuvenil",
+      "ano": 2021,
+      "editora": "Wisdom",
+      "cidade": "São Paulo ",
+      "exemplares": 66,
+      "emprestados": 0,
+      "disponiveis": 66,
+      "localizacao": "Estante C, C3. Literatura Infantojuvenil / Sherlock Holmes",
+      "status": "Disponível",
+      "capa": "https://drive.google.com/open?id=1sKExC5TbQdMZjOH_gLAyllY5gcvX9Mq2"
     }
   ]
 }
