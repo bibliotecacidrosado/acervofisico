@@ -1,8 +1,8 @@
 {
-  "ultimaAtualizacao": "2025-09-04T20:08:33.093Z",
-  "totalLivros": 52,
-  "totalExemplares": 391,
-  "totalDisponiveis": 391,
+  "ultimaAtualizacao": "2025-09-04T20:10:18.682Z",
+  "totalLivros": 53,
+  "totalExemplares": 392,
+  "totalDisponiveis": 392,
   "livros": [
     {
       "titulo": "Aprendendo a Amar e a Curar ",
@@ -731,6 +731,20 @@
       "localizacao": "Estante A, A9. Biografia",
       "status": "Disponível",
       "capa": "https://drive.google.com/open?id=1uGqDW2s5tFBs4YDdt66lFy_3paCsL9QP"
+    },
+    {
+      "titulo": "Inocência ",
+      "autor": "Visconde de Taunay",
+      "genero": "Literatura Infantojuvenil",
+      "ano": 2021,
+      "editora": "Hedra educação ",
+      "cidade": "São Paulo ",
+      "exemplares": 1,
+      "emprestados": 0,
+      "disponiveis": 1,
+      "localizacao": "Corredor H, CoH. Literatura Infantojuvenil",
+      "status": "Disponível",
+      "capa": "https://drive.google.com/open?id=17ui8NiD2VVSCrI4Ncf1gB0K1DFRmpJ47"
     }
   ]
 }
