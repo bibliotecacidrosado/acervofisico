@@ -271,6 +271,16 @@
       document.getElementById('total-disponiveis').textContent = totalDisponiveis;
     }
 
+function formatarStatus(livro) {
+  if (!livro.disponiveis || livro.disponiveis === 0) {
+    return livro.status;
+  }
+  const pluralExemplar = livro.disponiveis > 1 ? 'Exemplares' : 'Exemplar';
+  const pluralStatus = livro.disponiveis > 1 ? 's' : '';
+  return `${livro.disponiveis} ${pluralExemplar} ${livro.status}${pluralStatus}`;
+}
+
+    
     function atualizarLista(dados) {
       const lista = document.getElementById('listaLivros');
       
@@ -308,8 +318,9 @@
             <span>${l.genero || 'Não informado'}</span>
             <span>${l.localizacao || 'Não informado'}</span>
             <span class="status ${l.status === 'Disponível' ? 'disponivel' : 'indisponivel'}">
-              ${l.disponiveis > 0 ? `${l.disponiveis} exemplar(es) ${l.status}` : l.status}
-            </span>`;
+  ${formatarStatus(l)}
+</span>
+
         }
         
         lista.appendChild(div);
