@@ -1,8 +1,8 @@
 {
-  "ultimaAtualizacao": "2025-09-04T19:43:03.244Z",
-  "totalLivros": 26,
-  "totalExemplares": 117,
-  "totalDisponiveis": 117,
+  "ultimaAtualizacao": "2025-09-04T19:46:29.874Z",
+  "totalLivros": 27,
+  "totalExemplares": 120,
+  "totalDisponiveis": 120,
   "livros": [
     {
       "titulo": "Aprendendo a Amar e a Curar ",
@@ -367,6 +367,20 @@
       "localizacao": "Estante C, C4. Literatura Infantojuvenil",
       "status": "Disponível",
       "capa": "https://drive.google.com/open?id=1gnGEGz2Aq9p-zfozM-uVHZMqiN_CwlJC"
+    },
+    {
+      "titulo": "Um sonho no caroço do abacate ",
+      "autor": "Moacyr Scliar",
+      "genero": "Novela",
+      "ano": 2003,
+      "editora": "Global ",
+      "cidade": "São Paulo ",
+      "exemplares": 3,
+      "emprestados": 0,
+      "disponiveis": 3,
+      "localizacao": "Estante A, A1. Novela",
+      "status": "Disponível",
+      "capa": "https://drive.google.com/open?id=1u8TFMcMusmX6P6SPI7pueq7lr1No7ftf"
     }
   ]
 }
