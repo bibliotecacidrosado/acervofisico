@@ -1,8 +1,8 @@
 {
-  "ultimaAtualizacao": "2025-09-04T17:29:51.706Z",
-  "totalLivros": 14,
-  "totalExemplares": 22,
-  "totalDisponiveis": 22,
+  "ultimaAtualizacao": "2025-09-04T17:32:52.385Z",
+  "totalLivros": 15,
+  "totalExemplares": 23,
+  "totalDisponiveis": 23,
   "livros": [
     {
       "titulo": "Aprendendo a Amar e a Curar ",
@@ -199,6 +199,20 @@
       "localizacao": "Estante B, B3. Romance",
       "status": "Disponível",
       "capa": "https://drive.google.com/open?id=12XJ-dWlbzLjdPV2anzHKnHGyuFoarVhc"
+    },
+    {
+      "titulo": "Sonata ao Luar",
+      "autor": "Álvaro Cardoso Gomes",
+      "genero": "Romance",
+      "ano": 1995,
+      "editora": "Maria Esther Nejm",
+      "cidade": "São Paulo ",
+      "exemplares": 1,
+      "emprestados": 0,
+      "disponiveis": 1,
+      "localizacao": "Estante A, A5. Romance",
+      "status": "Disponível",
+      "capa": "https://drive.google.com/open?id=1v13eC2Xx_oWSZ_IZCsUCHWlPhoFdcRde"
     }
   ]
 }
