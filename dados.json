@@ -1,8 +1,8 @@
 {
-  "ultimaAtualizacao": "2025-09-04T20:14:23.828Z",
-  "totalLivros": 58,
-  "totalExemplares": 444,
-  "totalDisponiveis": 444,
+  "ultimaAtualizacao": "2025-09-04T20:16:15.046Z",
+  "totalLivros": 59,
+  "totalExemplares": 472,
+  "totalDisponiveis": 472,
   "livros": [
     {
       "titulo": "Aprendendo a Amar e a Curar ",
@@ -815,6 +815,20 @@
       "localizacao": "Estante C, C8. Literatura Infantojuvenil / Eu sou Malala / A face oculta / Malala, a menina que queria ir para a escola",
       "status": "Disponível",
       "capa": "https://drive.google.com/open?id=1U6sHmuxBn2NZgvI5tPOby9sWlWTfT4Gm"
+    },
+    {
+      "titulo": "O diário de anne frank",
+      "autor": "Ari Folman/David Polonsky",
+      "genero": "História em Quadrinhos",
+      "ano": 2018,
+      "editora": "Distr Record",
+      "cidade": "Rio de janeiro ",
+      "exemplares": 28,
+      "emprestados": 0,
+      "disponiveis": 28,
+      "localizacao": "Estante A, A8. Histórias em Quadrinhos",
+      "status": "Disponível",
+      "capa": "https://drive.google.com/open?id=10ZwtisuHZXXijA2Y4ETHNu_I8Gz77ol7"
     }
   ]
 }
