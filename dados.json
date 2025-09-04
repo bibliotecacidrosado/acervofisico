@@ -1,8 +1,8 @@
 {
-  "ultimaAtualizacao": "2025-09-04T19:58:35.843Z",
-  "totalLivros": 39,
-  "totalExemplares": 227,
-  "totalDisponiveis": 227,
+  "ultimaAtualizacao": "2025-09-04T19:58:44.091Z",
+  "totalLivros": 40,
+  "totalExemplares": 228,
+  "totalDisponiveis": 228,
   "livros": [
     {
       "titulo": "Aprendendo a Amar e a Curar ",
@@ -549,6 +549,20 @@
       "localizacao": "Estante C, C7. Literatura Infantojuvenil / Torto Arado / Carta à minha filha",
       "status": "Disponível",
       "capa": "https://drive.google.com/open?id=1PFiuDtx2dNf7WBrasOK0X5E8h-A10Evz"
+    },
+    {
+      "titulo": "O roteiro do amor",
+      "autor": "Ray Tavares",
+      "genero": "Romance",
+      "ano": 2025,
+      "editora": "Verus",
+      "cidade": "Rio de Janeiro ",
+      "exemplares": 1,
+      "emprestados": 0,
+      "disponiveis": 1,
+      "localizacao": "Estante B, B1. Romance",
+      "status": "Disponível",
+      "capa": "https://drive.google.com/open?id=12ehu30sljuTUPn6wVqCHJ55BR8hO6ind"
     }
   ]
 }
