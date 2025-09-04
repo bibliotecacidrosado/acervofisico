@@ -1,8 +1,8 @@
 {
-  "ultimaAtualizacao": "2025-09-04T20:06:08.435Z",
-  "totalLivros": 46,
-  "totalExemplares": 248,
-  "totalDisponiveis": 248,
+  "ultimaAtualizacao": "2025-09-04T20:07:02.809Z",
+  "totalLivros": 47,
+  "totalExemplares": 320,
+  "totalDisponiveis": 320,
   "livros": [
     {
       "titulo": "Aprendendo a Amar e a Curar ",
@@ -647,6 +647,20 @@
       "localizacao": "Estante A, A6. Romance / Machado de Assis",
       "status": "Disponível",
       "capa": "https://drive.google.com/open?id=1L-7hwZcL2CxkdminNuJZPkOyq70lYB3h"
+    },
+    {
+      "titulo": "Eu sou Malala ",
+      "autor": "Patricia McCormick",
+      "genero": "Literatura Infantojuvenil",
+      "ano": 2020,
+      "editora": "Schwarcz S.A.",
+      "cidade": "São Paulo ",
+      "exemplares": 72,
+      "emprestados": 0,
+      "disponiveis": 72,
+      "localizacao": "Estante C, C8. Literatura Infantojuvenil / Eu sou Malala / A face oculta / Malala, a menina que queria ir para a escola",
+      "status": "Disponível",
+      "capa": "https://drive.google.com/open?id=1MqCtP6N-NkH9GpAfHaXEt-K3E9PULMgT"
     }
   ]
 }
