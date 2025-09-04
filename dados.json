@@ -1,8 +1,8 @@
 {
-  "ultimaAtualizacao": "2025-09-04T17:39:16.681Z",
-  "totalLivros": 18,
-  "totalExemplares": 35,
-  "totalDisponiveis": 35,
+  "ultimaAtualizacao": "2025-09-04T17:39:32.618Z",
+  "totalLivros": 19,
+  "totalExemplares": 36,
+  "totalDisponiveis": 36,
   "livros": [
     {
       "titulo": "Aprendendo a Amar e a Curar ",
@@ -255,6 +255,20 @@
       "localizacao": "Estante A, A2. Romance",
       "status": "Disponível",
       "capa": "https://drive.google.com/open?id=1qR__cLgSUCJnDDVEyz_UXZYAJoh1Izw0"
+    },
+    {
+      "titulo": "Os Tambores de são Luís ",
+      "autor": "Josué Montello",
+      "genero": "Romance",
+      "ano": 1985,
+      "editora": "Nova Fronteira S.A",
+      "cidade": "Botafogo",
+      "exemplares": 1,
+      "emprestados": 0,
+      "disponiveis": 1,
+      "localizacao": "Estante A, A3. Romance",
+      "status": "Disponível",
+      "capa": "https://drive.google.com/open?id=1DOBNesmgHc0GtNM88p-MHWqt-5JpzbyX"
     }
   ]
 }
