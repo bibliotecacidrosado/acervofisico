@@ -245,14 +245,13 @@
   </div>
 
   <script>
-    // URL do arquivo JSON no GitHub
     const URL_JSON = 'https://raw.githubusercontent.com/bibliotecacidrosado/acervofisico/refs/heads/main/dados.json';
     
     let livrosAcervo = [];
     let dadosCompletos = [];
     let generosDisponiveis = [];
 
-   function mostrarMensagem(texto, tipo) {
+    function mostrarMensagem(texto, tipo) {
       const mensagemDiv = document.getElementById('mensagem');
       mensagemDiv.innerHTML = `<div class="${tipo}">${texto}</div>`;
       
@@ -272,29 +271,19 @@
     }
 
     function atualizarLista(dados) {
-      // Aplicar correção de caracteres
-      dados = dados;
-      
       const lista = document.getElementById('listaLivros');
-      
-      // Atualizar resumo
       atualizarResumo(dados);
-      
-      // Limpar lista
       lista.innerHTML = '';
       
-      // Verificar se há livros para mostrar
       if (!dados.livros || dados.livros.length === 0) {
         lista.innerHTML = '<div class="loading">Nenhum livro encontrado</div>';
         return;
       }
       
-      // Adicionar livros à lista
       dados.livros.forEach(l => {
         const div = document.createElement('div');
         div.className = 'livro';
         
-        // Preparar para mobile - adicionar atributos data-label
         if (window.innerWidth <= 768) {
           div.innerHTML = `
             <span data-label="Título: ">${l.titulo || 'Não informado'}</span>
@@ -330,12 +319,10 @@
       generosDisponiveis = Array.from(generosSet).sort();
       
       const filtroGenero = document.getElementById('filtroGenero');
-      // Manter a primeira opção ("Todos os gêneros")
       while (filtroGenero.options.length > 1) {
         filtroGenero.remove(1);
       }
       
-      // Adicionar os gêneros extraídos
       generosDisponiveis.forEach(genero => {
         const option = document.createElement('option');
         option.value = genero;
@@ -350,25 +337,19 @@
       const generoFiltro = document.getElementById('filtroGenero').value;
       
       const listaFiltrada = dadosCompletos.filter(l => {
-        // Filtro por termo de busca
         const correspondeTermo = 
           (l.titulo && l.titulo.toLowerCase().includes(termo)) ||
           (l.autor && l.autor.toLowerCase().includes(termo)) ||
           (l.genero && l.genero.toLowerCase().includes(termo)) ||
           (l.localizacao && l.localizacao.toLowerCase().includes(termo));
         
-        // Filtro por status
         const correspondeStatus = statusFiltro === 'todos' || l.status === statusFiltro;
-        
-        // Filtro por gênero
         const correspondeGenero = generoFiltro === 'todos' || l.genero === generoFiltro;
         
         return correspondeTermo && correspondeStatus && correspondeGenero;
       });
 
-      atualizarLista({
-        livros: listaFiltrada
-      });
+      atualizarLista({ livros: listaFiltrada });
     }
 
     async function carregarDados() {
@@ -383,25 +364,17 @@
         
         const dados = await response.json();
         
-        // Verificar se os dados têm a estrutura esperada
         if (!dados.livros || !Array.isArray(dados.livros)) {
           throw new Error('Formato inválido do arquivo JSON. Esperada propriedade "livros" com array.');
         }
         
-        // Aplicar correção de caracteres
-        const dadosCorrigidos = {
-                
-        dadosCompletos = dadosCorrigidos.livros;
+        dadosCompletos = dados.livros;
         livrosAcervo = [...dadosCompletos];
         
-        // Extrair gêneros únicos para o filtro
         extrairGeneros();
-        
-        // Preencher a lista de livros
-        atualizarLista(dadosCorrigidos);
+        atualizarLista(dados);
         
         mostrarMensagem('Dados carregados com sucesso!', 'success');
-        
       } catch (error) {
         console.error('Erro ao carregar dados:', error);
         mostrarMensagem(`Erro ao carregar dados: ${error.message}`, 'error');
@@ -410,7 +383,6 @@
       }
     }
 
-    // Carregar dados automaticamente ao abrir a página
     document.addEventListener('DOMContentLoaded', function() {
       carregarDados();
       document.getElementById('busca').addEventListener('keypress', function(e) {
