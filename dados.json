@@ -1,8 +1,8 @@
 {
-  "ultimaAtualizacao": "2025-09-04T20:07:34.050Z",
-  "totalLivros": 49,
-  "totalExemplares": 322,
-  "totalDisponiveis": 322,
+  "ultimaAtualizacao": "2025-09-04T20:07:45.767Z",
+  "totalLivros": 50,
+  "totalExemplares": 372,
+  "totalDisponiveis": 372,
   "livros": [
     {
       "titulo": "Aprendendo a Amar e a Curar ",
@@ -689,6 +689,20 @@
       "localizacao": "Corredor H, CoH. Literatura Infantojuvenil",
       "status": "Disponível",
       "capa": "https://drive.google.com/open?id=1rPAerY2dEejuWQ2JtRUA3w3gzfXOdIIO"
+    },
+    {
+      "titulo": "A História do Amor de Fernando e Isaura ",
+      "autor": "Ariano Suassuna ",
+      "genero": "Literatura Infantojuvenil",
+      "ano": 2021,
+      "editora": "Duetto",
+      "cidade": "Rio de Janeiro ",
+      "exemplares": 50,
+      "emprestados": 0,
+      "disponiveis": 50,
+      "localizacao": "Estante C, C10. A história de amor de Frnando e Isaura",
+      "status": "Disponível",
+      "capa": "https://drive.google.com/open?id=1UhiiJgk88n7igfAnXNAl7QlmhWonvfV3"
     }
   ]
 }
