@@ -1,8 +1,8 @@
 {
-  "ultimaAtualizacao": "2025-09-04T17:26:04.117Z",
-  "totalLivros": 11,
-  "totalExemplares": 16,
-  "totalDisponiveis": 16,
+  "ultimaAtualizacao": "2025-09-04T17:26:50.719Z",
+  "totalLivros": 12,
+  "totalExemplares": 18,
+  "totalDisponiveis": 18,
   "livros": [
     {
       "titulo": "Aprendendo a Amar e a Curar ",
@@ -157,6 +157,20 @@
       "localizacao": "Estante B, B3. Romance",
       "status": "Disponível",
       "capa": "https://drive.google.com/open?id=1aGwKdEmADsB-LVlVI0aUhZzH6kqsmgsN"
+    },
+    {
+      "titulo": "Poliana Moça ",
+      "autor": "Eleanor H. Porter",
+      "genero": "Romance",
+      "ano": 2019,
+      "editora": "Ciranda Cultural ",
+      "cidade": "Jandira SP",
+      "exemplares": 2,
+      "emprestados": 0,
+      "disponiveis": 2,
+      "localizacao": "Estante A, A3. Romance",
+      "status": "Disponível",
+      "capa": "https://drive.google.com/open?id=1inTBqt15iekMJfpN7aQt7LYLVYIHYwdS"
     }
   ]
 }
