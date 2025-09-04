@@ -1,8 +1,8 @@
 {
-  "ultimaAtualizacao": "2025-09-04T02:06:45.037Z",
-  "totalLivros": 4,
-  "totalExemplares": 5,
-  "totalDisponiveis": 5,
+  "ultimaAtualizacao": "2025-09-04T17:10:16.833Z",
+  "totalLivros": 5,
+  "totalExemplares": 6,
+  "totalDisponiveis": 6,
   "livros": [
     {
       "titulo": "Aprendendo a Amar e a Curar ",
@@ -59,6 +59,20 @@
       "localizacao": "Estante A, A1. Novela",
       "status": "Disponível",
       "capa": "https://drive.google.com/open?id=1iZNtc1vx6FpFfSMYVfTCShN1qnvP9L6M"
+    },
+    {
+      "titulo": "Mãe África",
+      "autor": "Celso Sisto",
+      "genero": "Romance",
+      "ano": 2007,
+      "editora": "Paulus",
+      "cidade": "São Paulo ",
+      "exemplares": 1,
+      "emprestados": 0,
+      "disponiveis": 1,
+      "localizacao": "Estante B, B1. Romance",
+      "status": "Disponível",
+      "capa": "https://drive.google.com/open?id=1h0G55UyifCtsfM2A_VehvXRcRGQTdFd7"
     }
   ]
 }
