@@ -272,10 +272,6 @@
     }
 
     function atualizarLista(dados) {
-      // Já não precisa corrigir caracteres
-      dados = dados;
-
-      
       const lista = document.getElementById('listaLivros');
       
       // Atualizar resumo
@@ -389,22 +385,16 @@
           throw new Error('Formato inválido do arquivo JSON. Esperada propriedade "livros" com array.');
         }
         
-        // Aplicar correção de caracteres
-        const dadosCorrigidos = {
-          livros: processarDadosComCorrecao(dados).livros || []
-        };
-        
         dadosCompletos = dados.livros;
-livrosAcervo = [...dadosCompletos];
-
-// Extrair gêneros únicos para o filtro
-extrairGeneros();
-
-// Preencher a lista de livros
-atualizarLista(dados);
+        livrosAcervo = [...dadosCompletos];
         
-    
-       mostrarMensagem('Dados carregados com sucesso!', 'success');
+        // Extrair gêneros únicos para o filtro
+        extrairGeneros();
+        
+        // Preencher a lista de livros
+        atualizarLista(dados);
+        
+        mostrarMensagem('Dados carregados com sucesso!', 'success');
         
       } catch (error) {
         console.error('Erro ao carregar dados:', error);
