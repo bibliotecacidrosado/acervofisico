@@ -1,8 +1,8 @@
 {
-  "ultimaAtualizacao": "2025-09-04T17:15:39.166Z",
-  "totalLivros": 7,
-  "totalExemplares": 11,
-  "totalDisponiveis": 11,
+  "ultimaAtualizacao": "2025-09-04T17:17:27.957Z",
+  "totalLivros": 8,
+  "totalExemplares": 12,
+  "totalDisponiveis": 12,
   "livros": [
     {
       "titulo": "Aprendendo a Amar e a Curar ",
@@ -101,6 +101,20 @@
       "localizacao": "Estante A, A2. Romance",
       "status": "Disponível",
       "capa": "https://drive.google.com/open?id=1gqJ0vFzQtQ3uvn52T9qEwwEaF6RAhO0C"
+    },
+    {
+      "titulo": "A Última Carta de Amor ",
+      "autor": "Jojo Moyes",
+      "genero": "Romance",
+      "ano": 2010,
+      "editora": "Intrínseca LTDA",
+      "cidade": "Rio de Janeiro ",
+      "exemplares": 1,
+      "emprestados": 0,
+      "disponiveis": 1,
+      "localizacao": "Estante A, A2. Romance",
+      "status": "Disponível",
+      "capa": "https://drive.google.com/open?id=1aFS316GkLtvjpEtJxa80S9L8zm0tlmzI"
     }
   ]
 }
