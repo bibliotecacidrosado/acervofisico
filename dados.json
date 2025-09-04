@@ -1,8 +1,8 @@
 {
-  "ultimaAtualizacao": "2025-09-04T17:27:44.147Z",
-  "totalLivros": 13,
-  "totalExemplares": 19,
-  "totalDisponiveis": 19,
+  "ultimaAtualizacao": "2025-09-04T17:29:51.706Z",
+  "totalLivros": 14,
+  "totalExemplares": 22,
+  "totalDisponiveis": 22,
   "livros": [
     {
       "titulo": "Aprendendo a Amar e a Curar ",
@@ -185,6 +185,20 @@
       "localizacao": "Estante B, B1. Romance",
       "status": "Disponível",
       "capa": "https://drive.google.com/open?id=1MPrUGNnqTuK4rWNc-qEQxIcZYdofu56z"
+    },
+    {
+      "titulo": "É assim que começa ",
+      "autor": "Colleen Hoover ",
+      "genero": "Romance",
+      "ano": 2022,
+      "editora": "Editora Galera Record Ltda ",
+      "cidade": "Rio de Janeiro ",
+      "exemplares": 3,
+      "emprestados": 0,
+      "disponiveis": 3,
+      "localizacao": "Estante B, B3. Romance",
+      "status": "Disponível",
+      "capa": "https://drive.google.com/open?id=12XJ-dWlbzLjdPV2anzHKnHGyuFoarVhc"
     }
   ]
 }
