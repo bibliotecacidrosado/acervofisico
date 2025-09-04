@@ -1,8 +1,8 @@
 {
-  "ultimaAtualizacao": "2025-09-04T20:11:30.120Z",
-  "totalLivros": 56,
-  "totalExemplares": 395,
-  "totalDisponiveis": 395,
+  "ultimaAtualizacao": "2025-09-04T20:12:41.659Z",
+  "totalLivros": 57,
+  "totalExemplares": 396,
+  "totalDisponiveis": 396,
   "livros": [
     {
       "titulo": "Aprendendo a Amar e a Curar ",
@@ -787,6 +787,20 @@
       "localizacao": "Estante D, D3. Formação Pedagógica",
       "status": "Disponível",
       "capa": "https://drive.google.com/open?id=1YLgGKs4n_XaxJdY_67JUVrQ30DTdgffi"
+    },
+    {
+      "titulo": "O Príncipe e o Mendigo",
+      "autor": "Mark Twain",
+      "genero": "Literatura Infantojuvenil",
+      "ano": 2012,
+      "editora": "Martin Claret",
+      "cidade": "São Paulo ",
+      "exemplares": 1,
+      "emprestados": 0,
+      "disponiveis": 1,
+      "localizacao": "Estante C, C4. Literatura Infantojuvenil",
+      "status": "Disponível",
+      "capa": "https://drive.google.com/open?id=1ANDE7eW1sHEkg9JtpxDK9VK_lRjctRAL"
     }
   ]
 }
