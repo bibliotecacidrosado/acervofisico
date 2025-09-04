@@ -1,8 +1,8 @@
 {
-  "ultimaAtualizacao": "2025-09-04T17:21:30.026Z",
-  "totalLivros": 9,
-  "totalExemplares": 13,
-  "totalDisponiveis": 13,
+  "ultimaAtualizacao": "2025-09-04T17:22:26.534Z",
+  "totalLivros": 10,
+  "totalExemplares": 15,
+  "totalDisponiveis": 15,
   "livros": [
     {
       "titulo": "Aprendendo a Amar e a Curar ",
@@ -129,6 +129,20 @@
       "localizacao": "Estante B, B1. Romance",
       "status": "Disponível",
       "capa": "https://drive.google.com/open?id=1lrzsyJ5hUlFepE-P0HjSdsUag3qfyVqL"
+    },
+    {
+      "titulo": "Uma Longa Jornada.",
+      "autor": "Nicholas Sparks.",
+      "genero": "Romance",
+      "ano": "2013.",
+      "editora": "Arqueiro Ltda.",
+      "cidade": "São Paulo ",
+      "exemplares": 2,
+      "emprestados": 0,
+      "disponiveis": 2,
+      "localizacao": "Estante A, A2. Romance",
+      "status": "Disponível",
+      "capa": "https://drive.google.com/open?id=1oO4cYq8xX4CmOCK5Dk33HWBJrTYSpReg"
     }
   ]
 }
