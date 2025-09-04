@@ -1,8 +1,8 @@
 {
-  "ultimaAtualizacao": "2025-09-04T20:07:02.809Z",
-  "totalLivros": 47,
-  "totalExemplares": 320,
-  "totalDisponiveis": 320,
+  "ultimaAtualizacao": "2025-09-04T20:07:22.186Z",
+  "totalLivros": 48,
+  "totalExemplares": 321,
+  "totalDisponiveis": 321,
   "livros": [
     {
       "titulo": "Aprendendo a Amar e a Curar ",
@@ -661,6 +661,20 @@
       "localizacao": "Estante C, C8. Literatura Infantojuvenil / Eu sou Malala / A face oculta / Malala, a menina que queria ir para a escola",
       "status": "Disponível",
       "capa": "https://drive.google.com/open?id=1MqCtP6N-NkH9GpAfHaXEt-K3E9PULMgT"
+    },
+    {
+      "titulo": "Não é amor",
+      "autor": "Ali Hazelwood",
+      "genero": "Romance",
+      "ano": 2024,
+      "editora": "Arqueiro",
+      "cidade": "São Paulo ",
+      "exemplares": 1,
+      "emprestados": 0,
+      "disponiveis": 1,
+      "localizacao": "Estante B, B2. Romance",
+      "status": "Disponível",
+      "capa": "https://drive.google.com/open?id=1AVNDtQZTNm4GorA3oZTnwoBJ27NTC8sA"
     }
   ]
 }
