@@ -1,8 +1,8 @@
 {
-  "ultimaAtualizacao": "2025-09-04T19:59:01.558Z",
-  "totalLivros": 42,
-  "totalExemplares": 232,
-  "totalDisponiveis": 232,
+  "ultimaAtualizacao": "2025-09-04T19:59:57.445Z",
+  "totalLivros": 43,
+  "totalExemplares": 236,
+  "totalDisponiveis": 236,
   "livros": [
     {
       "titulo": "Aprendendo a Amar e a Curar ",
@@ -591,6 +591,20 @@
       "localizacao": "Estante B, B6. Dicionário de L. Portuguesa",
       "status": "Disponível",
       "capa": "https://drive.google.com/open?id=1K-aMaRZYDnGNWtsSPmirSoNNlGKWq3to"
+    },
+    {
+      "titulo": "Helena",
+      "autor": "Machado de Assis ",
+      "genero": "Romance",
+      "ano": 2002,
+      "editora": "Ática",
+      "cidade": "São Paulo ",
+      "exemplares": 4,
+      "emprestados": 0,
+      "disponiveis": 4,
+      "localizacao": "Estante A, A6. Romance / Machado de Assis",
+      "status": "Disponível",
+      "capa": "https://drive.google.com/open?id=1Uj38kjDA3iiXlFEMrDjPiK_C4ZWenHuJ"
     }
   ]
 }
