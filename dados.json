@@ -1,8 +1,8 @@
 {
-  "ultimaAtualizacao": "2025-09-04T17:15:21.434Z",
-  "totalLivros": 6,
-  "totalExemplares": 7,
-  "totalDisponiveis": 7,
+  "ultimaAtualizacao": "2025-09-04T17:15:39.166Z",
+  "totalLivros": 7,
+  "totalExemplares": 11,
+  "totalDisponiveis": 11,
   "livros": [
     {
       "titulo": "Aprendendo a Amar e a Curar ",
@@ -87,6 +87,20 @@
       "localizacao": "Estante B, B1. Romance",
       "status": "Disponível",
       "capa": "https://drive.google.com/open?id=1VHYwiQqAVpFWibpNHwX6FvGeSxjgQGN2"
+    },
+    {
+      "titulo": "O Melhor de Mim ",
+      "autor": "Nicholas Sparks",
+      "genero": "Romance",
+      "ano": 2011,
+      "editora": "Arqueiro Ltda.",
+      "cidade": "São Paulo ",
+      "exemplares": 4,
+      "emprestados": 0,
+      "disponiveis": 4,
+      "localizacao": "Estante A, A2. Romance",
+      "status": "Disponível",
+      "capa": "https://drive.google.com/open?id=1gqJ0vFzQtQ3uvn52T9qEwwEaF6RAhO0C"
     }
   ]
 }
