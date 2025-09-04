@@ -1,8 +1,8 @@
 {
-  "ultimaAtualizacao": "2025-09-04T20:12:41.659Z",
-  "totalLivros": 57,
-  "totalExemplares": 396,
-  "totalDisponiveis": 396,
+  "ultimaAtualizacao": "2025-09-04T20:14:23.828Z",
+  "totalLivros": 58,
+  "totalExemplares": 444,
+  "totalDisponiveis": 444,
   "livros": [
     {
       "titulo": "Aprendendo a Amar e a Curar ",
@@ -801,6 +801,20 @@
       "localizacao": "Estante C, C4. Literatura Infantojuvenil",
       "status": "Disponível",
       "capa": "https://drive.google.com/open?id=1ANDE7eW1sHEkg9JtpxDK9VK_lRjctRAL"
+    },
+    {
+      "titulo": "Malala",
+      "autor": "Adriana Carranca",
+      "genero": "Literatura Infantojuvenil",
+      "ano": 2018,
+      "editora": "Companhia das letrinhas ",
+      "cidade": "São Paulo ",
+      "exemplares": 48,
+      "emprestados": 0,
+      "disponiveis": 48,
+      "localizacao": "Estante C, C8. Literatura Infantojuvenil / Eu sou Malala / A face oculta / Malala, a menina que queria ir para a escola",
+      "status": "Disponível",
+      "capa": "https://drive.google.com/open?id=1U6sHmuxBn2NZgvI5tPOby9sWlWTfT4Gm"
     }
   ]
 }
