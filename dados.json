@@ -1,8 +1,8 @@
 {
-  "ultimaAtualizacao": "2025-09-04T17:17:27.957Z",
-  "totalLivros": 8,
-  "totalExemplares": 12,
-  "totalDisponiveis": 12,
+  "ultimaAtualizacao": "2025-09-04T17:21:30.026Z",
+  "totalLivros": 9,
+  "totalExemplares": 13,
+  "totalDisponiveis": 13,
   "livros": [
     {
       "titulo": "Aprendendo a Amar e a Curar ",
@@ -115,6 +115,20 @@
       "localizacao": "Estante A, A2. Romance",
       "status": "Disponível",
       "capa": "https://drive.google.com/open?id=1aFS316GkLtvjpEtJxa80S9L8zm0tlmzI"
+    },
+    {
+      "titulo": "Terra Somâmbula",
+      "autor": "Mia Couto",
+      "genero": "Romance",
+      "ano": 1992,
+      "editora": "Caminho",
+      "cidade": "Lisboa",
+      "exemplares": 1,
+      "emprestados": 0,
+      "disponiveis": 1,
+      "localizacao": "Estante B, B1. Romance",
+      "status": "Disponível",
+      "capa": "https://drive.google.com/open?id=1lrzsyJ5hUlFepE-P0HjSdsUag3qfyVqL"
     }
   ]
 }
