@@ -1,8 +1,8 @@
 {
-  "ultimaAtualizacao": "2025-09-04T17:44:05.553Z",
-  "totalLivros": 23,
-  "totalExemplares": 40,
-  "totalDisponiveis": 40,
+  "ultimaAtualizacao": "2025-09-04T17:44:18.354Z",
+  "totalLivros": 24,
+  "totalExemplares": 50,
+  "totalDisponiveis": 50,
   "livros": [
     {
       "titulo": "Aprendendo a Amar e a Curar ",
@@ -325,6 +325,20 @@
       "localizacao": "Estante A, A4. Romance",
       "status": "Disponível",
       "capa": "https://drive.google.com/open?id=1MvYNzqGK66m2aGP-Oyp2f0aiSk022f87"
+    },
+    {
+      "titulo": "Eu e os Outros ",
+      "autor": "Liliane Iacocca, Michele Iacocca",
+      "genero": "Literatura Infantojuvenil",
+      "ano": 2002,
+      "editora": "Lenice Bueno da Silva ",
+      "cidade": "São Paulo ",
+      "exemplares": 10,
+      "emprestados": 0,
+      "disponiveis": 10,
+      "localizacao": "Estante C, C2. Literatura Infantojuvenil",
+      "status": "Disponível",
+      "capa": "https://drive.google.com/open?id=1qpHKmrR4uz0eiJ633vjS7hrFBtkc32ea"
     }
   ]
 }
