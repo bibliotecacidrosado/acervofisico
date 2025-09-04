@@ -1,8 +1,8 @@
 {
-  "ultimaAtualizacao": "2025-09-04T17:10:16.833Z",
-  "totalLivros": 5,
-  "totalExemplares": 6,
-  "totalDisponiveis": 6,
+  "ultimaAtualizacao": "2025-09-04T17:15:21.434Z",
+  "totalLivros": 6,
+  "totalExemplares": 7,
+  "totalDisponiveis": 7,
   "livros": [
     {
       "titulo": "Aprendendo a Amar e a Curar ",
@@ -73,6 +73,20 @@
       "localizacao": "Estante B, B1. Romance",
       "status": "Disponível",
       "capa": "https://drive.google.com/open?id=1h0G55UyifCtsfM2A_VehvXRcRGQTdFd7"
+    },
+    {
+      "titulo": "Alice",
+      "autor": "Lewis Carroll",
+      "genero": "Romance",
+      "ano": 2000,
+      "editora": "W.W. Norton",
+      "cidade": "Nova York",
+      "exemplares": 1,
+      "emprestados": 0,
+      "disponiveis": 1,
+      "localizacao": "Estante B, B1. Romance",
+      "status": "Disponível",
+      "capa": "https://drive.google.com/open?id=1VHYwiQqAVpFWibpNHwX6FvGeSxjgQGN2"
     }
   ]
 }
