@@ -1,8 +1,8 @@
 {
-  "ultimaAtualizacao": "2025-09-04T19:50:13.057Z",
-  "totalLivros": 31,
-  "totalExemplares": 152,
-  "totalDisponiveis": 152,
+  "ultimaAtualizacao": "2025-09-04T19:50:57.215Z",
+  "totalLivros": 32,
+  "totalExemplares": 173,
+  "totalDisponiveis": 173,
   "livros": [
     {
       "titulo": "Aprendendo a Amar e a Curar ",
@@ -437,6 +437,20 @@
       "localizacao": "Estante C, C7. Literatura Infantojuvenil / Torto Arado / Carta à minha filha",
       "status": "Disponível",
       "capa": "https://drive.google.com/open?id=1Qc_Ud-836hSdhLFgBLaw82rmymE6P0N8"
+    },
+    {
+      "titulo": "Memórias póstumas de brás Cubas ",
+      "autor": "Machado de Assis",
+      "genero": "Romance",
+      "ano": 2017,
+      "editora": "Ciranda Cultura ",
+      "cidade": "Franca ",
+      "exemplares": 21,
+      "emprestados": 0,
+      "disponiveis": 21,
+      "localizacao": "Estante A, A6. Romance / Machado de Assis",
+      "status": "Disponível",
+      "capa": "https://drive.google.com/open?id=138NofW_v18sbAgFKY6J5RNro7zTGHEft"
     }
   ]
 }
