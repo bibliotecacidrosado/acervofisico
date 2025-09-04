@@ -1,8 +1,8 @@
 {
-  "ultimaAtualizacao": "2025-09-04T20:07:22.186Z",
-  "totalLivros": 48,
-  "totalExemplares": 321,
-  "totalDisponiveis": 321,
+  "ultimaAtualizacao": "2025-09-04T20:07:34.050Z",
+  "totalLivros": 49,
+  "totalExemplares": 322,
+  "totalDisponiveis": 322,
   "livros": [
     {
       "titulo": "Aprendendo a Amar e a Curar ",
@@ -675,6 +675,20 @@
       "localizacao": "Estante B, B2. Romance",
       "status": "Disponível",
       "capa": "https://drive.google.com/open?id=1AVNDtQZTNm4GorA3oZTnwoBJ27NTC8sA"
+    },
+    {
+      "titulo": "Iracema ",
+      "autor": "José de Alencar ",
+      "genero": "Literatura Infantojuvenil",
+      "ano": 2021,
+      "editora": "Ateliê ",
+      "cidade": "São Paulo ",
+      "exemplares": 1,
+      "emprestados": 0,
+      "disponiveis": 1,
+      "localizacao": "Corredor H, CoH. Literatura Infantojuvenil",
+      "status": "Disponível",
+      "capa": "https://drive.google.com/open?id=1rPAerY2dEejuWQ2JtRUA3w3gzfXOdIIO"
     }
   ]
 }
