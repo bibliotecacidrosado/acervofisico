@@ -1,8 +1,8 @@
 {
-  "ultimaAtualizacao": "2025-09-04T20:07:45.767Z",
-  "totalLivros": 50,
-  "totalExemplares": 372,
-  "totalDisponiveis": 372,
+  "ultimaAtualizacao": "2025-09-04T20:07:48.634Z",
+  "totalLivros": 51,
+  "totalExemplares": 373,
+  "totalDisponiveis": 373,
   "livros": [
     {
       "titulo": "Aprendendo a Amar e a Curar ",
@@ -703,6 +703,20 @@
       "localizacao": "Estante C, C10. A história de amor de Frnando e Isaura",
       "status": "Disponível",
       "capa": "https://drive.google.com/open?id=1UhiiJgk88n7igfAnXNAl7QlmhWonvfV3"
+    },
+    {
+      "titulo": "Bridget Jones/ Louca pelo garoto",
+      "autor": "Helen Fielding",
+      "genero": "Romance",
+      "ano": 2013,
+      "editora": "Schwarcz s.a.",
+      "cidade": "São Paulo ",
+      "exemplares": 1,
+      "emprestados": 0,
+      "disponiveis": 1,
+      "localizacao": "Estante A, A2. Romance",
+      "status": "Disponível",
+      "capa": "https://drive.google.com/open?id=1I0_m_uhdM5nBtWE2qcLZLcAEEojIWEIQ"
     }
   ]
 }
