@@ -1,8 +1,8 @@
 {
-  "ultimaAtualizacao": "2025-09-04T17:39:32.618Z",
-  "totalLivros": 19,
-  "totalExemplares": 36,
-  "totalDisponiveis": 36,
+  "ultimaAtualizacao": "2025-09-04T17:40:25.567Z",
+  "totalLivros": 21,
+  "totalExemplares": 38,
+  "totalDisponiveis": 38,
   "livros": [
     {
       "titulo": "Aprendendo a Amar e a Curar ",
@@ -269,6 +269,34 @@
       "localizacao": "Estante A, A3. Romance",
       "status": "Disponível",
       "capa": "https://drive.google.com/open?id=1DOBNesmgHc0GtNM88p-MHWqt-5JpzbyX"
+    },
+    {
+      "titulo": "Viagem ao Centro da Terra ",
+      "autor": "Júlio Verne ",
+      "genero": "Romance",
+      "ano": "Não informado",
+      "editora": "Nova Fronteira Participações S.A",
+      "cidade": "Rio de Janeiro ",
+      "exemplares": 1,
+      "emprestados": 0,
+      "disponiveis": 1,
+      "localizacao": "Estante B, B1. Romance",
+      "status": "Disponível",
+      "capa": "https://drive.google.com/open?id=1ElKFUNtm9x4Vk4Pf3VINcHgsvk2bab_D"
+    },
+    {
+      "titulo": "O Negro no Brasil",
+      "autor": "Carolina Viana Dantas, Hebe Mattos, Marta Abreu",
+      "genero": "Literatura Infantojuvenil",
+      "ano": 2012,
+      "editora": "OBJETIVA LTDA",
+      "cidade": "Rio de Janeiro",
+      "exemplares": 1,
+      "emprestados": 0,
+      "disponiveis": 1,
+      "localizacao": "Estante C, C4. Literatura Infantojuvenil",
+      "status": "Disponível",
+      "capa": "https://drive.google.com/open?id=1Wvn6hfBBDH7VsSsAYYnLRbJfragMszjV"
     }
   ]
 }
