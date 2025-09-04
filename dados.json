@@ -1,8 +1,8 @@
 {
-  "ultimaAtualizacao": "2025-09-04T17:36:46.610Z",
-  "totalLivros": 17,
-  "totalExemplares": 34,
-  "totalDisponiveis": 34,
+  "ultimaAtualizacao": "2025-09-04T17:39:16.681Z",
+  "totalLivros": 18,
+  "totalExemplares": 35,
+  "totalDisponiveis": 35,
   "livros": [
     {
       "titulo": "Aprendendo a Amar e a Curar ",
@@ -241,6 +241,20 @@
       "localizacao": "Estante B, B3. Romance",
       "status": "Disponível",
       "capa": "https://drive.google.com/open?id=1QysSWFORX_QHGPY46OIiFMb82m398HR4"
+    },
+    {
+      "titulo": "A Culpa é das Estrelas ",
+      "autor": "John Green",
+      "genero": "Romance",
+      "ano": 2012,
+      "editora": "Intrínseca LTDA ",
+      "cidade": "Rio de Janeiro ",
+      "exemplares": 1,
+      "emprestados": 0,
+      "disponiveis": 1,
+      "localizacao": "Estante A, A2. Romance",
+      "status": "Disponível",
+      "capa": "https://drive.google.com/open?id=1qR__cLgSUCJnDDVEyz_UXZYAJoh1Izw0"
     }
   ]
 }
