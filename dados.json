@@ -1,8 +1,8 @@
 {
-  "ultimaAtualizacao": "2025-09-04T20:10:53.054Z",
-  "totalLivros": 54,
-  "totalExemplares": 393,
-  "totalDisponiveis": 393,
+  "ultimaAtualizacao": "2025-09-04T20:11:12.338Z",
+  "totalLivros": 55,
+  "totalExemplares": 394,
+  "totalDisponiveis": 394,
   "livros": [
     {
       "titulo": "Aprendendo a Amar e a Curar ",
@@ -759,6 +759,20 @@
       "localizacao": "Estante B, B1. Romance",
       "status": "Disponível",
       "capa": "https://drive.google.com/open?id=1MvFuBqtFRIlVysSIunjY64S_yb3J__eA"
+    },
+    {
+      "titulo": "O símbolo perdido ",
+      "autor": "Dan Brown",
+      "genero": "Romance",
+      "ano": 2009,
+      "editora": "Sextante",
+      "cidade": "Rio de Janeiro ",
+      "exemplares": 1,
+      "emprestados": 0,
+      "disponiveis": 1,
+      "localizacao": "Estante A, A2. Romance",
+      "status": "Disponível",
+      "capa": "https://drive.google.com/open?id=12slo2aYx5bGkKozSNLDpi3U7PH7T1IFp"
     }
   ]
 }
