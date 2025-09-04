@@ -123,20 +123,6 @@
     </div>
   </div>
 
-  <!-- Botão de ordenar para mobile -->
-  <div class="ordenar-container">
-    <label for="ordenarSelect">Ordenar por:</label>
-    <select id="ordenarSelect" onchange="ordenarPorSelecao()">
-      <option value="">--Selecione--</option>
-      <option value="titulo">Título</option>
-      <option value="autor">Autor</option>
-      <option value="genero">Gênero</option>
-      <option value="localizacao">Localização</option>
-      <option value="status">Status</option>
-    </select>
-    <button onclick="alternarOrdem()">Alternar Ordem ▲▼</button>
-  </div>
-
   <div class="lista-container">
     <div class="cabecalho">
       <span onclick="ordenarColuna('titulo')">Título</span>
@@ -270,21 +256,7 @@
       ordenarLista();
     }
 
-    function ordenarPorSelecao() {
-      const select = document.getElementById('ordenarSelect');
-      const coluna = select.value;
-      if (!coluna) return;
-      colunaOrdenacaoAtual = coluna;
-      ordemAscendente = true;
-      ordenarLista();
-    }
-
-    function alternarOrdem() {
-      ordemAscendente = !ordemAscendente;
-      ordenarLista();
-    }
-
-    async function carregarDados() {
+   async function carregarDados() {
       try {
         mostrarMensagem('Carregando dados do acervo...', 'loading');
         const response = await fetch(URL_JSON);
