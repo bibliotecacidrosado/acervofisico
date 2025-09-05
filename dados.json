@@ -1,8 +1,8 @@
 {
-  "ultimaAtualizacao": "2025-09-04T20:17:54.998Z",
-  "totalLivros": 60,
-  "totalExemplares": 473,
-  "totalDisponiveis": 473,
+  "ultimaAtualizacao": "2025-09-05T17:47:06.002Z",
+  "totalLivros": 61,
+  "totalExemplares": 474,
+  "totalDisponiveis": 474,
   "livros": [
     {
       "titulo": "Aprendendo a Amar e a Curar ",
@@ -843,6 +843,20 @@
       "localizacao": "Estante A, A9. Biografia",
       "status": "Disponível",
       "capa": "https://drive.google.com/open?id=1r3Kb5TihE3JLGBRItgq8Q380oN0PP10W"
+    },
+    {
+      "titulo": "O Retrato de Dorian Gray ",
+      "autor": "Oscar Wilde ",
+      "genero": "Romance",
+      "ano": 2020,
+      "editora": "Principis",
+      "cidade": "Jandira",
+      "exemplares": 1,
+      "emprestados": 0,
+      "disponiveis": 1,
+      "localizacao": "Estante B, B1. Romance",
+      "status": "Disponível",
+      "capa": "https://drive.google.com/open?id=1XQ8n_Kru48JWm5QNC8zuMg7VfyzCq7lF"
     }
   ]
 }
