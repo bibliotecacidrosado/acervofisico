@@ -1,8 +1,8 @@
 {
-  "ultimaAtualizacao": "2025-09-09T18:55:25.613Z",
-  "totalLivros": 78,
-  "totalExemplares": 567,
-  "totalDisponiveis": 567,
+  "ultimaAtualizacao": "2025-09-09T18:55:48.852Z",
+  "totalLivros": 79,
+  "totalExemplares": 568,
+  "totalDisponiveis": 568,
   "livros": [
     {
       "titulo": "Aprendendo a Amar e a Curar ",
@@ -1095,6 +1095,20 @@
       "localizacao": "Estante B, B1. Romance",
       "status": "Disponível",
       "capa": "https://drive.google.com/open?id=1xoZe0bGecgJUGu5bs37JgbjN0pTMd1Um"
+    },
+    {
+      "titulo": "Arséne Lupin e o Estilhaco De Obus",
+      "autor": "Maurice Leblanc",
+      "genero": "Romance",
+      "ano": 2021,
+      "editora": "Princips",
+      "cidade": "São Paulo ",
+      "exemplares": 1,
+      "emprestados": 0,
+      "disponiveis": 1,
+      "localizacao": "Estante B, B1. Romance",
+      "status": "Disponível",
+      "capa": "https://drive.google.com/open?id=1l55oLeMFNRFOnGd2t3ye4GYZk0N9BWeV"
     }
   ]
 }
