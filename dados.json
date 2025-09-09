@@ -1,8 +1,8 @@
 {
-  "ultimaAtualizacao": "2025-09-09T18:16:56.675Z",
-  "totalLivros": 73,
-  "totalExemplares": 555,
-  "totalDisponiveis": 555,
+  "ultimaAtualizacao": "2025-09-09T18:20:33.464Z",
+  "totalLivros": 74,
+  "totalExemplares": 556,
+  "totalDisponiveis": 556,
   "livros": [
     {
       "titulo": "Aprendendo a Amar e a Curar ",
@@ -1025,6 +1025,20 @@
       "localizacao": "Estante A, A1. Novela",
       "status": "Disponível",
       "capa": "https://drive.google.com/open?id=1Q7-DJhkTRDP8mEkrRmwP9ZfHLYQzwC0R"
+    },
+    {
+      "titulo": "A árvore que dava dinheiro ",
+      "autor": "Domingos Pellegrini",
+      "genero": "Novela",
+      "ano": 2001,
+      "editora": "Ática",
+      "cidade": "São Paulo ",
+      "exemplares": 1,
+      "emprestados": 0,
+      "disponiveis": 1,
+      "localizacao": "Estante A, A1. Novela",
+      "status": "Disponível",
+      "capa": "https://drive.google.com/open?id=1PtOmpe9FDH7vc930vVC1wvtdAACMjY3T"
     }
   ]
 }
