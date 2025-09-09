@@ -1,8 +1,8 @@
 {
-  "ultimaAtualizacao": "2025-09-09T19:23:48.636Z",
-  "totalLivros": 96,
-  "totalExemplares": 586,
-  "totalDisponiveis": 586,
+  "ultimaAtualizacao": "2025-09-09T19:24:12.033Z",
+  "totalLivros": 97,
+  "totalExemplares": 587,
+  "totalDisponiveis": 587,
   "livros": [
     {
       "titulo": "Aprendendo a Amar e a Curar ",
@@ -1347,6 +1347,20 @@
       "localizacao": "Estante A, A1. Novela",
       "status": "Disponível",
       "capa": "https://drive.google.com/open?id=12szV9agVF9fjkrd3vqIyEi2Hrw1IYl9k"
+    },
+    {
+      "titulo": "Belo Desastre",
+      "autor": "Jamie McGuire",
+      "genero": "Romance",
+      "ano": 2011,
+      "editora": "Verus ",
+      "cidade": "São Paulo ",
+      "exemplares": 1,
+      "emprestados": 0,
+      "disponiveis": 1,
+      "localizacao": "Estante B, B1. Romance",
+      "status": "Disponível",
+      "capa": "https://drive.google.com/open?id=1Jam5OUF1yC5AwWljkMkLbwdKUj9NHdUG"
     }
   ]
 }
