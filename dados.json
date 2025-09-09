@@ -1,8 +1,8 @@
 {
-  "ultimaAtualizacao": "2025-09-09T18:49:47.429Z",
-  "totalLivros": 75,
-  "totalExemplares": 557,
-  "totalDisponiveis": 557,
+  "ultimaAtualizacao": "2025-09-09T18:51:52.431Z",
+  "totalLivros": 76,
+  "totalExemplares": 558,
+  "totalDisponiveis": 558,
   "livros": [
     {
       "titulo": "Aprendendo a Amar e a Curar ",
@@ -1053,6 +1053,20 @@
       "localizacao": "Estante A, A1. Novela",
       "status": "Disponível",
       "capa": "https://drive.google.com/open?id=1kmC4n7nIMWo37haxtIgiI5Kho01vHjs-"
+    },
+    {
+      "titulo": "Arséne Lupin e a ilha dos trintas caixões l",
+      "autor": "Maurice Leblanc",
+      "genero": "Romance",
+      "ano": 2021,
+      "editora": "Princips",
+      "cidade": "Sao Paulo",
+      "exemplares": 1,
+      "emprestados": 0,
+      "disponiveis": 1,
+      "localizacao": "Estante B, B1. Romance",
+      "status": "Disponível",
+      "capa": "https://drive.google.com/open?id=1SpVf3lgQCIPmiq3U-zWunIc4RQteEbSc"
     }
   ]
 }
