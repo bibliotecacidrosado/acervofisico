@@ -1,8 +1,8 @@
 {
-  "ultimaAtualizacao": "2025-09-09T18:20:33.464Z",
-  "totalLivros": 74,
-  "totalExemplares": 556,
-  "totalDisponiveis": 556,
+  "ultimaAtualizacao": "2025-09-09T18:49:47.429Z",
+  "totalLivros": 75,
+  "totalExemplares": 557,
+  "totalDisponiveis": 557,
   "livros": [
     {
       "titulo": "Aprendendo a Amar e a Curar ",
@@ -1039,6 +1039,20 @@
       "localizacao": "Estante A, A1. Novela",
       "status": "Disponível",
       "capa": "https://drive.google.com/open?id=1PtOmpe9FDH7vc930vVC1wvtdAACMjY3T"
+    },
+    {
+      "titulo": "Dos 70 aos 60 uma novela familiar ",
+      "autor": "Haim Grünspun",
+      "genero": "Novela",
+      "ano": 1995,
+      "editora": "Marco zero",
+      "cidade": "São Paulo ",
+      "exemplares": 1,
+      "emprestados": 0,
+      "disponiveis": 1,
+      "localizacao": "Estante A, A1. Novela",
+      "status": "Disponível",
+      "capa": "https://drive.google.com/open?id=1kmC4n7nIMWo37haxtIgiI5Kho01vHjs-"
     }
   ]
 }
