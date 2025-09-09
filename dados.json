@@ -1,8 +1,8 @@
 {
-  "ultimaAtualizacao": "2025-09-09T18:59:03.985Z",
-  "totalLivros": 80,
-  "totalExemplares": 569,
-  "totalDisponiveis": 569,
+  "ultimaAtualizacao": "2025-09-09T18:59:47.694Z",
+  "totalLivros": 81,
+  "totalExemplares": 571,
+  "totalDisponiveis": 571,
   "livros": [
     {
       "titulo": "Aprendendo a Amar e a Curar ",
@@ -1123,6 +1123,20 @@
       "localizacao": "Estante B, B1. Romance",
       "status": "Disponível",
       "capa": "https://drive.google.com/open?id=1_WZfE8Nm88CobR7hkEJDJJjPMCHqfwFf"
+    },
+    {
+      "titulo": "A ilha do tesouro",
+      "autor": "Robert Louis Stevenson",
+      "genero": "Novela",
+      "ano": 2001,
+      "editora": "Ática",
+      "cidade": "São Paulo ",
+      "exemplares": 2,
+      "emprestados": 0,
+      "disponiveis": 2,
+      "localizacao": "Estante A, A1. Novela",
+      "status": "Disponível",
+      "capa": "https://drive.google.com/open?id=1dfyAIOEVMYoqL_ldEUUVefedfvxQYqCa"
     }
   ]
 }
