@@ -1,8 +1,8 @@
 {
-  "ultimaAtualizacao": "2025-09-09T19:26:00.594Z",
-  "totalLivros": 98,
-  "totalExemplares": 588,
-  "totalDisponiveis": 588,
+  "ultimaAtualizacao": "2025-09-09T19:28:11.918Z",
+  "totalLivros": 99,
+  "totalExemplares": 589,
+  "totalDisponiveis": 589,
   "livros": [
     {
       "titulo": "Aprendendo a Amar e a Curar ",
@@ -1375,6 +1375,20 @@
       "localizacao": "Estante B, B1. Romance",
       "status": "Disponível",
       "capa": "https://drive.google.com/open?id=1U9eFIFoB_sl8K_GzGBJ8qC25vK7uanYf"
+    },
+    {
+      "titulo": "Minhas memórias de Lobato",
+      "autor": "Luciana Sandroni",
+      "genero": "Novela",
+      "ano": 1997,
+      "editora": "Companhia das letrinhas ",
+      "cidade": "São Paulo ",
+      "exemplares": 1,
+      "emprestados": 0,
+      "disponiveis": 1,
+      "localizacao": "Estante A, A1. Novela",
+      "status": "Disponível",
+      "capa": "https://drive.google.com/open?id=1GCOuDoOzcAxITYHhEGyklBXcyzDOO15n"
     }
   ]
 }
