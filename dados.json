@@ -1,8 +1,8 @@
 {
-  "ultimaAtualizacao": "2025-09-09T18:01:47.744Z",
-  "totalLivros": 66,
-  "totalExemplares": 480,
-  "totalDisponiveis": 480,
+  "ultimaAtualizacao": "2025-09-09T18:06:55.648Z",
+  "totalLivros": 67,
+  "totalExemplares": 549,
+  "totalDisponiveis": 549,
   "livros": [
     {
       "titulo": "Aprendendo a Amar e a Curar ",
@@ -927,6 +927,20 @@
       "localizacao": "Estante B, B2. Romance",
       "status": "Disponível",
       "capa": "https://drive.google.com/open?id=1i-ZCeQNAmXWn3zo7PE2qiVboHKfuperF"
+    },
+    {
+      "titulo": "Amar é uma conexão discada",
+      "autor": "Saulo Dourado",
+      "genero": "Novela",
+      "ano": 2017,
+      "editora": "Fb publicações ",
+      "cidade": "Salvador ",
+      "exemplares": 69,
+      "emprestados": 0,
+      "disponiveis": 69,
+      "localizacao": "Estante A, A1. Novela",
+      "status": "Disponível",
+      "capa": "https://drive.google.com/open?id=10gUdgKyCqPBHZtok9_tQmynDZyIKzGiO"
     }
   ]
 }
