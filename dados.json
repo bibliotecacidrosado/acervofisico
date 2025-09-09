@@ -1,8 +1,8 @@
 {
-  "ultimaAtualizacao": "2025-09-05T17:47:06.002Z",
-  "totalLivros": 61,
-  "totalExemplares": 474,
-  "totalDisponiveis": 474,
+  "ultimaAtualizacao": "2025-09-09T17:53:07.346Z",
+  "totalLivros": 62,
+  "totalExemplares": 475,
+  "totalDisponiveis": 475,
   "livros": [
     {
       "titulo": "Aprendendo a Amar e a Curar ",
@@ -857,6 +857,20 @@
       "localizacao": "Estante B, B1. Romance",
       "status": "Disponível",
       "capa": "https://drive.google.com/open?id=1XQ8n_Kru48JWm5QNC8zuMg7VfyzCq7lF"
+    },
+    {
+      "titulo": "Vila dos Confins",
+      "autor": "Mário Palmério",
+      "genero": "Romance",
+      "ano": 2003,
+      "editora": "José Olympio",
+      "cidade": "Rio de Janeiro",
+      "exemplares": 1,
+      "emprestados": 0,
+      "disponiveis": 1,
+      "localizacao": "Estante A, A2. Romance",
+      "status": "Disponível",
+      "capa": "https://drive.google.com/open?id=1n3vaDrI4L1Rrm5keLc2mMQsg9f8I-jPu"
     }
   ]
 }
