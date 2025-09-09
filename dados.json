@@ -1,8 +1,8 @@
 {
-  "ultimaAtualizacao": "2025-09-09T18:51:52.431Z",
-  "totalLivros": 76,
-  "totalExemplares": 558,
-  "totalDisponiveis": 558,
+  "ultimaAtualizacao": "2025-09-09T18:55:24.494Z",
+  "totalLivros": 78,
+  "totalExemplares": 567,
+  "totalDisponiveis": 567,
   "livros": [
     {
       "titulo": "Aprendendo a Amar e a Curar ",
@@ -1067,6 +1067,34 @@
       "localizacao": "Estante B, B1. Romance",
       "status": "Disponível",
       "capa": "https://drive.google.com/open?id=1SpVf3lgQCIPmiq3U-zWunIc4RQteEbSc"
+    },
+    {
+      "titulo": "Madalena",
+      "autor": "Cristiane Dantas",
+      "genero": "Novela",
+      "ano": 2006,
+      "editora": "Ministério da educação ",
+      "cidade": "Brasília ",
+      "exemplares": 8,
+      "emprestados": 0,
+      "disponiveis": 8,
+      "localizacao": "Estante A, A1. Novela",
+      "status": "Disponível",
+      "capa": "https://drive.google.com/open?id=1isjYO9_ePSUiUtAlEIjqdVL9FwY3RPDz"
+    },
+    {
+      "titulo": "Mãe África ",
+      "autor": "Celso Sisto ",
+      "genero": "Romance",
+      "ano": 2008,
+      "editora": "Paulus",
+      "cidade": "São Paulo ",
+      "exemplares": 1,
+      "emprestados": 0,
+      "disponiveis": 1,
+      "localizacao": "Estante B, B1. Romance",
+      "status": "Disponível",
+      "capa": "https://drive.google.com/open?id=1xoZe0bGecgJUGu5bs37JgbjN0pTMd1Um"
     }
   ]
 }
