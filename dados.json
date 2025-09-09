@@ -1,8 +1,8 @@
 {
-  "ultimaAtualizacao": "2025-09-09T19:06:38.772Z",
-  "totalLivros": 86,
-  "totalExemplares": 576,
-  "totalDisponiveis": 576,
+  "ultimaAtualizacao": "2025-09-09T19:07:45.706Z",
+  "totalLivros": 87,
+  "totalExemplares": 577,
+  "totalDisponiveis": 577,
   "livros": [
     {
       "titulo": "Aprendendo a Amar e a Curar ",
@@ -1207,6 +1207,20 @@
       "localizacao": "Estante B, B1. Romance",
       "status": "Disponível",
       "capa": "https://drive.google.com/open?id=1pBmLazPP2_XemkCvCE_LFJmDH89dpfhl"
+    },
+    {
+      "titulo": "Se ele tivesse comigo ",
+      "autor": "Laura Nowlin",
+      "genero": "Romance",
+      "ano": 2023,
+      "editora": "Harper collins",
+      "cidade": "Rio de Janeiro ",
+      "exemplares": 1,
+      "emprestados": 0,
+      "disponiveis": 1,
+      "localizacao": "Estante B, B1. Romance",
+      "status": "Disponível",
+      "capa": "https://drive.google.com/open?id=15nRLDcQX03n13elQ8bCwRxSU1zdkBjU0"
     }
   ]
 }
