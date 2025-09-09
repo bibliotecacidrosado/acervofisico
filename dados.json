@@ -1,8 +1,8 @@
 {
-  "ultimaAtualizacao": "2025-09-09T19:09:32.794Z",
-  "totalLivros": 89,
-  "totalExemplares": 579,
-  "totalDisponiveis": 579,
+  "ultimaAtualizacao": "2025-09-09T19:13:18.270Z",
+  "totalLivros": 90,
+  "totalExemplares": 580,
+  "totalDisponiveis": 580,
   "livros": [
     {
       "titulo": "Aprendendo a Amar e a Curar ",
@@ -1249,6 +1249,20 @@
       "localizacao": "Estante B, B1. Romance",
       "status": "Disponível",
       "capa": "https://drive.google.com/open?id=1ZFAjX2jTxnjciDPus3Afr-ecKsOfuJx3"
+    },
+    {
+      "titulo": "Orgulho e preconceito ",
+      "autor": "Jane Austen",
+      "genero": "Romance",
+      "ano": 2019,
+      "editora": "Principis ",
+      "cidade": "Jandira-SP",
+      "exemplares": 1,
+      "emprestados": 0,
+      "disponiveis": 1,
+      "localizacao": "Estante B, B1. Romance",
+      "status": "Disponível",
+      "capa": "https://drive.google.com/open?id=1p2sodIOTr0pXalnJG_ox6wv-tEjs13as"
     }
   ]
 }
