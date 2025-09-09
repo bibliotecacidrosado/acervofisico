@@ -1,8 +1,8 @@
 {
-  "ultimaAtualizacao": "2025-09-09T19:21:03.348Z",
-  "totalLivros": 94,
-  "totalExemplares": 584,
-  "totalDisponiveis": 584,
+  "ultimaAtualizacao": "2025-09-09T19:23:18.924Z",
+  "totalLivros": 95,
+  "totalExemplares": 585,
+  "totalDisponiveis": 585,
   "livros": [
     {
       "titulo": "Aprendendo a Amar e a Curar ",
@@ -1319,6 +1319,20 @@
       "localizacao": "Estante B, B1. Romance",
       "status": "Disponível",
       "capa": "https://drive.google.com/open?id=1HIZ5lNxiK_kZr9ySlludzP9Sa_4dkRnj"
+    },
+    {
+      "titulo": "Depois da queda ",
+      "autor": "Kalliny Moura ",
+      "genero": "Romance",
+      "ano": 2024,
+      "editora": "Osmic Route ",
+      "cidade": "Natal-RN",
+      "exemplares": 1,
+      "emprestados": 0,
+      "disponiveis": 1,
+      "localizacao": "Estante B, B1. Romance",
+      "status": "Disponível",
+      "capa": "https://drive.google.com/open?id=1Fs-RxH799HAT2EZHdgWBnPgn8yUQ8FK0"
     }
   ]
 }
