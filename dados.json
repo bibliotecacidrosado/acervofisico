@@ -1,8 +1,8 @@
 {
-  "ultimaAtualizacao": "2025-09-09T18:06:55.648Z",
-  "totalLivros": 67,
-  "totalExemplares": 549,
-  "totalDisponiveis": 549,
+  "ultimaAtualizacao": "2025-09-09T18:10:02.882Z",
+  "totalLivros": 68,
+  "totalExemplares": 550,
+  "totalDisponiveis": 550,
   "livros": [
     {
       "titulo": "Aprendendo a Amar e a Curar ",
@@ -941,6 +941,20 @@
       "localizacao": "Estante A, A1. Novela",
       "status": "Disponível",
       "capa": "https://drive.google.com/open?id=10gUdgKyCqPBHZtok9_tQmynDZyIKzGiO"
+    },
+    {
+      "titulo": "Razão e sensibilidade",
+      "autor": "Jane Austen",
+      "genero": "Romance",
+      "ano": 2009,
+      "editora": "Martin Claret",
+      "cidade": "São Paulo ",
+      "exemplares": 1,
+      "emprestados": 0,
+      "disponiveis": 1,
+      "localizacao": "Estante B, B1. Romance",
+      "status": "Disponível",
+      "capa": "https://drive.google.com/open?id=1DTQAN2hVdgI7tWdG7MrfehkDn6RVcZY8"
     }
   ]
 }
