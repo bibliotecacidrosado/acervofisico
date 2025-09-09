@@ -1,8 +1,8 @@
 {
-  "ultimaAtualizacao": "2025-09-09T19:04:57.602Z",
-  "totalLivros": 85,
-  "totalExemplares": 575,
-  "totalDisponiveis": 575,
+  "ultimaAtualizacao": "2025-09-09T19:06:38.772Z",
+  "totalLivros": 86,
+  "totalExemplares": 576,
+  "totalDisponiveis": 576,
   "livros": [
     {
       "titulo": "Aprendendo a Amar e a Curar ",
@@ -1193,6 +1193,20 @@
       "localizacao": "Estante B, B2. Romance",
       "status": "Disponível",
       "capa": "https://drive.google.com/open?id=1VOUxraoePeWsqnJtt0tFiwUSPMkb3_3D"
+    },
+    {
+      "titulo": "Arséne Lupin e o Misterio de Barrer-y-va",
+      "autor": "Maurice Leblanc ",
+      "genero": "Romance",
+      "ano": 2021,
+      "editora": "Princips",
+      "cidade": "Sao Paulo",
+      "exemplares": 1,
+      "emprestados": 0,
+      "disponiveis": 1,
+      "localizacao": "Estante B, B1. Romance",
+      "status": "Disponível",
+      "capa": "https://drive.google.com/open?id=1pBmLazPP2_XemkCvCE_LFJmDH89dpfhl"
     }
   ]
 }
