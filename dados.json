@@ -1,8 +1,8 @@
 {
-  "ultimaAtualizacao": "2025-09-09T18:55:48.852Z",
-  "totalLivros": 79,
-  "totalExemplares": 568,
-  "totalDisponiveis": 568,
+  "ultimaAtualizacao": "2025-09-09T18:59:03.985Z",
+  "totalLivros": 80,
+  "totalExemplares": 569,
+  "totalDisponiveis": 569,
   "livros": [
     {
       "titulo": "Aprendendo a Amar e a Curar ",
@@ -1109,6 +1109,20 @@
       "localizacao": "Estante B, B1. Romance",
       "status": "Disponível",
       "capa": "https://drive.google.com/open?id=1l55oLeMFNRFOnGd2t3ye4GYZk0N9BWeV"
+    },
+    {
+      "titulo": "Arséne Lupin e agulha oca",
+      "autor": "Maurice Leblanc",
+      "genero": "Romance",
+      "ano": 2021,
+      "editora": "Princips",
+      "cidade": "São Paulo",
+      "exemplares": 1,
+      "emprestados": 0,
+      "disponiveis": 1,
+      "localizacao": "Estante B, B1. Romance",
+      "status": "Disponível",
+      "capa": "https://drive.google.com/open?id=1_WZfE8Nm88CobR7hkEJDJJjPMCHqfwFf"
     }
   ]
 }
