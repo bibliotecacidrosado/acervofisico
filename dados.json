@@ -1,8 +1,8 @@
 {
-  "ultimaAtualizacao": "2025-09-09T17:59:44.020Z",
-  "totalLivros": 65,
-  "totalExemplares": 479,
-  "totalDisponiveis": 479,
+  "ultimaAtualizacao": "2025-09-09T18:01:47.744Z",
+  "totalLivros": 66,
+  "totalExemplares": 480,
+  "totalDisponiveis": 480,
   "livros": [
     {
       "titulo": "Aprendendo a Amar e a Curar ",
@@ -913,6 +913,20 @@
       "localizacao": "Estante A, A1. Novela",
       "status": "Disponível",
       "capa": "https://drive.google.com/open?id=1lemEuD-kTDq5mBVivzUn-NqNRTXQP4xn"
+    },
+    {
+      "titulo": "A EMPREGADA ESTÁ DE OLHO",
+      "autor": "FREIDA MCFADDEN",
+      "genero": "Romance",
+      "ano": 2024,
+      "editora": "ARQUEIRO",
+      "cidade": "São Paulo",
+      "exemplares": 1,
+      "emprestados": 0,
+      "disponiveis": 1,
+      "localizacao": "Estante B, B2. Romance",
+      "status": "Disponível",
+      "capa": "https://drive.google.com/open?id=1i-ZCeQNAmXWn3zo7PE2qiVboHKfuperF"
     }
   ]
 }
