@@ -1,8 +1,8 @@
 {
-  "ultimaAtualizacao": "2025-09-09T19:23:18.924Z",
-  "totalLivros": 95,
-  "totalExemplares": 585,
-  "totalDisponiveis": 585,
+  "ultimaAtualizacao": "2025-09-09T19:23:48.636Z",
+  "totalLivros": 96,
+  "totalExemplares": 586,
+  "totalDisponiveis": 586,
   "livros": [
     {
       "titulo": "Aprendendo a Amar e a Curar ",
@@ -1333,6 +1333,20 @@
       "localizacao": "Estante B, B1. Romance",
       "status": "Disponível",
       "capa": "https://drive.google.com/open?id=1Fs-RxH799HAT2EZHdgWBnPgn8yUQ8FK0"
+    },
+    {
+      "titulo": "Uma maré de desejos",
+      "autor": "Georgina Martins",
+      "genero": "Novela",
+      "ano": 2005,
+      "editora": "Ática",
+      "cidade": "São Paulo ",
+      "exemplares": 1,
+      "emprestados": 0,
+      "disponiveis": 1,
+      "localizacao": "Estante A, A1. Novela",
+      "status": "Disponível",
+      "capa": "https://drive.google.com/open?id=12szV9agVF9fjkrd3vqIyEi2Hrw1IYl9k"
     }
   ]
 }
