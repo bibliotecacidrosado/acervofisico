@@ -1,8 +1,8 @@
 {
-  "ultimaAtualizacao": "2025-09-09T17:55:01.213Z",
-  "totalLivros": 64,
-  "totalExemplares": 478,
-  "totalDisponiveis": 478,
+  "ultimaAtualizacao": "2025-09-09T17:59:44.020Z",
+  "totalLivros": 65,
+  "totalExemplares": 479,
+  "totalDisponiveis": 479,
   "livros": [
     {
       "titulo": "Aprendendo a Amar e a Curar ",
@@ -899,6 +899,20 @@
       "localizacao": "Estante A, A1. Novela",
       "status": "Disponível",
       "capa": "https://drive.google.com/open?id=1f2wKrkZvpDUP51l6AT7JgAo8NZgCobKr"
+    },
+    {
+      "titulo": "O vale de solombra",
+      "autor": "Eustáquio Gomes",
+      "genero": "Novela",
+      "ano": 2021,
+      "editora": "Geração ",
+      "cidade": "São Paulo ",
+      "exemplares": 1,
+      "emprestados": 0,
+      "disponiveis": 1,
+      "localizacao": "Estante A, A1. Novela",
+      "status": "Disponível",
+      "capa": "https://drive.google.com/open?id=1lemEuD-kTDq5mBVivzUn-NqNRTXQP4xn"
     }
   ]
 }
