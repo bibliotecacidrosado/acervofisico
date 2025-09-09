@@ -1,8 +1,8 @@
 {
-  "ultimaAtualizacao": "2025-09-09T19:13:18.270Z",
-  "totalLivros": 90,
-  "totalExemplares": 580,
-  "totalDisponiveis": 580,
+  "ultimaAtualizacao": "2025-09-09T19:13:38.507Z",
+  "totalLivros": 91,
+  "totalExemplares": 581,
+  "totalDisponiveis": 581,
   "livros": [
     {
       "titulo": "Aprendendo a Amar e a Curar ",
@@ -1263,6 +1263,20 @@
       "localizacao": "Estante B, B1. Romance",
       "status": "Disponível",
       "capa": "https://drive.google.com/open?id=1p2sodIOTr0pXalnJG_ox6wv-tEjs13as"
+    },
+    {
+      "titulo": "Prova de vida",
+      "autor": "Kleber Negreiros",
+      "genero": "Novela",
+      "ano": 2000,
+      "editora": "Fundação ",
+      "cidade": "Mossoró ",
+      "exemplares": 1,
+      "emprestados": 0,
+      "disponiveis": 1,
+      "localizacao": "Estante A, A1. Novela",
+      "status": "Disponível",
+      "capa": "https://drive.google.com/open?id=1JXO9GaG2Q5xFJYMP6BjEYIDzqiLh3i-i"
     }
   ]
 }
