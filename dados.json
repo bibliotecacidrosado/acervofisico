@@ -1,8 +1,8 @@
 {
-  "ultimaAtualizacao": "2025-09-09T19:03:03.421Z",
-  "totalLivros": 83,
-  "totalExemplares": 573,
-  "totalDisponiveis": 573,
+  "ultimaAtualizacao": "2025-09-09T19:04:01.625Z",
+  "totalLivros": 84,
+  "totalExemplares": 574,
+  "totalDisponiveis": 574,
   "livros": [
     {
       "titulo": "Aprendendo a Amar e a Curar ",
@@ -1165,6 +1165,20 @@
       "localizacao": "Estante B, B1. Romance",
       "status": "Disponível",
       "capa": "https://drive.google.com/open?id=1nN1-dhuGCt2Aft8hwAdWIMSSP9wM1HeX"
+    },
+    {
+      "titulo": "Do outro lado tem segredos ",
+      "autor": "Ana Maria Machado",
+      "genero": "Novela",
+      "ano": 2003,
+      "editora": "Nova fronteira ",
+      "cidade": "Rio de Janeiro ",
+      "exemplares": 1,
+      "emprestados": 0,
+      "disponiveis": 1,
+      "localizacao": "Estante A, A1. Novela",
+      "status": "Disponível",
+      "capa": "https://drive.google.com/open?id=1vhoQeXXtiVFQPfnRPHwFIzRFYsa9-WRe"
     }
   ]
 }
