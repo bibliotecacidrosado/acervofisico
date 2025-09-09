@@ -1,8 +1,8 @@
 {
-  "ultimaAtualizacao": "2025-09-09T19:16:07.693Z",
-  "totalLivros": 92,
-  "totalExemplares": 582,
-  "totalDisponiveis": 582,
+  "ultimaAtualizacao": "2025-09-09T19:17:35.764Z",
+  "totalLivros": 93,
+  "totalExemplares": 583,
+  "totalDisponiveis": 583,
   "livros": [
     {
       "titulo": "Aprendendo a Amar e a Curar ",
@@ -1291,6 +1291,20 @@
       "localizacao": "Estante B, B1. Romance",
       "status": "Disponível",
       "capa": "https://drive.google.com/open?id=1zL0snMkTFqK2qcTcKvFFnZo711LgxJEB"
+    },
+    {
+      "titulo": "O vampiro que descobriu o Brasil",
+      "autor": "Ivan Jaf",
+      "genero": "Novela",
+      "ano": 2003,
+      "editora": "Ática",
+      "cidade": "São Paulo ",
+      "exemplares": 1,
+      "emprestados": 0,
+      "disponiveis": 1,
+      "localizacao": "Estante A, A1. Novela",
+      "status": "Disponível",
+      "capa": "https://drive.google.com/open?id=1tXFOmDEKSBnGV0OJKwAhB2dKhRvJ_NnA"
     }
   ]
 }
