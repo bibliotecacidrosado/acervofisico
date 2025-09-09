@@ -1,8 +1,8 @@
 {
-  "ultimaAtualizacao": "2025-09-09T19:08:45.561Z",
-  "totalLivros": 88,
-  "totalExemplares": 578,
-  "totalDisponiveis": 578,
+  "ultimaAtualizacao": "2025-09-09T19:09:32.794Z",
+  "totalLivros": 89,
+  "totalExemplares": 579,
+  "totalDisponiveis": 579,
   "livros": [
     {
       "titulo": "Aprendendo a Amar e a Curar ",
@@ -1235,6 +1235,20 @@
       "localizacao": "Estante A, A1. Novela",
       "status": "Disponível",
       "capa": "https://drive.google.com/open?id=1oJKGknrJ-bA-ccRpaI2IG3bE3OFA7g9-"
+    },
+    {
+      "titulo": "Arséne Lupin e a condessa de cagliostro",
+      "autor": "Maurice Leblanc ",
+      "genero": "Romance",
+      "ano": 2021,
+      "editora": "Principis",
+      "cidade": "São Paulo ",
+      "exemplares": 1,
+      "emprestados": 0,
+      "disponiveis": 1,
+      "localizacao": "Estante B, B1. Romance",
+      "status": "Disponível",
+      "capa": "https://drive.google.com/open?id=1ZFAjX2jTxnjciDPus3Afr-ecKsOfuJx3"
     }
   ]
 }
