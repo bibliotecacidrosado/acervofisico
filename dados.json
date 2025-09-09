@@ -1,8 +1,8 @@
 {
-  "ultimaAtualizacao": "2025-09-09T19:02:11.978Z",
-  "totalLivros": 82,
-  "totalExemplares": 572,
-  "totalDisponiveis": 572,
+  "ultimaAtualizacao": "2025-09-09T19:03:03.421Z",
+  "totalLivros": 83,
+  "totalExemplares": 573,
+  "totalDisponiveis": 573,
   "livros": [
     {
       "titulo": "Aprendendo a Amar e a Curar ",
@@ -1151,6 +1151,20 @@
       "localizacao": "Estante B, B1. Romance",
       "status": "Disponível",
       "capa": "https://drive.google.com/open?id=1M-TSPUNXIFW04792iqw6StxYDjx8RiBA"
+    },
+    {
+      "titulo": "Arséne Lupin e a Mulher de dois sorrisos",
+      "autor": "Maurice Leblanc",
+      "genero": "Romance",
+      "ano": 2021,
+      "editora": "Princips",
+      "cidade": "São Paulo ",
+      "exemplares": 1,
+      "emprestados": 0,
+      "disponiveis": 1,
+      "localizacao": "Estante B, B1. Romance",
+      "status": "Disponível",
+      "capa": "https://drive.google.com/open?id=1nN1-dhuGCt2Aft8hwAdWIMSSP9wM1HeX"
     }
   ]
 }
