@@ -1,8 +1,8 @@
 {
-  "ultimaAtualizacao": "2025-09-09T19:13:38.507Z",
-  "totalLivros": 91,
-  "totalExemplares": 581,
-  "totalDisponiveis": 581,
+  "ultimaAtualizacao": "2025-09-09T19:16:07.693Z",
+  "totalLivros": 92,
+  "totalExemplares": 582,
+  "totalDisponiveis": 582,
   "livros": [
     {
       "titulo": "Aprendendo a Amar e a Curar ",
@@ -1277,6 +1277,20 @@
       "localizacao": "Estante A, A1. Novela",
       "status": "Disponível",
       "capa": "https://drive.google.com/open?id=1JXO9GaG2Q5xFJYMP6BjEYIDzqiLh3i-i"
+    },
+    {
+      "titulo": "Razão e sensibilidade ",
+      "autor": "Jane Austen",
+      "genero": "Romance",
+      "ano": 2020,
+      "editora": "Principis",
+      "cidade": "Jandira-SP",
+      "exemplares": 1,
+      "emprestados": 0,
+      "disponiveis": 1,
+      "localizacao": "Estante B, B1. Romance",
+      "status": "Disponível",
+      "capa": "https://drive.google.com/open?id=1zL0snMkTFqK2qcTcKvFFnZo711LgxJEB"
     }
   ]
 }
