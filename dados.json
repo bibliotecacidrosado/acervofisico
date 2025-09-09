@@ -1,8 +1,8 @@
 {
-  "ultimaAtualizacao": "2025-09-09T18:10:23.859Z",
-  "totalLivros": 69,
-  "totalExemplares": 551,
-  "totalDisponiveis": 551,
+  "ultimaAtualizacao": "2025-09-09T18:13:45.110Z",
+  "totalLivros": 71,
+  "totalExemplares": 553,
+  "totalDisponiveis": 553,
   "livros": [
     {
       "titulo": "Aprendendo a Amar e a Curar ",
@@ -969,6 +969,34 @@
       "localizacao": "Estante B, B1. Romance",
       "status": "Disponível",
       "capa": "https://drive.google.com/open?id=1d-vDIvi2ecP31zSpsU-U3_4Zoz9h_avn"
+    },
+    {
+      "titulo": "Uma história de vôos",
+      "autor": "Vito Grandam",
+      "genero": "Novela",
+      "ano": 2003,
+      "editora": "Melhoramentos",
+      "cidade": "São Paulo ",
+      "exemplares": 1,
+      "emprestados": 0,
+      "disponiveis": 1,
+      "localizacao": "Estante A, A1. Novela",
+      "status": "Disponível",
+      "capa": "https://drive.google.com/open?id=1MIJaVX8YhPXZ7K-dofcd3Nwy9PTZnuFE"
+    },
+    {
+      "titulo": "A empregada está de olho ",
+      "autor": "Freida McFadden",
+      "genero": "Romance",
+      "ano": 2024,
+      "editora": "Arqueiro",
+      "cidade": "São Paulo ",
+      "exemplares": 1,
+      "emprestados": 0,
+      "disponiveis": 1,
+      "localizacao": "Estante B, B2. Romance",
+      "status": "Disponível",
+      "capa": "https://drive.google.com/open?id=1HPNq3xcymamB4HgkgXk0amHvdWs69PaE"
     }
   ]
 }
