@@ -1,8 +1,8 @@
 {
-  "ultimaAtualizacao": "2025-09-09T18:10:02.882Z",
-  "totalLivros": 68,
-  "totalExemplares": 550,
-  "totalDisponiveis": 550,
+  "ultimaAtualizacao": "2025-09-09T18:10:23.859Z",
+  "totalLivros": 69,
+  "totalExemplares": 551,
+  "totalDisponiveis": 551,
   "livros": [
     {
       "titulo": "Aprendendo a Amar e a Curar ",
@@ -955,6 +955,20 @@
       "localizacao": "Estante B, B1. Romance",
       "status": "Disponível",
       "capa": "https://drive.google.com/open?id=1DTQAN2hVdgI7tWdG7MrfehkDn6RVcZY8"
+    },
+    {
+      "titulo": "NOIVA",
+      "autor": "ALI HAZELWOOD",
+      "genero": "Romance",
+      "ano": 2024,
+      "editora": "ARQUEIRO",
+      "cidade": "São Paulo ",
+      "exemplares": 1,
+      "emprestados": 0,
+      "disponiveis": 1,
+      "localizacao": "Estante B, B1. Romance",
+      "status": "Disponível",
+      "capa": "https://drive.google.com/open?id=1d-vDIvi2ecP31zSpsU-U3_4Zoz9h_avn"
     }
   ]
 }
