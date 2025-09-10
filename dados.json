@@ -1,8 +1,8 @@
 {
-  "ultimaAtualizacao": "2025-09-10T12:11:21.469Z",
-  "totalLivros": 114,
-  "totalExemplares": 620,
-  "totalDisponiveis": 620,
+  "ultimaAtualizacao": "2025-09-10T12:12:31.705Z",
+  "totalLivros": 115,
+  "totalExemplares": 621,
+  "totalDisponiveis": 621,
   "livros": [
     {
       "titulo": "Aprendendo a Amar e a Curar ",
@@ -1599,6 +1599,20 @@
       "localizacao": "Estante A, A2. Romance",
       "status": "Disponível",
       "capa": "https://drive.google.com/open?id=1pFWXiksroUR7oCsAT0bOsXbIYVwUlz4U"
+    },
+    {
+      "titulo": "A árvore de cantos ",
+      "autor": "Anne Ballester Soares ",
+      "genero": "Romance",
+      "ano": 2018,
+      "editora": "JC",
+      "cidade": "Rio de Janeiro ",
+      "exemplares": 1,
+      "emprestados": 0,
+      "disponiveis": 1,
+      "localizacao": "Estante B, B4. Romance",
+      "status": "Disponível",
+      "capa": "https://drive.google.com/open?id=1okhHL6Y6EBpauZnWQro8qHcXZrZcHMPC"
     }
   ]
 }
