@@ -91,3 +91,23 @@ select { padding: 10px; border-radius: 5px; border: 1px solid var(--cor-borda); 
   .livro > span::before { font-weight: bold; color: #333; display: inline-block; width: 100px; content: attr(data-label); }
   .lista-container { overflow-x: visible; }
 }
+
+.warning {
+  background: #fff3e0;
+  color: #ef6c00;
+  padding: 15px;
+  border-radius: 5px;
+  margin: 15px 0;
+  text-align: center;
+  border-left: 4px solid #ff9800;
+}
+
+.validation-info {
+  background: #e3f2fd;
+  color: #1565c0;
+  padding: 10px;
+  border-radius: 5px;
+  margin: 10px 0;
+  font-size: 14px;
+  text-align: center;
+}
