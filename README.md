@@ -29,11 +29,11 @@ Acesse o formulário para registrar novos livros:
 | **Seção/Prateleira** | Letra da estante + número + gênero (fixado na prateleira) |
 | **Título da Obra** | Título completo do livro |
 | **Autor** | Nome do autor na capa ou folha de rosto |
-| **Gênero** | Gênero informado na prateleira onde o livro estava |
+| **Gênero** | Gênero informado na prateleira onde o livro pode ser encontrado |
 | **Ano** | Ano de publicação da edição (na ficha catalográfica) |
 | **Editora** | Nome da editora (na ficha catalográfica) |
 | **Cidade** | Cidade da editora (na ficha catalográfica) |
-| **Número de Exemplares** | Quantidade disponível na biblioteca |
+| **Número de Exemplares** | Quantidade disponível da obra selecionada na biblioteca |
 | **Capa** | Foto da capa do livro |
 
 ## 📸 Como Adicionar a Foto da Capa
