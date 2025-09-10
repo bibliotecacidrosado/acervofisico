@@ -1,8 +1,8 @@
 {
-  "ultimaAtualizacao": "2025-09-10T12:08:19.533Z",
-  "totalLivros": 111,
-  "totalExemplares": 608,
-  "totalDisponiveis": 608,
+  "ultimaAtualizacao": "2025-09-10T12:08:35.114Z",
+  "totalLivros": 112,
+  "totalExemplares": 618,
+  "totalDisponiveis": 618,
   "livros": [
     {
       "titulo": "Aprendendo a Amar e a Curar ",
@@ -1557,6 +1557,20 @@
       "localizacao": "Estante B, B2. Romance",
       "status": "Disponível",
       "capa": "https://drive.google.com/open?id=1dUK2SoVYU1rEOue2SgxL_V8jV2pNJ7Pj"
+    },
+    {
+      "titulo": "Cabra Das Rocas",
+      "autor": "Homero Homem",
+      "genero": "Romance",
+      "ano": 2003,
+      "editora": "Ática",
+      "cidade": "São Paulo ",
+      "exemplares": 10,
+      "emprestados": 0,
+      "disponiveis": 10,
+      "localizacao": "Estante A, B5. Romance",
+      "status": "Disponível",
+      "capa": "https://drive.google.com/open?id=14EzEHj5f4nzaSFEzaQLm1T_iXedUDbiv"
     }
   ]
 }
