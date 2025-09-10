@@ -4,89 +4,9 @@
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Acervo Físico - Biblioteca Cid Rosado</title>
-  <style>
-    :root {
-      --cor-primaria: #ff8c00;
-      --cor-secundaria: #ffb74d;
-      --cor-texto: #333;
-      --cor-fundo: #f5f5f5;
-      --cor-borda: #ddd;
-      --cor-disponivel: #2e7d32;
-      --cor-indisponivel: #c62828;
-    }
-    
-    * { box-sizing: border-box; margin: 0; padding: 0; }
-    
-    body { 
-      font-family: Arial, sans-serif; 
-      max-width: 1200px; 
-      margin: 0 auto; 
-      padding: 15px;
-      background: var(--cor-fundo);
-      color: var(--cor-texto);
-      line-height: 1.5;
-    }
-    
-    header { text-align: center; margin-bottom: 20px; }
-    
-    h1 {
-      background: var(--cor-primaria); 
-      color: #fff; 
-      padding: 15px; 
-      border-radius: 8px;
-      margin-bottom: 10px;
-      font-size: 1.5rem;
-    }
-    
-    .info-biblioteca { background: white; padding: 10px; border-radius: 8px; font-size: 14px; margin-bottom: 15px; }
-    
-    .resumo { background: white; padding: 15px; border-radius: 8px; margin-bottom: 15px; display: grid; grid-template-columns: 1fr 1fr; gap: 10px; }
-    
-    .resumo-item { text-align: center; padding: 10px; background: #f9f9f9; border-radius: 6px; }
-    
-    .resumo-numero { font-size: 20px; font-weight: bold; color: var(--cor-primaria); margin-top: 5px; }
-    
-    #busca { width: 100%; padding: 12px; margin-bottom: 15px; border-radius: 5px; border: 1px solid var(--cor-borda); font-size: 16px; }
-    
-    .filtros { display: grid; grid-template-columns: 1fr 1fr; gap: 10px; margin-bottom: 15px; }
-    
-    select { padding: 10px; border-radius: 5px; border: 1px solid var(--cor-borda); width: 100%; }
-    
-    .ordenar-container { margin-bottom: 15px; display: flex; gap: 10px; align-items: center; flex-wrap: wrap; }
-    .ordenar-container select { width: auto; flex: 1; }
-    
-    .lista-container { border: 1px solid var(--cor-borda); border-radius: 5px; background: white; margin-bottom: 20px; overflow-x: auto; }
-    
-    .cabecalho, .livro { display: grid; grid-template-columns: 2fr 1.5fr 1fr 1.5fr 1.2fr; padding: 12px; gap: 10px; min-width: 600px; }
-    
-    .cabecalho { background: var(--cor-secundaria); font-weight: bold; border-bottom: 2px solid var(--cor-primaria); cursor: pointer; }
-    
-    .livro:nth-child(odd) { background: #fff; }
-    .livro:nth-child(even) { background: #f9f9f9; }
-    .livro:hover { background: #f0f0f0; }
-    
-    .status { font-weight: bold; }
-    .disponivel { color: var(--cor-disponivel); }
-    .indisponivel { color: var(--cor-indisponivel); }
-    
-    .loading { text-align: center; padding: 40px; color: #666; }
-    
-    .error { background: #ffebee; color: #c62828; padding: 15px; border-radius: 5px; margin: 15px 0; text-align: center; }
-
-    /* --- Versão Mobile --- */
-    @media (max-width: 768px) {
-      .resumo { grid-template-columns: 1fr; }
-      .filtros { grid-template-columns: 1fr; }
-      .cabecalho { display: none; }
-      .livro { display: block; padding: 15px; border-bottom: 1px solid #ddd; min-width: unset; }
-      .livro > span { display: block; width: 100%; padding: 5px 0; margin-bottom: 5px; }
-      .livro > span::before { font-weight: bold; color: #333; display: inline-block; width: 100px; content: attr(data-label); }
-      .lista-container { overflow-x: visible; }
-    }
-  </style>
-
+  <!-- Link para o arquivo CSS externo -->
+  <link rel="stylesheet" href="styles.css">
   <link rel="icon" type="image/png" href="https://raw.githubusercontent.com/bibliotecacidrosado/acervofisico/refs/heads/main/favicon2.png">
-
 </head>
 <body>
   <header>
@@ -109,18 +29,18 @@
   
   <div id="mensagem"></div>
   
-  <input type="text" id="busca" placeholder="Buscar por título, autor, gênero ou localização..." oninput="filtrarLivros()">
+  <input type="text" id="busca" placeholder="Buscar por título, autor, gênero ou localização...">
 
   <div class="filtros">
     <div>
-      <select id="filtroStatus" onchange="filtrarLivros()">
+      <select id="filtroStatus">
         <option value="todos">Todos os status</option>
         <option value="Disponível">Disponível</option>
         <option value="Indisponível">Indisponível</option>
       </select>
     </div>
     <div>
-      <select id="filtroGenero" onchange="filtrarLivros()">
+      <select id="filtroGenero">
         <option value="todos">Todos os gêneros</option>
       </select>
     </div>
@@ -128,11 +48,11 @@
 
   <div class="lista-container">
     <div class="cabecalho">
-      <span onclick="ordenarColuna('titulo')">Título</span>
-      <span onclick="ordenarColuna('autor')">Autor</span>
-      <span onclick="ordenarColuna('genero')">Gênero</span>
-      <span onclick="ordenarColuna('localizacao')">Localização</span>
-      <span onclick="ordenarColuna('status')">Status</span>
+      <span data-coluna="titulo">Título</span>
+      <span data-coluna="autor">Autor</span>
+      <span data-coluna="genero">Gênero</span>
+      <span data-coluna="localizacao">Localização</span>
+      <span data-coluna="status">Status</span>
     </div>
     <div id="listaLivros">
       <div class="loading" id="loading-message">
@@ -141,151 +61,7 @@
     </div>
   </div>
 
-  <script>
-    const URL_JSON = 'https://raw.githubusercontent.com/bibliotecacidrosado/acervofisico/refs/heads/main/dados.json';
-    
-    let livrosAcervo = [];
-    let dadosCompletos = [];
-    let generosDisponiveis = [];
-
-    let colunaOrdenacaoAtual = '';
-    let ordemAscendente = true;
-
-    function mostrarMensagem(texto, tipo) {
-      const mensagemDiv = document.getElementById('mensagem');
-      mensagemDiv.innerHTML = `<div class="${tipo}">${texto}</div>`;
-      if (tipo !== 'error') {
-        setTimeout(() => { mensagemDiv.innerHTML = ''; }, 3000);
-      }
-    }
-
-    function atualizarResumo(dados) {
-      const totalLivros = dados.livros?.length || 0;
-      const totalDisponiveis = dados.livros?.filter(l => l.status === 'Disponível').length || 0;
-      document.getElementById('total-livros').textContent = totalLivros;
-      document.getElementById('total-disponiveis').textContent = totalDisponiveis;
-    }
-
-    function formatarStatus(livro) {
-      if (!livro.disponiveis || livro.disponiveis === 0) return livro.status;
-      const pluralExemplar = livro.disponiveis > 1 ? 'Exemplares' : 'Exemplar';
-      const pluralStatus = livro.disponiveis > 1 ? 's' : '';
-      return `${livro.disponiveis} ${pluralExemplar} ${livro.status}${pluralStatus}`;
-    }
-
-    function atualizarLista(dados) {
-      const lista = document.getElementById('listaLivros');
-      atualizarResumo(dados);
-      lista.innerHTML = '';
-      if (!dados.livros || dados.livros.length === 0) {
-        lista.innerHTML = '<div class="loading">Nenhum livro encontrado</div>';
-        return;
-      }
-      dados.livros.forEach(l => {
-        const div = document.createElement('div');
-        div.className = 'livro';
-        if (window.innerWidth <= 768) {
-          div.innerHTML = `
-            <span data-label="Título: ">${l.titulo || 'Não informado'}</span>
-            <span data-label="Autor: ">${l.autor || 'Não informado'}</span>
-            <span data-label="Gênero: ">${l.genero || 'Não informado'}</span>
-            <span data-label="Localização: ">${l.localizacao || 'Não informado'}</span>
-            <span data-label="Status: " class="status ${l.status === 'Disponível' ? 'disponivel' : 'indisponivel'}">
-              ${formatarStatus(l)}
-            </span>`;
-        } else {
-          div.innerHTML = `
-            <span>${l.titulo || 'Não informado'}</span>
-            <span>${l.autor || 'Não informado'}</span>
-            <span>${l.genero || 'Não informado'}</span>
-            <span>${l.localizacao || 'Não informado'}</span>
-            <span class="status ${l.status === 'Disponível' ? 'disponivel' : 'indisponivel'}">
-              ${formatarStatus(l)}
-            </span>`;
-        }
-        lista.appendChild(div);
-      });
-    }
-
-    function extrairGeneros() {
-      const generosSet = new Set();
-      dadosCompletos.forEach(livro => {
-        if (livro.genero && livro.genero.trim() !== '') generosSet.add(livro.genero);
-      });
-      generosDisponiveis = Array.from(generosSet).sort();
-      const filtroGenero = document.getElementById('filtroGenero');
-      while (filtroGenero.options.length > 1) filtroGenero.remove(1);
-      generosDisponiveis.forEach(genero => {
-        const option = document.createElement('option');
-        option.value = genero; option.textContent = genero;
-        filtroGenero.appendChild(option);
-      });
-    }
-
-    function filtrarLivros(){
-      const termo = document.getElementById('busca').value.toLowerCase();
-      const statusFiltro = document.getElementById('filtroStatus').value;
-      const generoFiltro = document.getElementById('filtroGenero').value;
-      
-      const listaFiltrada = dadosCompletos.filter(l => {
-        const correspondeTermo = 
-          (l.titulo && l.titulo.toLowerCase().includes(termo)) ||
-          (l.autor && l.autor.toLowerCase().includes(termo)) ||
-          (l.genero && l.genero.toLowerCase().includes(termo)) ||
-          (l.localizacao && l.localizacao.toLowerCase().includes(termo));
-        const correspondeStatus = statusFiltro === 'todos' || l.status === statusFiltro;
-        const correspondeGenero = generoFiltro === 'todos' || l.genero === generoFiltro;
-        return correspondeTermo && correspondeStatus && correspondeGenero;
-      });
-
-      atualizarLista({ livros: listaFiltrada });
-    }
-
-    function ordenarLista() {
-      if (!colunaOrdenacaoAtual) return;
-      const listaOrdenada = [...dadosCompletos].sort((a, b) => {
-        let valA = (a[colunaOrdenacaoAtual] || '').toString().toLowerCase();
-        let valB = (b[colunaOrdenacaoAtual] || '').toString().toLowerCase();
-        if (valA < valB) return ordemAscendente ? -1 : 1;
-        if (valA > valB) return ordemAscendente ? 1 : -1;
-        return 0;
-      });
-      atualizarLista({ livros: listaOrdenada });
-    }
-
-    function ordenarColuna(coluna) {
-      if (colunaOrdenacaoAtual === coluna) ordemAscendente = !ordemAscendente;
-      else { colunaOrdenacaoAtual = coluna; ordemAscendente = true; }
-      ordenarLista();
-    }
-
-   async function carregarDados() {
-      try {
-        mostrarMensagem('Carregando dados do acervo...', 'loading');
-        const response = await fetch(URL_JSON);
-        if (!response.ok) throw new Error(`Erro HTTP: ${response.status}`);
-        const dados = await response.json();
-        if (!dados.livros || !Array.isArray(dados.livros)) throw new Error('Formato inválido do arquivo JSON.');
-
-        dadosCompletos = dados.livros;
-        livrosAcervo = [...dadosCompletos];
-
-        extrairGeneros();
-        atualizarLista(dados);
-        mostrarMensagem('Dados carregados com sucesso!', 'success');
-      } catch (error) {
-        console.error('Erro ao carregar dados:', error);
-        mostrarMensagem(`Erro ao carregar dados: ${error.message}`, 'error');
-        document.getElementById('listaLivros').innerHTML = '<div class="error">Erro ao carregar o acervo. Verifique o console para detalhes.</div>';
-      }
-    }
-
-    document.addEventListener('DOMContentLoaded', function() {
-      carregarDados();
-      document.getElementById('busca').addEventListener('keypress', function(e) {
-        if (e.key === 'Enter') filtrarLivros();
-      });
-    });
-  </script>
+  <!-- Script externo no final do body para melhor performance -->
+  <script src="script.js"></script>
 </body>
 </html>
