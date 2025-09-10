@@ -1,8 +1,8 @@
 {
-  "ultimaAtualizacao": "2025-09-10T11:50:46.186Z",
-  "totalLivros": 100,
-  "totalExemplares": 590,
-  "totalDisponiveis": 590,
+  "ultimaAtualizacao": "2025-09-10T11:51:49.958Z",
+  "totalLivros": 101,
+  "totalExemplares": 592,
+  "totalDisponiveis": 592,
   "livros": [
     {
       "titulo": "Aprendendo a Amar e a Curar ",
@@ -1403,6 +1403,20 @@
       "localizacao": "Estante B, B2. Romance",
       "status": "Disponível",
       "capa": "https://drive.google.com/open?id=1Hsw21MCGDj5tbxM0EJYmL3efMb5P1bbx"
+    },
+    {
+      "titulo": "Uma história de futebol ",
+      "autor": "José Roberto Torero",
+      "genero": "Novela",
+      "ano": 2001,
+      "editora": "Objetiva LTDA",
+      "cidade": "Rio de Janeiro ",
+      "exemplares": 2,
+      "emprestados": 0,
+      "disponiveis": 2,
+      "localizacao": "Estante A, A1. Novela",
+      "status": "Disponível",
+      "capa": "https://drive.google.com/open?id=1X1Yspd0O3LJTLyBcaUMG8jIqV4iBFqK7"
     }
   ]
 }
