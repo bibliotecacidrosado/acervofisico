@@ -1,8 +1,8 @@
 {
-  "ultimaAtualizacao": "2025-09-10T11:54:50.077Z",
-  "totalLivros": 103,
-  "totalExemplares": 600,
-  "totalDisponiveis": 600,
+  "ultimaAtualizacao": "2025-09-10T11:55:48.808Z",
+  "totalLivros": 104,
+  "totalExemplares": 601,
+  "totalDisponiveis": 601,
   "livros": [
     {
       "titulo": "Aprendendo a Amar e a Curar ",
@@ -1445,6 +1445,20 @@
       "localizacao": "Estante A, A2. Romance",
       "status": "Disponível",
       "capa": "https://drive.google.com/open?id=11gbS4gjKfYTBhnaoB3S-GAUxIZR5inbC"
+    },
+    {
+      "titulo": "O burrinho pedrês",
+      "autor": "João Guimarães Rosa",
+      "genero": "Novela",
+      "ano": 2013,
+      "editora": "Nova fronteira ",
+      "cidade": "Rio de Janeiro ",
+      "exemplares": 1,
+      "emprestados": 0,
+      "disponiveis": 1,
+      "localizacao": "Estante A, A1. Novela",
+      "status": "Disponível",
+      "capa": "https://drive.google.com/open?id=1rY8OVQ5YFlwsFdO8quPmTxh5cwA3BGVo"
     }
   ]
 }
