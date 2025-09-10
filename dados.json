@@ -1,8 +1,8 @@
 {
-  "ultimaAtualizacao": "2025-09-10T12:17:01.382Z",
-  "totalLivros": 118,
-  "totalExemplares": 624,
-  "totalDisponiveis": 624,
+  "ultimaAtualizacao": "2025-09-10T12:20:05.463Z",
+  "totalLivros": 119,
+  "totalExemplares": 625,
+  "totalDisponiveis": 625,
   "livros": [
     {
       "titulo": "Aprendendo a Amar e a Curar ",
@@ -1655,6 +1655,20 @@
       "localizacao": "Estante A, A2. Romance",
       "status": "Disponível",
       "capa": "https://drive.google.com/open?id=1to-tIF-pTtxd35skJZsaWLR4sdgg3Pm3"
+    },
+    {
+      "titulo": "Os 7 falcões ",
+      "autor": "Márcio Borges ",
+      "genero": "Romance",
+      "ano": 2009,
+      "editora": "Geração editorial ",
+      "cidade": "São Paulo ",
+      "exemplares": 1,
+      "emprestados": 0,
+      "disponiveis": 1,
+      "localizacao": "Estante A, A2. Romance",
+      "status": "Disponível",
+      "capa": "https://drive.google.com/open?id=1loNTz2zqgjNnpNv525HU8M_twrIIZ9_S"
     }
   ]
 }
