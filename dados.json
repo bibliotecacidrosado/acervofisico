@@ -1,8 +1,8 @@
 {
-  "ultimaAtualizacao": "2025-09-09T19:28:11.918Z",
-  "totalLivros": 99,
-  "totalExemplares": 589,
-  "totalDisponiveis": 589,
+  "ultimaAtualizacao": "2025-09-10T11:50:46.186Z",
+  "totalLivros": 100,
+  "totalExemplares": 590,
+  "totalDisponiveis": 590,
   "livros": [
     {
       "titulo": "Aprendendo a Amar e a Curar ",
@@ -1389,6 +1389,20 @@
       "localizacao": "Estante A, A1. Novela",
       "status": "Disponível",
       "capa": "https://drive.google.com/open?id=1GCOuDoOzcAxITYHhEGyklBXcyzDOO15n"
+    },
+    {
+      "titulo": "Cecília ",
+      "autor": "Cecília Meireles ",
+      "genero": "Romance",
+      "ano": 2021,
+      "editora": "Global editora ",
+      "cidade": "São Paulo ",
+      "exemplares": 1,
+      "emprestados": 0,
+      "disponiveis": 1,
+      "localizacao": "Estante B, B2. Romance",
+      "status": "Disponível",
+      "capa": "https://drive.google.com/open?id=1Hsw21MCGDj5tbxM0EJYmL3efMb5P1bbx"
     }
   ]
 }
