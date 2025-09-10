@@ -1,8 +1,8 @@
 {
-  "ultimaAtualizacao": "2025-09-10T12:00:04.695Z",
-  "totalLivros": 107,
-  "totalExemplares": 604,
-  "totalDisponiveis": 604,
+  "ultimaAtualizacao": "2025-09-10T12:03:35.912Z",
+  "totalLivros": 108,
+  "totalExemplares": 605,
+  "totalDisponiveis": 605,
   "livros": [
     {
       "titulo": "Aprendendo a Amar e a Curar ",
@@ -1501,6 +1501,20 @@
       "localizacao": "Estante A, A1. Novela",
       "status": "Disponível",
       "capa": "https://drive.google.com/open?id=1qRULd2rE9GowfY5hG4TwIcz1opnx7jxU"
+    },
+    {
+      "titulo": "Chica, sinhá",
+      "autor": "Carlos Alberto de Carvalho ",
+      "genero": "Romance",
+      "ano": 2012,
+      "editora": "LTDA ",
+      "cidade": "São Paulo",
+      "exemplares": 1,
+      "emprestados": 0,
+      "disponiveis": 1,
+      "localizacao": "Estante A, A2. Romance",
+      "status": "Disponível",
+      "capa": "https://drive.google.com/open?id=1UtDCZpNMY9ruZGO-86Mawgyf1rIIXUFJ"
     }
   ]
 }
