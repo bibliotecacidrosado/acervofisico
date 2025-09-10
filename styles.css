@@ -67,6 +67,20 @@ select { padding: 10px; border-radius: 5px; border: 1px solid var(--cor-borda); 
 .error { background: #ffebee; color: #c62828; padding: 15px; border-radius: 5px; margin: 15px 0; text-align: center; }
 .success { background: #e8f5e9; color: #2e7d32; padding: 15px; border-radius: 5px; margin: 15px 0; text-align: center; }
 
+.skeleton {
+  background: linear-gradient(90deg, #f0f0f0 25%, #e0e0e0 50%, #f0f0f0 75%);
+  background-size: 200% 100%;
+  animation: loading 1.5s infinite;
+  border-radius: 4px;
+  height: 16px;
+  margin-bottom: 8px;
+}
+
+@keyframes loading {
+  0% { background-position: 200% 0; }
+  100% { background-position: -200% 0; }
+}
+
 /* --- Versão Mobile --- */
 @media (max-width: 768px) {
   .resumo { grid-template-columns: 1fr; }
