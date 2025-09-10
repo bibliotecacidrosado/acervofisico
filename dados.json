@@ -1,8 +1,8 @@
 {
-  "ultimaAtualizacao": "2025-09-10T11:59:14.430Z",
-  "totalLivros": 106,
-  "totalExemplares": 603,
-  "totalDisponiveis": 603,
+  "ultimaAtualizacao": "2025-09-10T12:00:04.695Z",
+  "totalLivros": 107,
+  "totalExemplares": 604,
+  "totalDisponiveis": 604,
   "livros": [
     {
       "titulo": "Aprendendo a Amar e a Curar ",
@@ -1487,6 +1487,20 @@
       "localizacao": "Estante A, A2. Romance",
       "status": "Disponível",
       "capa": "https://drive.google.com/open?id=1xKBkTlYQ-z9jhaMB3ImXYxJgixXJb1tf"
+    },
+    {
+      "titulo": "A casa da madrinha",
+      "autor": "Lygia Bojunga",
+      "genero": "Novela",
+      "ano": 2002,
+      "editora": "Nova fronteira ",
+      "cidade": "Rio de Janeiro ",
+      "exemplares": 1,
+      "emprestados": 0,
+      "disponiveis": 1,
+      "localizacao": "Estante A, A1. Novela",
+      "status": "Disponível",
+      "capa": "https://drive.google.com/open?id=1qRULd2rE9GowfY5hG4TwIcz1opnx7jxU"
     }
   ]
 }
