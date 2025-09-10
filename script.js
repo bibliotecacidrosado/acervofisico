@@ -4,6 +4,16 @@ const CACHE_KEY = 'biblioteca_acervo_cache';
 const CACHE_TIMESTAMP_KEY = 'biblioteca_acervo_timestamp';
 const CACHE_DURATION = 30 * 60 * 1000; // 30 minutos em milissegundos
 
+// Esquema de validação para os livros
+const LIVRO_ESQUEMA = {
+    titulo: { tipo: 'string', obrigatorio: false },
+    autor: { tipo: 'string', obrigatorio: false },
+    genero: { tipo: 'string', obrigatorio: false },
+    localizacao: { tipo: 'string', obrigatorio: false },
+    status: { tipo: 'string', obrigatorio: true, valoresValidos: ['Disponível', 'Indisponível'] },
+    disponiveis: { tipo: 'number', obrigatorio: false, min: 0 }
+};
+
 // Variáveis globais
 let livrosAcervo = [];
 let dadosCompletos = [];
@@ -40,6 +50,166 @@ document.addEventListener('DOMContentLoaded', function() {
     // Carregar os dados
     carregarDados();
 });
+
+// ========== VALIDAÇÃO DE DADOS ========== //
+
+/**
+ * Valida um livro individual contra o esquema definido
+ * @param {Object} livro - O livro a ser validado
+ * @returns {Object} { valido: boolean, erro: string }
+ */
+function validarLivro(livro) {
+    // Verificar se é um objeto
+    if (typeof livro !== 'object' || livro === null) {
+        return { valido: false, erro: 'Livro não é um objeto válido' };
+    }
+    
+    const errors = [];
+    
+    // Validar cada campo conforme o esquema
+    for (const [campo, regras] of Object.entries(LIVRO_ESQUEMA)) {
+        const valor = livro[campo];
+        const valorEstaDefinido = valor !== undefined && valor !== null && valor !== '';
+        
+        // Verificar campo obrigatório
+        if (regras.obrigatorio && !valorEstaDefinido) {
+            errors.push(`Campo obrigatório "${campo}" está faltando`);
+            continue;
+        }
+        
+        // Se o valor não está definido, pular outras validações
+        if (!valorEstaDefinido) continue;
+        
+        // Validar tipo do campo
+        if (regras.tipo === 'number') {
+            const valorNumerico = Number(valor);
+            if (isNaN(valorNumerico)) {
+                errors.push(`Campo "${campo}" deve ser um número`);
+            } else if (regras.min !== undefined && valorNumerico < regras.min) {
+                errors.push(`Campo "${campo}" deve ser no mínimo ${regras.min}`);
+            }
+            // Substituir o valor pelo número convertido
+            livro[campo] = valorNumerico;
+        } else if (typeof valor !== regras.tipo) {
+            errors.push(`Campo "${campo}" deve ser do tipo ${regras.tipo}`);
+        }
+        
+        // Validar valores específicos (para campos como status)
+        if (regras.valoresValidos && !regras.valoresValidos.includes(valor)) {
+            errors.push(`Campo "${campo}" deve ser um dos valores: ${regras.valoresValidos.join(', ')}`);
+        }
+    }
+    
+    // Validar campos adicionais não definidos no esquema
+    for (const campo in livro) {
+        if (!LIVRO_ESQUEMA.hasOwnProperty(campo)) {
+            console.warn(`Campo não esperado encontrado no livro: ${campo}`);
+            // Você pode optar por remover campos não esperados:
+            // delete livro[campo];
+        }
+    }
+    
+    return {
+        valido: errors.length === 0,
+        erro: errors.length > 0 ? errors.join('; ') : null
+    };
+}
+
+/**
+ * Valida a estrutura completa dos dados
+ * @param {Object} dados - Os dados brutos do JSON
+ * @returns {Object} { valido: boolean, livros: Array, errors: Array }
+ */
+function validarDados(dados) {
+    if (!dados || typeof dados !== 'object') {
+        return { 
+            valido: false, 
+            livros: [], 
+            errors: ['Dados inválidos: não é um objeto'] 
+        };
+    }
+    
+    if (!dados.livros || !Array.isArray(dados.livros)) {
+        return { 
+            valido: false, 
+            livros: [], 
+            errors: ['Estrutura inválida: propriedade "livros" não encontrada ou não é um array'] 
+        };
+    }
+    
+    const livrosValidados = [];
+    const errors = [];
+    let livrosCorrompidos = 0;
+    
+    // Validar cada livro individualmente
+    dados.livros.forEach((livro, index) => {
+        const validacao = validarLivro(livro);
+        
+        if (!validacao.valido) {
+            errors.push(`Livro na posição ${index}: ${validacao.erro}`);
+            livrosCorrompidos++;
+            
+            // Tentar recuperar o livro com valores padrão
+            const livroRecuperado = tentarRecuperarLivro(livro);
+            if (livroRecuperado) {
+                livrosValidados.push(livroRecuperado);
+            }
+        } else {
+            livrosValidados.push(livro);
+        }
+    });
+    
+    // Log de livros corrompidos para debug
+    if (livrosCorrompidos > 0) {
+        console.warn(`${livrosCorrompidos} livro(s) com problemas foram encontrados e ${livrosValidados.length - (dados.livros.length - livrosCorrompidos)} recuperados`);
+    }
+    
+    return {
+        valido: errors.length === 0,
+        livros: livrosValidados,
+        errors: errors,
+        totalLivros: dados.livros.length,
+        livrosCorrompidos: livrosCorrompidos,
+        livrosRecuperados: livrosValidados.length - (dados.livros.length - livrosCorrompidos)
+    };
+}
+
+/**
+ * Tenta recuperar um livro com dados incompletos ou inválidos
+ * @param {Object} livro - O livro corrompido
+ * @returns {Object|null} Livro recuperado ou null se não for possível recuperar
+ */
+function tentarRecuperarLivro(livro) {
+    // Criar uma cópia para não modificar o original
+    const recuperado = { ...livro };
+    
+    // Garantir que campos obrigatórios tenham valores padrão
+    if (!recuperado.status || !LIVRO_ESQUEMA.status.valoresValidos.includes(recuperado.status)) {
+        recuperado.status = 'Indisponível'; // Valor padrão conservador
+    }
+    
+    // Garantir que campos numéricos sejam números válidos
+    if (recuperado.disponiveis !== undefined) {
+        const disponiveisNum = Number(recuperado.disponiveis);
+        recuperado.disponiveis = isNaN(disponiveisNum) || disponiveisNum < 0 ? 0 : disponiveisNum;
+    }
+    
+    // Garantir que campos de texto sejam strings
+    const camposTexto = ['titulo', 'autor', 'genero', 'localizacao'];
+    camposTexto.forEach(campo => {
+        if (recuperado[campo] !== undefined && typeof recuperado[campo] !== 'string') {
+            recuperado[campo] = String(recuperado[campo]);
+        } else if (recuperado[campo] === undefined) {
+            recuperado[campo] = 'Não informado';
+        }
+    });
+    
+    // Validar o livro recuperado
+    const validacao = validarLivro(recuperado);
+    return validacao.valido ? recuperado : null;
+}
+
+// ========== FUNÇÕES EXISTENTES (com pequenas adaptações) ========== //
 
 // Debounce para melhorar performance da busca
 function debounceFiltrarLivros() {
@@ -218,12 +388,19 @@ async function carregarDados() {
     if (isCacheValid()) {
         const cachedData = recuperarDoCache();
         if (cachedData) {
-            dadosCompletos = cachedData.livros;
+            // Validar dados do cache
+            const validacao = validarDados(cachedData);
+            dadosCompletos = validacao.livros;
             livrosAcervo = [...dadosCompletos];
             
             extrairGeneros();
-            atualizarLista(cachedData);
-            mostrarMensagem('Dados carregados do cache.', 'success');
+            atualizarLista({ livros: dadosCompletos });
+            
+            if (validacao.livrosCorrompidos > 0) {
+                mostrarMensagem(`Dados carregados do cache (${validacao.livrosCorrompidos} livros recuperados)`, 'success');
+            } else {
+                mostrarMensagem('Dados carregados do cache.', 'success');
+            }
             
             // Atualizar em segundo plano
             setTimeout(carregarDadosRemotos, 1000);
@@ -245,32 +422,58 @@ async function carregarDadosRemotos() {
         const response = await fetch(urlComTimestamp);
         
         if (!response.ok) throw new Error(`Erro HTTP: ${response.status}`);
-        const dados = await response.json();
+        const dadosBrutos = await response.json();
         
-        if (!dados.livros || !Array.isArray(dados.livros)) {
-            throw new Error('Formato inválido do arquivo JSON.');
+        // Validar os dados recebidos
+        const validacao = validarDados(dadosBrutos);
+        
+        if (!validacao.valido && validacao.livros.length === 0) {
+            throw new Error('Dados recebidos são inválidos e não puderam ser recuperados');
         }
 
-        dadosCompletos = dados.livros;
+        dadosCompletos = validacao.livros;
         livrosAcervo = [...dadosCompletos];
 
+        // Preparar dados para cache (incluir metadados de validação)
+        const dadosParaCache = {
+            livros: dadosCompletos,
+            validacao: {
+                timestamp: new Date().toISOString(),
+                totalLivros: validacao.totalLivros,
+                livrosCorrompidos: validacao.livrosCorrompidos,
+                livrosRecuperados: validacao.livrosRecuperados
+            }
+        };
+        
         // Salvar no cache
-        salvarNoCache(dados);
+        salvarNoCache(dadosParaCache);
         
         extrairGeneros();
-        atualizarLista(dados);
-        mostrarMensagem('Dados atualizados com sucesso!', 'success');
+        atualizarLista({ livros: dadosCompletos });
+        
+        // Mostrar mensagem apropriada baseada na validação
+        if (validacao.livrosCorrompidos > 0) {
+            mostrarMensagem(`Dados atualizados! ${validacao.livrosCorrompidos} livro(s) recuperado(s) de forma automática.`, 'success');
+        } else {
+            mostrarMensagem('Dados atualizados com sucesso!', 'success');
+        }
+        
+        // Log de erros de validação no console para debug
+        if (validacao.errors.length > 0) {
+            console.warn('Problemas encontrados na validação:', validacao.errors);
+        }
     } catch (error) {
         console.error('Erro ao carregar dados remotos:', error);
         
         // Se falhar, tentar usar cache mesmo que expirado
         const cachedData = recuperarDoCache();
         if (cachedData) {
-            dadosCompletos = cachedData.livros;
+            const validacao = validarDados(cachedData);
+            dadosCompletos = validacao.livros;
             livrosAcervo = [...dadosCompletos];
             
             extrairGeneros();
-            atualizarLista(cachedData);
+            atualizarLista({ livros: dadosCompletos });
             mostrarMensagem('Usando dados em cache (possivelmente desatualizados).', 'error');
         } else {
             mostrarMensagem(`Erro ao carregar dados: ${error.message}`, 'error');
