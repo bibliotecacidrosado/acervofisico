@@ -24,6 +24,10 @@
       <div>Disponíveis</div>
       <div class="resumo-numero" id="total-disponiveis">0</div>
     </div>
+    <div class="resumo-item">
+      <div>Página</div>
+      <div class="resumo-numero" id="info-paginacao">1/1</div>
+    </div>
   </div>
   
   <div id="mensagem"></div>
@@ -43,6 +47,14 @@
         <option value="todos">Todos os gêneros</option>
       </select>
     </div>
+    <div>
+      <select id="ordenacao">
+        <option value="recentes">Mais recentes primeiro</option>
+        <option value="antigos">Mais antigos primeiro</option>
+        <option value="titulo">Ordenar por título</option>
+        <option value="autor">Ordenar por autor</option>
+      </select>
+    </div>
   </div>
 
   <div class="lista-container">
@@ -57,6 +69,31 @@
       <div class="loading" id="loading-message">
         <p>Carregando acervo...</p>
       </div>
+    </div>
+  </div>
+
+  <!-- Controles de paginação -->
+  <div class="paginacao-container">
+    <div class="controles-paginacao">
+      <button id="primeiraPagina" class="btn-paginacao" disabled>«</button>
+      <button id="paginaAnterior" class="btn-paginacao" disabled>‹</button>
+      
+      <div class="numeros-paginas" id="numerosPaginas">
+        <!-- Os números das páginas serão inseridos aqui via JavaScript -->
+      </div>
+      
+      <button id="proximaPagina" class="btn-paginacao" disabled>›</button>
+      <button id="ultimaPagina" class="btn-paginacao" disabled>»</button>
+    </div>
+    
+    <div class="paginacao-info">
+      <span id="infoRegistros">Mostrando 0 de 0 livros</span>
+      <select id="itensPorPagina">
+        <option value="10">10 itens por página</option>
+        <option value="20" selected>20 itens por página</option>
+        <option value="50">50 itens por página</option>
+        <option value="100">100 itens por página</option>
+      </select>
     </div>
   </div>
 
