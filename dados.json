@@ -1,8 +1,8 @@
 {
-  "ultimaAtualizacao": "2025-09-10T12:15:15.076Z",
-  "totalLivros": 117,
-  "totalExemplares": 623,
-  "totalDisponiveis": 623,
+  "ultimaAtualizacao": "2025-09-10T12:17:01.382Z",
+  "totalLivros": 118,
+  "totalExemplares": 624,
+  "totalDisponiveis": 624,
   "livros": [
     {
       "titulo": "Aprendendo a Amar e a Curar ",
@@ -1641,6 +1641,20 @@
       "localizacao": "Estante B, B4. Romance",
       "status": "Disponível",
       "capa": "https://drive.google.com/open?id=1Rde0hShDFS9JfhBYwziXwCCcbFp7oUhr"
+    },
+    {
+      "titulo": "As memórias de Eugênia",
+      "autor": "Marcos Bagno",
+      "genero": "Romance",
+      "ano": 2011,
+      "editora": "Positivo ",
+      "cidade": "Curitiba ",
+      "exemplares": 1,
+      "emprestados": 0,
+      "disponiveis": 1,
+      "localizacao": "Estante A, A2. Romance",
+      "status": "Disponível",
+      "capa": "https://drive.google.com/open?id=1to-tIF-pTtxd35skJZsaWLR4sdgg3Pm3"
     }
   ]
 }
