@@ -1,8 +1,8 @@
 {
-  "ultimaAtualizacao": "2025-09-10T12:04:41.256Z",
-  "totalLivros": 109,
-  "totalExemplares": 606,
-  "totalDisponiveis": 606,
+  "ultimaAtualizacao": "2025-09-10T12:07:03.078Z",
+  "totalLivros": 110,
+  "totalExemplares": 607,
+  "totalDisponiveis": 607,
   "livros": [
     {
       "titulo": "Aprendendo a Amar e a Curar ",
@@ -1529,6 +1529,20 @@
       "localizacao": "Estante B, B2. Romance",
       "status": "Disponível",
       "capa": "https://drive.google.com/open?id=1YPlZds5wgxfOFwqng8zjf5sN4sZ7worS"
+    },
+    {
+      "titulo": "Whaterve",
+      "autor": "Leonardo Brasiliense",
+      "genero": "Romance",
+      "ano": 2009,
+      "editora": "LTDA",
+      "cidade": "Porto Alegre ",
+      "exemplares": 1,
+      "emprestados": 0,
+      "disponiveis": 1,
+      "localizacao": "Estante A, A2. Romance",
+      "status": "Disponível",
+      "capa": "https://drive.google.com/open?id=1EDmEbA7G65fV6WnPPGxu1ejSKEdE0Zff"
     }
   ]
 }
