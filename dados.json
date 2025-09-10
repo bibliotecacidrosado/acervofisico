@@ -1,8 +1,8 @@
 {
-  "ultimaAtualizacao": "2025-09-10T11:56:46.311Z",
-  "totalLivros": 105,
-  "totalExemplares": 602,
-  "totalDisponiveis": 602,
+  "ultimaAtualizacao": "2025-09-10T11:59:14.430Z",
+  "totalLivros": 106,
+  "totalExemplares": 603,
+  "totalDisponiveis": 603,
   "livros": [
     {
       "titulo": "Aprendendo a Amar e a Curar ",
@@ -1473,6 +1473,20 @@
       "localizacao": "Estante B, B5. Romance",
       "status": "Disponível",
       "capa": "https://drive.google.com/open?id=1Df7aORc_eRIvuyW8R00oGHFC3YSHehkQ"
+    },
+    {
+      "titulo": "Sozinha No Mundo",
+      "autor": "Marcos Rey",
+      "genero": "Romance",
+      "ano": 1999,
+      "editora": "Ática",
+      "cidade": "São Paulo ",
+      "exemplares": 1,
+      "emprestados": 0,
+      "disponiveis": 1,
+      "localizacao": "Estante A, A2. Romance",
+      "status": "Disponível",
+      "capa": "https://drive.google.com/open?id=1xKBkTlYQ-z9jhaMB3ImXYxJgixXJb1tf"
     }
   ]
 }
