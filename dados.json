@@ -1,8 +1,8 @@
 {
-  "ultimaAtualizacao": "2025-09-10T12:03:35.912Z",
-  "totalLivros": 108,
-  "totalExemplares": 605,
-  "totalDisponiveis": 605,
+  "ultimaAtualizacao": "2025-09-10T12:04:41.256Z",
+  "totalLivros": 109,
+  "totalExemplares": 606,
+  "totalDisponiveis": 606,
   "livros": [
     {
       "titulo": "Aprendendo a Amar e a Curar ",
@@ -1515,6 +1515,20 @@
       "localizacao": "Estante A, A2. Romance",
       "status": "Disponível",
       "capa": "https://drive.google.com/open?id=1UtDCZpNMY9ruZGO-86Mawgyf1rIIXUFJ"
+    },
+    {
+      "titulo": "Os homens com quem não me casei ",
+      "autor": "Janice Kaplan",
+      "genero": "Romance",
+      "ano": 2010,
+      "editora": "Record",
+      "cidade": "Rio de Janeiro ",
+      "exemplares": 1,
+      "emprestados": 0,
+      "disponiveis": 1,
+      "localizacao": "Estante B, B2. Romance",
+      "status": "Disponível",
+      "capa": "https://drive.google.com/open?id=1YPlZds5wgxfOFwqng8zjf5sN4sZ7worS"
     }
   ]
 }
