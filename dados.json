@@ -1,8 +1,8 @@
 {
-  "ultimaAtualizacao": "2025-09-10T11:51:49.958Z",
-  "totalLivros": 101,
-  "totalExemplares": 592,
-  "totalDisponiveis": 592,
+  "ultimaAtualizacao": "2025-09-10T11:54:02.999Z",
+  "totalLivros": 102,
+  "totalExemplares": 593,
+  "totalDisponiveis": 593,
   "livros": [
     {
       "titulo": "Aprendendo a Amar e a Curar ",
@@ -1417,6 +1417,20 @@
       "localizacao": "Estante A, A1. Novela",
       "status": "Disponível",
       "capa": "https://drive.google.com/open?id=1X1Yspd0O3LJTLyBcaUMG8jIqV4iBFqK7"
+    },
+    {
+      "titulo": "O martírio dos viventes ",
+      "autor": "Paulo Cavalcante ",
+      "genero": "Romance",
+      "ano": 2021,
+      "editora": "Universitária UFPB",
+      "cidade": "João Pessoa ",
+      "exemplares": 1,
+      "emprestados": 0,
+      "disponiveis": 1,
+      "localizacao": "Estante B, B3. Romance",
+      "status": "Disponível",
+      "capa": "https://drive.google.com/open?id=1kETiJynV8FFM9ZlSjzo7pjpu9tZ1_l8X"
     }
   ]
 }
