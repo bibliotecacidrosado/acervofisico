@@ -1,8 +1,8 @@
 {
-  "ultimaAtualizacao": "2025-09-10T12:13:57.293Z",
-  "totalLivros": 116,
-  "totalExemplares": 622,
-  "totalDisponiveis": 622,
+  "ultimaAtualizacao": "2025-09-10T12:15:15.076Z",
+  "totalLivros": 117,
+  "totalExemplares": 623,
+  "totalDisponiveis": 623,
   "livros": [
     {
       "titulo": "Aprendendo a Amar e a Curar ",
@@ -1627,6 +1627,20 @@
       "localizacao": "Estante A, A2. Romance",
       "status": "Disponível",
       "capa": "https://drive.google.com/open?id=11e97-L5wZQiiAv8W2aXtbD4BefzwoRaj"
+    },
+    {
+      "titulo": "Lua de larvas ",
+      "autor": "Sally Garden",
+      "genero": "Romance",
+      "ano": 2014,
+      "editora": "WMF",
+      "cidade": "São Paulo ",
+      "exemplares": 1,
+      "emprestados": 0,
+      "disponiveis": 1,
+      "localizacao": "Estante B, B4. Romance",
+      "status": "Disponível",
+      "capa": "https://drive.google.com/open?id=1Rde0hShDFS9JfhBYwziXwCCcbFp7oUhr"
     }
   ]
 }
