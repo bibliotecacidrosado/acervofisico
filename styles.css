@@ -225,3 +225,34 @@ select { padding: 10px; border-radius: 5px; border: 1px solid var(--cor-borda); 
     gap: 5px;
   }
 }
+
+
+/* Campo de salto direto */
+.salto-pagina {
+  display: flex;
+  align-items: center;
+  gap: 5px;
+  margin-left: 10px;
+}
+
+.salto-pagina input {
+  width: 60px;
+  padding: 6px;
+  border: 1px solid var(--cor-borda);
+  border-radius: 4px;
+  text-align: center;
+}
+
+.salto-pagina button {
+  background: var(--cor-secundaria);
+  border: 1px solid var(--cor-borda);
+  padding: 6px 10px;
+  border-radius: 4px;
+  cursor: pointer;
+  font-weight: bold;
+}
+
+.salto-pagina button:hover {
+  background: var(--cor-primaria);
+  color: white;
+}
