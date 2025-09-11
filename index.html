@@ -414,5 +414,257 @@
       });
     });
   </script>
+
+<script>
+// ========================== CONFIGURAÇÕES ========================== //
+const URL_JSON = 'https://raw.githubusercontent.com/bibliotecacidrosado/acervofisico/refs/heads/main/dados.json';
+const CACHE_KEY = 'biblioteca_acervo_cache';
+const CACHE_TIMESTAMP_KEY = 'biblioteca_acervo_timestamp';
+const CACHE_DURATION = 30 * 60 * 1000; // 30 minutos
+
+// Configurações de paginação
+const PAGINACAO_CONFIG = {
+  itensPorPagina: 20,
+  paginaAtual: 1,
+  totalPaginas: 1,
+  maxPaginasVisiveis: 5
+};
+
+let dadosCompletos = [];
+let livrosFiltrados = [];
+
+// ========================== CACHE ========================== //
+function isCacheValid() {
+  const timestamp = localStorage.getItem(CACHE_TIMESTAMP_KEY);
+  if (!timestamp) return false;
+  const now = new Date().getTime();
+  return (now - parseInt(timestamp)) < CACHE_DURATION;
+}
+function salvarNoCache(dados) {
+  localStorage.setItem(CACHE_KEY, JSON.stringify(dados));
+  localStorage.setItem(CACHE_TIMESTAMP_KEY, new Date().getTime().toString());
+}
+function recuperarDoCache() {
+  const cachedData = localStorage.getItem(CACHE_KEY);
+  return cachedData ? JSON.parse(cachedData) : null;
+}
+
+// ========================== PAGINAÇÃO ========================== //
+function calcularTotalPaginas() {
+  PAGINACAO_CONFIG.totalPaginas = Math.ceil(livrosFiltrados.length / PAGINACAO_CONFIG.itensPorPagina);
+  PAGINACAO_CONFIG.totalPaginas = Math.max(PAGINACAO_CONFIG.totalPaginas, 1);
+}
+function irParaPagina(pagina) {
+  if (pagina < 1 || pagina > PAGINACAO_CONFIG.totalPaginas) return;
+  PAGINACAO_CONFIG.paginaAtual = pagina;
+  renderizarLivros();
+  atualizarControlesPaginacao();
+  document.querySelector('.lista-container').scrollIntoView({ behavior: 'smooth' });
+}
+function atualizarControlesPaginacao() {
+  const paginacao = document.getElementById('paginacao');
+  paginacao.innerHTML = '';
+
+  const controles = document.createElement('div');
+  controles.className = 'controles-paginacao';
+
+  // Botões
+  const btnPrimeira = document.createElement('button');
+  btnPrimeira.textContent = '«';
+  btnPrimeira.disabled = PAGINACAO_CONFIG.paginaAtual === 1;
+  btnPrimeira.onclick = () => irParaPagina(1);
+
+  const btnAnterior = document.createElement('button');
+  btnAnterior.textContent = '‹';
+  btnAnterior.disabled = PAGINACAO_CONFIG.paginaAtual === 1;
+  btnAnterior.onclick = () => irParaPagina(PAGINACAO_CONFIG.paginaAtual - 1);
+
+  const btnProxima = document.createElement('button');
+  btnProxima.textContent = '›';
+  btnProxima.disabled = PAGINACAO_CONFIG.paginaAtual === PAGINACAO_CONFIG.totalPaginas;
+  btnProxima.onclick = () => irParaPagina(PAGINACAO_CONFIG.paginaAtual + 1);
+
+  const btnUltima = document.createElement('button');
+  btnUltima.textContent = '»';
+  btnUltima.disabled = PAGINACAO_CONFIG.paginaAtual === PAGINACAO_CONFIG.totalPaginas;
+  btnUltima.onclick = () => irParaPagina(PAGINACAO_CONFIG.totalPaginas);
+
+  // Números das páginas
+  const numeros = document.createElement('div');
+  numeros.className = 'numeros-paginas';
+  let inicio = Math.max(1, PAGINACAO_CONFIG.paginaAtual - Math.floor(PAGINACAO_CONFIG.maxPaginasVisiveis/2));
+  let fim = Math.min(PAGINACAO_CONFIG.totalPaginas, inicio + PAGINACAO_CONFIG.maxPaginasVisiveis - 1);
+  if (fim - inicio + 1 < PAGINACAO_CONFIG.maxPaginasVisiveis) {
+    inicio = Math.max(1, fim - PAGINACAO_CONFIG.maxPaginasVisiveis + 1);
+  }
+  for (let i = inicio; i <= fim; i++) {
+    const btn = document.createElement('button');
+    btn.textContent = i;
+    if (i === PAGINACAO_CONFIG.paginaAtual) btn.classList.add('ativo');
+    btn.onclick = () => irParaPagina(i);
+    numeros.appendChild(btn);
+  }
+
+  // Campo salto
+  const saltoDiv = document.createElement('div');
+  saltoDiv.className = 'salto-pagina';
+  const input = document.createElement('input');
+  input.type = 'number';
+  input.min = 1;
+  input.max = PAGINACAO_CONFIG.totalPaginas;
+  input.placeholder = 'Página';
+  input.addEventListener('keydown', e => {
+    if (e.key === 'Enter') {
+      const val = parseInt(input.value);
+      if (!isNaN(val)) irParaPagina(val);
+    }
+  });
+  const btnIr = document.createElement('button');
+  btnIr.textContent = 'Ir';
+  btnIr.onclick = () => {
+    const val = parseInt(input.value);
+    if (!isNaN(val)) irParaPagina(val);
+  };
+  saltoDiv.appendChild(input);
+  saltoDiv.appendChild(btnIr);
+
+  // Select itens por página
+  const select = document.createElement('select');
+  [10,20,50,100].forEach(num => {
+    const opt = document.createElement('option');
+    opt.value = num;
+    opt.textContent = num + ' por página';
+    if (num === PAGINACAO_CONFIG.itensPorPagina) opt.selected = true;
+    select.appendChild(opt);
+  });
+  select.onchange = () => {
+    PAGINACAO_CONFIG.itensPorPagina = parseInt(select.value);
+    PAGINACAO_CONFIG.paginaAtual = 1;
+    calcularTotalPaginas();
+    renderizarLivros();
+    atualizarControlesPaginacao();
+  };
+
+  // Montagem
+  controles.appendChild(btnPrimeira);
+  controles.appendChild(btnAnterior);
+  controles.appendChild(numeros);
+  controles.appendChild(btnProxima);
+  controles.appendChild(btnUltima);
+  controles.appendChild(saltoDiv);
+  controles.appendChild(select);
+  paginacao.appendChild(controles);
+
+  // Info
+  const info = document.createElement('div');
+  info.className = 'paginacao-info';
+  const inicioReg = (PAGINACAO_CONFIG.paginaAtual - 1) * PAGINACAO_CONFIG.itensPorPagina + 1;
+  const fimReg = Math.min(PAGINACAO_CONFIG.paginaAtual * PAGINACAO_CONFIG.itensPorPagina, livrosFiltrados.length);
+  info.textContent = `Mostrando ${inicioReg}-${fimReg} de ${livrosFiltrados.length}`;
+  paginacao.appendChild(info);
+}
+
+// ========================== RENDERIZAÇÃO ========================== //
+function renderizarLivros() {
+  const lista = document.getElementById('listaLivros');
+  lista.innerHTML = '';
+  if (!livrosFiltrados.length) {
+    lista.innerHTML = '<div class="loading">Nenhum livro encontrado</div>';
+    return;
+  }
+  const inicio = (PAGINACAO_CONFIG.paginaAtual - 1) * PAGINACAO_CONFIG.itensPorPagina;
+  const fim = inicio + PAGINACAO_CONFIG.itensPorPagina;
+  const livrosPagina = livrosFiltrados.slice(inicio, fim);
+  livrosPagina.forEach(l => {
+    const div = document.createElement('div');
+    div.className = 'livro';
+    div.innerHTML = `
+      <span>${l.titulo || 'Não informado'}</span>
+      <span>${l.autor || 'Não informado'}</span>
+      <span>${l.genero || 'Não informado'}</span>
+      <span>${l.localizacao || 'Não informado'}</span>
+      <span class="status ${l.status === 'Disponível' ? 'disponivel' : 'indisponivel'}">${l.status}</span>
+    `;
+    lista.appendChild(div);
+  });
+}
+
+// ========================== FILTROS ========================== //
+function filtrarLivros() {
+  const termo = document.getElementById('busca').value.toLowerCase();
+  const statusFiltro = document.getElementById('filtroStatus').value;
+  const generoFiltro = document.getElementById('filtroGenero').value;
+  livrosFiltrados = dadosCompletos.filter(l => {
+    const correspondeTermo =
+      (l.titulo && l.titulo.toLowerCase().includes(termo)) ||
+      (l.autor && l.autor.toLowerCase().includes(termo)) ||
+      (l.genero && l.genero.toLowerCase().includes(termo)) ||
+      (l.localizacao && l.localizacao.toLowerCase().includes(termo));
+    const correspondeStatus = statusFiltro === 'todos' || l.status === statusFiltro;
+    const correspondeGenero = generoFiltro === 'todos' || l.genero === generoFiltro;
+    return correspondeTermo && correspondeStatus && correspondeGenero;
+  });
+  calcularTotalPaginas();
+  PAGINACAO_CONFIG.paginaAtual = 1;
+  renderizarLivros();
+  atualizarControlesPaginacao();
+}
+
+function extrairGeneros() {
+  const generosSet = new Set();
+  dadosCompletos.forEach(l => {
+    if (l.genero && l.genero.trim() !== '') generosSet.add(l.genero);
+  });
+  const filtroGenero = document.getElementById('filtroGenero');
+  while (filtroGenero.options.length > 1) filtroGenero.remove(1);
+  Array.from(generosSet).sort().forEach(g => {
+    const opt = document.createElement('option');
+    opt.value = g;
+    opt.textContent = g;
+    filtroGenero.appendChild(opt);
+  });
+}
+
+// ========================== CARREGAMENTO ========================== //
+async function carregarDadosRemotos() {
+  const url = `${URL_JSON}?t=${new Date().getTime()}`;
+  const resp = await fetch(url);
+  if (!resp.ok) throw new Error('Erro ao baixar dados');
+  return await resp.json();
+}
+
+async function carregarDados() {
+  let dados = null;
+  if (isCacheValid()) {
+    dados = recuperarDoCache();
+  }
+  if (!dados) {
+    try {
+      dados = await carregarDadosRemotos();
+      salvarNoCache(dados);
+    } catch(e) {
+      console.error('Falha ao carregar dados remotos', e);
+      dados = recuperarDoCache() || { livros: [] };
+    }
+  }
+  dadosCompletos = dados.livros || [];
+  livrosFiltrados = [...dadosCompletos];
+  document.getElementById('total-livros').textContent = dadosCompletos.length;
+  document.getElementById('total-disponiveis').textContent = dadosCompletos.filter(l => l.status==='Disponível').length;
+  extrairGeneros();
+  calcularTotalPaginas();
+  renderizarLivros();
+  atualizarControlesPaginacao();
+}
+
+// ========================== EVENTOS ========================== //
+document.addEventListener('DOMContentLoaded', () => {
+  document.getElementById('busca').addEventListener('input', filtrarLivros);
+  document.getElementById('filtroStatus').addEventListener('change', filtrarLivros);
+  document.getElementById('filtroGenero').addEventListener('change', filtrarLivros);
+  carregarDados();
+});
+</script>
+
 </body>
 </html>
