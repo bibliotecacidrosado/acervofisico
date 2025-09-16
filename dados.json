@@ -1,8 +1,8 @@
 {
-  "ultimaAtualizacao": "2025-09-16T18:06:08.104Z",
-  "totalLivros": 128,
-  "totalExemplares": 688,
-  "totalDisponiveis": 688,
+  "ultimaAtualizacao": "2025-09-16T18:08:50.434Z",
+  "totalLivros": 129,
+  "totalExemplares": 689,
+  "totalDisponiveis": 689,
   "livros": [
     {
       "titulo": "Aprendendo a Amar e a Curar ",
@@ -1795,6 +1795,20 @@
       "localizacao": "Estante A, A3. Romance",
       "status": "Disponível",
       "capa": "https://drive.google.com/open?id=12oxf5BMr_cVFqCJjmWgH8Hz0H1XtKqTM"
+    },
+    {
+      "titulo": "Eu e esse meu coração ",
+      "autor": "C.C. Hunter",
+      "genero": "Romance",
+      "ano": 2018,
+      "editora": "Jangada",
+      "cidade": "São Paulo",
+      "exemplares": 1,
+      "emprestados": 0,
+      "disponiveis": 1,
+      "localizacao": "Estante B, B2. Romance",
+      "status": "Disponível",
+      "capa": "https://drive.google.com/open?id=1_-e7GgQgSesqgCumyNtI-NvXp6e_Sj0c"
     }
   ]
 }
