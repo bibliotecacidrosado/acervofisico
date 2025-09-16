@@ -1,8 +1,8 @@
 {
-  "ultimaAtualizacao": "2025-09-16T19:12:59.973Z",
-  "totalLivros": 142,
-  "totalExemplares": 729,
-  "totalDisponiveis": 729,
+  "ultimaAtualizacao": "2025-09-16T19:16:20.749Z",
+  "totalLivros": 143,
+  "totalExemplares": 730,
+  "totalDisponiveis": 730,
   "livros": [
     {
       "titulo": "Aprendendo a Amar e a Curar ",
@@ -1991,6 +1991,20 @@
       "localizacao": "Estante A, A2. Romance",
       "status": "Disponível",
       "capa": "https://drive.google.com/open?id=1i6xuXsG1ZRCuveHtRjv29sjgZ8ks4A1o"
+    },
+    {
+      "titulo": "O pequeno príncipe ",
+      "autor": "Antoine de Saint",
+      "genero": "Romance",
+      "ano": 2015,
+      "editora": "Agir",
+      "cidade": "Rio de Janeiro ",
+      "exemplares": 1,
+      "emprestados": 0,
+      "disponiveis": 1,
+      "localizacao": "Estante A, A2. Romance",
+      "status": "Disponível",
+      "capa": "https://drive.google.com/open?id=1UH9w55dVnO-W7eZKaBEYb47AT-riu-iP"
     }
   ]
 }
