@@ -1,8 +1,8 @@
 {
-  "ultimaAtualizacao": "2025-09-16T18:02:34.385Z",
-  "totalLivros": 127,
-  "totalExemplares": 687,
-  "totalDisponiveis": 687,
+  "ultimaAtualizacao": "2025-09-16T18:06:08.104Z",
+  "totalLivros": 128,
+  "totalExemplares": 688,
+  "totalDisponiveis": 688,
   "livros": [
     {
       "titulo": "Aprendendo a Amar e a Curar ",
@@ -1781,6 +1781,20 @@
       "localizacao": "Estante A, A3. Romance",
       "status": "Disponível",
       "capa": "https://drive.google.com/open?id=1GtWnAJ1A2rSLdczFm1jYf9-1t2iZIUyU"
+    },
+    {
+      "titulo": "Refénsno paraíso ",
+      "autor": "Giselda Laporta Nicolelis",
+      "genero": "Romance",
+      "ano": 1999,
+      "editora": "Quinteto Editoral ",
+      "cidade": "São Paulo ",
+      "exemplares": 1,
+      "emprestados": 0,
+      "disponiveis": 1,
+      "localizacao": "Estante A, A3. Romance",
+      "status": "Disponível",
+      "capa": "https://drive.google.com/open?id=12oxf5BMr_cVFqCJjmWgH8Hz0H1XtKqTM"
     }
   ]
 }
