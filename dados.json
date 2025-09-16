@@ -1,8 +1,8 @@
 {
-  "ultimaAtualizacao": "2025-09-16T18:50:04.663Z",
-  "totalLivros": 134,
-  "totalExemplares": 719,
-  "totalDisponiveis": 719,
+  "ultimaAtualizacao": "2025-09-16T18:55:10.023Z",
+  "totalLivros": 135,
+  "totalExemplares": 722,
+  "totalDisponiveis": 722,
   "livros": [
     {
       "titulo": "Aprendendo a Amar e a Curar ",
@@ -1879,6 +1879,20 @@
       "localizacao": "Estante B, B1. Romance",
       "status": "Disponível",
       "capa": "https://drive.google.com/open?id=1VgW_FHYGluC-r-sM28o5eKSqTC6jGhgx"
+    },
+    {
+      "titulo": "É assim que acaba ",
+      "autor": "Kami Garcia",
+      "genero": "Romance",
+      "ano": 2018,
+      "editora": "Record LTDA",
+      "cidade": "Rio de Janeiro ",
+      "exemplares": 3,
+      "emprestados": 0,
+      "disponiveis": 3,
+      "localizacao": "Estante B, B3. Romance",
+      "status": "Disponível",
+      "capa": "https://drive.google.com/open?id=1II1TF0Ql6Sn0bW3Qx_2bTGwGquMIimlo"
     }
   ]
 }
