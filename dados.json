@@ -1,8 +1,8 @@
 {
-  "ultimaAtualizacao": "2025-09-10T12:20:05.463Z",
-  "totalLivros": 119,
-  "totalExemplares": 625,
-  "totalDisponiveis": 625,
+  "ultimaAtualizacao": "2025-09-16T17:51:23.113Z",
+  "totalLivros": 120,
+  "totalExemplares": 640,
+  "totalDisponiveis": 640,
   "livros": [
     {
       "titulo": "Aprendendo a Amar e a Curar ",
@@ -1669,6 +1669,20 @@
       "localizacao": "Estante A, A2. Romance",
       "status": "Disponível",
       "capa": "https://drive.google.com/open?id=1loNTz2zqgjNnpNv525HU8M_twrIIZ9_S"
+    },
+    {
+      "titulo": "Lira dos vintes anos ",
+      "autor": "Álvares de Azevedo ",
+      "genero": "Poema",
+      "ano": 1999,
+      "editora": "FTD",
+      "cidade": "São Paulo ",
+      "exemplares": 15,
+      "emprestados": 0,
+      "disponiveis": 15,
+      "localizacao": "Estante B, B9. Poema",
+      "status": "Disponível",
+      "capa": "https://drive.google.com/open?id=13wrHkDEjIzYIXLVFKkMNadZdpTEmZfhf"
     }
   ]
 }
