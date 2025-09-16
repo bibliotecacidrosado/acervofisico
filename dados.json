@@ -1,8 +1,8 @@
 {
-  "ultimaAtualizacao": "2025-09-16T19:05:40.162Z",
-  "totalLivros": 138,
-  "totalExemplares": 725,
-  "totalDisponiveis": 725,
+  "ultimaAtualizacao": "2025-09-16T19:05:56.432Z",
+  "totalLivros": 139,
+  "totalExemplares": 726,
+  "totalDisponiveis": 726,
   "livros": [
     {
       "titulo": "Aprendendo a Amar e a Curar ",
@@ -1935,6 +1935,20 @@
       "localizacao": "Estante A, A2. Romance",
       "status": "Disponível",
       "capa": "https://drive.google.com/open?id=1lbF5txV_PbqQQQuHgij62_Wg0iaG-Pc-"
+    },
+    {
+      "titulo": "A volta ao mundo em 80 dias",
+      "autor": "Júlio Vermer",
+      "genero": "Romance",
+      "ano": 2019,
+      "editora": "Principis",
+      "cidade": "São Paulo ",
+      "exemplares": 1,
+      "emprestados": 0,
+      "disponiveis": 1,
+      "localizacao": "Estante B, B1. Romance",
+      "status": "Disponível",
+      "capa": "https://drive.google.com/open?id=179vutCpuCrGdOBmD7icf_UE9RzbqsO30"
     }
   ]
 }
