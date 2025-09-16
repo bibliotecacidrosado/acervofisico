@@ -1,8 +1,8 @@
 {
-  "ultimaAtualizacao": "2025-09-16T17:54:16.118Z",
-  "totalLivros": 121,
-  "totalExemplares": 648,
-  "totalDisponiveis": 648,
+  "ultimaAtualizacao": "2025-09-16T17:55:59.124Z",
+  "totalLivros": 122,
+  "totalExemplares": 656,
+  "totalDisponiveis": 656,
   "livros": [
     {
       "titulo": "Aprendendo a Amar e a Curar ",
@@ -1697,6 +1697,20 @@
       "localizacao": "Estante B, B9. Poema",
       "status": "Disponível",
       "capa": "https://drive.google.com/open?id=1LKGBtg4qDhbTpieNd0rBZYqIfDKtW1oL"
+    },
+    {
+      "titulo": "Espumas Flutuantes ",
+      "autor": "Castro Alves ",
+      "genero": "Poema",
+      "ano": 1997,
+      "editora": "FTD",
+      "cidade": "São Paulo ",
+      "exemplares": 8,
+      "emprestados": 0,
+      "disponiveis": 8,
+      "localizacao": "Estante B, B9. Poema",
+      "status": "Disponível",
+      "capa": "https://drive.google.com/open?id=1TZcNzVoF_HBFffIyxUVSedwviUDCQy4X"
     }
   ]
 }
