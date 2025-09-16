@@ -1,8 +1,8 @@
 {
-  "ultimaAtualizacao": "2025-09-16T19:24:44.734Z",
-  "totalLivros": 147,
-  "totalExemplares": 734,
-  "totalDisponiveis": 734,
+  "ultimaAtualizacao": "2025-09-16T19:28:13.709Z",
+  "totalLivros": 148,
+  "totalExemplares": 735,
+  "totalDisponiveis": 735,
   "livros": [
     {
       "titulo": "Aprendendo a Amar e a Curar ",
@@ -2061,6 +2061,20 @@
       "localizacao": "Estante A, A2. Romance",
       "status": "Disponível",
       "capa": "https://drive.google.com/open?id=1flZNqu1IuPsuqhFdIbCmV8y4YoqH7QdM"
+    },
+    {
+      "titulo": "O quarto da cura",
+      "autor": "Renata Dias ",
+      "genero": "Romance",
+      "ano": 2009,
+      "editora": "LTDA",
+      "cidade": "São Paulo ",
+      "exemplares": 1,
+      "emprestados": 0,
+      "disponiveis": 1,
+      "localizacao": "Estante A, A2. Romance",
+      "status": "Disponível",
+      "capa": "https://drive.google.com/open?id=1U8F7-t8hjQ_6oFe9UCElSvjZaE6tb5Hp"
     }
   ]
 }
