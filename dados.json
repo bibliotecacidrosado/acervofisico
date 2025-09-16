@@ -1,8 +1,8 @@
 {
-  "ultimaAtualizacao": "2025-09-16T18:57:27.315Z",
-  "totalLivros": 136,
-  "totalExemplares": 723,
-  "totalDisponiveis": 723,
+  "ultimaAtualizacao": "2025-09-16T19:01:38.661Z",
+  "totalLivros": 137,
+  "totalExemplares": 724,
+  "totalDisponiveis": 724,
   "livros": [
     {
       "titulo": "Aprendendo a Amar e a Curar ",
@@ -1907,6 +1907,20 @@
       "localizacao": "Estante A, A2. Romance",
       "status": "Disponível",
       "capa": "https://drive.google.com/open?id=1OUaFyT2eIM6zBbpy26RQq5RiiD_-OCjJ"
+    },
+    {
+      "titulo": "A esmeralda do rio negro ",
+      "autor": "Peter Ryan",
+      "genero": "Romance",
+      "ano": 1880,
+      "editora": "Ediouro",
+      "cidade": "Rio de Janeiro ",
+      "exemplares": 1,
+      "emprestados": 0,
+      "disponiveis": 1,
+      "localizacao": "Estante A, A2. Romance",
+      "status": "Disponível",
+      "capa": "https://drive.google.com/open?id=14SSM36E3s6fQIvf__0ALo3vZnF-Vmwmz"
     }
   ]
 }
