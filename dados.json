@@ -1,8 +1,8 @@
 {
-  "ultimaAtualizacao": "2025-09-16T19:28:50.490Z",
-  "totalLivros": 149,
-  "totalExemplares": 736,
-  "totalDisponiveis": 736,
+  "ultimaAtualizacao": "2025-09-16T19:30:45.316Z",
+  "totalLivros": 150,
+  "totalExemplares": 737,
+  "totalDisponiveis": 737,
   "livros": [
     {
       "titulo": "Aprendendo a Amar e a Curar ",
@@ -2089,6 +2089,20 @@
       "localizacao": "Estante A, A3. Romance",
       "status": "Disponível",
       "capa": "https://drive.google.com/open?id=1H3jf2wu1kNGI9ChQz_AbsqdvbQOeY_WC"
+    },
+    {
+      "titulo": "Um pedido as estrelas ",
+      "autor": "Priscille Sibley",
+      "genero": "Romance",
+      "ano": 2013,
+      "editora": "Benvirá",
+      "cidade": "São Paulo ",
+      "exemplares": 1,
+      "emprestados": 0,
+      "disponiveis": 1,
+      "localizacao": "Estante B, B2. Romance",
+      "status": "Disponível",
+      "capa": "https://drive.google.com/open?id=1BuD9dEUQiRwjUdqjGqdKN7R6ysQZfvf9"
     }
   ]
 }
