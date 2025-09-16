@@ -1,8 +1,8 @@
 {
-  "ultimaAtualizacao": "2025-09-16T17:55:59.124Z",
-  "totalLivros": 122,
-  "totalExemplares": 656,
-  "totalDisponiveis": 656,
+  "ultimaAtualizacao": "2025-09-16T17:56:36.698Z",
+  "totalLivros": 123,
+  "totalExemplares": 658,
+  "totalDisponiveis": 658,
   "livros": [
     {
       "titulo": "Aprendendo a Amar e a Curar ",
@@ -1711,6 +1711,20 @@
       "localizacao": "Estante B, B9. Poema",
       "status": "Disponível",
       "capa": "https://drive.google.com/open?id=1TZcNzVoF_HBFffIyxUVSedwviUDCQy4X"
+    },
+    {
+      "titulo": "Uma longa jornada ",
+      "autor": "Nicholas Sparks",
+      "genero": "Romance",
+      "ano": 2014,
+      "editora": "Arqueiro ",
+      "cidade": "São Paulo ",
+      "exemplares": 2,
+      "emprestados": 0,
+      "disponiveis": 2,
+      "localizacao": "Estante A, A2. Romance",
+      "status": "Disponível",
+      "capa": "https://drive.google.com/open?id=1OBI-v-tenQRPQj_Pme8U73Z_ONG3N5P7"
     }
   ]
 }
