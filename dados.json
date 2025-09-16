@@ -1,8 +1,8 @@
 {
-  "ultimaAtualizacao": "2025-09-16T19:09:54.855Z",
-  "totalLivros": 140,
-  "totalExemplares": 727,
-  "totalDisponiveis": 727,
+  "ultimaAtualizacao": "2025-09-16T19:11:23.459Z",
+  "totalLivros": 141,
+  "totalExemplares": 728,
+  "totalDisponiveis": 728,
   "livros": [
     {
       "titulo": "Aprendendo a Amar e a Curar ",
@@ -1963,6 +1963,20 @@
       "localizacao": "Estante B, A2. Romance",
       "status": "Disponível",
       "capa": "https://drive.google.com/open?id=1zv7ifdM2HHrqQUhWt3sOTmpV6h9f2JSA"
+    },
+    {
+      "titulo": "Os homens com quem não me casei",
+      "autor": "Janice Kaplan e Lynn Schnurnberger",
+      "genero": "Romance",
+      "ano": 2010,
+      "editora": "Record",
+      "cidade": "Rio de Janeiro ",
+      "exemplares": 1,
+      "emprestados": 0,
+      "disponiveis": 1,
+      "localizacao": "Estante B, B2. Romance",
+      "status": "Disponível",
+      "capa": "https://drive.google.com/open?id=1DLHyIRbBHhij7u4V8YZesKI0kuSMdisd"
     }
   ]
 }
