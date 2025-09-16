@@ -1,8 +1,8 @@
 {
-  "ultimaAtualizacao": "2025-09-16T18:08:50.434Z",
-  "totalLivros": 129,
-  "totalExemplares": 689,
-  "totalDisponiveis": 689,
+  "ultimaAtualizacao": "2025-09-16T18:13:14.024Z",
+  "totalLivros": 130,
+  "totalExemplares": 690,
+  "totalDisponiveis": 690,
   "livros": [
     {
       "titulo": "Aprendendo a Amar e a Curar ",
@@ -1809,6 +1809,20 @@
       "localizacao": "Estante B, B2. Romance",
       "status": "Disponível",
       "capa": "https://drive.google.com/open?id=1_-e7GgQgSesqgCumyNtI-NvXp6e_Sj0c"
+    },
+    {
+      "titulo": "O pecado da coruja ",
+      "autor": "San Rodco",
+      "genero": "Romance",
+      "ano": 2020,
+      "editora": "Skull",
+      "cidade": "São Paulo ",
+      "exemplares": 1,
+      "emprestados": 0,
+      "disponiveis": 1,
+      "localizacao": "Estante A, A2. Romance",
+      "status": "Disponível",
+      "capa": "https://drive.google.com/open?id=1lP8qumBmxM5dsx8xv57tPnuCFxDhapsF"
     }
   ]
 }
