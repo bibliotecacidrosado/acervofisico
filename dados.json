@@ -1,8 +1,8 @@
 {
-  "ultimaAtualizacao": "2025-09-16T17:56:36.698Z",
-  "totalLivros": 123,
-  "totalExemplares": 658,
-  "totalDisponiveis": 658,
+  "ultimaAtualizacao": "2025-09-16T17:57:03.254Z",
+  "totalLivros": 124,
+  "totalExemplares": 667,
+  "totalDisponiveis": 667,
   "livros": [
     {
       "titulo": "Aprendendo a Amar e a Curar ",
@@ -1725,6 +1725,20 @@
       "localizacao": "Estante A, A2. Romance",
       "status": "Disponível",
       "capa": "https://drive.google.com/open?id=1OBI-v-tenQRPQj_Pme8U73Z_ONG3N5P7"
+    },
+    {
+      "titulo": "POESIAS SELECIONADAS",
+      "autor": "Gregório de Matos",
+      "genero": "Poema",
+      "ano": 1993,
+      "editora": "FTD",
+      "cidade": "São Paulo ",
+      "exemplares": 9,
+      "emprestados": 0,
+      "disponiveis": 9,
+      "localizacao": "Estante B, B9. Poema",
+      "status": "Disponível",
+      "capa": "https://drive.google.com/open?id=1zPiZxjmTQST7ic5pYE2JfjTmJ7hhz_0H"
     }
   ]
 }
