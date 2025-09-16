@@ -1,8 +1,8 @@
 {
-  "ultimaAtualizacao": "2025-09-16T19:16:20.749Z",
-  "totalLivros": 143,
-  "totalExemplares": 730,
-  "totalDisponiveis": 730,
+  "ultimaAtualizacao": "2025-09-16T19:16:50.840Z",
+  "totalLivros": 144,
+  "totalExemplares": 731,
+  "totalDisponiveis": 731,
   "livros": [
     {
       "titulo": "Aprendendo a Amar e a Curar ",
@@ -2005,6 +2005,20 @@
       "localizacao": "Estante A, A2. Romance",
       "status": "Disponível",
       "capa": "https://drive.google.com/open?id=1UH9w55dVnO-W7eZKaBEYb47AT-riu-iP"
+    },
+    {
+      "titulo": "Rilla de Ingleside",
+      "autor": "Lucy Maud Montgomery",
+      "genero": "Romance",
+      "ano": 2020,
+      "editora": "Ciranda Cultural",
+      "cidade": "São Paulo ",
+      "exemplares": 1,
+      "emprestados": 0,
+      "disponiveis": 1,
+      "localizacao": "Estante B, B2. Romance",
+      "status": "Disponível",
+      "capa": "https://drive.google.com/open?id=1hvmaJNUtJ-S42ZiME5GOjJe3HXFQej-V"
     }
   ]
 }
