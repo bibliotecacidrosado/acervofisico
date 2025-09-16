@@ -1,8 +1,8 @@
 {
-  "ultimaAtualizacao": "2025-09-16T18:55:10.023Z",
-  "totalLivros": 135,
-  "totalExemplares": 722,
-  "totalDisponiveis": 722,
+  "ultimaAtualizacao": "2025-09-16T18:57:27.315Z",
+  "totalLivros": 136,
+  "totalExemplares": 723,
+  "totalDisponiveis": 723,
   "livros": [
     {
       "titulo": "Aprendendo a Amar e a Curar ",
@@ -1893,6 +1893,20 @@
       "localizacao": "Estante B, B3. Romance",
       "status": "Disponível",
       "capa": "https://drive.google.com/open?id=1II1TF0Ql6Sn0bW3Qx_2bTGwGquMIimlo"
+    },
+    {
+      "titulo": "A mediadora lembrança",
+      "autor": "Meg Cabot",
+      "genero": "Romance",
+      "ano": 2016,
+      "editora": "Galera",
+      "cidade": "Rio de Janeiro ",
+      "exemplares": 1,
+      "emprestados": 0,
+      "disponiveis": 1,
+      "localizacao": "Estante A, A2. Romance",
+      "status": "Disponível",
+      "capa": "https://drive.google.com/open?id=1OUaFyT2eIM6zBbpy26RQq5RiiD_-OCjJ"
     }
   ]
 }
