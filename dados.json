@@ -1,8 +1,8 @@
 {
-  "ultimaAtualizacao": "2025-09-16T19:05:56.432Z",
-  "totalLivros": 139,
-  "totalExemplares": 726,
-  "totalDisponiveis": 726,
+  "ultimaAtualizacao": "2025-09-16T19:09:54.855Z",
+  "totalLivros": 140,
+  "totalExemplares": 727,
+  "totalDisponiveis": 727,
   "livros": [
     {
       "titulo": "Aprendendo a Amar e a Curar ",
@@ -1949,6 +1949,20 @@
       "localizacao": "Estante B, B1. Romance",
       "status": "Disponível",
       "capa": "https://drive.google.com/open?id=179vutCpuCrGdOBmD7icf_UE9RzbqsO30"
+    },
+    {
+      "titulo": "O fio d'água do quilombo",
+      "autor": "Heloisa Pires Lima, Willivane Ferreira de Melo e Águida Araújo de Vasconcelos ",
+      "genero": "Romance",
+      "ano": 2012,
+      "editora": "Prumo",
+      "cidade": "São Paulo ",
+      "exemplares": 1,
+      "emprestados": 0,
+      "disponiveis": 1,
+      "localizacao": "Estante B, A2. Romance",
+      "status": "Disponível",
+      "capa": "https://drive.google.com/open?id=1zv7ifdM2HHrqQUhWt3sOTmpV6h9f2JSA"
     }
   ]
 }
