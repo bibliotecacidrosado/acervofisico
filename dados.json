@@ -1,8 +1,8 @@
 {
-  "ultimaAtualizacao": "2025-09-16T19:30:45.316Z",
-  "totalLivros": 150,
-  "totalExemplares": 737,
-  "totalDisponiveis": 737,
+  "ultimaAtualizacao": "2025-09-23T18:58:11.390Z",
+  "totalLivros": 151,
+  "totalExemplares": 738,
+  "totalDisponiveis": 738,
   "livros": [
     {
       "titulo": "Aprendendo a Amar e a Curar ",
@@ -2103,6 +2103,20 @@
       "localizacao": "Estante B, B2. Romance",
       "status": "Disponível",
       "capa": "https://drive.google.com/open?id=1BuD9dEUQiRwjUdqjGqdKN7R6ysQZfvf9"
+    },
+    {
+      "titulo": "O morro dos ventos uivantes ",
+      "autor": "Emily Brontë",
+      "genero": "Romance",
+      "ano": 2021,
+      "editora": "Camelot",
+      "cidade": "São Paulo ",
+      "exemplares": 1,
+      "emprestados": 0,
+      "disponiveis": 1,
+      "localizacao": "Estante A, A2. Romance",
+      "status": "Disponível",
+      "capa": "https://drive.google.com/open?id=1QgcMmCKALgKXuehARbQaJEjz4hxA3tU3"
     }
   ]
 }
