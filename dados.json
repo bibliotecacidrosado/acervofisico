@@ -1,8 +1,8 @@
 {
-  "ultimaAtualizacao": "2025-09-23T19:28:37.234Z",
-  "totalLivros": 179,
-  "totalExemplares": 925,
-  "totalDisponiveis": 925,
+  "ultimaAtualizacao": "2025-09-23T19:28:57.950Z",
+  "totalLivros": 180,
+  "totalExemplares": 934,
+  "totalDisponiveis": 934,
   "livros": [
     {
       "titulo": "Aprendendo a Amar e a Curar ",
@@ -2509,6 +2509,20 @@
       "localizacao": "Estante B, B2. Romance",
       "status": "Disponível",
       "capa": "https://drive.google.com/open?id=1YReC6vGRkEoaJtrQyAk0YFypjA9F_mpp"
+    },
+    {
+      "titulo": "Palavras de Luz ",
+      "autor": "Maria de Fátima Alves de Carvalho",
+      "genero": "Literatura Encantense",
+      "ano": 2020,
+      "editora": "Unilivreira ",
+      "cidade": "Natal RN ",
+      "exemplares": 9,
+      "emprestados": 0,
+      "disponiveis": 9,
+      "localizacao": "Corredor G, CoG. Literatura Encantense",
+      "status": "Disponível",
+      "capa": "https://drive.google.com/open?id=1eabW5FJOXpJIzllolwDaal0-KOT4Omt3"
     }
   ]
 }
