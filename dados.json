@@ -1,8 +1,8 @@
 {
-  "ultimaAtualizacao": "2025-09-23T19:17:28.991Z",
-  "totalLivros": 168,
-  "totalExemplares": 891,
-  "totalDisponiveis": 891,
+  "ultimaAtualizacao": "2025-09-23T19:18:35.618Z",
+  "totalLivros": 169,
+  "totalExemplares": 901,
+  "totalDisponiveis": 901,
   "livros": [
     {
       "titulo": "Aprendendo a Amar e a Curar ",
@@ -2355,6 +2355,20 @@
       "localizacao": "Estante C, C4. Literatura Infantojuvenil",
       "status": "Disponível",
       "capa": "https://drive.google.com/open?id=1TgXQXS74wClnHwWfgXBk0_TUySK3uqx5"
+    },
+    {
+      "titulo": "Letras de Caatingueira",
+      "autor": "Maria de Fátima Alves de Carvalho ",
+      "genero": "Literatura Encantense",
+      "ano": 2017,
+      "editora": "Unilivreira",
+      "cidade": "Natal ",
+      "exemplares": 10,
+      "emprestados": 0,
+      "disponiveis": 10,
+      "localizacao": "Corredor G, CoG. Literatura Encantense",
+      "status": "Disponível",
+      "capa": "https://drive.google.com/open?id=1ho7hOzMl3pXYAOaChIQzbY0YAda9roaN"
     }
   ]
 }
