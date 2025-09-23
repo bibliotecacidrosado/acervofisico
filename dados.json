@@ -1,8 +1,8 @@
 {
-  "ultimaAtualizacao": "2025-09-23T18:58:11.390Z",
-  "totalLivros": 151,
-  "totalExemplares": 738,
-  "totalDisponiveis": 738,
+  "ultimaAtualizacao": "2025-09-23T18:59:48.289Z",
+  "totalLivros": 152,
+  "totalExemplares": 783,
+  "totalDisponiveis": 783,
   "livros": [
     {
       "titulo": "Aprendendo a Amar e a Curar ",
@@ -2117,6 +2117,20 @@
       "localizacao": "Estante A, A2. Romance",
       "status": "Disponível",
       "capa": "https://drive.google.com/open?id=1QgcMmCKALgKXuehARbQaJEjz4hxA3tU3"
+    },
+    {
+      "titulo": "A Face oculta",
+      "autor": "Maria Tereza Maldonado ",
+      "genero": "Literatura Infantojuvenil",
+      "ano": 2018,
+      "editora": "Todas as letras",
+      "cidade": "São Paulo ",
+      "exemplares": 45,
+      "emprestados": 0,
+      "disponiveis": 45,
+      "localizacao": "Estante C, C8. Literatura Infantojuvenil / Eu sou Malala / A face oculta / Malala, a menina que queria ir para a escola",
+      "status": "Disponível",
+      "capa": "https://drive.google.com/open?id=1WXGg_F8Q4Z6RlL91WnZbTB914nMdDQ6m"
     }
   ]
 }
