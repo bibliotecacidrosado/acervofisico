@@ -1,8 +1,8 @@
 {
-  "ultimaAtualizacao": "2025-09-23T19:13:53.020Z",
-  "totalLivros": 165,
-  "totalExemplares": 875,
-  "totalDisponiveis": 875,
+  "ultimaAtualizacao": "2025-09-23T19:16:24.186Z",
+  "totalLivros": 166,
+  "totalExemplares": 888,
+  "totalDisponiveis": 888,
   "livros": [
     {
       "titulo": "Aprendendo a Amar e a Curar ",
@@ -1747,9 +1747,9 @@
       "ano": 2005,
       "editora": "PAULUS",
       "cidade": "São Paulo ",
-      "exemplares": 16,
+      "exemplares": 28,
       "emprestados": 0,
-      "disponiveis": 16,
+      "disponiveis": 28,
       "localizacao": "Estante B, B9. Poema",
       "status": "Disponível",
       "capa": "https://drive.google.com/open?id=1MFk2L8ih91nPE2Pors3th7uw-QPKlJHE"
@@ -2189,8 +2189,8 @@
       "capa": "https://drive.google.com/open?id=13KwUmo63WD4EEOstOZ_XkPYy0Q7bEsw3"
     },
     {
-      "titulo": "Um leão em família ",
-      "autor": "Luiz puntel",
+      "titulo": "Um Leão em Família ",
+      "autor": "Luiz Puntel",
       "genero": "Literatura Infantojuvenil",
       "ano": 2003,
       "editora": "Editora ática ",
@@ -2313,6 +2313,20 @@
       "localizacao": "Estante C, C4. Literatura Infantojuvenil",
       "status": "Disponível",
       "capa": "https://drive.google.com/open?id=1cWNhlw72r04ZBUug2YNvp2B0gEexLrlX"
+    },
+    {
+      "titulo": "A última pedra",
+      "autor": "Rogério Formigoni",
+      "genero": "Romance",
+      "ano": 2014,
+      "editora": "Unipro",
+      "cidade": "Rio de Janeiro ",
+      "exemplares": 1,
+      "emprestados": 0,
+      "disponiveis": 1,
+      "localizacao": "Estante A, A2. Romance",
+      "status": "Disponível",
+      "capa": "https://drive.google.com/open?id=1JoGA4SVpIGZ2dC-jXUoayMv3-8ZSXo1C"
     }
   ]
 }
