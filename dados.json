@@ -1,8 +1,8 @@
 {
-  "ultimaAtualizacao": "2025-09-23T19:27:55.377Z",
-  "totalLivros": 178,
-  "totalExemplares": 924,
-  "totalDisponiveis": 924,
+  "ultimaAtualizacao": "2025-09-23T19:28:37.234Z",
+  "totalLivros": 179,
+  "totalExemplares": 925,
+  "totalDisponiveis": 925,
   "livros": [
     {
       "titulo": "Aprendendo a Amar e a Curar ",
@@ -2495,6 +2495,20 @@
       "localizacao": "Estante C, C4. Literatura Infantojuvenil",
       "status": "Disponível",
       "capa": "https://drive.google.com/open?id=1GitzeMUMTtity4mwf0BqqY3FzMiwu1u1"
+    },
+    {
+      "titulo": "O segredo da empregada ",
+      "autor": "Freida mcfadder",
+      "genero": "Romance",
+      "ano": 2023,
+      "editora": "Arqueiro ltda ",
+      "cidade": "São Paulo ",
+      "exemplares": 1,
+      "emprestados": 0,
+      "disponiveis": 1,
+      "localizacao": "Estante B, B2. Romance",
+      "status": "Disponível",
+      "capa": "https://drive.google.com/open?id=1YReC6vGRkEoaJtrQyAk0YFypjA9F_mpp"
     }
   ]
 }
