@@ -1,8 +1,8 @@
 {
-  "ultimaAtualizacao": "2025-09-23T19:02:39.958Z",
-  "totalLivros": 154,
-  "totalExemplares": 786,
-  "totalDisponiveis": 786,
+  "ultimaAtualizacao": "2025-09-23T19:02:45.797Z",
+  "totalLivros": 155,
+  "totalExemplares": 787,
+  "totalDisponiveis": 787,
   "livros": [
     {
       "titulo": "Aprendendo a Amar e a Curar ",
@@ -2159,6 +2159,20 @@
       "localizacao": "Estante A, A3. Romance",
       "status": "Disponível",
       "capa": "https://drive.google.com/open?id=1PlgbwDcCjfVM0rt1TDPMCYgA9AO7o-Qi"
+    },
+    {
+      "titulo": "Para pegar bagre de dia",
+      "autor": "Wander piroli",
+      "genero": "Conto",
+      "ano": 2011,
+      "editora": "Editora leitura ltda",
+      "cidade": "Belo Horizonte ",
+      "exemplares": 1,
+      "emprestados": 0,
+      "disponiveis": 1,
+      "localizacao": "Estante B, B7. Contos",
+      "status": "Disponível",
+      "capa": "https://drive.google.com/open?id=1C7YnDKlRVAgIkVLcfsFoCm85vhWAVGWY"
     }
   ]
 }
