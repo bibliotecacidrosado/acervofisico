@@ -1,8 +1,8 @@
 {
-  "ultimaAtualizacao": "2025-09-23T19:07:57.443Z",
-  "totalLivros": 161,
-  "totalExemplares": 873,
-  "totalDisponiveis": 873,
+  "ultimaAtualizacao": "2025-09-23T19:09:12.322Z",
+  "totalLivros": 162,
+  "totalExemplares": 881,
+  "totalDisponiveis": 881,
   "livros": [
     {
       "titulo": "Aprendendo a Amar e a Curar ",
@@ -1677,9 +1677,9 @@
       "ano": 1999,
       "editora": "FTD",
       "cidade": "São Paulo ",
-      "exemplares": 15,
+      "exemplares": 21,
       "emprestados": 0,
-      "disponiveis": 15,
+      "disponiveis": 21,
       "localizacao": "Estante B, B9. Poema",
       "status": "Disponível",
       "capa": "https://drive.google.com/open?id=13wrHkDEjIzYIXLVFKkMNadZdpTEmZfhf"
@@ -2257,6 +2257,20 @@
       "localizacao": "Estante C, C9. Eu, minha irmã e seu universo particular",
       "status": "Disponível",
       "capa": "https://drive.google.com/open?id=1lSbSWw1Ee3IrovlHtBIDwc0ryWz9HlvY"
+    },
+    {
+      "titulo": "Poesia completa ",
+      "autor": "Jorge de Lima ",
+      "genero": "Poema",
+      "ano": 1997,
+      "editora": "Nova aguilar ",
+      "cidade": "Rio de Janeiro ",
+      "exemplares": 2,
+      "emprestados": 0,
+      "disponiveis": 2,
+      "localizacao": "Estante B, B9. Poema",
+      "status": "Disponível",
+      "capa": "https://drive.google.com/open?id=1iPcdrzq450WkQOG3by2A2E_HeVZRFvrZ"
     }
   ]
 }
