@@ -1,8 +1,8 @@
 {
-  "ultimaAtualizacao": "2025-09-23T19:24:10.503Z",
-  "totalLivros": 175,
-  "totalExemplares": 920,
-  "totalDisponiveis": 920,
+  "ultimaAtualizacao": "2025-09-23T19:26:04.619Z",
+  "totalLivros": 176,
+  "totalExemplares": 921,
+  "totalDisponiveis": 921,
   "livros": [
     {
       "titulo": "Aprendendo a Amar e a Curar ",
@@ -2453,6 +2453,20 @@
       "localizacao": "Estante C, C5. Literatura Infantojuvenil",
       "status": "Disponível",
       "capa": "https://drive.google.com/open?id=1UzTJCHa96TZb93yQEvNlUWm6k-x1L0f7"
+    },
+    {
+      "titulo": "Sherlock Holmes /Um estudo em vermelho ",
+      "autor": "Arthur Conan Doyler",
+      "genero": "Romance",
+      "ano": 2019,
+      "editora": "Principis",
+      "cidade": "São Paulo ",
+      "exemplares": 1,
+      "emprestados": 0,
+      "disponiveis": 1,
+      "localizacao": "Estante A, A2. Romance",
+      "status": "Disponível",
+      "capa": "https://drive.google.com/open?id=1oehyTqK8BvM-YfgB_oCvVj3ZTFTMMynS"
     }
   ]
 }
