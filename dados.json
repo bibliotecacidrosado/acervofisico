@@ -1,8 +1,8 @@
 {
-  "ultimaAtualizacao": "2025-09-23T19:00:12.866Z",
-  "totalLivros": 153,
-  "totalExemplares": 785,
-  "totalDisponiveis": 785,
+  "ultimaAtualizacao": "2025-09-23T19:02:39.958Z",
+  "totalLivros": 154,
+  "totalExemplares": 786,
+  "totalDisponiveis": 786,
   "livros": [
     {
       "titulo": "Aprendendo a Amar e a Curar ",
@@ -2145,6 +2145,20 @@
       "localizacao": "Estante C, C4. Literatura Infantojuvenil",
       "status": "Disponível",
       "capa": "https://drive.google.com/open?id=1k6aN_2LrQq0z-OwBOZMh4FOOfv7nHUXN"
+    },
+    {
+      "titulo": "O caçador de pipas ",
+      "autor": "Khaled Hosseini",
+      "genero": "Romance",
+      "ano": 2013,
+      "editora": "Nova fronteira ",
+      "cidade": "Rio de Janeiro ",
+      "exemplares": 1,
+      "emprestados": 0,
+      "disponiveis": 1,
+      "localizacao": "Estante A, A3. Romance",
+      "status": "Disponível",
+      "capa": "https://drive.google.com/open?id=1PlgbwDcCjfVM0rt1TDPMCYgA9AO7o-Qi"
     }
   ]
 }
