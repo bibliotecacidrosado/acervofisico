@@ -1,8 +1,8 @@
 {
-  "ultimaAtualizacao": "2025-09-23T19:28:57.950Z",
-  "totalLivros": 180,
-  "totalExemplares": 934,
-  "totalDisponiveis": 934,
+  "ultimaAtualizacao": "2025-09-23T19:29:17.384Z",
+  "totalLivros": 181,
+  "totalExemplares": 941,
+  "totalDisponiveis": 941,
   "livros": [
     {
       "titulo": "Aprendendo a Amar e a Curar ",
@@ -2523,6 +2523,20 @@
       "localizacao": "Corredor G, CoG. Literatura Encantense",
       "status": "Disponível",
       "capa": "https://drive.google.com/open?id=1eabW5FJOXpJIzllolwDaal0-KOT4Omt3"
+    },
+    {
+      "titulo": "Não pergunte ao vento ",
+      "autor": "Maria Francisca Fernandes da Costa ",
+      "genero": "Romance",
+      "ano": 1995,
+      "editora": "Gráfica Santa Maria ",
+      "cidade": "Natal ",
+      "exemplares": 7,
+      "emprestados": 0,
+      "disponiveis": 7,
+      "localizacao": "Corredor G, CoG. Literatura Encantense",
+      "status": "Disponível",
+      "capa": "https://drive.google.com/open?id=17dt9Ff1iEJGcW6Wge8OzTB6gLPcMm6oo"
     }
   ]
 }
