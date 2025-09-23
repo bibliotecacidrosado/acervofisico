@@ -1,8 +1,8 @@
 {
-  "ultimaAtualizacao": "2025-09-23T19:10:52.492Z",
-  "totalLivros": 162,
-  "totalExemplares": 866,
-  "totalDisponiveis": 866,
+  "ultimaAtualizacao": "2025-09-23T19:11:11.366Z",
+  "totalLivros": 163,
+  "totalExemplares": 872,
+  "totalDisponiveis": 872,
   "livros": [
     {
       "titulo": "Aprendendo a Amar e a Curar ",
@@ -2271,6 +2271,20 @@
       "localizacao": "Estante B, B5. Romance",
       "status": "Disponível",
       "capa": "https://drive.google.com/open?id=17zi8aSymzgotDXP1cJIJSp_CM7Wb_SGz"
+    },
+    {
+      "titulo": "Mindinho maior de todos",
+      "autor": "Juliana Valverde",
+      "genero": "Poema",
+      "ano": 2017,
+      "editora": "ÔZé Editora ",
+      "cidade": "São paulo ",
+      "exemplares": 6,
+      "emprestados": 0,
+      "disponiveis": 6,
+      "localizacao": "Estante B, B9. Poema",
+      "status": "Disponível",
+      "capa": "https://drive.google.com/open?id=1IiIMQxj62C8oWAoOd6ZyafGtgzlSBYf3"
     }
   ]
 }
