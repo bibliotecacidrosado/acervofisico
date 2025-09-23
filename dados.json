@@ -1,8 +1,8 @@
 {
-  "ultimaAtualizacao": "2025-09-23T19:07:13.633Z",
-  "totalLivros": 160,
-  "totalExemplares": 796,
-  "totalDisponiveis": 796,
+  "ultimaAtualizacao": "2025-09-23T19:07:57.443Z",
+  "totalLivros": 161,
+  "totalExemplares": 873,
+  "totalDisponiveis": 873,
   "livros": [
     {
       "titulo": "Aprendendo a Amar e a Curar ",
@@ -2243,6 +2243,20 @@
       "localizacao": "Estante A, A2. Romance",
       "status": "Disponível",
       "capa": "https://drive.google.com/open?id=1NcQKua2RREyNhdoioRQYFhFINZKER3Zt"
+    },
+    {
+      "titulo": "Eu,minha irmã e seu universo particular ",
+      "autor": "Eileen Garvin",
+      "genero": "Literatura Infantojuvenil",
+      "ano": 2021,
+      "editora": "ASTROLÁBIO ",
+      "cidade": "Rio de Janeiro ",
+      "exemplares": 77,
+      "emprestados": 0,
+      "disponiveis": 77,
+      "localizacao": "Estante C, C9. Eu, minha irmã e seu universo particular",
+      "status": "Disponível",
+      "capa": "https://drive.google.com/open?id=1lSbSWw1Ee3IrovlHtBIDwc0ryWz9HlvY"
     }
   ]
 }
