@@ -1,8 +1,8 @@
 {
-  "ultimaAtualizacao": "2025-09-23T19:17:07.979Z",
-  "totalLivros": 167,
-  "totalExemplares": 889,
-  "totalDisponiveis": 889,
+  "ultimaAtualizacao": "2025-09-23T19:17:28.991Z",
+  "totalLivros": 168,
+  "totalExemplares": 891,
+  "totalDisponiveis": 891,
   "livros": [
     {
       "titulo": "Aprendendo a Amar e a Curar ",
@@ -2341,6 +2341,20 @@
       "localizacao": "Estante C, C5. Literatura Infantojuvenil",
       "status": "Disponível",
       "capa": "https://drive.google.com/open?id=1Z3niIDSaoIDVfO4KBK6ntPHbrlB2byqh"
+    },
+    {
+      "titulo": "Filho de Peixe ",
+      "autor": "Marcelo Carneiro da Cunha ",
+      "genero": "Literatura Infantojuvenil",
+      "ano": 2018,
+      "editora": "PROJETO ",
+      "cidade": "Porto Alegre ",
+      "exemplares": 2,
+      "emprestados": 0,
+      "disponiveis": 2,
+      "localizacao": "Estante C, C4. Literatura Infantojuvenil",
+      "status": "Disponível",
+      "capa": "https://drive.google.com/open?id=1TgXQXS74wClnHwWfgXBk0_TUySK3uqx5"
     }
   ]
 }
