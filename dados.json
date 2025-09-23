@@ -1,8 +1,8 @@
 {
-  "ultimaAtualizacao": "2025-09-23T18:59:48.289Z",
-  "totalLivros": 152,
-  "totalExemplares": 783,
-  "totalDisponiveis": 783,
+  "ultimaAtualizacao": "2025-09-23T19:00:12.866Z",
+  "totalLivros": 153,
+  "totalExemplares": 785,
+  "totalDisponiveis": 785,
   "livros": [
     {
       "titulo": "Aprendendo a Amar e a Curar ",
@@ -2131,6 +2131,20 @@
       "localizacao": "Estante C, C8. Literatura Infantojuvenil / Eu sou Malala / A face oculta / Malala, a menina que queria ir para a escola",
       "status": "Disponível",
       "capa": "https://drive.google.com/open?id=1WXGg_F8Q4Z6RlL91WnZbTB914nMdDQ6m"
+    },
+    {
+      "titulo": "O Gênio do Crime",
+      "autor": "João Carlos Marinho ",
+      "genero": "Literatura Infantojuvenil",
+      "ano": 2018,
+      "editora": "Gaia Itda",
+      "cidade": "São Paulo ",
+      "exemplares": 2,
+      "emprestados": 0,
+      "disponiveis": 2,
+      "localizacao": "Estante C, C4. Literatura Infantojuvenil",
+      "status": "Disponível",
+      "capa": "https://drive.google.com/open?id=1k6aN_2LrQq0z-OwBOZMh4FOOfv7nHUXN"
     }
   ]
 }
