@@ -1,8 +1,8 @@
 {
-  "ultimaAtualizacao": "2025-09-23T19:16:24.186Z",
-  "totalLivros": 166,
-  "totalExemplares": 888,
-  "totalDisponiveis": 888,
+  "ultimaAtualizacao": "2025-09-23T19:17:07.979Z",
+  "totalLivros": 167,
+  "totalExemplares": 889,
+  "totalDisponiveis": 889,
   "livros": [
     {
       "titulo": "Aprendendo a Amar e a Curar ",
@@ -2327,6 +2327,20 @@
       "localizacao": "Estante A, A2. Romance",
       "status": "Disponível",
       "capa": "https://drive.google.com/open?id=1JoGA4SVpIGZ2dC-jXUoayMv3-8ZSXo1C"
+    },
+    {
+      "titulo": "O menino da bengala ",
+      "autor": "Ivan jaf",
+      "genero": "Literatura Infantojuvenil",
+      "ano": 2021,
+      "editora": "BR Educação ",
+      "cidade": "São Paulo ",
+      "exemplares": 1,
+      "emprestados": 0,
+      "disponiveis": 1,
+      "localizacao": "Estante C, C5. Literatura Infantojuvenil",
+      "status": "Disponível",
+      "capa": "https://drive.google.com/open?id=1Z3niIDSaoIDVfO4KBK6ntPHbrlB2byqh"
     }
   ]
 }
