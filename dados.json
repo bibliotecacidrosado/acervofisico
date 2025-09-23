@@ -1,8 +1,8 @@
 {
-  "ultimaAtualizacao": "2025-09-23T19:06:30.693Z",
-  "totalLivros": 158,
-  "totalExemplares": 794,
-  "totalDisponiveis": 794,
+  "ultimaAtualizacao": "2025-09-23T19:06:53.423Z",
+  "totalLivros": 159,
+  "totalExemplares": 795,
+  "totalDisponiveis": 795,
   "livros": [
     {
       "titulo": "Aprendendo a Amar e a Curar ",
@@ -2215,6 +2215,20 @@
       "localizacao": "Estante C, C5. Literatura Infantojuvenil",
       "status": "Disponível",
       "capa": "https://drive.google.com/open?id=1JRKhkmXByCxFwarTvuUD3Vk-3weFazR4"
+    },
+    {
+      "titulo": "Folhas de Relva",
+      "autor": "Waltt whitman",
+      "genero": "Poema",
+      "ano": 2009,
+      "editora": "Iluminuras",
+      "cidade": "São Paulo ",
+      "exemplares": 1,
+      "emprestados": 0,
+      "disponiveis": 1,
+      "localizacao": "Estante B, B9. Poema",
+      "status": "Disponível",
+      "capa": "https://drive.google.com/open?id=1ScyV3RtohT-cI2B8aeCRn9SO9R7wkZJP"
     }
   ]
 }
