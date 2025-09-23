@@ -1,8 +1,8 @@
 {
-  "ultimaAtualizacao": "2025-09-23T19:19:57.932Z",
-  "totalLivros": 171,
-  "totalExemplares": 903,
-  "totalDisponiveis": 903,
+  "ultimaAtualizacao": "2025-09-23T19:20:47.034Z",
+  "totalLivros": 172,
+  "totalExemplares": 914,
+  "totalDisponiveis": 914,
   "livros": [
     {
       "titulo": "Aprendendo a Amar e a Curar ",
@@ -2371,7 +2371,7 @@
       "capa": "https://drive.google.com/open?id=1ho7hOzMl3pXYAOaChIQzbY0YAda9roaN"
     },
     {
-      "titulo": "Terra papagalli",
+      "titulo": "Terra Papagalli",
       "autor": "José roberto torero e marcus aurelius pimenta ",
       "genero": "Romance",
       "ano": 2000,
@@ -2385,7 +2385,7 @@
       "capa": "https://drive.google.com/open?id=1q6tecHLloT8wY8K6y67OUK8WlwohXcRi"
     },
     {
-      "titulo": "Lorde creptum",
+      "titulo": "Lorde Creptum",
       "autor": "Gustavo piqueira",
       "genero": "Literatura Infantojuvenil",
       "ano": 2015,
@@ -2397,6 +2397,20 @@
       "localizacao": "Estante C, C5. Literatura Infantojuvenil",
       "status": "Disponível",
       "capa": "https://drive.google.com/open?id=1yjwGZ0abTlnLTgsTN5qUU97O7YV4vLcw"
+    },
+    {
+      "titulo": "Meu sentir em versos ",
+      "autor": "Maria de Fátima Alves de Carvalho ",
+      "genero": "Literatura Encantense",
+      "ano": 2012,
+      "editora": "Unilivreira",
+      "cidade": "Natal RN",
+      "exemplares": 11,
+      "emprestados": 0,
+      "disponiveis": 11,
+      "localizacao": "Corredor G, CoG. Literatura Encantense",
+      "status": "Disponível",
+      "capa": "https://drive.google.com/open?id=1jkAjenMGEGBmGPL0kaLh4C_EmX9PXwxX"
     }
   ]
 }
