@@ -1,8 +1,8 @@
 {
-  "ultimaAtualizacao": "2025-09-23T19:20:47.034Z",
-  "totalLivros": 172,
-  "totalExemplares": 914,
-  "totalDisponiveis": 914,
+  "ultimaAtualizacao": "2025-09-23T19:21:20.936Z",
+  "totalLivros": 173,
+  "totalExemplares": 915,
+  "totalDisponiveis": 915,
   "livros": [
     {
       "titulo": "Aprendendo a Amar e a Curar ",
@@ -2411,6 +2411,20 @@
       "localizacao": "Corredor G, CoG. Literatura Encantense",
       "status": "Disponível",
       "capa": "https://drive.google.com/open?id=1jkAjenMGEGBmGPL0kaLh4C_EmX9PXwxX"
+    },
+    {
+      "titulo": "As aventuras de Sherlock Holmes",
+      "autor": "Arthur Conan Doyle",
+      "genero": "Romance",
+      "ano": 2021,
+      "editora": "Tricaju",
+      "cidade": "São Paulo ",
+      "exemplares": 1,
+      "emprestados": 0,
+      "disponiveis": 1,
+      "localizacao": "Estante A, A2. Romance",
+      "status": "Disponível",
+      "capa": "https://drive.google.com/open?id=10ZDrS1oIhKpuoFUX0PQZ9EAzHfcDs_sY"
     }
   ]
 }
