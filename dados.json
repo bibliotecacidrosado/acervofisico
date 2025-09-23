@@ -1,8 +1,8 @@
 {
-  "ultimaAtualizacao": "2025-09-23T19:06:53.423Z",
-  "totalLivros": 159,
-  "totalExemplares": 795,
-  "totalDisponiveis": 795,
+  "ultimaAtualizacao": "2025-09-23T19:07:13.633Z",
+  "totalLivros": 160,
+  "totalExemplares": 796,
+  "totalDisponiveis": 796,
   "livros": [
     {
       "titulo": "Aprendendo a Amar e a Curar ",
@@ -2229,6 +2229,20 @@
       "localizacao": "Estante B, B9. Poema",
       "status": "Disponível",
       "capa": "https://drive.google.com/open?id=1ScyV3RtohT-cI2B8aeCRn9SO9R7wkZJP"
+    },
+    {
+      "titulo": "Assassinato na floresta ",
+      "autor": "Paulo Rangel",
+      "genero": "Romance",
+      "ano": 1991,
+      "editora": "FTD",
+      "cidade": "São Paulo ",
+      "exemplares": 1,
+      "emprestados": 0,
+      "disponiveis": 1,
+      "localizacao": "Estante A, A2. Romance",
+      "status": "Disponível",
+      "capa": "https://drive.google.com/open?id=1NcQKua2RREyNhdoioRQYFhFINZKER3Zt"
     }
   ]
 }
