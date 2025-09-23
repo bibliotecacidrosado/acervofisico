@@ -1,8 +1,8 @@
 {
-  "ultimaAtualizacao": "2025-09-23T19:02:45.797Z",
-  "totalLivros": 155,
-  "totalExemplares": 787,
-  "totalDisponiveis": 787,
+  "ultimaAtualizacao": "2025-09-23T19:04:05.428Z",
+  "totalLivros": 156,
+  "totalExemplares": 791,
+  "totalDisponiveis": 791,
   "livros": [
     {
       "titulo": "Aprendendo a Amar e a Curar ",
@@ -2173,6 +2173,20 @@
       "localizacao": "Estante B, B7. Contos",
       "status": "Disponível",
       "capa": "https://drive.google.com/open?id=1C7YnDKlRVAgIkVLcfsFoCm85vhWAVGWY"
+    },
+    {
+      "titulo": "As Aventuras de Pandurso ",
+      "autor": "Julio Hernesto Ramezoni de Faria ",
+      "genero": "Poema",
+      "ano": 2006,
+      "editora": "Natal/Rn",
+      "cidade": "Rio branco ",
+      "exemplares": 4,
+      "emprestados": 0,
+      "disponiveis": 4,
+      "localizacao": "Estante B, B10. Poema",
+      "status": "Disponível",
+      "capa": "https://drive.google.com/open?id=1XX9jFftD5XUE11qRiTp2WwRvuAVXYb-O"
     }
   ]
 }
