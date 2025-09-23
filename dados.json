@@ -1,8 +1,8 @@
 {
-  "ultimaAtualizacao": "2025-09-23T19:09:12.322Z",
+  "ultimaAtualizacao": "2025-09-23T19:10:52.492Z",
   "totalLivros": 162,
-  "totalExemplares": 881,
-  "totalDisponiveis": 881,
+  "totalExemplares": 866,
+  "totalDisponiveis": 866,
   "livros": [
     {
       "titulo": "Aprendendo a Amar e a Curar ",
@@ -1671,20 +1671,6 @@
       "capa": "https://drive.google.com/open?id=1loNTz2zqgjNnpNv525HU8M_twrIIZ9_S"
     },
     {
-      "titulo": "Lira dos vintes anos ",
-      "autor": "Álvares de Azevedo ",
-      "genero": "Poema",
-      "ano": 1999,
-      "editora": "FTD",
-      "cidade": "São Paulo ",
-      "exemplares": 21,
-      "emprestados": 0,
-      "disponiveis": 21,
-      "localizacao": "Estante B, B9. Poema",
-      "status": "Disponível",
-      "capa": "https://drive.google.com/open?id=13wrHkDEjIzYIXLVFKkMNadZdpTEmZfhf"
-    },
-    {
       "titulo": "poesia de Álvaro de Campos ",
       "autor": "Fernando pessoa ",
       "genero": "Poema",
@@ -2271,6 +2257,20 @@
       "localizacao": "Estante B, B9. Poema",
       "status": "Disponível",
       "capa": "https://drive.google.com/open?id=1iPcdrzq450WkQOG3by2A2E_HeVZRFvrZ"
+    },
+    {
+      "titulo": "Um rosto no computador ",
+      "autor": "Marcos rey",
+      "genero": "Romance",
+      "ano": "Não informado",
+      "editora": "Fernando Paixão ",
+      "cidade": "São Paulo ",
+      "exemplares": 6,
+      "emprestados": 0,
+      "disponiveis": 6,
+      "localizacao": "Estante B, B5. Romance",
+      "status": "Disponível",
+      "capa": "https://drive.google.com/open?id=17zi8aSymzgotDXP1cJIJSp_CM7Wb_SGz"
     }
   ]
 }
