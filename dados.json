@@ -1,8 +1,8 @@
 {
-  "ultimaAtualizacao": "2025-09-23T19:04:05.428Z",
-  "totalLivros": 156,
-  "totalExemplares": 791,
-  "totalDisponiveis": 791,
+  "ultimaAtualizacao": "2025-09-23T19:04:16.313Z",
+  "totalLivros": 157,
+  "totalExemplares": 792,
+  "totalDisponiveis": 792,
   "livros": [
     {
       "titulo": "Aprendendo a Amar e a Curar ",
@@ -2187,6 +2187,20 @@
       "localizacao": "Estante B, B10. Poema",
       "status": "Disponível",
       "capa": "https://drive.google.com/open?id=1XX9jFftD5XUE11qRiTp2WwRvuAVXYb-O"
+    },
+    {
+      "titulo": "Entendeu ou quer que desenhe?",
+      "autor": "Carito cavalcanti",
+      "genero": "Poema",
+      "ano": 2021,
+      "editora": "Escribas",
+      "cidade": "Natal-RN",
+      "exemplares": 1,
+      "emprestados": 0,
+      "disponiveis": 1,
+      "localizacao": "Estante B, B9. Poema",
+      "status": "Disponível",
+      "capa": "https://drive.google.com/open?id=13KwUmo63WD4EEOstOZ_XkPYy0Q7bEsw3"
     }
   ]
 }
