@@ -1,8 +1,8 @@
 {
-  "ultimaAtualizacao": "2025-09-23T19:27:13.907Z",
-  "totalLivros": 177,
-  "totalExemplares": 922,
-  "totalDisponiveis": 922,
+  "ultimaAtualizacao": "2025-09-23T19:27:55.377Z",
+  "totalLivros": 178,
+  "totalExemplares": 924,
+  "totalDisponiveis": 924,
   "livros": [
     {
       "titulo": "Aprendendo a Amar e a Curar ",
@@ -2481,6 +2481,20 @@
       "localizacao": "Estante C, C4. Literatura Infantojuvenil",
       "status": "Disponível",
       "capa": "https://drive.google.com/open?id=1E9Agdc68jYrXhmUp9Ra76HN0AuQ0Q3la"
+    },
+    {
+      "titulo": "O código de Camões ",
+      "autor": "Beto Junqueyra",
+      "genero": "Literatura Infantojuvenil",
+      "ano": 2018,
+      "editora": "Estrela cultural fazendo história ",
+      "cidade": "Itapira",
+      "exemplares": 2,
+      "emprestados": 0,
+      "disponiveis": 2,
+      "localizacao": "Estante C, C4. Literatura Infantojuvenil",
+      "status": "Disponível",
+      "capa": "https://drive.google.com/open?id=1GitzeMUMTtity4mwf0BqqY3FzMiwu1u1"
     }
   ]
 }
