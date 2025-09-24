@@ -1,8 +1,8 @@
 {
-  "ultimaAtualizacao": "2025-09-24T13:12:34.963Z",
-  "totalLivros": 182,
-  "totalExemplares": 941,
-  "totalDisponiveis": 941,
+  "ultimaAtualizacao": "2025-09-24T13:16:00.149Z",
+  "totalLivros": 183,
+  "totalExemplares": 942,
+  "totalDisponiveis": 942,
   "livros": [
     {
       "titulo": "Aprendendo a Amar e a Curar ",
@@ -2551,6 +2551,20 @@
       "localizacao": "Estante A, A4. Romance",
       "status": "Indisponível",
       "capa": "https://drive.google.com/open?id=1upv4e3ujsYwmz9Z2OqOH3mP7VaTFvE2D"
+    },
+    {
+      "titulo": "No universo das garotas ",
+      "autor": "Meredith Costain",
+      "genero": "Literatura Encantense",
+      "ano": 2011,
+      "editora": "Editora Fundamento Educacional Ltda",
+      "cidade": "São Paulo ",
+      "exemplares": 1,
+      "emprestados": 0,
+      "disponiveis": 1,
+      "localizacao": "Estante C, C1. Literatura Infantojuvenil",
+      "status": "Disponível",
+      "capa": "https://drive.google.com/open?id=1g7AbqCYTqIlcPxIreEzrhOLAdegRRnzT"
     }
   ]
 }
