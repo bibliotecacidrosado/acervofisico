@@ -1,8 +1,8 @@
 {
-  "ultimaAtualizacao": "2025-09-24T13:55:59.117Z",
-  "totalLivros": 210,
-  "totalExemplares": 1016,
-  "totalDisponiveis": 1016,
+  "ultimaAtualizacao": "2025-09-24T13:57:23.609Z",
+  "totalLivros": 211,
+  "totalExemplares": 1017,
+  "totalDisponiveis": 1017,
   "livros": [
     {
       "titulo": "Aprendendo a Amar e a Curar ",
@@ -2941,6 +2941,20 @@
       "emprestados": 0,
       "disponiveis": 1,
       "localizacao": "Estante B, B1. Romance",
+      "status": "Disponível",
+      "capa": ""
+    },
+    {
+      "titulo": "O livro dos abraços ",
+      "autor": "Eduardo Galeano ",
+      "genero": "Romance",
+      "ano": 1989,
+      "editora": "Lepm",
+      "cidade": "Porto Alegre ",
+      "exemplares": 1,
+      "emprestados": 0,
+      "disponiveis": 1,
+      "localizacao": "Estante A, A4. Romance",
       "status": "Disponível",
       "capa": ""
     }
