@@ -1,8 +1,8 @@
 {
-  "ultimaAtualizacao": "2025-09-24T14:00:29.476Z",
-  "totalLivros": 215,
-  "totalExemplares": 1021,
-  "totalDisponiveis": 1021,
+  "ultimaAtualizacao": "2025-09-24T14:00:50.126Z",
+  "totalLivros": 216,
+  "totalExemplares": 1022,
+  "totalDisponiveis": 1022,
   "livros": [
     {
       "titulo": "Aprendendo a Amar e a Curar ",
@@ -3011,6 +3011,20 @@
       "emprestados": 0,
       "disponiveis": 1,
       "localizacao": "Estante A, A4. Romance",
+      "status": "Disponível",
+      "capa": ""
+    },
+    {
+      "titulo": "Feitiço ",
+      "autor": "Sarah Pinborough ",
+      "genero": "Romance",
+      "ano": 2013,
+      "editora": "Única Editora ",
+      "cidade": "São Paulo ",
+      "exemplares": 1,
+      "emprestados": 0,
+      "disponiveis": 1,
+      "localizacao": "Estante B, B1. Romance",
       "status": "Disponível",
       "capa": ""
     }
