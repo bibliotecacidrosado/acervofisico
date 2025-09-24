@@ -1,8 +1,8 @@
 {
-  "ultimaAtualizacao": "2025-09-24T13:42:04.953Z",
-  "totalLivros": 198,
-  "totalExemplares": 1004,
-  "totalDisponiveis": 1004,
+  "ultimaAtualizacao": "2025-09-24T13:43:50.859Z",
+  "totalLivros": 199,
+  "totalExemplares": 1005,
+  "totalDisponiveis": 1005,
   "livros": [
     {
       "titulo": "Aprendendo a Amar e a Curar ",
@@ -2773,6 +2773,20 @@
       "emprestados": 0,
       "disponiveis": 1,
       "localizacao": "Estante B, B1. Romance",
+      "status": "Disponível",
+      "capa": ""
+    },
+    {
+      "titulo": "Do contrato social ",
+      "autor": "Jean- Jacques Rousseau ",
+      "genero": "Romance",
+      "ano": 2001,
+      "editora": "Martin Claret ",
+      "cidade": "São Paulo ",
+      "exemplares": 1,
+      "emprestados": 0,
+      "disponiveis": 1,
+      "localizacao": "Estante A, A4. Romance",
       "status": "Disponível",
       "capa": ""
     }
