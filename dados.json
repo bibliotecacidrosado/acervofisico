@@ -1,8 +1,8 @@
 {
-  "ultimaAtualizacao": "2025-09-24T13:45:26.509Z",
-  "totalLivros": 201,
-  "totalExemplares": 1007,
-  "totalDisponiveis": 1007,
+  "ultimaAtualizacao": "2025-09-24T13:48:10.455Z",
+  "totalLivros": 202,
+  "totalExemplares": 1008,
+  "totalDisponiveis": 1008,
   "livros": [
     {
       "titulo": "Aprendendo a Amar e a Curar ",
@@ -2811,6 +2811,20 @@
       "ano": 2018,
       "editora": "Livros Prontos Editora ",
       "cidade": "São Paulo - SP",
+      "exemplares": 1,
+      "emprestados": 0,
+      "disponiveis": 1,
+      "localizacao": "Estante B, B1. Romance",
+      "status": "Disponível",
+      "capa": ""
+    },
+    {
+      "titulo": "Canaã",
+      "autor": "Graça Aranha",
+      "genero": "Romance",
+      "ano": 2014,
+      "editora": "Martin Claret Ltda",
+      "cidade": "São Paulo, SP",
       "exemplares": 1,
       "emprestados": 0,
       "disponiveis": 1,
