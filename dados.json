@@ -1,8 +1,8 @@
 {
-  "ultimaAtualizacao": "2025-09-24T13:34:24.642Z",
-  "totalLivros": 189,
-  "totalExemplares": 948,
-  "totalDisponiveis": 948,
+  "ultimaAtualizacao": "2025-09-24T13:35:12.663Z",
+  "totalLivros": 190,
+  "totalExemplares": 949,
+  "totalDisponiveis": 949,
   "livros": [
     {
       "titulo": "Aprendendo a Amar e a Curar ",
@@ -2647,6 +2647,20 @@
       "emprestados": 0,
       "disponiveis": 1,
       "localizacao": "Estante B, B1. Romance",
+      "status": "Disponível",
+      "capa": ""
+    },
+    {
+      "titulo": "O Sabor da Diversidade ",
+      "autor": "Ester Simoura Lopes",
+      "genero": "Literatura Infantojuvenil",
+      "ano": 2019,
+      "editora": "Zapt Editora Ltda",
+      "cidade": "São Paulo ",
+      "exemplares": 1,
+      "emprestados": 0,
+      "disponiveis": 1,
+      "localizacao": "Estante C, C1. Literatura Infantojuvenil",
       "status": "Disponível",
       "capa": ""
     }
