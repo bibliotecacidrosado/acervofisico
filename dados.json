@@ -1,8 +1,8 @@
 {
-  "ultimaAtualizacao": "2025-09-24T13:29:34.154Z",
-  "totalLivros": 186,
-  "totalExemplares": 943,
-  "totalDisponiveis": 943,
+  "ultimaAtualizacao": "2025-09-24T13:29:37.955Z",
+  "totalLivros": 187,
+  "totalExemplares": 944,
+  "totalDisponiveis": 944,
   "livros": [
     {
       "titulo": "Aprendendo a Amar e a Curar ",
@@ -2606,6 +2606,20 @@
       "disponiveis": 0,
       "localizacao": "Estante A, A4. Romance",
       "status": "Indisponível",
+      "capa": ""
+    },
+    {
+      "titulo": "O menino que sobreviveu",
+      "autor": "Rhiannon Navin",
+      "genero": "Romance",
+      "ano": 2018,
+      "editora": "Prime",
+      "cidade": "Cotia - SP",
+      "exemplares": 1,
+      "emprestados": 0,
+      "disponiveis": 1,
+      "localizacao": "Estante A, A4. Romance",
+      "status": "Disponível",
       "capa": ""
     }
   ]
