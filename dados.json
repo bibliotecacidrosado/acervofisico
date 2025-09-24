@@ -1,8 +1,8 @@
 {
-  "ultimaAtualizacao": "2025-09-24T13:35:39.623Z",
-  "totalLivros": 191,
-  "totalExemplares": 949,
-  "totalDisponiveis": 949,
+  "ultimaAtualizacao": "2025-09-24T13:35:48.650Z",
+  "totalLivros": 192,
+  "totalExemplares": 950,
+  "totalDisponiveis": 950,
   "livros": [
     {
       "titulo": "Aprendendo a Amar e a Curar ",
@@ -2676,6 +2676,20 @@
       "disponiveis": 0,
       "localizacao": "Estante A, A4. Romance",
       "status": "Indisponível",
+      "capa": ""
+    },
+    {
+      "titulo": "Mil beijos de garoto ",
+      "autor": "Tillie Cole ",
+      "genero": "Romance",
+      "ano": 2022,
+      "editora": "Editora Planeta do Brasil LTDA",
+      "cidade": "São Paulo ",
+      "exemplares": 1,
+      "emprestados": 0,
+      "disponiveis": 1,
+      "localizacao": "Estante B, B1. Romance",
+      "status": "Disponível",
       "capa": ""
     }
   ]
