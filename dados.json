@@ -1,8 +1,8 @@
 {
-  "ultimaAtualizacao": "2025-09-24T13:54:46.819Z",
-  "totalLivros": 208,
-  "totalExemplares": 1014,
-  "totalDisponiveis": 1014,
+  "ultimaAtualizacao": "2025-09-24T13:55:11.481Z",
+  "totalLivros": 209,
+  "totalExemplares": 1015,
+  "totalDisponiveis": 1015,
   "livros": [
     {
       "titulo": "Aprendendo a Amar e a Curar ",
@@ -2909,6 +2909,20 @@
       "ano": 2013,
       "editora": "Terceiro Nome",
       "cidade": "São Paulo - SP",
+      "exemplares": 1,
+      "emprestados": 0,
+      "disponiveis": 1,
+      "localizacao": "Estante A, A4. Romance",
+      "status": "Disponível",
+      "capa": ""
+    },
+    {
+      "titulo": "Há 2000 anos...",
+      "autor": "Francisco Cândido Xavier ",
+      "genero": "Romance",
+      "ano": 1939,
+      "editora": "Emmanuel ",
+      "cidade": "Rio de janeiro ",
       "exemplares": 1,
       "emprestados": 0,
       "disponiveis": 1,
