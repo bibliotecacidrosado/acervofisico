@@ -1,8 +1,8 @@
 {
-  "ultimaAtualizacao": "2025-09-24T13:39:55.644Z",
-  "totalLivros": 195,
-  "totalExemplares": 1001,
-  "totalDisponiveis": 1001,
+  "ultimaAtualizacao": "2025-09-24T13:40:00.758Z",
+  "totalLivros": 196,
+  "totalExemplares": 1002,
+  "totalDisponiveis": 1002,
   "livros": [
     {
       "titulo": "Aprendendo a Amar e a Curar ",
@@ -2727,6 +2727,20 @@
       "ano": 2021,
       "editora": "La Oveja Negra Ltda",
       "cidade": "Guarulhos - SP",
+      "exemplares": 1,
+      "emprestados": 0,
+      "disponiveis": 1,
+      "localizacao": "Estante A, A4. Romance",
+      "status": "Disponível",
+      "capa": ""
+    },
+    {
+      "titulo": "A botija que caiu do céu ",
+      "autor": "Lenílson Antunes",
+      "genero": "Romance",
+      "ano": 2015,
+      "editora": "\"bons costumes\"",
+      "cidade": "Natal ",
       "exemplares": 1,
       "emprestados": 0,
       "disponiveis": 1,
