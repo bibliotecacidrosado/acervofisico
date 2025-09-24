@@ -1,8 +1,8 @@
 {
-  "ultimaAtualizacao": "2025-09-24T13:29:37.955Z",
-  "totalLivros": 187,
-  "totalExemplares": 944,
-  "totalDisponiveis": 944,
+  "ultimaAtualizacao": "2025-09-24T13:30:32.830Z",
+  "totalLivros": 188,
+  "totalExemplares": 947,
+  "totalDisponiveis": 947,
   "livros": [
     {
       "titulo": "Aprendendo a Amar e a Curar ",
@@ -2619,6 +2619,20 @@
       "emprestados": 0,
       "disponiveis": 1,
       "localizacao": "Estante A, A4. Romance",
+      "status": "Disponível",
+      "capa": ""
+    },
+    {
+      "titulo": "A cinco passos de você ",
+      "autor": "Rachael Lippincott ",
+      "genero": "Romance",
+      "ano": 2018,
+      "editora": "Globo S.A.",
+      "cidade": "Rio de janeiro-RJ-Brasil ",
+      "exemplares": 3,
+      "emprestados": 0,
+      "disponiveis": 3,
+      "localizacao": "Estante B, B1. Romance",
       "status": "Disponível",
       "capa": ""
     }
