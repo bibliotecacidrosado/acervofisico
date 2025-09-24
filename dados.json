@@ -1,8 +1,8 @@
 {
-  "ultimaAtualizacao": "2025-09-24T14:03:51.869Z",
-  "totalLivros": 218,
-  "totalExemplares": 1025,
-  "totalDisponiveis": 1025,
+  "ultimaAtualizacao": "2025-09-24T14:04:05.913Z",
+  "totalLivros": 219,
+  "totalExemplares": 1026,
+  "totalDisponiveis": 1026,
   "livros": [
     {
       "titulo": "Aprendendo a Amar e a Curar ",
@@ -3053,6 +3053,20 @@
       "emprestados": 0,
       "disponiveis": 1,
       "localizacao": "Estante A, A4. Romance",
+      "status": "Disponível",
+      "capa": ""
+    },
+    {
+      "titulo": "Poder",
+      "autor": "Sarah Pinborough ",
+      "genero": "Romance",
+      "ano": 2013,
+      "editora": "Única Editora ",
+      "cidade": "São Paulo ",
+      "exemplares": 1,
+      "emprestados": 0,
+      "disponiveis": 1,
+      "localizacao": "Estante B, B1. Romance",
       "status": "Disponível",
       "capa": ""
     }
