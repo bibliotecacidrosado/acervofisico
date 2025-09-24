@@ -1,6 +1,6 @@
 {
-  "ultimaAtualizacao": "2025-09-24T13:35:32.462Z",
-  "totalLivros": 190,
+  "ultimaAtualizacao": "2025-09-24T13:35:39.623Z",
+  "totalLivros": 191,
   "totalExemplares": 949,
   "totalDisponiveis": 949,
   "livros": [
@@ -2662,6 +2662,20 @@
       "disponiveis": 1,
       "localizacao": "Estante C, C1. Literatura Infantojuvenil",
       "status": "Disponível",
+      "capa": ""
+    },
+    {
+      "titulo": "A linha ",
+      "autor": "Flávio Carneiro ",
+      "genero": "Romance",
+      "ano": 2012,
+      "editora": "JPA",
+      "cidade": "Rio de janeiro ",
+      "exemplares": 0,
+      "emprestados": 0,
+      "disponiveis": 0,
+      "localizacao": "Estante A, A4. Romance",
+      "status": "Indisponível",
       "capa": ""
     }
   ]
