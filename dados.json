@@ -1,8 +1,8 @@
 {
-  "ultimaAtualizacao": "2025-09-24T13:43:50.859Z",
-  "totalLivros": 199,
-  "totalExemplares": 1005,
-  "totalDisponiveis": 1005,
+  "ultimaAtualizacao": "2025-09-24T13:43:55.253Z",
+  "totalLivros": 200,
+  "totalExemplares": 1006,
+  "totalDisponiveis": 1006,
   "livros": [
     {
       "titulo": "Aprendendo a Amar e a Curar ",
@@ -2783,6 +2783,20 @@
       "ano": 2001,
       "editora": "Martin Claret ",
       "cidade": "São Paulo ",
+      "exemplares": 1,
+      "emprestados": 0,
+      "disponiveis": 1,
+      "localizacao": "Estante A, A4. Romance",
+      "status": "Disponível",
+      "capa": ""
+    },
+    {
+      "titulo": "O silêncio da chuva",
+      "autor": "Luiz Alfredo Garcia - Rosa",
+      "genero": "Romance",
+      "ano": 2009,
+      "editora": "Claro Enigma Ltda",
+      "cidade": "Belo Horizonte - MG",
       "exemplares": 1,
       "emprestados": 0,
       "disponiveis": 1,
