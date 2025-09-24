@@ -1,8 +1,8 @@
 {
-  "ultimaAtualizacao": "2025-09-24T14:00:50.126Z",
-  "totalLivros": 216,
-  "totalExemplares": 1022,
-  "totalDisponiveis": 1022,
+  "ultimaAtualizacao": "2025-09-24T14:02:30.614Z",
+  "totalLivros": 217,
+  "totalExemplares": 1024,
+  "totalDisponiveis": 1024,
   "livros": [
     {
       "titulo": "Aprendendo a Amar e a Curar ",
@@ -3025,6 +3025,20 @@
       "emprestados": 0,
       "disponiveis": 1,
       "localizacao": "Estante B, B1. Romance",
+      "status": "Disponível",
+      "capa": ""
+    },
+    {
+      "titulo": "Homens e Caranguejos ",
+      "autor": "Josué de castro ",
+      "genero": "Romance",
+      "ano": 2003,
+      "editora": "Bertrand Brasil ",
+      "cidade": "Rio de janeiro ",
+      "exemplares": 2,
+      "emprestados": 0,
+      "disponiveis": 2,
+      "localizacao": "Estante A, A4. Romance",
       "status": "Disponível",
       "capa": ""
     }
