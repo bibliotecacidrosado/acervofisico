@@ -1,8 +1,8 @@
 {
-  "ultimaAtualizacao": "2025-09-24T14:05:37.365Z",
-  "totalLivros": 220,
-  "totalExemplares": 1027,
-  "totalDisponiveis": 1027,
+  "ultimaAtualizacao": "2025-09-24T14:05:58.586Z",
+  "totalLivros": 221,
+  "totalExemplares": 1028,
+  "totalDisponiveis": 1028,
   "livros": [
     {
       "titulo": "Aprendendo a Amar e a Curar ",
@@ -3077,6 +3077,20 @@
       "ano": 2024,
       "editora": "Record Ltda",
       "cidade": "Rio de Janeiro ",
+      "exemplares": 1,
+      "emprestados": 0,
+      "disponiveis": 1,
+      "localizacao": "Estante B, B3. Romance",
+      "status": "Disponível",
+      "capa": ""
+    },
+    {
+      "titulo": "Todas as suas imperfeições ",
+      "autor": "Colleen Hoover",
+      "genero": "Romance",
+      "ano": 1979,
+      "editora": "Galera Record, 2024",
+      "cidade": "Rio de Janeiro, RJ",
       "exemplares": 1,
       "emprestados": 0,
       "disponiveis": 1,
