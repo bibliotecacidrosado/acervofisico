@@ -1,8 +1,8 @@
 {
-  "ultimaAtualizacao": "2025-09-24T13:43:55.253Z",
-  "totalLivros": 200,
-  "totalExemplares": 1006,
-  "totalDisponiveis": 1006,
+  "ultimaAtualizacao": "2025-09-24T13:45:26.509Z",
+  "totalLivros": 201,
+  "totalExemplares": 1007,
+  "totalDisponiveis": 1007,
   "livros": [
     {
       "titulo": "Aprendendo a Amar e a Curar ",
@@ -2801,6 +2801,20 @@
       "emprestados": 0,
       "disponiveis": 1,
       "localizacao": "Estante A, A4. Romance",
+      "status": "Disponível",
+      "capa": ""
+    },
+    {
+      "titulo": "Quem sabe amanhã?",
+      "autor": "Manu Sousa",
+      "genero": "Romance",
+      "ano": 2018,
+      "editora": "Livros Prontos Editora ",
+      "cidade": "São Paulo - SP",
+      "exemplares": 1,
+      "emprestados": 0,
+      "disponiveis": 1,
+      "localizacao": "Estante B, B1. Romance",
       "status": "Disponível",
       "capa": ""
     }
