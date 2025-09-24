@@ -1,8 +1,8 @@
 {
-  "ultimaAtualizacao": "2025-09-24T13:57:31.681Z",
-  "totalLivros": 212,
-  "totalExemplares": 1018,
-  "totalDisponiveis": 1018,
+  "ultimaAtualizacao": "2025-09-24T13:58:51.860Z",
+  "totalLivros": 213,
+  "totalExemplares": 1019,
+  "totalDisponiveis": 1019,
   "livros": [
     {
       "titulo": "Aprendendo a Amar e a Curar ",
@@ -2969,6 +2969,20 @@
       "emprestados": 0,
       "disponiveis": 1,
       "localizacao": "Estante A, A4. Romance",
+      "status": "Disponível",
+      "capa": ""
+    },
+    {
+      "titulo": "Veneno ",
+      "autor": "Sarah Pinborough ",
+      "genero": "Romance",
+      "ano": 2013,
+      "editora": "Única Editora ",
+      "cidade": "São Paulo ",
+      "exemplares": 1,
+      "emprestados": 0,
+      "disponiveis": 1,
+      "localizacao": "Estante B, B1. Romance",
       "status": "Disponível",
       "capa": ""
     }
