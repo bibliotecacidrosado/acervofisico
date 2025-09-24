@@ -1,8 +1,8 @@
 {
-  "ultimaAtualizacao": "2025-09-24T13:58:51.860Z",
-  "totalLivros": 213,
-  "totalExemplares": 1019,
-  "totalDisponiveis": 1019,
+  "ultimaAtualizacao": "2025-09-24T13:59:56.611Z",
+  "totalLivros": 214,
+  "totalExemplares": 1020,
+  "totalDisponiveis": 1020,
   "livros": [
     {
       "titulo": "Aprendendo a Amar e a Curar ",
@@ -2983,6 +2983,20 @@
       "emprestados": 0,
       "disponiveis": 1,
       "localizacao": "Estante B, B1. Romance",
+      "status": "Disponível",
+      "capa": ""
+    },
+    {
+      "titulo": "A Filha do Fabricante de Fogos de Artifício ",
+      "autor": "Philip Pullman",
+      "genero": "Romance",
+      "ano": 1995,
+      "editora": "Bertrand Bradil Ltda",
+      "cidade": "Rio de Janeiro - RJ",
+      "exemplares": 1,
+      "emprestados": 0,
+      "disponiveis": 1,
+      "localizacao": "Estante B, B15. Romance",
       "status": "Disponível",
       "capa": ""
     }
