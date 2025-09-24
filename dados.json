@@ -1,8 +1,8 @@
 {
-  "ultimaAtualizacao": "2025-09-24T14:06:13.874Z",
-  "totalLivros": 222,
-  "totalExemplares": 1029,
-  "totalDisponiveis": 1029,
+  "ultimaAtualizacao": "2025-09-24T14:07:59.215Z",
+  "totalLivros": 223,
+  "totalExemplares": 1031,
+  "totalDisponiveis": 1031,
   "livros": [
     {
       "titulo": "Aprendendo a Amar e a Curar ",
@@ -3109,6 +3109,20 @@
       "emprestados": 0,
       "disponiveis": 1,
       "localizacao": "Estante C, C5. Literatura Infantojuvenil",
+      "status": "Disponível",
+      "capa": ""
+    },
+    {
+      "titulo": "Novembro 9",
+      "autor": "Colleen Hoover",
+      "genero": "Romance",
+      "ano": 2024,
+      "editora": "Galera Record",
+      "cidade": "Rio de Janeiro",
+      "exemplares": 2,
+      "emprestados": 0,
+      "disponiveis": 2,
+      "localizacao": "Estante B, B3. Romance",
       "status": "Disponível",
       "capa": ""
     }
