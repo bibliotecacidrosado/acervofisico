@@ -1,8 +1,8 @@
 {
-  "ultimaAtualizacao": "2025-09-24T14:04:05.913Z",
-  "totalLivros": 219,
-  "totalExemplares": 1026,
-  "totalDisponiveis": 1026,
+  "ultimaAtualizacao": "2025-09-24T14:04:12.664Z",
+  "totalLivros": 220,
+  "totalExemplares": 1027,
+  "totalDisponiveis": 1027,
   "livros": [
     {
       "titulo": "Aprendendo a Amar e a Curar ",
@@ -3067,6 +3067,20 @@
       "emprestados": 0,
       "disponiveis": 1,
       "localizacao": "Estante B, B1. Romance",
+      "status": "Disponível",
+      "capa": ""
+    },
+    {
+      "titulo": "Verity",
+      "autor": "Colleen Hoover",
+      "genero": "Romance",
+      "ano": 2024,
+      "editora": "Record Ltda",
+      "cidade": "Rio de Janeiro ",
+      "exemplares": 1,
+      "emprestados": 0,
+      "disponiveis": 1,
+      "localizacao": "Estante B, B3. Romance",
       "status": "Disponível",
       "capa": ""
     }
