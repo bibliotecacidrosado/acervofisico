@@ -1,6 +1,6 @@
 {
-  "ultimaAtualizacao": "2025-09-23T19:29:17.384Z",
-  "totalLivros": 181,
+  "ultimaAtualizacao": "2025-09-24T13:12:34.963Z",
+  "totalLivros": 182,
   "totalExemplares": 941,
   "totalDisponiveis": 941,
   "livros": [
@@ -2537,6 +2537,20 @@
       "localizacao": "Corredor G, CoG. Literatura Encantense",
       "status": "Disponível",
       "capa": "https://drive.google.com/open?id=17dt9Ff1iEJGcW6Wge8OzTB6gLPcMm6oo"
+    },
+    {
+      "titulo": "Comer rezar amar",
+      "autor": "Elizabeth Gilbert",
+      "genero": "Romance",
+      "ano": 2008,
+      "editora": "Objetiva",
+      "cidade": "Rio de ",
+      "exemplares": 0,
+      "emprestados": 0,
+      "disponiveis": 0,
+      "localizacao": "Estante A, A4. Romance",
+      "status": "Indisponível",
+      "capa": "https://drive.google.com/open?id=1upv4e3ujsYwmz9Z2OqOH3mP7VaTFvE2D"
     }
   ]
 }
