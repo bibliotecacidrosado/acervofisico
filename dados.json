@@ -1,8 +1,8 @@
 {
-  "ultimaAtualizacao": "2025-09-24T13:41:42.764Z",
-  "totalLivros": 197,
-  "totalExemplares": 1003,
-  "totalDisponiveis": 1003,
+  "ultimaAtualizacao": "2025-09-24T13:42:04.953Z",
+  "totalLivros": 198,
+  "totalExemplares": 1004,
+  "totalDisponiveis": 1004,
   "livros": [
     {
       "titulo": "Aprendendo a Amar e a Curar ",
@@ -2755,6 +2755,20 @@
       "ano": 2021,
       "editora": "Ciranda Cultural ",
       "cidade": "Não informado",
+      "exemplares": 1,
+      "emprestados": 0,
+      "disponiveis": 1,
+      "localizacao": "Estante B, B1. Romance",
+      "status": "Disponível",
+      "capa": ""
+    },
+    {
+      "titulo": "Desculpe, Esqueci o Paraquedas",
+      "autor": "Kalliny Moura",
+      "genero": "Romance",
+      "ano": 2020,
+      "editora": "Cosmic Route",
+      "cidade": "Parnamirim, RN",
       "exemplares": 1,
       "emprestados": 0,
       "disponiveis": 1,
