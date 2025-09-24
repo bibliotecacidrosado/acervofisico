@@ -1,8 +1,8 @@
 {
-  "ultimaAtualizacao": "2025-09-24T13:52:51.560Z",
-  "totalLivros": 207,
-  "totalExemplares": 1013,
-  "totalDisponiveis": 1013,
+  "ultimaAtualizacao": "2025-09-24T13:54:46.819Z",
+  "totalLivros": 208,
+  "totalExemplares": 1014,
+  "totalDisponiveis": 1014,
   "livros": [
     {
       "titulo": "Aprendendo a Amar e a Curar ",
@@ -2899,6 +2899,20 @@
       "emprestados": 0,
       "disponiveis": 1,
       "localizacao": "Estante B, B1. Romance",
+      "status": "Disponível",
+      "capa": ""
+    },
+    {
+      "titulo": "Contrafeito",
+      "autor": "Juliano Ribas",
+      "genero": "Romance",
+      "ano": 2013,
+      "editora": "Terceiro Nome",
+      "cidade": "São Paulo - SP",
+      "exemplares": 1,
+      "emprestados": 0,
+      "disponiveis": 1,
+      "localizacao": "Estante A, A4. Romance",
       "status": "Disponível",
       "capa": ""
     }
