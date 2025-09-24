@@ -1,8 +1,8 @@
 {
-  "ultimaAtualizacao": "2025-09-24T14:05:58.586Z",
-  "totalLivros": 221,
-  "totalExemplares": 1028,
-  "totalDisponiveis": 1028,
+  "ultimaAtualizacao": "2025-09-24T14:06:10.660Z",
+  "totalLivros": 222,
+  "totalExemplares": 1029,
+  "totalDisponiveis": 1029,
   "livros": [
     {
       "titulo": "Aprendendo a Amar e a Curar ",
@@ -3095,6 +3095,20 @@
       "emprestados": 0,
       "disponiveis": 1,
       "localizacao": "Estante B, B3. Romance",
+      "status": "Disponível",
+      "capa": ""
+    },
+    {
+      "titulo": "Apenas Tiago ",
+      "autor": "Caio Riter",
+      "genero": "Literatura Infantojuvenil",
+      "ano": 2014,
+      "editora": "Positivo Ltda ",
+      "cidade": "Curitiba ",
+      "exemplares": 1,
+      "emprestados": 0,
+      "disponiveis": 1,
+      "localizacao": "Estante C, C5. Literatura Infantojuvenil",
       "status": "Disponível",
       "capa": ""
     }
