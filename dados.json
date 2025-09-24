@@ -1,8 +1,8 @@
 {
-  "ultimaAtualizacao": "2025-09-24T13:48:10.455Z",
-  "totalLivros": 202,
-  "totalExemplares": 1008,
-  "totalDisponiveis": 1008,
+  "ultimaAtualizacao": "2025-09-24T13:48:19.479Z",
+  "totalLivros": 203,
+  "totalExemplares": 1009,
+  "totalDisponiveis": 1009,
   "livros": [
     {
       "titulo": "Aprendendo a Amar e a Curar ",
@@ -2829,6 +2829,20 @@
       "emprestados": 0,
       "disponiveis": 1,
       "localizacao": "Estante B, B1. Romance",
+      "status": "Disponível",
+      "capa": ""
+    },
+    {
+      "titulo": "A estrela sobe",
+      "autor": "Marques Rebelo",
+      "genero": "Romance",
+      "ano": 2011,
+      "editora": "José Olympio",
+      "cidade": "Rio de Janeiro - RJ",
+      "exemplares": 1,
+      "emprestados": 0,
+      "disponiveis": 1,
+      "localizacao": "Estante A, A4. Romance",
       "status": "Disponível",
       "capa": ""
     }
