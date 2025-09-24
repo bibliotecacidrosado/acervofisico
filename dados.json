@@ -1,8 +1,8 @@
 {
-  "ultimaAtualizacao": "2025-09-24T13:48:19.479Z",
-  "totalLivros": 203,
-  "totalExemplares": 1009,
-  "totalDisponiveis": 1009,
+  "ultimaAtualizacao": "2025-09-24T13:48:25.491Z",
+  "totalLivros": 204,
+  "totalExemplares": 1010,
+  "totalDisponiveis": 1010,
   "livros": [
     {
       "titulo": "Aprendendo a Amar e a Curar ",
@@ -2839,6 +2839,20 @@
       "ano": 2011,
       "editora": "José Olympio",
       "cidade": "Rio de Janeiro - RJ",
+      "exemplares": 1,
+      "emprestados": 0,
+      "disponiveis": 1,
+      "localizacao": "Estante A, A4. Romance",
+      "status": "Disponível",
+      "capa": ""
+    },
+    {
+      "titulo": "Lavoura arcaica ",
+      "autor": "Raduan Nassar ",
+      "genero": "Romance",
+      "ano": 2013,
+      "editora": "Companhia das letras ",
+      "cidade": "São Paulo ",
       "exemplares": 1,
       "emprestados": 0,
       "disponiveis": 1,
