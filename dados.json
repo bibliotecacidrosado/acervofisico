@@ -1,8 +1,8 @@
 {
-  "ultimaAtualizacao": "2025-09-24T13:17:39.896Z",
-  "totalLivros": 184,
-  "totalExemplares": 942,
-  "totalDisponiveis": 942,
+  "ultimaAtualizacao": "2025-09-24T13:24:10.155Z",
+  "totalLivros": 185,
+  "totalExemplares": 943,
+  "totalDisponiveis": 943,
   "livros": [
     {
       "titulo": "Aprendendo a Amar e a Curar ",
@@ -2579,6 +2579,20 @@
       "localizacao": "Estante A, A4. Romance",
       "status": "Indisponível",
       "capa": "https://drive.google.com/open?id=1RO26bLURgQWqBqOLaX8kAoMzd-qp88ax"
+    },
+    {
+      "titulo": "O Grande Conflito ",
+      "autor": "Ellen G. White",
+      "genero": "Autoajuda",
+      "ano": 2007,
+      "editora": "ABDR",
+      "cidade": "Tatuí-SP",
+      "exemplares": 1,
+      "emprestados": 0,
+      "disponiveis": 1,
+      "localizacao": "Corredor G, CoG. Autoajuda",
+      "status": "Disponível",
+      "capa": "https://drive.google.com/open?id=1Dobawv3872xTk8PHy-zxfUvAPevwyaDa"
     }
   ]
 }
