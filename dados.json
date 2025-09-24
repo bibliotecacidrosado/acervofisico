@@ -1,8 +1,8 @@
 {
-  "ultimaAtualizacao": "2025-09-24T13:39:05.880Z",
-  "totalLivros": 194,
-  "totalExemplares": 1000,
-  "totalDisponiveis": 1000,
+  "ultimaAtualizacao": "2025-09-24T13:39:55.644Z",
+  "totalLivros": 195,
+  "totalExemplares": 1001,
+  "totalDisponiveis": 1001,
   "livros": [
     {
       "titulo": "Aprendendo a Amar e a Curar ",
@@ -2717,6 +2717,20 @@
       "emprestados": 0,
       "disponiveis": 46,
       "localizacao": "Estante C, C8. Literatura Infantojuvenil / Eu sou Malala / A face oculta / Malala, a menina que queria ir para a escola",
+      "status": "Disponível",
+      "capa": ""
+    },
+    {
+      "titulo": "A professora e o Nobel",
+      "autor": "Gabriel García Márquez ",
+      "genero": "Romance",
+      "ano": 2021,
+      "editora": "La Oveja Negra Ltda",
+      "cidade": "Guarulhos - SP",
+      "exemplares": 1,
+      "emprestados": 0,
+      "disponiveis": 1,
+      "localizacao": "Estante A, A4. Romance",
       "status": "Disponível",
       "capa": ""
     }
