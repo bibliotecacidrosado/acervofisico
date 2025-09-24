@@ -1,8 +1,8 @@
 {
-  "ultimaAtualizacao": "2025-09-24T13:51:13.346Z",
-  "totalLivros": 205,
-  "totalExemplares": 1011,
-  "totalDisponiveis": 1011,
+  "ultimaAtualizacao": "2025-09-24T13:51:28.701Z",
+  "totalLivros": 206,
+  "totalExemplares": 1012,
+  "totalDisponiveis": 1012,
   "livros": [
     {
       "titulo": "Aprendendo a Amar e a Curar ",
@@ -2871,6 +2871,20 @@
       "emprestados": 0,
       "disponiveis": 1,
       "localizacao": "Estante B, B2. Romance",
+      "status": "Disponível",
+      "capa": ""
+    },
+    {
+      "titulo": "Perdido no Ciberespaço ",
+      "autor": "Leo Cunha",
+      "genero": "Literatura Infantojuvenil",
+      "ano": 2007,
+      "editora": "Luciana Paixão ",
+      "cidade": "São Paulo ",
+      "exemplares": 1,
+      "emprestados": 0,
+      "disponiveis": 1,
+      "localizacao": "Estante C, C2. Literatura Infantojuvenil",
       "status": "Disponível",
       "capa": ""
     }
