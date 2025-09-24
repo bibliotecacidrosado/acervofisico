@@ -1,8 +1,8 @@
 {
-  "ultimaAtualizacao": "2025-09-24T13:57:23.609Z",
-  "totalLivros": 211,
-  "totalExemplares": 1017,
-  "totalDisponiveis": 1017,
+  "ultimaAtualizacao": "2025-09-24T13:57:31.681Z",
+  "totalLivros": 212,
+  "totalExemplares": 1018,
+  "totalDisponiveis": 1018,
   "livros": [
     {
       "titulo": "Aprendendo a Amar e a Curar ",
@@ -2951,6 +2951,20 @@
       "ano": 1989,
       "editora": "Lepm",
       "cidade": "Porto Alegre ",
+      "exemplares": 1,
+      "emprestados": 0,
+      "disponiveis": 1,
+      "localizacao": "Estante A, A4. Romance",
+      "status": "Disponível",
+      "capa": ""
+    },
+    {
+      "titulo": "Sombra Severa",
+      "autor": "Raimundo Carrero",
+      "genero": "Romance",
+      "ano": 2001,
+      "editora": "Iluminuras Ltda",
+      "cidade": "São Paulo - SP",
       "exemplares": 1,
       "emprestados": 0,
       "disponiveis": 1,
