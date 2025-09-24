@@ -1,6 +1,6 @@
 {
-  "ultimaAtualizacao": "2025-09-24T13:16:00.149Z",
-  "totalLivros": 183,
+  "ultimaAtualizacao": "2025-09-24T13:17:39.896Z",
+  "totalLivros": 184,
   "totalExemplares": 942,
   "totalDisponiveis": 942,
   "livros": [
@@ -2565,6 +2565,20 @@
       "localizacao": "Estante C, C1. Literatura Infantojuvenil",
       "status": "Disponível",
       "capa": "https://drive.google.com/open?id=1g7AbqCYTqIlcPxIreEzrhOLAdegRRnzT"
+    },
+    {
+      "titulo": "O fantasma do tarrafal",
+      "autor": "Jean-,Yves Loude",
+      "genero": "Romance",
+      "ano": 2008,
+      "editora": "Alis",
+      "cidade": "Belo Horizonte ",
+      "exemplares": 0,
+      "emprestados": 0,
+      "disponiveis": 0,
+      "localizacao": "Estante A, A4. Romance",
+      "status": "Indisponível",
+      "capa": "https://drive.google.com/open?id=1RO26bLURgQWqBqOLaX8kAoMzd-qp88ax"
     }
   ]
 }
