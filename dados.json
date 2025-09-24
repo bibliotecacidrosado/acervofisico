@@ -1,6 +1,6 @@
 {
-  "ultimaAtualizacao": "2025-09-24T13:24:10.155Z",
-  "totalLivros": 185,
+  "ultimaAtualizacao": "2025-09-24T13:29:34.154Z",
+  "totalLivros": 186,
   "totalExemplares": 943,
   "totalDisponiveis": 943,
   "livros": [
@@ -2593,6 +2593,20 @@
       "localizacao": "Corredor G, CoG. Autoajuda",
       "status": "Disponível",
       "capa": "https://drive.google.com/open?id=1Dobawv3872xTk8PHy-zxfUvAPevwyaDa"
+    },
+    {
+      "titulo": "A pelejas de Ojuara ",
+      "autor": "Nei Leandro de Castro ",
+      "genero": "Romance",
+      "ano": 2023,
+      "editora": "Escribas ",
+      "cidade": "Natal",
+      "exemplares": 0,
+      "emprestados": 0,
+      "disponiveis": 0,
+      "localizacao": "Estante A, A4. Romance",
+      "status": "Indisponível",
+      "capa": ""
     }
   ]
 }
