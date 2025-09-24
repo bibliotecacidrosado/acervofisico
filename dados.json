@@ -1,8 +1,8 @@
 {
-  "ultimaAtualizacao": "2025-09-24T13:35:48.650Z",
-  "totalLivros": 192,
-  "totalExemplares": 950,
-  "totalDisponiveis": 950,
+  "ultimaAtualizacao": "2025-09-24T13:38:44.446Z",
+  "totalLivros": 193,
+  "totalExemplares": 954,
+  "totalDisponiveis": 954,
   "livros": [
     {
       "titulo": "Aprendendo a Amar e a Curar ",
@@ -2573,11 +2573,11 @@
       "ano": 2008,
       "editora": "Alis",
       "cidade": "Belo Horizonte ",
-      "exemplares": 0,
+      "exemplares": 1,
       "emprestados": 0,
-      "disponiveis": 0,
+      "disponiveis": 1,
       "localizacao": "Estante A, A4. Romance",
-      "status": "Indisponível",
+      "status": "Disponível",
       "capa": "https://drive.google.com/open?id=1RO26bLURgQWqBqOLaX8kAoMzd-qp88ax"
     },
     {
@@ -2601,11 +2601,11 @@
       "ano": 2023,
       "editora": "Escribas ",
       "cidade": "Natal",
-      "exemplares": 0,
+      "exemplares": 1,
       "emprestados": 0,
-      "disponiveis": 0,
+      "disponiveis": 1,
       "localizacao": "Estante A, A4. Romance",
-      "status": "Indisponível",
+      "status": "Disponível",
       "capa": ""
     },
     {
@@ -2671,11 +2671,11 @@
       "ano": 2012,
       "editora": "JPA",
       "cidade": "Rio de janeiro ",
-      "exemplares": 0,
+      "exemplares": 1,
       "emprestados": 0,
-      "disponiveis": 0,
+      "disponiveis": 1,
       "localizacao": "Estante A, A4. Romance",
-      "status": "Indisponível",
+      "status": "Disponível",
       "capa": ""
     },
     {
@@ -2685,6 +2685,20 @@
       "ano": 2022,
       "editora": "Editora Planeta do Brasil LTDA",
       "cidade": "São Paulo ",
+      "exemplares": 1,
+      "emprestados": 0,
+      "disponiveis": 1,
+      "localizacao": "Estante B, B1. Romance",
+      "status": "Disponível",
+      "capa": ""
+    },
+    {
+      "titulo": "Quinze dias",
+      "autor": "Vitor Martins",
+      "genero": "Romance",
+      "ano": 2021,
+      "editora": "Globo S.A.",
+      "cidade": "Rua Marquês de Pombal, 25, Rio de Janeiro, RJ",
       "exemplares": 1,
       "emprestados": 0,
       "disponiveis": 1,
