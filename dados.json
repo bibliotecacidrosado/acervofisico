@@ -1,8 +1,8 @@
 {
-  "ultimaAtualizacao": "2025-09-24T14:03:08.311Z",
-  "totalLivros": 217,
-  "totalExemplares": 1024,
-  "totalDisponiveis": 1024,
+  "ultimaAtualizacao": "2025-09-24T14:03:51.869Z",
+  "totalLivros": 218,
+  "totalExemplares": 1025,
+  "totalDisponiveis": 1025,
   "livros": [
     {
       "titulo": "Aprendendo a Amar e a Curar ",
@@ -3038,6 +3038,20 @@
       "exemplares": 2,
       "emprestados": 0,
       "disponiveis": 2,
+      "localizacao": "Estante A, A4. Romance",
+      "status": "Disponível",
+      "capa": ""
+    },
+    {
+      "titulo": "O elogio ao Ócio ",
+      "autor": "Bertrand Russell ",
+      "genero": "Romance",
+      "ano": 2002,
+      "editora": "Sextante ",
+      "cidade": "Rio de janeiro ",
+      "exemplares": 1,
+      "emprestados": 0,
+      "disponiveis": 1,
       "localizacao": "Estante A, A4. Romance",
       "status": "Disponível",
       "capa": ""
