@@ -1,8 +1,8 @@
 {
-  "ultimaAtualizacao": "2025-09-25T16:35:42.397Z",
-  "totalLivros": 223,
-  "totalExemplares": 1032,
-  "totalDisponiveis": 1032,
+  "ultimaAtualizacao": "2025-09-25T16:36:51.993Z",
+  "totalLivros": 224,
+  "totalExemplares": 1033,
+  "totalDisponiveis": 1033,
   "livros": [
     {
       "titulo": "Aprendendo a Amar e a Curar ",
@@ -3125,6 +3125,20 @@
       "localizacao": "Estante B, B3. Romance",
       "status": "Disponível",
       "capa": ""
+    },
+    {
+      "titulo": "Comer, Rezar, Amar",
+      "autor": "Elizabeth Gilbert",
+      "genero": "Romance",
+      "ano": 2008,
+      "editora": "Objetiva",
+      "cidade": "Rio de Janeiro",
+      "exemplares": 1,
+      "emprestados": 0,
+      "disponiveis": 1,
+      "localizacao": "Estante A, A4. Romance",
+      "status": "Disponível",
+      "capa": "https://drive.google.com/open?id=1upv4e3ujsYwmz9Z2OqOH3mP7VaTFvE2D"
     }
   ]
 }
