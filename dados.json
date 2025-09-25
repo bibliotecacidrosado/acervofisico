@@ -1,8 +1,8 @@
 {
-  "ultimaAtualizacao": "2025-09-24T14:07:59.215Z",
+  "ultimaAtualizacao": "2025-09-25T16:35:42.397Z",
   "totalLivros": 223,
-  "totalExemplares": 1031,
-  "totalDisponiveis": 1031,
+  "totalExemplares": 1032,
+  "totalDisponiveis": 1032,
   "livros": [
     {
       "titulo": "Aprendendo a Amar e a Curar ",
@@ -2525,7 +2525,7 @@
       "capa": "https://drive.google.com/open?id=1eabW5FJOXpJIzllolwDaal0-KOT4Omt3"
     },
     {
-      "titulo": "Não pergunte ao vento ",
+      "titulo": "Não Pergunte ao Vento ",
       "autor": "Maria Francisca Fernandes da Costa ",
       "genero": "Romance",
       "ano": 1995,
@@ -2539,17 +2539,17 @@
       "capa": "https://drive.google.com/open?id=17dt9Ff1iEJGcW6Wge8OzTB6gLPcMm6oo"
     },
     {
-      "titulo": "Comer rezar amar",
+      "titulo": "Comer, Rezar, Amar",
       "autor": "Elizabeth Gilbert",
       "genero": "Romance",
       "ano": 2008,
       "editora": "Objetiva",
-      "cidade": "Rio de ",
-      "exemplares": 0,
+      "cidade": "Rio de Janeiro",
+      "exemplares": 1,
       "emprestados": 0,
-      "disponiveis": 0,
+      "disponiveis": 1,
       "localizacao": "Estante A, A4. Romance",
-      "status": "Indisponível",
+      "status": "Disponível",
       "capa": "https://drive.google.com/open?id=1upv4e3ujsYwmz9Z2OqOH3mP7VaTFvE2D"
     },
     {
