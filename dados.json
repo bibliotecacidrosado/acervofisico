@@ -1,8 +1,8 @@
 {
-  "ultimaAtualizacao": "2025-09-29T11:03:51.029Z",
-  "totalLivros": 260,
-  "totalExemplares": 1143,
-  "totalDisponiveis": 1143,
+  "ultimaAtualizacao": "2025-09-29T11:05:04.329Z",
+  "totalLivros": 261,
+  "totalExemplares": 1144,
+  "totalDisponiveis": 1144,
   "livros": [
     {
       "titulo": "Aprendendo a Amar e a Curar ",
@@ -3629,6 +3629,20 @@
       "localizacao": "Corredor H, CoH. Literatura Infantojuvenil",
       "status": "Disponível",
       "capa": "https://drive.google.com/open?id=1Amev5_-BMhSCuD2ha0uPvCPlAWr8vPhI"
+    },
+    {
+      "titulo": "Adolfo Caminha",
+      "autor": "Cladia Albuquerque ",
+      "genero": "Biografia",
+      "ano": 2009,
+      "editora": "Demócrito Rocha",
+      "cidade": "Fortaleza ",
+      "exemplares": 1,
+      "emprestados": 0,
+      "disponiveis": 1,
+      "localizacao": "Estante A, A8. Histórias em Quadrinhos",
+      "status": "Disponível",
+      "capa": "https://drive.google.com/open?id=1nj0WjvKhYHSv2viLiVroKDzohD3CwjBF"
     },
     {
       "titulo": "Comer, Rezar, Amar",
