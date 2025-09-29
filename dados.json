@@ -1,8 +1,8 @@
 {
-  "ultimaAtualizacao": "2025-09-29T17:13:52.464Z",
-  "totalLivros": 288,
-  "totalExemplares": 1208,
-  "totalDisponiveis": 1208,
+  "ultimaAtualizacao": "2025-09-29T17:14:10.537Z",
+  "totalLivros": 289,
+  "totalExemplares": 1209,
+  "totalDisponiveis": 1209,
   "livros": [
     {
       "titulo": "Aprendendo a Amar e a Curar ",
@@ -4019,6 +4019,20 @@
       "emprestados": 0,
       "disponiveis": 1,
       "localizacao": "Estante B, B2. Romance",
+      "status": "Disponível",
+      "capa": ""
+    },
+    {
+      "titulo": "é assim que começa",
+      "autor": "Best-Seller ",
+      "genero": "Romance",
+      "ano": 2025,
+      "editora": "Galera Record",
+      "cidade": "Rio de Janeiro",
+      "exemplares": 1,
+      "emprestados": 0,
+      "disponiveis": 1,
+      "localizacao": "Estante B, B15. Romance",
       "status": "Disponível",
       "capa": ""
     },
