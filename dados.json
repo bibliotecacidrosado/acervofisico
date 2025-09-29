@@ -1,8 +1,8 @@
 {
-  "ultimaAtualizacao": "2025-09-29T10:49:58.994Z",
-  "totalLivros": 244,
-  "totalExemplares": 1111,
-  "totalDisponiveis": 1111,
+  "ultimaAtualizacao": "2025-09-29T10:51:40.406Z",
+  "totalLivros": 245,
+  "totalExemplares": 1115,
+  "totalDisponiveis": 1115,
   "livros": [
     {
       "titulo": "Aprendendo a Amar e a Curar ",
@@ -3405,6 +3405,20 @@
       "localizacao": "Corredor G, CoG. William Shakespeare",
       "status": "Disponível",
       "capa": "https://drive.google.com/open?id=1ueAYx_5uIN9LZUmAkwRaCOc9o-UNL9kA"
+    },
+    {
+      "titulo": "Minidicionário da língua portuguesa ",
+      "autor": "Silveira BUENO ",
+      "genero": "Dicionário",
+      "ano": 2001,
+      "editora": "FTD",
+      "cidade": "São Paulo ",
+      "exemplares": 4,
+      "emprestados": 0,
+      "disponiveis": 4,
+      "localizacao": "Estante B, B6. Dicionário de L. Portuguesa",
+      "status": "Disponível",
+      "capa": "https://drive.google.com/open?id=15EEo7XGl-KMLE362DF6ZJ7K2pctL7nSe"
     },
     {
       "titulo": "Comer, Rezar, Amar",
