@@ -1,8 +1,8 @@
 {
-  "ultimaAtualizacao": "2025-09-29T10:55:03.918Z",
-  "totalLivros": 251,
-  "totalExemplares": 1123,
-  "totalDisponiveis": 1123,
+  "ultimaAtualizacao": "2025-09-29T10:56:15.857Z",
+  "totalLivros": 252,
+  "totalExemplares": 1129,
+  "totalDisponiveis": 1129,
   "livros": [
     {
       "titulo": "Aprendendo a Amar e a Curar ",
@@ -3503,6 +3503,20 @@
       "localizacao": "Corredor H, C1. Literatura Infantojuvenil",
       "status": "Disponível",
       "capa": "https://drive.google.com/open?id=1YV9L5MsiZ-4rxugStoUQk9siEindU2Zn"
+    },
+    {
+      "titulo": "O Mercador de Veneza",
+      "autor": "William Shakespeare ",
+      "genero": "Teatro (textos dramáticos)",
+      "ano": 2021,
+      "editora": "Principis ",
+      "cidade": "Jandira",
+      "exemplares": 6,
+      "emprestados": 0,
+      "disponiveis": 6,
+      "localizacao": "Corredor G, CoG. William Shakespeare",
+      "status": "Disponível",
+      "capa": "https://drive.google.com/open?id=1On1WmzQLbU9wkNjHrk8TUd0k0wjBOgAU"
     },
     {
       "titulo": "Comer, Rezar, Amar",
