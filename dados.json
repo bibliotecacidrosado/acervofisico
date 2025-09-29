@@ -1,8 +1,8 @@
 {
-  "ultimaAtualizacao": "2025-09-29T10:46:27.246Z",
-  "totalLivros": 239,
-  "totalExemplares": 1105,
-  "totalDisponiveis": 1105,
+  "ultimaAtualizacao": "2025-09-29T10:47:25.818Z",
+  "totalLivros": 240,
+  "totalExemplares": 1106,
+  "totalDisponiveis": 1106,
   "livros": [
     {
       "titulo": "Aprendendo a Amar e a Curar ",
@@ -3335,6 +3335,20 @@
       "localizacao": "Estante B, B3. Romance",
       "status": "Disponível",
       "capa": "https://drive.google.com/open?id=1MwNY0p6DAYvrK98Y2FeH1P1ZVqO1ssQN"
+    },
+    {
+      "titulo": "Divisão Azul ",
+      "autor": "Fran Jaraba",
+      "genero": "História em Quadrinhos",
+      "ano": 2021,
+      "editora": "Palavras Projetos Editorais Ltda",
+      "cidade": "São Paulo ",
+      "exemplares": 1,
+      "emprestados": 0,
+      "disponiveis": 1,
+      "localizacao": "Estante A, A8. Histórias em Quadrinhos",
+      "status": "Disponível",
+      "capa": "https://drive.google.com/open?id=1qn2-e-8Fe-MEH4OY0ck2kAKmEPTj-wix"
     },
     {
       "titulo": "Comer, Rezar, Amar",
