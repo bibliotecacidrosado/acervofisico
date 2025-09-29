@@ -1,8 +1,8 @@
 {
-  "ultimaAtualizacao": "2025-09-29T11:09:32.133Z",
-  "totalLivros": 264,
-  "totalExemplares": 1147,
-  "totalDisponiveis": 1147,
+  "ultimaAtualizacao": "2025-09-29T11:11:11.390Z",
+  "totalLivros": 265,
+  "totalExemplares": 1148,
+  "totalDisponiveis": 1148,
   "livros": [
     {
       "titulo": "Aprendendo a Amar e a Curar ",
@@ -3685,6 +3685,20 @@
       "localizacao": "Estante B, B3. Romance",
       "status": "Disponível",
       "capa": "https://drive.google.com/open?id=1f0COzVVMrSG4Wz1Tl9XGL5jOQAuDC8Sd"
+    },
+    {
+      "titulo": "O ultimo moicano ",
+      "autor": "James fenimore cooper",
+      "genero": "Literatura Infantojuvenil",
+      "ano": 2001,
+      "editora": "ISBN",
+      "cidade": "Sao paulo",
+      "exemplares": 1,
+      "emprestados": 0,
+      "disponiveis": 1,
+      "localizacao": "Corredor H, CoH. Literatura Infantojuvenil",
+      "status": "Disponível",
+      "capa": "https://drive.google.com/open?id=1u28Mz7t8PL32VTiOndrwxn1q-My2bZOT"
     },
     {
       "titulo": "Comer, Rezar, Amar",
