@@ -1,8 +1,8 @@
 {
-  "ultimaAtualizacao": "2025-09-29T11:07:46.800Z",
-  "totalLivros": 263,
-  "totalExemplares": 1146,
-  "totalDisponiveis": 1146,
+  "ultimaAtualizacao": "2025-09-29T11:09:32.133Z",
+  "totalLivros": 264,
+  "totalExemplares": 1147,
+  "totalDisponiveis": 1147,
   "livros": [
     {
       "titulo": "Aprendendo a Amar e a Curar ",
@@ -3671,6 +3671,20 @@
       "localizacao": "Corredor H, C1. Literatura Infantojuvenil",
       "status": "Disponível",
       "capa": "https://drive.google.com/open?id=1xyAM5cqxuNI4iwIlmY_ghwnyYwhnrwVw"
+    },
+    {
+      "titulo": "Uma Prova de Amor",
+      "autor": "Emily Giffin ",
+      "genero": "Romance",
+      "ano": 2013,
+      "editora": "Novo Conceito ",
+      "cidade": "Ribeirão Preto SP ",
+      "exemplares": 1,
+      "emprestados": 0,
+      "disponiveis": 1,
+      "localizacao": "Estante B, B3. Romance",
+      "status": "Disponível",
+      "capa": "https://drive.google.com/open?id=1f0COzVVMrSG4Wz1Tl9XGL5jOQAuDC8Sd"
     },
     {
       "titulo": "Comer, Rezar, Amar",
