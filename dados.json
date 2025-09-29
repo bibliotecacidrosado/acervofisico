@@ -1,8 +1,8 @@
 {
-  "ultimaAtualizacao": "2025-09-29T11:13:43.060Z",
-  "totalLivros": 267,
-  "totalExemplares": 1164,
-  "totalDisponiveis": 1164,
+  "ultimaAtualizacao": "2025-09-29T11:15:40.942Z",
+  "totalLivros": 268,
+  "totalExemplares": 1165,
+  "totalDisponiveis": 1165,
   "livros": [
     {
       "titulo": "Aprendendo a Amar e a Curar ",
@@ -3727,6 +3727,20 @@
       "localizacao": "Estante B, B6. Dicionário de L. Portuguesa",
       "status": "Disponível",
       "capa": "https://drive.google.com/open?id=1Y6xKdE4t_pKtOToeSUt9rinw0P3k60cD"
+    },
+    {
+      "titulo": "Cinco Crianças e Um Segredo ",
+      "autor": "Edith Nesbit",
+      "genero": "Romance",
+      "ano": 2010,
+      "editora": 34,
+      "cidade": "São Paulo ",
+      "exemplares": 1,
+      "emprestados": 0,
+      "disponiveis": 1,
+      "localizacao": "Estante B, B3. Romance",
+      "status": "Disponível",
+      "capa": "https://drive.google.com/open?id=1IVvXGPycdoBkOmsnK78u4s5DYfompQHR"
     },
     {
       "titulo": "Comer, Rezar, Amar",
