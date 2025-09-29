@@ -1,8 +1,8 @@
 {
-  "ultimaAtualizacao": "2025-09-29T11:02:05.530Z",
-  "totalLivros": 257,
-  "totalExemplares": 1140,
-  "totalDisponiveis": 1140,
+  "ultimaAtualizacao": "2025-09-29T11:02:15.488Z",
+  "totalLivros": 258,
+  "totalExemplares": 1141,
+  "totalDisponiveis": 1141,
   "livros": [
     {
       "titulo": "Aprendendo a Amar e a Curar ",
@@ -3587,6 +3587,20 @@
       "localizacao": "Estante B, B6. Dicionário de L. Portuguesa",
       "status": "Disponível",
       "capa": "https://drive.google.com/open?id=11IIgwKauH2QF3E22jEmJj4zFJRUGf2PM"
+    },
+    {
+      "titulo": "Cais do Porto",
+      "autor": "Brenda Maria",
+      "genero": "Literatura Infantojuvenil",
+      "ano": 2021,
+      "editora": "conrad",
+      "cidade": "São paulo",
+      "exemplares": 1,
+      "emprestados": 0,
+      "disponiveis": 1,
+      "localizacao": "Corredor H, C1. Literatura Infantojuvenil",
+      "status": "Disponível",
+      "capa": "https://drive.google.com/open?id=1AtOd46gUn8-YyVLoLw9NvN4Muq8vtqIL"
     },
     {
       "titulo": "Comer, Rezar, Amar",
