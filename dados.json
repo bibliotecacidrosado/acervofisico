@@ -1,8 +1,8 @@
 {
-  "ultimaAtualizacao": "2025-09-29T17:09:49.128Z",
-  "totalLivros": 284,
-  "totalExemplares": 1204,
-  "totalDisponiveis": 1204,
+  "ultimaAtualizacao": "2025-09-29T17:09:57.426Z",
+  "totalLivros": 285,
+  "totalExemplares": 1206,
+  "totalDisponiveis": 1206,
   "livros": [
     {
       "titulo": "Aprendendo a Amar e a Curar ",
@@ -3963,6 +3963,20 @@
       "emprestados": 0,
       "disponiveis": 1,
       "localizacao": "Estante A, A2. Romance",
+      "status": "Disponível",
+      "capa": ""
+    },
+    {
+      "titulo": "Mitos gregos ",
+      "autor": "Nathaniel hawthorne",
+      "genero": "Conto",
+      "ano": 2016,
+      "editora": "Schwarcz s.a",
+      "cidade": "Rio de Janeiro rj",
+      "exemplares": 2,
+      "emprestados": 0,
+      "disponiveis": 2,
+      "localizacao": "Estante B, B7. Contos",
       "status": "Disponível",
       "capa": ""
     },
