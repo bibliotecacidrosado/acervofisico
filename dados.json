@@ -1,8 +1,8 @@
 {
-  "ultimaAtualizacao": "2025-09-29T10:56:15.857Z",
-  "totalLivros": 252,
-  "totalExemplares": 1129,
-  "totalDisponiveis": 1129,
+  "ultimaAtualizacao": "2025-09-29T10:58:27.571Z",
+  "totalLivros": 254,
+  "totalExemplares": 1131,
+  "totalDisponiveis": 1131,
   "livros": [
     {
       "titulo": "Aprendendo a Amar e a Curar ",
@@ -3517,6 +3517,34 @@
       "localizacao": "Corredor G, CoG. William Shakespeare",
       "status": "Disponível",
       "capa": "https://drive.google.com/open?id=1On1WmzQLbU9wkNjHrk8TUd0k0wjBOgAU"
+    },
+    {
+      "titulo": "Laços Inseparáveis ",
+      "autor": "Emily Giffin",
+      "genero": "Romance",
+      "ano": 2012,
+      "editora": "Novo Conceito ",
+      "cidade": "Ribeirão Preto SP ",
+      "exemplares": 1,
+      "emprestados": 0,
+      "disponiveis": 1,
+      "localizacao": "Estante B, B3. Romance",
+      "status": "Disponível",
+      "capa": "https://drive.google.com/open?id=1SIdj1u1JtrmzXcth0afVh0wLWaaD9ExK"
+    },
+    {
+      "titulo": "Nietzsche",
+      "autor": "Onfray Leroy",
+      "genero": "História em Quadrinhos",
+      "ano": 2013,
+      "editora": "Gráfica Ltda",
+      "cidade": "Rio de Janeiro ",
+      "exemplares": 1,
+      "emprestados": 0,
+      "disponiveis": 1,
+      "localizacao": "Estante A, A8. Histórias em Quadrinhos",
+      "status": "Disponível",
+      "capa": "https://drive.google.com/open?id=16UrT_AOKurajdfyu1a6Qq-GIbTtpVvhT"
     },
     {
       "titulo": "Comer, Rezar, Amar",
