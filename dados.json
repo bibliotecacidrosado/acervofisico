@@ -1,8 +1,8 @@
 {
-  "ultimaAtualizacao": "2025-09-29T10:38:24.285Z",
-  "totalLivros": 232,
-  "totalExemplares": 1085,
-  "totalDisponiveis": 1085,
+  "ultimaAtualizacao": "2025-09-29T10:38:28.961Z",
+  "totalLivros": 233,
+  "totalExemplares": 1094,
+  "totalDisponiveis": 1094,
   "livros": [
     {
       "titulo": "Aprendendo a Amar e a Curar ",
@@ -3237,6 +3237,20 @@
       "localizacao": "Corredor G, CoG. William Shakespeare",
       "status": "Disponível",
       "capa": "https://drive.google.com/open?id=1J_48KFpcjQRy946eClX-iIaAGl10AoOi"
+    },
+    {
+      "titulo": "Minidicionário Escolar Inglês ",
+      "autor": "David Conrad",
+      "genero": "Inglês (Língua/Literatura)",
+      "ano": 2011,
+      "editora": "DCL",
+      "cidade": "São Paulo ",
+      "exemplares": 9,
+      "emprestados": 0,
+      "disponiveis": 9,
+      "localizacao": "Corredor F, CoF. Dicionário de Língua Inglesa",
+      "status": "Disponível",
+      "capa": "https://drive.google.com/open?id=1RoAOFEph9Z_NhYFxldtIjaViGJY96bNH"
     },
     {
       "titulo": "Comer, Rezar, Amar",
