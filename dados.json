@@ -1,8 +1,8 @@
 {
-  "ultimaAtualizacao": "2025-09-29T10:32:12.341Z",
-  "totalLivros": 226,
-  "totalExemplares": 1063,
-  "totalDisponiveis": 1063,
+  "ultimaAtualizacao": "2025-09-29T10:33:42.268Z",
+  "totalLivros": 227,
+  "totalExemplares": 1064,
+  "totalDisponiveis": 1064,
   "livros": [
     {
       "titulo": "Aprendendo a Amar e a Curar ",
@@ -3153,6 +3153,20 @@
       "localizacao": "Estante A, A8. Histórias em Quadrinhos",
       "status": "Disponível",
       "capa": ""
+    },
+    {
+      "titulo": "Harry Potter e a câmera secreta",
+      "autor": "J.K. Rowling",
+      "genero": "Literatura Infantojuvenil",
+      "ano": 2000,
+      "editora": "Rocco",
+      "cidade": "Rio de Janeiro ",
+      "exemplares": 1,
+      "emprestados": 0,
+      "disponiveis": 1,
+      "localizacao": "Estante C, C4. Literatura Infantojuvenil",
+      "status": "Disponível",
+      "capa": "https://drive.google.com/open?id=1tfUv70iqm-VVbXLqEsEjYt_GXNPkebZ_"
     },
     {
       "titulo": "Comer, Rezar, Amar",
