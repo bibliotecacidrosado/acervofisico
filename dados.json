@@ -1,8 +1,8 @@
 {
-  "ultimaAtualizacao": "2025-09-29T10:35:53.101Z",
-  "totalLivros": 231,
-  "totalExemplares": 1081,
-  "totalDisponiveis": 1081,
+  "ultimaAtualizacao": "2025-09-29T10:38:24.285Z",
+  "totalLivros": 232,
+  "totalExemplares": 1085,
+  "totalDisponiveis": 1085,
   "livros": [
     {
       "titulo": "Aprendendo a Amar e a Curar ",
@@ -3223,6 +3223,20 @@
       "localizacao": "Estante A, A8. Histórias em Quadrinhos",
       "status": "Disponível",
       "capa": "https://drive.google.com/open?id=1eOYmXQ1OMO_Pry6vwtj_4NnOcKyQcImf"
+    },
+    {
+      "titulo": "Sonhos de uma noite de verão ",
+      "autor": "William Shakespeare ",
+      "genero": "Romance",
+      "ano": 2021,
+      "editora": "Michele de souza barbosa",
+      "cidade": "Jandira-SP",
+      "exemplares": 4,
+      "emprestados": 0,
+      "disponiveis": 4,
+      "localizacao": "Corredor G, CoG. William Shakespeare",
+      "status": "Disponível",
+      "capa": "https://drive.google.com/open?id=1J_48KFpcjQRy946eClX-iIaAGl10AoOi"
     },
     {
       "titulo": "Comer, Rezar, Amar",
