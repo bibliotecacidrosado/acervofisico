@@ -1,8 +1,8 @@
 {
-  "ultimaAtualizacao": "2025-09-29T17:23:49.241Z",
-  "totalLivros": 303,
-  "totalExemplares": 1385,
-  "totalDisponiveis": 1385,
+  "ultimaAtualizacao": "2025-09-29T17:27:28.889Z",
+  "totalLivros": 304,
+  "totalExemplares": 1386,
+  "totalDisponiveis": 1386,
   "livros": [
     {
       "titulo": "Aprendendo a Amar e a Curar ",
@@ -4229,6 +4229,20 @@
       "emprestados": 0,
       "disponiveis": 18,
       "localizacao": "Estante A, A2. Romance",
+      "status": "Disponível",
+      "capa": ""
+    },
+    {
+      "titulo": "Razão e pensibilidade",
+      "autor": "Jone Austen",
+      "genero": "Romance",
+      "ano": 2013,
+      "editora": "Martin claret",
+      "cidade": 2009,
+      "exemplares": 1,
+      "emprestados": 0,
+      "disponiveis": 1,
+      "localizacao": "Estante B, B1. Romance",
       "status": "Disponível",
       "capa": ""
     },
