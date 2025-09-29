@@ -1,8 +1,8 @@
 {
-  "ultimaAtualizacao": "2025-09-29T17:20:13.365Z",
-  "totalLivros": 299,
-  "totalExemplares": 1364,
-  "totalDisponiveis": 1364,
+  "ultimaAtualizacao": "2025-09-29T17:21:08.713Z",
+  "totalLivros": 300,
+  "totalExemplares": 1365,
+  "totalDisponiveis": 1365,
   "livros": [
     {
       "titulo": "Aprendendo a Amar e a Curar ",
@@ -4173,6 +4173,20 @@
       "emprestados": 0,
       "disponiveis": 1,
       "localizacao": "Estante B, B3. Romance",
+      "status": "Disponível",
+      "capa": ""
+    },
+    {
+      "titulo": "Esporte para a vida no ensino medio",
+      "autor": "Vilma Leni Nista Piccolo e Wagner Wey Moreira",
+      "genero": "Formação Pedagógica (Educação)",
+      "ano": 2012,
+      "editora": "Telos",
+      "cidade": "Sao Paulo",
+      "exemplares": 1,
+      "emprestados": 0,
+      "disponiveis": 1,
+      "localizacao": "Estante D, D3. Formação Pedagógica",
       "status": "Disponível",
       "capa": ""
     },
