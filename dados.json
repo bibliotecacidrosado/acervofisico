@@ -1,8 +1,8 @@
 {
-  "ultimaAtualizacao": "2025-09-29T10:59:36.390Z",
-  "totalLivros": 255,
-  "totalExemplares": 1136,
-  "totalDisponiveis": 1136,
+  "ultimaAtualizacao": "2025-09-29T11:00:04.717Z",
+  "totalLivros": 256,
+  "totalExemplares": 1137,
+  "totalDisponiveis": 1137,
   "livros": [
     {
       "titulo": "Aprendendo a Amar e a Curar ",
@@ -3559,6 +3559,20 @@
       "localizacao": "Corredor G, CoG. William Shakespeare",
       "status": "Disponível",
       "capa": "https://drive.google.com/open?id=1yhu3kuxnbSaV5-tTEH8iu4KPtZL3_uf8"
+    },
+    {
+      "titulo": "Quase Noite",
+      "autor": "Alice Sebold",
+      "genero": "Romance",
+      "ano": 2008,
+      "editora": "Agir",
+      "cidade": "Rio de Janeiro ",
+      "exemplares": 1,
+      "emprestados": 0,
+      "disponiveis": 1,
+      "localizacao": "Estante B, B3. Romance",
+      "status": "Disponível",
+      "capa": "https://drive.google.com/open?id=1Fd1-dunrGN8pUyUlDBimptwQmNIG0d6o"
     },
     {
       "titulo": "Comer, Rezar, Amar",
