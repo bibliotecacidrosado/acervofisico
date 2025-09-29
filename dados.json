@@ -1,8 +1,8 @@
 {
-  "ultimaAtualizacao": "2025-09-29T17:15:49.985Z",
-  "totalLivros": 291,
-  "totalExemplares": 1211,
-  "totalDisponiveis": 1211,
+  "ultimaAtualizacao": "2025-09-29T17:16:49.862Z",
+  "totalLivros": 292,
+  "totalExemplares": 1212,
+  "totalDisponiveis": 1212,
   "livros": [
     {
       "titulo": "Aprendendo a Amar e a Curar ",
@@ -4061,6 +4061,20 @@
       "emprestados": 0,
       "disponiveis": 1,
       "localizacao": "Estante B, B15. Romance",
+      "status": "Disponível",
+      "capa": ""
+    },
+    {
+      "titulo": "Rangers: Ruínas de Gorlean",
+      "autor": "Jonh Flanagan",
+      "genero": "Romance",
+      "ano": 2016,
+      "editora": "Fundamento",
+      "cidade": "São Paulo",
+      "exemplares": 1,
+      "emprestados": 0,
+      "disponiveis": 1,
+      "localizacao": "Estante B, B3. Romance",
       "status": "Disponível",
       "capa": ""
     },
