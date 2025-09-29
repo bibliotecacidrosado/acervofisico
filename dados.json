@@ -1,8 +1,8 @@
 {
-  "ultimaAtualizacao": "2025-09-29T11:03:44.952Z",
-  "totalLivros": 259,
-  "totalExemplares": 1142,
-  "totalDisponiveis": 1142,
+  "ultimaAtualizacao": "2025-09-29T11:03:51.029Z",
+  "totalLivros": 260,
+  "totalExemplares": 1143,
+  "totalDisponiveis": 1143,
   "livros": [
     {
       "titulo": "Aprendendo a Amar e a Curar ",
@@ -3615,6 +3615,20 @@
       "localizacao": "Estante B, B3. Romance",
       "status": "Disponível",
       "capa": "https://drive.google.com/open?id=1cSyRWNN9K2lFS3GRI7f66SdoIR1FI8rJ"
+    },
+    {
+      "titulo": "A Odisseia",
+      "autor": "Homero",
+      "genero": "Literatura Infantojuvenil",
+      "ano": 2009,
+      "editora": "UDP",
+      "cidade": "Sao Paulo",
+      "exemplares": 1,
+      "emprestados": 0,
+      "disponiveis": 1,
+      "localizacao": "Corredor H, CoH. Literatura Infantojuvenil",
+      "status": "Disponível",
+      "capa": "https://drive.google.com/open?id=1Amev5_-BMhSCuD2ha0uPvCPlAWr8vPhI"
     },
     {
       "titulo": "Comer, Rezar, Amar",
