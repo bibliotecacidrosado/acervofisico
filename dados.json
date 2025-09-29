@@ -1,8 +1,8 @@
 {
-  "ultimaAtualizacao": "2025-09-29T17:27:28.889Z",
-  "totalLivros": 304,
-  "totalExemplares": 1386,
-  "totalDisponiveis": 1386,
+  "ultimaAtualizacao": "2025-09-29T17:28:36.176Z",
+  "totalLivros": 305,
+  "totalExemplares": 1387,
+  "totalDisponiveis": 1387,
   "livros": [
     {
       "titulo": "Aprendendo a Amar e a Curar ",
@@ -4243,6 +4243,20 @@
       "emprestados": 0,
       "disponiveis": 1,
       "localizacao": "Estante B, B1. Romance",
+      "status": "Disponível",
+      "capa": ""
+    },
+    {
+      "titulo": "Vinte Mil Léguas Submarinas",
+      "autor": "Julio Verne",
+      "genero": "Romance",
+      "ano": 2007,
+      "editora": "FTD",
+      "cidade": "São Paulo",
+      "exemplares": 1,
+      "emprestados": 0,
+      "disponiveis": 1,
+      "localizacao": "Estante B, B3. Romance",
       "status": "Disponível",
       "capa": ""
     },
