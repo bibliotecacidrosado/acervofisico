@@ -1,8 +1,8 @@
 {
-  "ultimaAtualizacao": "2025-09-29T17:17:54.380Z",
-  "totalLivros": 294,
-  "totalExemplares": 1215,
-  "totalDisponiveis": 1215,
+  "ultimaAtualizacao": "2025-09-29T17:18:57.689Z",
+  "totalLivros": 296,
+  "totalExemplares": 1228,
+  "totalDisponiveis": 1228,
   "livros": [
     {
       "titulo": "Aprendendo a Amar e a Curar ",
@@ -4103,6 +4103,34 @@
       "emprestados": 0,
       "disponiveis": 2,
       "localizacao": "Estante B, B3. Romance",
+      "status": "Disponível",
+      "capa": ""
+    },
+    {
+      "titulo": "Rangers: Ordem dos Arqueiros - Ponte em Chamas",
+      "autor": "Jonh Flanagan",
+      "genero": "Romance",
+      "ano": 2016,
+      "editora": "Fundamento ",
+      "cidade": "São Paulo",
+      "exemplares": 1,
+      "emprestados": 0,
+      "disponiveis": 1,
+      "localizacao": "Estante B, B3. Romance",
+      "status": "Disponível",
+      "capa": ""
+    },
+    {
+      "titulo": "Os sujeitos no universo da escola ",
+      "autor": "Veronica edwards",
+      "genero": "Formação Pedagógica (Educação)",
+      "ano": 2003,
+      "editora": "Ática",
+      "cidade": "São Paulo ",
+      "exemplares": 12,
+      "emprestados": 0,
+      "disponiveis": 12,
+      "localizacao": "Estante D, D2. Formação Pedagógica",
       "status": "Disponível",
       "capa": ""
     },
