@@ -1,8 +1,8 @@
 {
-  "ultimaAtualizacao": "2025-09-29T17:11:34.550Z",
-  "totalLivros": 287,
-  "totalExemplares": 1207,
-  "totalDisponiveis": 1207,
+  "ultimaAtualizacao": "2025-09-29T17:13:52.464Z",
+  "totalLivros": 288,
+  "totalExemplares": 1208,
+  "totalDisponiveis": 1208,
   "livros": [
     {
       "titulo": "Aprendendo a Amar e a Curar ",
@@ -4001,6 +4001,20 @@
       "ano": 2020,
       "editora": "Bertrand Brasil",
       "cidade": "Rio de Janeiro",
+      "exemplares": 1,
+      "emprestados": 0,
+      "disponiveis": 1,
+      "localizacao": "Estante B, B2. Romance",
+      "status": "Disponível",
+      "capa": ""
+    },
+    {
+      "titulo": "Mulherzinhas",
+      "autor": "Louisa May Alcott",
+      "genero": "Romance",
+      "ano": 2020,
+      "editora": "Principis",
+      "cidade": "Jandira",
       "exemplares": 1,
       "emprestados": 0,
       "disponiveis": 1,
