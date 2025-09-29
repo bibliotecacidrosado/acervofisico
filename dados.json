@@ -1,8 +1,8 @@
 {
-  "ultimaAtualizacao": "2025-09-29T17:23:22.875Z",
-  "totalLivros": 302,
-  "totalExemplares": 1367,
-  "totalDisponiveis": 1367,
+  "ultimaAtualizacao": "2025-09-29T17:23:49.241Z",
+  "totalLivros": 303,
+  "totalExemplares": 1385,
+  "totalDisponiveis": 1385,
   "livros": [
     {
       "titulo": "Aprendendo a Amar e a Curar ",
@@ -4215,6 +4215,20 @@
       "emprestados": 0,
       "disponiveis": 1,
       "localizacao": "Estante A, A18. Romance / Autores Variados",
+      "status": "Disponível",
+      "capa": ""
+    },
+    {
+      "titulo": "O casamento",
+      "autor": "Nicholas sparks",
+      "genero": "Romance",
+      "ano": 2012,
+      "editora": "Arqueiro",
+      "cidade": "São paulo",
+      "exemplares": 18,
+      "emprestados": 0,
+      "disponiveis": 18,
+      "localizacao": "Estante A, A2. Romance",
       "status": "Disponível",
       "capa": ""
     },
