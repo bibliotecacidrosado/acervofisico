@@ -1,8 +1,8 @@
 {
-  "ultimaAtualizacao": "2025-09-29T17:07:03.007Z",
-  "totalLivros": 281,
-  "totalExemplares": 1201,
-  "totalDisponiveis": 1201,
+  "ultimaAtualizacao": "2025-09-29T17:08:26.253Z",
+  "totalLivros": 282,
+  "totalExemplares": 1202,
+  "totalDisponiveis": 1202,
   "livros": [
     {
       "titulo": "Aprendendo a Amar e a Curar ",
@@ -3921,6 +3921,20 @@
       "emprestados": 0,
       "disponiveis": 1,
       "localizacao": "Estante B, B20. Crônicas",
+      "status": "Disponível",
+      "capa": ""
+    },
+    {
+      "titulo": "A elite ",
+      "autor": "Kiera Cass",
+      "genero": "Romance",
+      "ano": 2015,
+      "editora": "Não informado",
+      "cidade": 2021,
+      "exemplares": 1,
+      "emprestados": 0,
+      "disponiveis": 1,
+      "localizacao": "Estante B, B2. Romance",
       "status": "Disponível",
       "capa": ""
     },
