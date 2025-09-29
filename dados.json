@@ -1,8 +1,8 @@
 {
-  "ultimaAtualizacao": "2025-09-29T11:16:25.863Z",
-  "totalLivros": 269,
-  "totalExemplares": 1166,
-  "totalDisponiveis": 1166,
+  "ultimaAtualizacao": "2025-09-29T11:22:12.653Z",
+  "totalLivros": 270,
+  "totalExemplares": 1167,
+  "totalDisponiveis": 1167,
   "livros": [
     {
       "titulo": "Aprendendo a Amar e a Curar ",
@@ -3755,6 +3755,20 @@
       "localizacao": "Estante C, C4. Literatura Infantojuvenil",
       "status": "Disponível",
       "capa": "https://drive.google.com/open?id=14xgglvpty7XPfDjVDB0L2Xwdn8wUVPjJ"
+    },
+    {
+      "titulo": "Da Terra á Lua",
+      "autor": "Estevão Ribeiro ",
+      "genero": "História em Quadrinhos",
+      "ano": 2014,
+      "editora": "Vitrine Editora ",
+      "cidade": "Rio de Janeiro ",
+      "exemplares": 1,
+      "emprestados": 0,
+      "disponiveis": 1,
+      "localizacao": "Estante A, A8. Histórias em Quadrinhos",
+      "status": "Disponível",
+      "capa": "https://drive.google.com/open?id=1atV2RDyb2M-RnDu810ci0k5vrHR62x5D"
     },
     {
       "titulo": "Comer, Rezar, Amar",
