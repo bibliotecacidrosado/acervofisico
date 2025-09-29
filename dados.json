@@ -1,8 +1,8 @@
 {
-  "ultimaAtualizacao": "2025-09-29T17:34:43.894Z",
-  "totalLivros": 308,
-  "totalExemplares": 1393,
-  "totalDisponiveis": 1393,
+  "ultimaAtualizacao": "2025-09-29T17:35:31.757Z",
+  "totalLivros": 309,
+  "totalExemplares": 1394,
+  "totalDisponiveis": 1394,
   "livros": [
     {
       "titulo": "Aprendendo a Amar e a Curar ",
@@ -4299,6 +4299,20 @@
       "emprestados": 0,
       "disponiveis": 4,
       "localizacao": "Estante C, C11. Física e Química",
+      "status": "Disponível",
+      "capa": ""
+    },
+    {
+      "titulo": "Velhos Costumes do Meu Sertão ",
+      "autor": "Juvenal Lamartini Faria",
+      "genero": "Romance",
+      "ano": 2021,
+      "editora": "Sefarad",
+      "cidade": "Natal",
+      "exemplares": 1,
+      "emprestados": 0,
+      "disponiveis": 1,
+      "localizacao": "Estante B, B4. Romance",
       "status": "Disponível",
       "capa": ""
     },
