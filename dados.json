@@ -1,8 +1,8 @@
 {
-  "ultimaAtualizacao": "2025-09-29T17:33:34.932Z",
-  "totalLivros": 307,
-  "totalExemplares": 1389,
-  "totalDisponiveis": 1389,
+  "ultimaAtualizacao": "2025-09-29T17:34:43.894Z",
+  "totalLivros": 308,
+  "totalExemplares": 1393,
+  "totalDisponiveis": 1393,
   "livros": [
     {
       "titulo": "Aprendendo a Amar e a Curar ",
@@ -4285,6 +4285,20 @@
       "emprestados": 0,
       "disponiveis": 1,
       "localizacao": "Estante B, B4. Romance",
+      "status": "Disponível",
+      "capa": ""
+    },
+    {
+      "titulo": "Física eletricidade ",
+      "autor": "Djalma Nunes",
+      "genero": "Física",
+      "ano": 1993,
+      "editora": "Editora ática ",
+      "cidade": "São Paulo ",
+      "exemplares": 4,
+      "emprestados": 0,
+      "disponiveis": 4,
+      "localizacao": "Estante C, C11. Física e Química",
       "status": "Disponível",
       "capa": ""
     },
