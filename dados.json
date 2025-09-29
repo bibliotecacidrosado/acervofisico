@@ -1,8 +1,8 @@
 {
-  "ultimaAtualizacao": "2025-09-29T10:47:25.818Z",
-  "totalLivros": 240,
-  "totalExemplares": 1106,
-  "totalDisponiveis": 1106,
+  "ultimaAtualizacao": "2025-09-29T10:49:22.837Z",
+  "totalLivros": 241,
+  "totalExemplares": 1107,
+  "totalDisponiveis": 1107,
   "livros": [
     {
       "titulo": "Aprendendo a Amar e a Curar ",
@@ -3349,6 +3349,20 @@
       "localizacao": "Estante A, A8. Histórias em Quadrinhos",
       "status": "Disponível",
       "capa": "https://drive.google.com/open?id=1qn2-e-8Fe-MEH4OY0ck2kAKmEPTj-wix"
+    },
+    {
+      "titulo": "Chapeuzinho sertanejo",
+      "autor": "Izabel Cristina Da Silva",
+      "genero": "Literatura Infantojuvenil",
+      "ano": 2022,
+      "editora": "Jose antonio bezerra junior",
+      "cidade": "Natal",
+      "exemplares": 1,
+      "emprestados": 0,
+      "disponiveis": 1,
+      "localizacao": "Corredor H, CoH. Literatura Infantojuvenil",
+      "status": "Disponível",
+      "capa": "https://drive.google.com/open?id=1soYAWgF5B4leBi7XOlVfa3WcNBj8yDSp"
     },
     {
       "titulo": "Comer, Rezar, Amar",
