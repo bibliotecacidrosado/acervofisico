@@ -1,8 +1,8 @@
 {
-  "ultimaAtualizacao": "2025-09-29T11:11:11.390Z",
-  "totalLivros": 265,
-  "totalExemplares": 1148,
-  "totalDisponiveis": 1148,
+  "ultimaAtualizacao": "2025-09-29T11:11:42.235Z",
+  "totalLivros": 266,
+  "totalExemplares": 1149,
+  "totalDisponiveis": 1149,
   "livros": [
     {
       "titulo": "Aprendendo a Amar e a Curar ",
@@ -3699,6 +3699,20 @@
       "localizacao": "Corredor H, CoH. Literatura Infantojuvenil",
       "status": "Disponível",
       "capa": "https://drive.google.com/open?id=1u28Mz7t8PL32VTiOndrwxn1q-My2bZOT"
+    },
+    {
+      "titulo": "Moby Dick ",
+      "autor": "Heman Melville",
+      "genero": "História em Quadrinhos",
+      "ano": 2008,
+      "editora": "Companhia Editora Nacional ",
+      "cidade": "São Paulo ",
+      "exemplares": 1,
+      "emprestados": 0,
+      "disponiveis": 1,
+      "localizacao": "Estante A, A8. Histórias em Quadrinhos",
+      "status": "Disponível",
+      "capa": "https://drive.google.com/open?id=1hRVOd6nQ8pXvHpl_VtHOZ5zHxtNfCQSG"
     },
     {
       "titulo": "Comer, Rezar, Amar",
