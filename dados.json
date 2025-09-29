@@ -1,8 +1,8 @@
 {
-  "ultimaAtualizacao": "2025-09-29T10:41:10.779Z",
-  "totalLivros": 236,
-  "totalExemplares": 1101,
-  "totalDisponiveis": 1101,
+  "ultimaAtualizacao": "2025-09-29T10:41:35.683Z",
+  "totalLivros": 237,
+  "totalExemplares": 1102,
+  "totalDisponiveis": 1102,
   "livros": [
     {
       "titulo": "Aprendendo a Amar e a Curar ",
@@ -3293,6 +3293,20 @@
       "localizacao": "Estante A, A8. Histórias em Quadrinhos",
       "status": "Disponível",
       "capa": "https://drive.google.com/open?id=1M_Z9mwlLFI83-GskwT9secl0uCMTRusV"
+    },
+    {
+      "titulo": "O Labirinto do Fauno",
+      "autor": "Guilherme Del Toro",
+      "genero": "Romance",
+      "ano": 2021,
+      "editora": "Intrínseca",
+      "cidade": "Rio de Janeiro ",
+      "exemplares": 1,
+      "emprestados": 0,
+      "disponiveis": 1,
+      "localizacao": "Estante B, B2. Romance",
+      "status": "Disponível",
+      "capa": "https://drive.google.com/open?id=1Uhh1I6Wva7V6U4gLyUQoWmoDh9wtHLEs"
     },
     {
       "titulo": "Comer, Rezar, Amar",
