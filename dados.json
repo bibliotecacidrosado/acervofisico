@@ -1,8 +1,8 @@
 {
-  "ultimaAtualizacao": "2025-09-29T10:49:27.576Z",
-  "totalLivros": 242,
-  "totalExemplares": 1108,
-  "totalDisponiveis": 1108,
+  "ultimaAtualizacao": "2025-09-29T10:49:46.284Z",
+  "totalLivros": 243,
+  "totalExemplares": 1109,
+  "totalDisponiveis": 1109,
   "livros": [
     {
       "titulo": "Aprendendo a Amar e a Curar ",
@@ -3377,6 +3377,20 @@
       "localizacao": "Estante B, B3. Romance",
       "status": "Disponível",
       "capa": "https://drive.google.com/open?id=1rUcAKZCQsph2DC1PxbIKr_IZ3oBIGYv1"
+    },
+    {
+      "titulo": "o mundo inteiro",
+      "autor": "Liz garton Scanlon",
+      "genero": "Literatura Infantojuvenil",
+      "ano": 2012,
+      "editora": "izabel aleixo",
+      "cidade": "são paulo ",
+      "exemplares": 1,
+      "emprestados": 0,
+      "disponiveis": 1,
+      "localizacao": "Corredor H, C4. Literatura Infantojuvenil",
+      "status": "Disponível",
+      "capa": "https://drive.google.com/open?id=1eeDi419jZnaDTw7l8Tk1-l0fJtjG6cvp"
     },
     {
       "titulo": "Comer, Rezar, Amar",
