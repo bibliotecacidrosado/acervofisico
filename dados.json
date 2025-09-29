@@ -1,8 +1,8 @@
 {
-  "ultimaAtualizacao": "2025-09-29T17:31:16.945Z",
-  "totalLivros": 306,
-  "totalExemplares": 1388,
-  "totalDisponiveis": 1388,
+  "ultimaAtualizacao": "2025-09-29T17:33:34.932Z",
+  "totalLivros": 307,
+  "totalExemplares": 1389,
+  "totalDisponiveis": 1389,
   "livros": [
     {
       "titulo": "Aprendendo a Amar e a Curar ",
@@ -4267,6 +4267,20 @@
       "ano": 2020,
       "editora": "Bonsucesso",
       "cidade": "São Paulo",
+      "exemplares": 1,
+      "emprestados": 0,
+      "disponiveis": 1,
+      "localizacao": "Estante B, B4. Romance",
+      "status": "Disponível",
+      "capa": ""
+    },
+    {
+      "titulo": "Cartas A Uma Negra",
+      "autor": "Françoise Ega",
+      "genero": "Romance",
+      "ano": 2021,
+      "editora": "TAIM",
+      "cidade": "Santo André ",
       "exemplares": 1,
       "emprestados": 0,
       "disponiveis": 1,
