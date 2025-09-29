@@ -1,8 +1,8 @@
 {
-  "ultimaAtualizacao": "2025-09-29T11:00:04.717Z",
-  "totalLivros": 256,
-  "totalExemplares": 1137,
-  "totalDisponiveis": 1137,
+  "ultimaAtualizacao": "2025-09-29T11:02:05.530Z",
+  "totalLivros": 257,
+  "totalExemplares": 1140,
+  "totalDisponiveis": 1140,
   "livros": [
     {
       "titulo": "Aprendendo a Amar e a Curar ",
@@ -3573,6 +3573,20 @@
       "localizacao": "Estante B, B3. Romance",
       "status": "Disponível",
       "capa": "https://drive.google.com/open?id=1Fd1-dunrGN8pUyUlDBimptwQmNIG0d6o"
+    },
+    {
+      "titulo": "Minidicionário Housaiss da língua portuguesa ",
+      "autor": "Instituto Antônio Houaiss ",
+      "genero": "Dicionário",
+      "ano": 2004,
+      "editora": "Objetiva",
+      "cidade": "Rio de janeiro ",
+      "exemplares": 3,
+      "emprestados": 0,
+      "disponiveis": 3,
+      "localizacao": "Estante B, B6. Dicionário de L. Portuguesa",
+      "status": "Disponível",
+      "capa": "https://drive.google.com/open?id=11IIgwKauH2QF3E22jEmJj4zFJRUGf2PM"
     },
     {
       "titulo": "Comer, Rezar, Amar",
