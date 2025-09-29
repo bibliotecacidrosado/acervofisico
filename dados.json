@@ -1,8 +1,8 @@
 {
-  "ultimaAtualizacao": "2025-09-29T17:01:13.567Z",
-  "totalLivros": 276,
-  "totalExemplares": 1196,
-  "totalDisponiveis": 1196,
+  "ultimaAtualizacao": "2025-09-29T17:01:20.274Z",
+  "totalLivros": 277,
+  "totalExemplares": 1197,
+  "totalDisponiveis": 1197,
   "livros": [
     {
       "titulo": "Aprendendo a Amar e a Curar ",
@@ -3851,6 +3851,20 @@
       "emprestados": 0,
       "disponiveis": 1,
       "localizacao": "Estante B, B20. Crônicas",
+      "status": "Disponível",
+      "capa": ""
+    },
+    {
+      "titulo": "Viagem ao centro da terra",
+      "autor": "Júlio verne",
+      "genero": "Romance",
+      "ano": 2029,
+      "editora": "Principis",
+      "cidade": "Jandira, SP",
+      "exemplares": 1,
+      "emprestados": 0,
+      "disponiveis": 1,
+      "localizacao": "Estante B, A2. Romance",
       "status": "Disponível",
       "capa": ""
     },
