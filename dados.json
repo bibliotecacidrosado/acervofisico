@@ -1,8 +1,8 @@
 {
-  "ultimaAtualizacao": "2025-09-29T11:15:40.942Z",
-  "totalLivros": 268,
-  "totalExemplares": 1165,
-  "totalDisponiveis": 1165,
+  "ultimaAtualizacao": "2025-09-29T11:16:25.863Z",
+  "totalLivros": 269,
+  "totalExemplares": 1166,
+  "totalDisponiveis": 1166,
   "livros": [
     {
       "titulo": "Aprendendo a Amar e a Curar ",
@@ -3741,6 +3741,20 @@
       "localizacao": "Estante B, B3. Romance",
       "status": "Disponível",
       "capa": "https://drive.google.com/open?id=1IVvXGPycdoBkOmsnK78u4s5DYfompQHR"
+    },
+    {
+      "titulo": "O Anjo Rouco",
+      "autor": "Paulo Venturelli",
+      "genero": "Literatura Infantojuvenil",
+      "ano": 2010,
+      "editora": "Positivo",
+      "cidade": "Curitiba ",
+      "exemplares": 1,
+      "emprestados": 0,
+      "disponiveis": 1,
+      "localizacao": "Estante C, C4. Literatura Infantojuvenil",
+      "status": "Disponível",
+      "capa": "https://drive.google.com/open?id=14xgglvpty7XPfDjVDB0L2Xwdn8wUVPjJ"
     },
     {
       "titulo": "Comer, Rezar, Amar",
