@@ -1,6 +1,6 @@
 {
-  "ultimaAtualizacao": "2025-09-29T17:09:57.426Z",
-  "totalLivros": 285,
+  "ultimaAtualizacao": "2025-09-29T17:10:12.426Z",
+  "totalLivros": 286,
   "totalExemplares": 1206,
   "totalDisponiveis": 1206,
   "livros": [
@@ -3978,6 +3978,20 @@
       "disponiveis": 2,
       "localizacao": "Estante B, B7. Contos",
       "status": "Disponível",
+      "capa": ""
+    },
+    {
+      "titulo": "A arte da guerra ",
+      "autor": "Sun tzu",
+      "genero": "Romance",
+      "ano": 2015,
+      "editora": "Tricaju",
+      "cidade": "São Paulo ",
+      "exemplares": 0,
+      "emprestados": 0,
+      "disponiveis": 0,
+      "localizacao": "Estante B, B3. Romance",
+      "status": "Indisponível",
       "capa": ""
     },
     {
