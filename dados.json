@@ -1,8 +1,8 @@
 {
-  "ultimaAtualizacao": "2025-09-29T10:40:09.788Z",
-  "totalLivros": 234,
-  "totalExemplares": 1095,
-  "totalDisponiveis": 1095,
+  "ultimaAtualizacao": "2025-09-29T10:40:24.559Z",
+  "totalLivros": 235,
+  "totalExemplares": 1100,
+  "totalDisponiveis": 1100,
   "livros": [
     {
       "titulo": "Aprendendo a Amar e a Curar ",
@@ -3265,6 +3265,20 @@
       "localizacao": "Corredor H, C1. Literatura Infantojuvenil",
       "status": "Disponível",
       "capa": "https://drive.google.com/open?id=1QY8YNbAh7yRSqXsCUX1WWdT_UUcusrqg"
+    },
+    {
+      "titulo": "A Megera Domada",
+      "autor": "William Shakespeare ",
+      "genero": "Teatro (textos dramáticos)",
+      "ano": 2021,
+      "editora": "Principis",
+      "cidade": "Jandira, SP",
+      "exemplares": 5,
+      "emprestados": 0,
+      "disponiveis": 5,
+      "localizacao": "Corredor G, CoG. William Shakespeare",
+      "status": "Disponível",
+      "capa": "https://drive.google.com/open?id=1lN3krufZoRuzabDxkqxyimxdPD5vgTVF"
     },
     {
       "titulo": "Comer, Rezar, Amar",
