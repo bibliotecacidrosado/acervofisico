@@ -1,8 +1,8 @@
 {
-  "ultimaAtualizacao": "2025-09-29T17:02:48.542Z",
-  "totalLivros": 279,
-  "totalExemplares": 1199,
-  "totalDisponiveis": 1199,
+  "ultimaAtualizacao": "2025-09-29T17:06:01.887Z",
+  "totalLivros": 280,
+  "totalExemplares": 1200,
+  "totalDisponiveis": 1200,
   "livros": [
     {
       "titulo": "Aprendendo a Amar e a Curar ",
@@ -3889,6 +3889,20 @@
       "ano": 2019,
       "editora": "Schwarcz ",
       "cidade": "São paulo",
+      "exemplares": 1,
+      "emprestados": 0,
+      "disponiveis": 1,
+      "localizacao": "Estante B, B2. Romance",
+      "status": "Disponível",
+      "capa": ""
+    },
+    {
+      "titulo": "A menina que roubava livros ",
+      "autor": "Markus Zusak",
+      "genero": "Romance",
+      "ano": 2007,
+      "editora": "Intrínseca LTDA",
+      "cidade": "Rio de Janeiro",
       "exemplares": 1,
       "emprestados": 0,
       "disponiveis": 1,
