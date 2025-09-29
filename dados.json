@@ -1,8 +1,8 @@
 {
-  "ultimaAtualizacao": "2025-09-29T10:25:35.650Z",
-  "totalLivros": 224,
-  "totalExemplares": 1033,
-  "totalDisponiveis": 1033,
+  "ultimaAtualizacao": "2025-09-29T10:27:03.182Z",
+  "totalLivros": 225,
+  "totalExemplares": 1062,
+  "totalDisponiveis": 1062,
   "livros": [
     {
       "titulo": "Aprendendo a Amar e a Curar ",
@@ -3125,6 +3125,20 @@
       "localizacao": "Estante A, A8. Histórias em Quadrinhos",
       "status": "Disponível",
       "capa": "https://drive.google.com/open?id=1nCiukxH_TSezJtM1BZBuquk-jl-qdvb6"
+    },
+    {
+      "titulo": "Minidicionário escolar Espanhol ",
+      "autor": "Oscar Rojas",
+      "genero": "Espanhol (Língua/Literatura)",
+      "ano": 2010,
+      "editora": "DCL",
+      "cidade": "São Paulo ",
+      "exemplares": 29,
+      "emprestados": 0,
+      "disponiveis": 29,
+      "localizacao": "Corredor F, CoF. Dicionário de Língua Espanhola",
+      "status": "Disponível",
+      "capa": "https://drive.google.com/open?id=10pn8fem5jVWANpa7dzDrKvNuy-u8NQhJ"
     },
     {
       "titulo": "Comer, Rezar, Amar",
