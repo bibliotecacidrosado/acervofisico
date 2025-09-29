@@ -1,8 +1,8 @@
 {
-  "ultimaAtualizacao": "2025-09-29T11:23:53.212Z",
-  "totalLivros": 273,
-  "totalExemplares": 1193,
-  "totalDisponiveis": 1193,
+  "ultimaAtualizacao": "2025-09-29T16:58:02.033Z",
+  "totalLivros": 274,
+  "totalExemplares": 1194,
+  "totalDisponiveis": 1194,
   "livros": [
     {
       "titulo": "Aprendendo a Amar e a Curar ",
@@ -3811,6 +3811,20 @@
       "localizacao": "Corredor H, CoH. Literatura Infantojuvenil",
       "status": "Disponível",
       "capa": "https://drive.google.com/open?id=1bcnGANhUK2VDnRIun-rWZxAMV-WFskPp"
+    },
+    {
+      "titulo": "Por enquanto eu sou pequeno ",
+      "autor": "Pedro Bandeira ",
+      "genero": "Poema",
+      "ano": 2009,
+      "editora": "Moderna",
+      "cidade": "São Paulo ",
+      "exemplares": 1,
+      "emprestados": 0,
+      "disponiveis": 1,
+      "localizacao": "Estante B, B22. Poema",
+      "status": "Disponível",
+      "capa": ""
     },
     {
       "titulo": "Comer, Rezar, Amar",
