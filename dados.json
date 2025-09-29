@@ -1,8 +1,8 @@
 {
-  "ultimaAtualizacao": "2025-09-29T10:53:48.114Z",
-  "totalLivros": 249,
-  "totalExemplares": 1121,
-  "totalDisponiveis": 1121,
+  "ultimaAtualizacao": "2025-09-29T10:54:25.041Z",
+  "totalLivros": 250,
+  "totalExemplares": 1122,
+  "totalDisponiveis": 1122,
   "livros": [
     {
       "titulo": "Aprendendo a Amar e a Curar ",
@@ -3475,6 +3475,20 @@
       "localizacao": "Estante C, C1. Literatura Infantojuvenil",
       "status": "Disponível",
       "capa": "https://drive.google.com/open?id=1_n9XvPvPJKXL6PDxykhPgWavjtaCUKJt"
+    },
+    {
+      "titulo": "A visita",
+      "autor": "Antje Damm",
+      "genero": "Literatura Infantojuvenil",
+      "ano": 2020,
+      "editora": "CLARO ENIGMA LTDA",
+      "cidade": "Sao paulo",
+      "exemplares": 1,
+      "emprestados": 0,
+      "disponiveis": 1,
+      "localizacao": "Corredor H, CoH. Literatura Infantojuvenil",
+      "status": "Disponível",
+      "capa": "https://drive.google.com/open?id=1ylBVH-MWoAtG0tFvyKXTqfiZE7TpIgD-"
     },
     {
       "titulo": "Comer, Rezar, Amar",
