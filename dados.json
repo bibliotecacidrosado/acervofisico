@@ -1,8 +1,8 @@
 {
-  "ultimaAtualizacao": "2025-09-29T10:34:02.771Z",
-  "totalLivros": 229,
-  "totalExemplares": 1079,
-  "totalDisponiveis": 1079,
+  "ultimaAtualizacao": "2025-09-29T10:34:14.410Z",
+  "totalLivros": 230,
+  "totalExemplares": 1080,
+  "totalDisponiveis": 1080,
   "livros": [
     {
       "titulo": "Aprendendo a Amar e a Curar ",
@@ -3195,6 +3195,20 @@
       "localizacao": "Corredor F, CoF. Dicionário de Língua Inglesa",
       "status": "Disponível",
       "capa": "https://drive.google.com/open?id=1LUQcZwEY__V9MSBimUAqP8rLNGWee1z8"
+    },
+    {
+      "titulo": "João e Maria ",
+      "autor": "Flávia Muniz",
+      "genero": "Literatura Infantojuvenil",
+      "ano": 1996,
+      "editora": "Editora Moderna Ltda",
+      "cidade": "São Paulo ",
+      "exemplares": 1,
+      "emprestados": 0,
+      "disponiveis": 1,
+      "localizacao": "Corredor H, C1. Literatura Infantojuvenil",
+      "status": "Disponível",
+      "capa": "https://drive.google.com/open?id=1VB-mDCpWGaIqFndwtE6kDqZONZGUAlAo"
     },
     {
       "titulo": "Comer, Rezar, Amar",
