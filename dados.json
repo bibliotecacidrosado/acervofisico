@@ -1,8 +1,8 @@
 {
-  "ultimaAtualizacao": "2025-09-29T17:08:26.253Z",
-  "totalLivros": 282,
-  "totalExemplares": 1202,
-  "totalDisponiveis": 1202,
+  "ultimaAtualizacao": "2025-09-29T17:09:14.749Z",
+  "totalLivros": 283,
+  "totalExemplares": 1203,
+  "totalDisponiveis": 1203,
   "livros": [
     {
       "titulo": "Aprendendo a Amar e a Curar ",
@@ -3931,6 +3931,20 @@
       "ano": 2015,
       "editora": "Não informado",
       "cidade": 2021,
+      "exemplares": 1,
+      "emprestados": 0,
+      "disponiveis": 1,
+      "localizacao": "Estante B, B2. Romance",
+      "status": "Disponível",
+      "capa": ""
+    },
+    {
+      "titulo": "A Viagem",
+      "autor": "Virginia Woolf",
+      "genero": "Romance",
+      "ano": 2008,
+      "editora": "Novo Século ",
+      "cidade": "Osasco",
       "exemplares": 1,
       "emprestados": 0,
       "disponiveis": 1,
