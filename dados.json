@@ -1,8 +1,8 @@
 {
-  "ultimaAtualizacao": "2025-09-29T17:09:14.749Z",
-  "totalLivros": 283,
-  "totalExemplares": 1203,
-  "totalDisponiveis": 1203,
+  "ultimaAtualizacao": "2025-09-29T17:09:49.128Z",
+  "totalLivros": 284,
+  "totalExemplares": 1204,
+  "totalDisponiveis": 1204,
   "livros": [
     {
       "titulo": "Aprendendo a Amar e a Curar ",
@@ -3949,6 +3949,20 @@
       "emprestados": 0,
       "disponiveis": 1,
       "localizacao": "Estante B, B2. Romance",
+      "status": "Disponível",
+      "capa": ""
+    },
+    {
+      "titulo": "A última carta de amor ",
+      "autor": "Jojo Moyes",
+      "genero": "Romance",
+      "ano": 2016,
+      "editora": "Intrínseca",
+      "cidade": "Rio de Janeiro ",
+      "exemplares": 1,
+      "emprestados": 0,
+      "disponiveis": 1,
+      "localizacao": "Estante A, A2. Romance",
       "status": "Disponível",
       "capa": ""
     },
