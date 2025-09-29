@@ -1,8 +1,8 @@
 {
-  "ultimaAtualizacao": "2025-09-29T10:38:28.961Z",
-  "totalLivros": 233,
-  "totalExemplares": 1094,
-  "totalDisponiveis": 1094,
+  "ultimaAtualizacao": "2025-09-29T10:40:09.788Z",
+  "totalLivros": 234,
+  "totalExemplares": 1095,
+  "totalDisponiveis": 1095,
   "livros": [
     {
       "titulo": "Aprendendo a Amar e a Curar ",
@@ -3251,6 +3251,20 @@
       "localizacao": "Corredor F, CoF. Dicionário de Língua Inglesa",
       "status": "Disponível",
       "capa": "https://drive.google.com/open?id=1RoAOFEph9Z_NhYFxldtIjaViGJY96bNH"
+    },
+    {
+      "titulo": "Malagueta jeito doce de amar",
+      "autor": "Claudia Ramos",
+      "genero": "Literatura Infantojuvenil",
+      "ano": 2011,
+      "editora": "Cortez",
+      "cidade": "São paulo",
+      "exemplares": 1,
+      "emprestados": 0,
+      "disponiveis": 1,
+      "localizacao": "Corredor H, C1. Literatura Infantojuvenil",
+      "status": "Disponível",
+      "capa": "https://drive.google.com/open?id=1QY8YNbAh7yRSqXsCUX1WWdT_UUcusrqg"
     },
     {
       "titulo": "Comer, Rezar, Amar",
