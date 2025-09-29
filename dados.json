@@ -1,8 +1,8 @@
 {
-  "ultimaAtualizacao": "2025-09-29T17:14:10.537Z",
-  "totalLivros": 289,
-  "totalExemplares": 1209,
-  "totalDisponiveis": 1209,
+  "ultimaAtualizacao": "2025-09-29T17:15:26.505Z",
+  "totalLivros": 290,
+  "totalExemplares": 1210,
+  "totalDisponiveis": 1210,
   "livros": [
     {
       "titulo": "Aprendendo a Amar e a Curar ",
@@ -4033,6 +4033,20 @@
       "emprestados": 0,
       "disponiveis": 1,
       "localizacao": "Estante B, B15. Romance",
+      "status": "Disponível",
+      "capa": ""
+    },
+    {
+      "titulo": "Os melhores contos ",
+      "autor": "Clarice Lispector ",
+      "genero": "Conto",
+      "ano": 1996,
+      "editora": "Global editora",
+      "cidade": "São paulo",
+      "exemplares": 1,
+      "emprestados": 0,
+      "disponiveis": 1,
+      "localizacao": "Estante B, B7. Contos",
       "status": "Disponível",
       "capa": ""
     },
