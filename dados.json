@@ -1,8 +1,8 @@
 {
-  "ultimaAtualizacao": "2025-09-29T11:22:16.515Z",
-  "totalLivros": 271,
-  "totalExemplares": 1168,
-  "totalDisponiveis": 1168,
+  "ultimaAtualizacao": "2025-09-29T11:23:08.334Z",
+  "totalLivros": 272,
+  "totalExemplares": 1192,
+  "totalDisponiveis": 1192,
   "livros": [
     {
       "titulo": "Aprendendo a Amar e a Curar ",
@@ -3783,6 +3783,20 @@
       "localizacao": "Corredor H, C1. Literatura Infantojuvenil",
       "status": "Disponível",
       "capa": "https://drive.google.com/open?id=1Zz7xwsfw5wRll6bmzjvr7jYCxROyYYQH"
+    },
+    {
+      "titulo": "Gramática ",
+      "autor": "Beth Griffi",
+      "genero": "Gramática (Linguística/Língua Portuguesa)",
+      "ano": 1996,
+      "editora": "Editora Moderna ",
+      "cidade": "São Paulo ",
+      "exemplares": 24,
+      "emprestados": 0,
+      "disponiveis": 24,
+      "localizacao": "Estante B, B18. Gramática / Novo Acordo Ortográfico",
+      "status": "Disponível",
+      "capa": "https://drive.google.com/open?id=1cpywsBsHXDtAR166q3TtpT2_QKLCj_sZ"
     },
     {
       "titulo": "Comer, Rezar, Amar",
