@@ -1,8 +1,8 @@
 {
-  "ultimaAtualizacao": "2025-09-29T10:49:22.837Z",
-  "totalLivros": 241,
-  "totalExemplares": 1107,
-  "totalDisponiveis": 1107,
+  "ultimaAtualizacao": "2025-09-29T10:49:27.576Z",
+  "totalLivros": 242,
+  "totalExemplares": 1108,
+  "totalDisponiveis": 1108,
   "livros": [
     {
       "titulo": "Aprendendo a Amar e a Curar ",
@@ -3363,6 +3363,20 @@
       "localizacao": "Corredor H, CoH. Literatura Infantojuvenil",
       "status": "Disponível",
       "capa": "https://drive.google.com/open?id=1soYAWgF5B4leBi7XOlVfa3WcNBj8yDSp"
+    },
+    {
+      "titulo": "Primeiro e Único",
+      "autor": "Emily Giffin",
+      "genero": "Romance",
+      "ano": 2015,
+      "editora": "Novo Conceito Editora ",
+      "cidade": "Ribeirão Preto SP",
+      "exemplares": 1,
+      "emprestados": 0,
+      "disponiveis": 1,
+      "localizacao": "Estante B, B3. Romance",
+      "status": "Disponível",
+      "capa": "https://drive.google.com/open?id=1rUcAKZCQsph2DC1PxbIKr_IZ3oBIGYv1"
     },
     {
       "titulo": "Comer, Rezar, Amar",
