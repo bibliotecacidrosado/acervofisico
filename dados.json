@@ -1,8 +1,8 @@
 {
-  "ultimaAtualizacao": "2025-09-29T10:33:42.268Z",
-  "totalLivros": 227,
-  "totalExemplares": 1064,
-  "totalDisponiveis": 1064,
+  "ultimaAtualizacao": "2025-09-29T10:34:02.771Z",
+  "totalLivros": 229,
+  "totalExemplares": 1079,
+  "totalDisponiveis": 1079,
   "livros": [
     {
       "titulo": "Aprendendo a Amar e a Curar ",
@@ -3167,6 +3167,34 @@
       "localizacao": "Estante C, C4. Literatura Infantojuvenil",
       "status": "Disponível",
       "capa": "https://drive.google.com/open?id=1tfUv70iqm-VVbXLqEsEjYt_GXNPkebZ_"
+    },
+    {
+      "titulo": "O céu vai ter que esperar!",
+      "autor": "Cally Taylor",
+      "genero": "Romance",
+      "ano": 2011,
+      "editora": "Bertrand Brasil ",
+      "cidade": "Rio de Janeiro ",
+      "exemplares": 1,
+      "emprestados": 0,
+      "disponiveis": 1,
+      "localizacao": "Estante B, B2. Romance",
+      "status": "Disponível",
+      "capa": "https://drive.google.com/open?id=12KOom-KViFr1kLXa60Z9RRGS01DIEFqF"
+    },
+    {
+      "titulo": "DICIONÁRIO Escolar",
+      "autor": "Ciranda Cultural ",
+      "genero": "Inglês (Língua/Literatura)",
+      "ano": 2015,
+      "editora": "Ciranda Cultural ",
+      "cidade": "Barueri",
+      "exemplares": 14,
+      "emprestados": 0,
+      "disponiveis": 14,
+      "localizacao": "Corredor F, CoF. Dicionário de Língua Inglesa",
+      "status": "Disponível",
+      "capa": "https://drive.google.com/open?id=1LUQcZwEY__V9MSBimUAqP8rLNGWee1z8"
     },
     {
       "titulo": "Comer, Rezar, Amar",
