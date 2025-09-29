@@ -1,8 +1,8 @@
 {
-  "ultimaAtualizacao": "2025-09-29T10:40:24.559Z",
-  "totalLivros": 235,
-  "totalExemplares": 1100,
-  "totalDisponiveis": 1100,
+  "ultimaAtualizacao": "2025-09-29T10:41:10.779Z",
+  "totalLivros": 236,
+  "totalExemplares": 1101,
+  "totalDisponiveis": 1101,
   "livros": [
     {
       "titulo": "Aprendendo a Amar e a Curar ",
@@ -3279,6 +3279,20 @@
       "localizacao": "Corredor G, CoG. William Shakespeare",
       "status": "Disponível",
       "capa": "https://drive.google.com/open?id=1lN3krufZoRuzabDxkqxyimxdPD5vgTVF"
+    },
+    {
+      "titulo": "Pequenos Milagres ",
+      "autor": "Will Einer",
+      "genero": "História em Quadrinhos",
+      "ano": 2006,
+      "editora": "Leandro Luigi Del Manto",
+      "cidade": "São Paulo ",
+      "exemplares": 1,
+      "emprestados": 0,
+      "disponiveis": 1,
+      "localizacao": "Estante A, A8. Histórias em Quadrinhos",
+      "status": "Disponível",
+      "capa": "https://drive.google.com/open?id=1M_Z9mwlLFI83-GskwT9secl0uCMTRusV"
     },
     {
       "titulo": "Comer, Rezar, Amar",
