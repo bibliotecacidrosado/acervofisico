@@ -1,8 +1,8 @@
 {
-  "ultimaAtualizacao": "2025-09-29T10:34:14.410Z",
-  "totalLivros": 230,
-  "totalExemplares": 1080,
-  "totalDisponiveis": 1080,
+  "ultimaAtualizacao": "2025-09-29T10:35:53.101Z",
+  "totalLivros": 231,
+  "totalExemplares": 1081,
+  "totalDisponiveis": 1081,
   "livros": [
     {
       "titulo": "Aprendendo a Amar e a Curar ",
@@ -3209,6 +3209,20 @@
       "localizacao": "Corredor H, C1. Literatura Infantojuvenil",
       "status": "Disponível",
       "capa": "https://drive.google.com/open?id=1VB-mDCpWGaIqFndwtE6kDqZONZGUAlAo"
+    },
+    {
+      "titulo": "O Eternauta ",
+      "autor": "Héctor G.Oesterheld",
+      "genero": "História em Quadrinhos",
+      "ano": 2011,
+      "editora": "Martins Editora Livraria Ltda",
+      "cidade": "São Paulo ",
+      "exemplares": 1,
+      "emprestados": 0,
+      "disponiveis": 1,
+      "localizacao": "Estante A, A8. Histórias em Quadrinhos",
+      "status": "Disponível",
+      "capa": "https://drive.google.com/open?id=1eOYmXQ1OMO_Pry6vwtj_4NnOcKyQcImf"
     },
     {
       "titulo": "Comer, Rezar, Amar",
