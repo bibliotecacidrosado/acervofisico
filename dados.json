@@ -1,8 +1,8 @@
 {
-  "ultimaAtualizacao": "2025-09-29T17:21:08.713Z",
-  "totalLivros": 300,
-  "totalExemplares": 1365,
-  "totalDisponiveis": 1365,
+  "ultimaAtualizacao": "2025-09-29T17:21:40.573Z",
+  "totalLivros": 301,
+  "totalExemplares": 1366,
+  "totalDisponiveis": 1366,
   "livros": [
     {
       "titulo": "Aprendendo a Amar e a Curar ",
@@ -4187,6 +4187,20 @@
       "emprestados": 0,
       "disponiveis": 1,
       "localizacao": "Estante D, D3. Formação Pedagógica",
+      "status": "Disponível",
+      "capa": ""
+    },
+    {
+      "titulo": "Rangers: Ordem dos Arqueiros - Folha de Carvalho",
+      "autor": "Jonh Flanagan",
+      "genero": "Romance",
+      "ano": 2015,
+      "editora": "Fundamento ",
+      "cidade": "São Paulo",
+      "exemplares": 1,
+      "emprestados": 0,
+      "disponiveis": 1,
+      "localizacao": "Estante B, B3. Romance",
       "status": "Disponível",
       "capa": ""
     },
