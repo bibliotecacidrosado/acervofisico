@@ -1,8 +1,8 @@
 {
-  "ultimaAtualizacao": "2025-09-29T17:19:57.661Z",
-  "totalLivros": 298,
-  "totalExemplares": 1363,
-  "totalDisponiveis": 1363,
+  "ultimaAtualizacao": "2025-09-29T17:20:13.365Z",
+  "totalLivros": 299,
+  "totalExemplares": 1364,
+  "totalDisponiveis": 1364,
   "livros": [
     {
       "titulo": "Aprendendo a Amar e a Curar ",
@@ -4158,6 +4158,20 @@
       "exemplares": 2,
       "emprestados": 0,
       "disponiveis": 2,
+      "localizacao": "Estante B, B3. Romance",
+      "status": "Disponível",
+      "capa": ""
+    },
+    {
+      "titulo": "Rangers: Ordem dos Arqueiros - Terra do Gelo",
+      "autor": "Jonh Flanagan",
+      "genero": "Romance",
+      "ano": 2017,
+      "editora": "Fundamento ",
+      "cidade": "São Paulo",
+      "exemplares": 1,
+      "emprestados": 0,
+      "disponiveis": 1,
       "localizacao": "Estante B, B3. Romance",
       "status": "Disponível",
       "capa": ""
