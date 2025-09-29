@@ -1,8 +1,8 @@
 {
-  "ultimaAtualizacao": "2025-09-29T10:58:27.571Z",
-  "totalLivros": 254,
-  "totalExemplares": 1131,
-  "totalDisponiveis": 1131,
+  "ultimaAtualizacao": "2025-09-29T10:59:36.390Z",
+  "totalLivros": 255,
+  "totalExemplares": 1136,
+  "totalDisponiveis": 1136,
   "livros": [
     {
       "titulo": "Aprendendo a Amar e a Curar ",
@@ -3545,6 +3545,20 @@
       "localizacao": "Estante A, A8. Histórias em Quadrinhos",
       "status": "Disponível",
       "capa": "https://drive.google.com/open?id=16UrT_AOKurajdfyu1a6Qq-GIbTtpVvhT"
+    },
+    {
+      "titulo": "Hamlet",
+      "autor": "William Shakespeare ",
+      "genero": "Teatro (textos dramáticos)",
+      "ano": 2021,
+      "editora": "Principis",
+      "cidade": "Jandira",
+      "exemplares": 5,
+      "emprestados": 0,
+      "disponiveis": 5,
+      "localizacao": "Corredor G, CoG. William Shakespeare",
+      "status": "Disponível",
+      "capa": "https://drive.google.com/open?id=1yhu3kuxnbSaV5-tTEH8iu4KPtZL3_uf8"
     },
     {
       "titulo": "Comer, Rezar, Amar",
