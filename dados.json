@@ -1,8 +1,8 @@
 {
-  "ultimaAtualizacao": "2025-09-29T17:06:01.887Z",
-  "totalLivros": 280,
-  "totalExemplares": 1200,
-  "totalDisponiveis": 1200,
+  "ultimaAtualizacao": "2025-09-29T17:07:03.007Z",
+  "totalLivros": 281,
+  "totalExemplares": 1201,
+  "totalDisponiveis": 1201,
   "livros": [
     {
       "titulo": "Aprendendo a Amar e a Curar ",
@@ -3907,6 +3907,20 @@
       "emprestados": 0,
       "disponiveis": 1,
       "localizacao": "Estante B, B2. Romance",
+      "status": "Disponível",
+      "capa": ""
+    },
+    {
+      "titulo": "O Universo, Os Deuses, Os homens ",
+      "autor": "Jean-Pierre Vernant",
+      "genero": "Crônica",
+      "ano": 2000,
+      "editora": "Companhia das Letras ",
+      "cidade": "São Paulo ",
+      "exemplares": 1,
+      "emprestados": 0,
+      "disponiveis": 1,
+      "localizacao": "Estante B, B20. Crônicas",
       "status": "Disponível",
       "capa": ""
     },
