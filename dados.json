@@ -1,8 +1,8 @@
 {
-  "ultimaAtualizacao": "2025-09-29T10:27:03.182Z",
-  "totalLivros": 225,
-  "totalExemplares": 1062,
-  "totalDisponiveis": 1062,
+  "ultimaAtualizacao": "2025-09-29T10:32:12.341Z",
+  "totalLivros": 226,
+  "totalExemplares": 1063,
+  "totalDisponiveis": 1063,
   "livros": [
     {
       "titulo": "Aprendendo a Amar e a Curar ",
@@ -3139,6 +3139,20 @@
       "localizacao": "Corredor F, CoF. Dicionário de Língua Espanhola",
       "status": "Disponível",
       "capa": "https://drive.google.com/open?id=10pn8fem5jVWANpa7dzDrKvNuy-u8NQhJ"
+    },
+    {
+      "titulo": "O Eternauta ",
+      "autor": "Hector G. Osterheld",
+      "genero": "História em Quadrinhos",
+      "ano": 2011,
+      "editora": "Martins Editora livraria ltda",
+      "cidade": "São Paulo ",
+      "exemplares": 1,
+      "emprestados": 0,
+      "disponiveis": 1,
+      "localizacao": "Estante A, A8. Histórias em Quadrinhos",
+      "status": "Disponível",
+      "capa": ""
     },
     {
       "titulo": "Comer, Rezar, Amar",
