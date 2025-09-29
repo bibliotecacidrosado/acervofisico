@@ -1,8 +1,8 @@
 {
-  "ultimaAtualizacao": "2025-09-29T11:23:08.334Z",
-  "totalLivros": 272,
-  "totalExemplares": 1192,
-  "totalDisponiveis": 1192,
+  "ultimaAtualizacao": "2025-09-29T11:23:53.212Z",
+  "totalLivros": 273,
+  "totalExemplares": 1193,
+  "totalDisponiveis": 1193,
   "livros": [
     {
       "titulo": "Aprendendo a Amar e a Curar ",
@@ -3797,6 +3797,20 @@
       "localizacao": "Estante B, B18. Gramática / Novo Acordo Ortográfico",
       "status": "Disponível",
       "capa": "https://drive.google.com/open?id=1cpywsBsHXDtAR166q3TtpT2_QKLCj_sZ"
+    },
+    {
+      "titulo": "2 patas e 1 Tatu",
+      "autor": "Bartolomeu Campos De queirós",
+      "genero": "Literatura Infantojuvenil",
+      "ano": 2010,
+      "editora": "Positivo LTDA",
+      "cidade": "Curitiba",
+      "exemplares": 1,
+      "emprestados": 0,
+      "disponiveis": 1,
+      "localizacao": "Corredor H, CoH. Literatura Infantojuvenil",
+      "status": "Disponível",
+      "capa": "https://drive.google.com/open?id=1bcnGANhUK2VDnRIun-rWZxAMV-WFskPp"
     },
     {
       "titulo": "Comer, Rezar, Amar",
