@@ -1,8 +1,8 @@
 {
-  "ultimaAtualizacao": "2025-09-29T17:02:40.535Z",
-  "totalLivros": 278,
-  "totalExemplares": 1198,
-  "totalDisponiveis": 1198,
+  "ultimaAtualizacao": "2025-09-29T17:02:48.542Z",
+  "totalLivros": 279,
+  "totalExemplares": 1199,
+  "totalDisponiveis": 1199,
   "livros": [
     {
       "titulo": "Aprendendo a Amar e a Curar ",
@@ -3879,6 +3879,20 @@
       "emprestados": 0,
       "disponiveis": 1,
       "localizacao": "Estante B, B20. Crônicas",
+      "status": "Disponível",
+      "capa": ""
+    },
+    {
+      "titulo": "Vermelho, branco e sangue azul ",
+      "autor": "Casey Mcquiston",
+      "genero": "Romance",
+      "ano": 2019,
+      "editora": "Schwarcz ",
+      "cidade": "São paulo",
+      "exemplares": 1,
+      "emprestados": 0,
+      "disponiveis": 1,
+      "localizacao": "Estante B, B2. Romance",
       "status": "Disponível",
       "capa": ""
     },
