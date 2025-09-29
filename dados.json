@@ -1,8 +1,8 @@
 {
-  "ultimaAtualizacao": "2025-09-29T11:05:04.329Z",
-  "totalLivros": 261,
-  "totalExemplares": 1144,
-  "totalDisponiveis": 1144,
+  "ultimaAtualizacao": "2025-09-29T11:07:38.477Z",
+  "totalLivros": 262,
+  "totalExemplares": 1145,
+  "totalDisponiveis": 1145,
   "livros": [
     {
       "titulo": "Aprendendo a Amar e a Curar ",
@@ -3643,6 +3643,20 @@
       "localizacao": "Estante A, A8. Histórias em Quadrinhos",
       "status": "Disponível",
       "capa": "https://drive.google.com/open?id=1nj0WjvKhYHSv2viLiVroKDzohD3CwjBF"
+    },
+    {
+      "titulo": "Beleza Negra",
+      "autor": "Anna Sevvell",
+      "genero": "Romance",
+      "ano": 2022,
+      "editora": "CA",
+      "cidade": "Natal",
+      "exemplares": 1,
+      "emprestados": 0,
+      "disponiveis": 1,
+      "localizacao": "Estante B, B3. Romance",
+      "status": "Disponível",
+      "capa": "https://drive.google.com/open?id=1m0ljd2xHJXwrxq_2BygJBdfpWQJVZCXv"
     },
     {
       "titulo": "Comer, Rezar, Amar",
