@@ -1,8 +1,8 @@
 {
-  "ultimaAtualizacao": "2025-09-29T17:19:45.759Z",
-  "totalLivros": 297,
-  "totalExemplares": 1361,
-  "totalDisponiveis": 1361,
+  "ultimaAtualizacao": "2025-09-29T17:19:57.661Z",
+  "totalLivros": 298,
+  "totalExemplares": 1363,
+  "totalDisponiveis": 1363,
   "livros": [
     {
       "titulo": "Aprendendo a Amar e a Curar ",
@@ -4145,6 +4145,20 @@
       "emprestados": 0,
       "disponiveis": 133,
       "localizacao": "Estante A, A2. Romance",
+      "status": "Disponível",
+      "capa": ""
+    },
+    {
+      "titulo": 1984,
+      "autor": "George orwell ",
+      "genero": "Romance",
+      "ano": 2021,
+      "editora": "Tricaju",
+      "cidade": "São Paulo ",
+      "exemplares": 2,
+      "emprestados": 0,
+      "disponiveis": 2,
+      "localizacao": "Estante B, B3. Romance",
       "status": "Disponível",
       "capa": ""
     },
