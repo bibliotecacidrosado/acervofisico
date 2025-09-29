@@ -1,8 +1,8 @@
 {
-  "ultimaAtualizacao": "2025-09-29T16:58:02.033Z",
-  "totalLivros": 274,
-  "totalExemplares": 1194,
-  "totalDisponiveis": 1194,
+  "ultimaAtualizacao": "2025-09-29T17:00:17.852Z",
+  "totalLivros": 275,
+  "totalExemplares": 1195,
+  "totalDisponiveis": 1195,
   "livros": [
     {
       "titulo": "Aprendendo a Amar e a Curar ",
@@ -3823,6 +3823,20 @@
       "emprestados": 0,
       "disponiveis": 1,
       "localizacao": "Estante B, B22. Poema",
+      "status": "Disponível",
+      "capa": ""
+    },
+    {
+      "titulo": "A empregada está de olho ",
+      "autor": "Freira Mcfadden",
+      "genero": "Romance",
+      "ano": 2024,
+      "editora": "Arqueiro",
+      "cidade": "São Paulo",
+      "exemplares": 1,
+      "emprestados": 0,
+      "disponiveis": 1,
+      "localizacao": "Estante B, B2. Romance",
       "status": "Disponível",
       "capa": ""
     },
