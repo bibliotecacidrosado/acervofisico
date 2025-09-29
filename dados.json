@@ -1,8 +1,8 @@
 {
-  "ultimaAtualizacao": "2025-09-29T10:51:40.406Z",
-  "totalLivros": 245,
-  "totalExemplares": 1115,
-  "totalDisponiveis": 1115,
+  "ultimaAtualizacao": "2025-09-29T10:52:15.558Z",
+  "totalLivros": 246,
+  "totalExemplares": 1116,
+  "totalDisponiveis": 1116,
   "livros": [
     {
       "titulo": "Aprendendo a Amar e a Curar ",
@@ -3419,6 +3419,20 @@
       "localizacao": "Estante B, B6. Dicionário de L. Portuguesa",
       "status": "Disponível",
       "capa": "https://drive.google.com/open?id=15EEo7XGl-KMLE362DF6ZJ7K2pctL7nSe"
+    },
+    {
+      "titulo": "Ame o que é seu",
+      "autor": "Emily Giffin",
+      "genero": "Romance",
+      "ano": 2008,
+      "editora": "Novo Conceito ",
+      "cidade": "São Paulo ",
+      "exemplares": 1,
+      "emprestados": 0,
+      "disponiveis": 1,
+      "localizacao": "Estante B, B3. Romance",
+      "status": "Disponível",
+      "capa": "https://drive.google.com/open?id=1GZnBYiK7sINq4iBMZOB_O_Z4AswMZo5f"
     },
     {
       "titulo": "Comer, Rezar, Amar",
