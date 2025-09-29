@@ -1,8 +1,8 @@
 {
-  "ultimaAtualizacao": "2025-09-29T10:52:15.558Z",
-  "totalLivros": 246,
-  "totalExemplares": 1116,
-  "totalDisponiveis": 1116,
+  "ultimaAtualizacao": "2025-09-29T10:53:08.623Z",
+  "totalLivros": 247,
+  "totalExemplares": 1117,
+  "totalDisponiveis": 1117,
   "livros": [
     {
       "titulo": "Aprendendo a Amar e a Curar ",
@@ -3433,6 +3433,20 @@
       "localizacao": "Estante B, B3. Romance",
       "status": "Disponível",
       "capa": "https://drive.google.com/open?id=1GZnBYiK7sINq4iBMZOB_O_Z4AswMZo5f"
+    },
+    {
+      "titulo": "Missa do Galo",
+      "autor": "Machdo de Assis",
+      "genero": "História em Quadrinhos",
+      "ano": 2018,
+      "editora": "FGV Editora ",
+      "cidade": "Rio de Janeiro ",
+      "exemplares": 1,
+      "emprestados": 0,
+      "disponiveis": 1,
+      "localizacao": "Estante A, A8. Histórias em Quadrinhos",
+      "status": "Disponível",
+      "capa": "https://drive.google.com/open?id=1ply9aNSsA3tHt5RKL73zwSxmzABxdjsJ"
     },
     {
       "titulo": "Comer, Rezar, Amar",
