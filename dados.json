@@ -1,8 +1,8 @@
 {
-  "ultimaAtualizacao": "2025-09-29T17:28:36.176Z",
-  "totalLivros": 305,
-  "totalExemplares": 1387,
-  "totalDisponiveis": 1387,
+  "ultimaAtualizacao": "2025-09-29T17:31:16.945Z",
+  "totalLivros": 306,
+  "totalExemplares": 1388,
+  "totalDisponiveis": 1388,
   "livros": [
     {
       "titulo": "Aprendendo a Amar e a Curar ",
@@ -4257,6 +4257,20 @@
       "emprestados": 0,
       "disponiveis": 1,
       "localizacao": "Estante B, B3. Romance",
+      "status": "Disponível",
+      "capa": ""
+    },
+    {
+      "titulo": "Dom Casmurro: O Filme",
+      "autor": "Toni Brandão ",
+      "genero": "Romance",
+      "ano": 2020,
+      "editora": "Bonsucesso",
+      "cidade": "São Paulo",
+      "exemplares": 1,
+      "emprestados": 0,
+      "disponiveis": 1,
+      "localizacao": "Estante B, B4. Romance",
       "status": "Disponível",
       "capa": ""
     },
