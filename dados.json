@@ -1,5 +1,5 @@
 {
-  "ultimaAtualizacao": "2025-09-25T16:36:51.993Z",
+  "ultimaAtualizacao": "2025-09-29T10:25:35.650Z",
   "totalLivros": 224,
   "totalExemplares": 1033,
   "totalDisponiveis": 1033,
@@ -2539,20 +2539,6 @@
       "capa": "https://drive.google.com/open?id=17dt9Ff1iEJGcW6Wge8OzTB6gLPcMm6oo"
     },
     {
-      "titulo": "Comer, Rezar, Amar",
-      "autor": "Elizabeth Gilbert",
-      "genero": "Romance",
-      "ano": 2008,
-      "editora": "Objetiva",
-      "cidade": "Rio de Janeiro",
-      "exemplares": 1,
-      "emprestados": 0,
-      "disponiveis": 1,
-      "localizacao": "Estante A, A4. Romance",
-      "status": "Disponível",
-      "capa": "https://drive.google.com/open?id=1upv4e3ujsYwmz9Z2OqOH3mP7VaTFvE2D"
-    },
-    {
       "titulo": "No universo das garotas ",
       "autor": "Meredith Costain",
       "genero": "Literatura Encantense",
@@ -3125,6 +3111,20 @@
       "localizacao": "Estante B, B3. Romance",
       "status": "Disponível",
       "capa": ""
+    },
+    {
+      "titulo": "Cumbe",
+      "autor": "Marcelo D Salete",
+      "genero": "História em Quadrinhos",
+      "ano": 2018,
+      "editora": "Veneta",
+      "cidade": "São Paulo ",
+      "exemplares": 1,
+      "emprestados": 0,
+      "disponiveis": 1,
+      "localizacao": "Estante A, A8. Histórias em Quadrinhos",
+      "status": "Disponível",
+      "capa": "https://drive.google.com/open?id=1nCiukxH_TSezJtM1BZBuquk-jl-qdvb6"
     },
     {
       "titulo": "Comer, Rezar, Amar",
