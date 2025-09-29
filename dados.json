@@ -1,8 +1,8 @@
 {
-  "ultimaAtualizacao": "2025-09-29T10:53:08.623Z",
-  "totalLivros": 247,
-  "totalExemplares": 1117,
-  "totalDisponiveis": 1117,
+  "ultimaAtualizacao": "2025-09-29T10:53:48.114Z",
+  "totalLivros": 249,
+  "totalExemplares": 1121,
+  "totalDisponiveis": 1121,
   "livros": [
     {
       "titulo": "Aprendendo a Amar e a Curar ",
@@ -3447,6 +3447,34 @@
       "localizacao": "Estante A, A8. Histórias em Quadrinhos",
       "status": "Disponível",
       "capa": "https://drive.google.com/open?id=1ply9aNSsA3tHt5RKL73zwSxmzABxdjsJ"
+    },
+    {
+      "titulo": "Macbeth",
+      "autor": "William Shakespeare ",
+      "genero": "Teatro (textos dramáticos)",
+      "ano": 2021,
+      "editora": "Principis",
+      "cidade": "Jandira",
+      "exemplares": 3,
+      "emprestados": 0,
+      "disponiveis": 3,
+      "localizacao": "Corredor G, CoG. William Shakespeare",
+      "status": "Disponível",
+      "capa": "https://drive.google.com/open?id=1DyJn5t4n62I5-gKOeAla-5SJN4gHRFHZ"
+    },
+    {
+      "titulo": "A Marca de uma Lágrima ",
+      "autor": "Pedro Bandeira",
+      "genero": "Literatura Infantojuvenil",
+      "ano": 2022,
+      "editora": "Avalia educacional ",
+      "cidade": "São Paulo ",
+      "exemplares": 1,
+      "emprestados": 0,
+      "disponiveis": 1,
+      "localizacao": "Estante C, C1. Literatura Infantojuvenil",
+      "status": "Disponível",
+      "capa": "https://drive.google.com/open?id=1_n9XvPvPJKXL6PDxykhPgWavjtaCUKJt"
     },
     {
       "titulo": "Comer, Rezar, Amar",
