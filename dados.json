@@ -1,8 +1,8 @@
 {
-  "ultimaAtualizacao": "2025-09-29T11:22:12.653Z",
-  "totalLivros": 270,
-  "totalExemplares": 1167,
-  "totalDisponiveis": 1167,
+  "ultimaAtualizacao": "2025-09-29T11:22:16.515Z",
+  "totalLivros": 271,
+  "totalExemplares": 1168,
+  "totalDisponiveis": 1168,
   "livros": [
     {
       "titulo": "Aprendendo a Amar e a Curar ",
@@ -3769,6 +3769,20 @@
       "localizacao": "Estante A, A8. Histórias em Quadrinhos",
       "status": "Disponível",
       "capa": "https://drive.google.com/open?id=1atV2RDyb2M-RnDu810ci0k5vrHR62x5D"
+    },
+    {
+      "titulo": "ida e volta",
+      "autor": "juarez machado",
+      "genero": "Literatura Infantojuvenil",
+      "ano": 1999,
+      "editora": "editora ltda",
+      "cidade": "rio de janeiro ",
+      "exemplares": 1,
+      "emprestados": 0,
+      "disponiveis": 1,
+      "localizacao": "Corredor H, C1. Literatura Infantojuvenil",
+      "status": "Disponível",
+      "capa": "https://drive.google.com/open?id=1Zz7xwsfw5wRll6bmzjvr7jYCxROyYYQH"
     },
     {
       "titulo": "Comer, Rezar, Amar",
