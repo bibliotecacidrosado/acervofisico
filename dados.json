@@ -1,8 +1,8 @@
 {
-  "ultimaAtualizacao": "2025-09-29T10:41:35.683Z",
-  "totalLivros": 237,
-  "totalExemplares": 1102,
-  "totalDisponiveis": 1102,
+  "ultimaAtualizacao": "2025-09-29T10:43:51.347Z",
+  "totalLivros": 238,
+  "totalExemplares": 1104,
+  "totalDisponiveis": 1104,
   "livros": [
     {
       "titulo": "Aprendendo a Amar e a Curar ",
@@ -3307,6 +3307,20 @@
       "localizacao": "Estante B, B2. Romance",
       "status": "Disponível",
       "capa": "https://drive.google.com/open?id=1Uhh1I6Wva7V6U4gLyUQoWmoDh9wtHLEs"
+    },
+    {
+      "titulo": "Minidicionário PRÁTICO ",
+      "autor": "Raul Maia",
+      "genero": "Inglês (Língua/Literatura)",
+      "ano": 2010,
+      "editora": "DCL",
+      "cidade": "São Paulo ",
+      "exemplares": 2,
+      "emprestados": 0,
+      "disponiveis": 2,
+      "localizacao": "Corredor F, CoF. Dicionário de Língua Inglesa",
+      "status": "Disponível",
+      "capa": "https://drive.google.com/open?id=173-lahT1L9h2PxSGHYriMohOd9OOKvoo"
     },
     {
       "titulo": "Comer, Rezar, Amar",
