@@ -1,8 +1,8 @@
 {
-  "ultimaAtualizacao": "2025-09-30T16:36:24.989Z",
-  "totalLivros": 303,
-  "totalExemplares": 1255,
-  "totalDisponiveis": 1255,
+  "ultimaAtualizacao": "2025-09-30T16:36:47.727Z",
+  "totalLivros": 304,
+  "totalExemplares": 1256,
+  "totalDisponiveis": 1256,
   "livros": [
     {
       "titulo": "Aprendendo a Amar e a Curar ",
@@ -4243,6 +4243,20 @@
       "emprestados": 0,
       "disponiveis": 1,
       "localizacao": "Estante C, B23. Religião",
+      "status": "Disponível",
+      "capa": ""
+    },
+    {
+      "titulo": "As palejas de oujuara",
+      "autor": "Nei Leandro De Castro",
+      "genero": "Romance",
+      "ano": 2023,
+      "editora": "Eacribas ",
+      "cidade": "Natal",
+      "exemplares": 1,
+      "emprestados": 0,
+      "disponiveis": 1,
+      "localizacao": "Estante A, A4. Romance",
       "status": "Disponível",
       "capa": ""
     }
