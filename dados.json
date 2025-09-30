@@ -1,8 +1,8 @@
 {
-  "ultimaAtualizacao": "2025-09-30T17:22:48.861Z",
-  "totalLivros": 338,
-  "totalExemplares": 1290,
-  "totalDisponiveis": 1290,
+  "ultimaAtualizacao": "2025-09-30T17:25:16.663Z",
+  "totalLivros": 339,
+  "totalExemplares": 1291,
+  "totalDisponiveis": 1291,
   "livros": [
     {
       "titulo": "Aprendendo a Amar e a Curar",
@@ -4733,6 +4733,20 @@
       "emprestados": 0,
       "disponiveis": 1,
       "localizacao": "Estante C, C4. Literatura Infantojuvenil",
+      "status": "Disponível",
+      "capa": ""
+    },
+    {
+      "titulo": "As rãs que cantavam como passarinho ",
+      "autor": "Ana Cláudia trigueiro",
+      "genero": "Literatura Infantojuvenil",
+      "ano": 2023,
+      "editora": "Timbu",
+      "cidade": "Natal",
+      "exemplares": 1,
+      "emprestados": 0,
+      "disponiveis": 1,
+      "localizacao": "Estante C, C1. Literatura Infantojuvenil",
       "status": "Disponível",
       "capa": ""
     }
