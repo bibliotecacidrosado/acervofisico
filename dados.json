@@ -1,8 +1,8 @@
 {
-  "ultimaAtualizacao": "2025-09-30T17:02:12.233Z",
-  "totalLivros": 325,
-  "totalExemplares": 1277,
-  "totalDisponiveis": 1277,
+  "ultimaAtualizacao": "2025-09-30T17:02:50.529Z",
+  "totalLivros": 326,
+  "totalExemplares": 1278,
+  "totalDisponiveis": 1278,
   "livros": [
     {
       "titulo": "Aprendendo a Amar e a Curar ",
@@ -4551,6 +4551,20 @@
       "emprestados": 0,
       "disponiveis": 1,
       "localizacao": "Estante C, C1. Literatura Infantojuvenil",
+      "status": "Disponível",
+      "capa": ""
+    },
+    {
+      "titulo": "Budapeste",
+      "autor": "Chico Buarque",
+      "genero": "Romance",
+      "ano": 2008,
+      "editora": "Schwarcz ltda",
+      "cidade": "São Paulo ",
+      "exemplares": 1,
+      "emprestados": 0,
+      "disponiveis": 1,
+      "localizacao": "Estante A, A4. Romance",
       "status": "Disponível",
       "capa": ""
     }
