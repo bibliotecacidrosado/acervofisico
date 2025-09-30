@@ -1,8 +1,8 @@
 {
-  "ultimaAtualizacao": "2025-09-30T16:42:58.495Z",
-  "totalLivros": 309,
-  "totalExemplares": 1261,
-  "totalDisponiveis": 1261,
+  "ultimaAtualizacao": "2025-09-30T16:49:51.524Z",
+  "totalLivros": 311,
+  "totalExemplares": 1263,
+  "totalDisponiveis": 1263,
   "livros": [
     {
       "titulo": "Aprendendo a Amar e a Curar ",
@@ -4322,11 +4322,39 @@
       "genero": "Romance",
       "ano": 2019,
       "editora": "Monique D'Orazio",
-      "cidade": "Barueri SP",
+      "cidade": "São Paulo",
       "exemplares": 1,
       "emprestados": 0,
       "disponiveis": 1,
       "localizacao": "Estante A, A2. Romance",
+      "status": "Disponível",
+      "capa": ""
+    },
+    {
+      "titulo": "O quarto pato",
+      "autor": "Índigo",
+      "genero": "Literatura Infantojuvenil",
+      "ano": 2008,
+      "editora": "Editora Positivo ",
+      "cidade": "Curitiba ",
+      "exemplares": 1,
+      "emprestados": 0,
+      "disponiveis": 1,
+      "localizacao": "Estante C, C6. Literatura Infantojuvenil",
+      "status": "Disponível",
+      "capa": ""
+    },
+    {
+      "titulo": "Sejam corajosos no amor ",
+      "autor": "Amanda Jéssica ",
+      "genero": "Crônica",
+      "ano": 2019,
+      "editora": "M3",
+      "cidade": "Natal",
+      "exemplares": 1,
+      "emprestados": 0,
+      "disponiveis": 1,
+      "localizacao": "Estante B, B20. Crônicas",
       "status": "Disponível",
       "capa": ""
     }
