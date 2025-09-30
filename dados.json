@@ -1,8 +1,8 @@
 {
-  "ultimaAtualizacao": "2025-09-30T17:00:29.285Z",
-  "totalLivros": 323,
-  "totalExemplares": 1275,
-  "totalDisponiveis": 1275,
+  "ultimaAtualizacao": "2025-09-30T17:00:55.269Z",
+  "totalLivros": 324,
+  "totalExemplares": 1276,
+  "totalDisponiveis": 1276,
   "livros": [
     {
       "titulo": "Aprendendo a Amar e a Curar ",
@@ -4513,12 +4513,26 @@
       "capa": ""
     },
     {
-      "titulo": "Os vizinhos morreram nos romanos",
-      "autor": "Sérgio aguirre",
+      "titulo": "Os Vizinhos Morreram nos Romanos",
+      "autor": "Sérgio Aguirre",
       "genero": "Romance",
       "ano": 2009,
       "editora": "Dimensão ",
       "cidade": "Belo Horizonte",
+      "exemplares": 1,
+      "emprestados": 0,
+      "disponiveis": 1,
+      "localizacao": "Estante A, A4. Romance",
+      "status": "Disponível",
+      "capa": ""
+    },
+    {
+      "titulo": "A ilha ",
+      "autor": "Flávio Carneiro ",
+      "genero": "Romance",
+      "ano": 2012,
+      "editora": "JPA",
+      "cidade": "Rio de Janeiro ",
       "exemplares": 1,
       "emprestados": 0,
       "disponiveis": 1,
