@@ -1,8 +1,8 @@
 {
-  "ultimaAtualizacao": "2025-09-30T17:10:38.024Z",
-  "totalLivros": 333,
-  "totalExemplares": 1285,
-  "totalDisponiveis": 1285,
+  "ultimaAtualizacao": "2025-09-30T17:12:04.139Z",
+  "totalLivros": 334,
+  "totalExemplares": 1286,
+  "totalDisponiveis": 1286,
   "livros": [
     {
       "titulo": "Aprendendo a Amar e a Curar ",
@@ -4663,6 +4663,20 @@
       "emprestados": 0,
       "disponiveis": 1,
       "localizacao": "Estante C, C1. Literatura Infantojuvenil",
+      "status": "Disponível",
+      "capa": ""
+    },
+    {
+      "titulo": "O silêncio da chuva ",
+      "autor": "Luiz alfredo, Garcia-Roza",
+      "genero": "Romance",
+      "ano": 2008,
+      "editora": "Claroenigma ",
+      "cidade": "Belo Horizonte ",
+      "exemplares": 1,
+      "emprestados": 0,
+      "disponiveis": 1,
+      "localizacao": "Estante A, A4. Romance",
       "status": "Disponível",
       "capa": ""
     }
