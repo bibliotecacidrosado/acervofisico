@@ -1,8 +1,8 @@
 {
-  "ultimaAtualizacao": "2025-09-30T16:29:53.647Z",
-  "totalLivros": 300,
-  "totalExemplares": 1252,
-  "totalDisponiveis": 1252,
+  "ultimaAtualizacao": "2025-09-30T16:31:54.712Z",
+  "totalLivros": 301,
+  "totalExemplares": 1253,
+  "totalDisponiveis": 1253,
   "livros": [
     {
       "titulo": "Aprendendo a Amar e a Curar ",
@@ -4201,6 +4201,20 @@
       "emprestados": 0,
       "disponiveis": 1,
       "localizacao": "Estante A, A4. Romance",
+      "status": "Disponível",
+      "capa": ""
+    },
+    {
+      "titulo": "Um conto sombrio dos Grimm ",
+      "autor": "Adam Gidwitz",
+      "genero": "Conto",
+      "ano": 2018,
+      "editora": "Verus ",
+      "cidade": "Campinas,SP",
+      "exemplares": 1,
+      "emprestados": 0,
+      "disponiveis": 1,
+      "localizacao": "Estante B, B7. Contos",
       "status": "Disponível",
       "capa": ""
     }
