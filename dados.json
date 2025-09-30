@@ -1,8 +1,8 @@
 {
-  "ultimaAtualizacao": "2025-09-30T16:59:54.297Z",
-  "totalLivros": 322,
-  "totalExemplares": 1274,
-  "totalDisponiveis": 1274,
+  "ultimaAtualizacao": "2025-09-30T17:00:29.285Z",
+  "totalLivros": 323,
+  "totalExemplares": 1275,
+  "totalDisponiveis": 1275,
   "livros": [
     {
       "titulo": "Aprendendo a Amar e a Curar ",
@@ -4509,6 +4509,20 @@
       "emprestados": 0,
       "disponiveis": 1,
       "localizacao": "Estante C, C13. Cultura do RN",
+      "status": "Disponível",
+      "capa": ""
+    },
+    {
+      "titulo": "Os vizinhos morreram nos romanos",
+      "autor": "Sérgio aguirre",
+      "genero": "Romance",
+      "ano": 2009,
+      "editora": "Dimensão ",
+      "cidade": "Belo Horizonte",
+      "exemplares": 1,
+      "emprestados": 0,
+      "disponiveis": 1,
+      "localizacao": "Estante A, A4. Romance",
       "status": "Disponível",
       "capa": ""
     }
