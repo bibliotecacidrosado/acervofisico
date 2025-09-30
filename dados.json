@@ -1,8 +1,8 @@
 {
-  "ultimaAtualizacao": "2025-09-30T19:13:25.153Z",
-  "totalLivros": 327,
-  "totalExemplares": 1210,
-  "totalDisponiveis": 1210,
+  "ultimaAtualizacao": "2025-09-30T19:14:16.638Z",
+  "totalLivros": 328,
+  "totalExemplares": 1211,
+  "totalDisponiveis": 1211,
   "livros": [
     {
       "titulo": "A Árvore Que Dava Dinheiro",
@@ -4581,6 +4581,20 @@
       "localizacao": "Estante C, C5. Literatura Infantojuvenil",
       "status": "Disponível",
       "capa": "https://drive.google.com/open?id=1orpMXcCEpXCXzG1wEmP1CiD4-n2D0Cph"
+    },
+    {
+      "titulo": "Memória do subsolo",
+      "autor": "Fiódor Dostoiévski",
+      "genero": "Romance",
+      "ano": 2018,
+      "editora": "Kalinka",
+      "cidade": 2018,
+      "exemplares": 1,
+      "emprestados": 0,
+      "disponiveis": 1,
+      "localizacao": "Estante A, A3. Romance",
+      "status": "Disponível",
+      "capa": "https://drive.google.com/open?id=15KIHaTv8IjBHLofx91e9JGfmrauuwciq"
     }
   ]
 }
