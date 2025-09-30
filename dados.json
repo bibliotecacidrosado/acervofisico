@@ -1,8 +1,8 @@
 {
-  "ultimaAtualizacao": "2025-09-30T17:02:50.529Z",
-  "totalLivros": 326,
-  "totalExemplares": 1278,
-  "totalDisponiveis": 1278,
+  "ultimaAtualizacao": "2025-09-30T17:05:19.773Z",
+  "totalLivros": 327,
+  "totalExemplares": 1279,
+  "totalDisponiveis": 1279,
   "livros": [
     {
       "titulo": "Aprendendo a Amar e a Curar ",
@@ -4561,6 +4561,20 @@
       "ano": 2008,
       "editora": "Schwarcz ltda",
       "cidade": "São Paulo ",
+      "exemplares": 1,
+      "emprestados": 0,
+      "disponiveis": 1,
+      "localizacao": "Estante A, A4. Romance",
+      "status": "Disponível",
+      "capa": ""
+    },
+    {
+      "titulo": "O menino que sobreviveu ",
+      "autor": "Rhiannon Navin",
+      "genero": "Romance",
+      "ano": 2021,
+      "editora": "Prime ",
+      "cidade": "São Jorge",
       "exemplares": 1,
       "emprestados": 0,
       "disponiveis": 1,
