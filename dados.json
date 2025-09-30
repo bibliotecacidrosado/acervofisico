@@ -1,8 +1,8 @@
 {
-  "ultimaAtualizacao": "2025-09-30T16:58:29.386Z",
-  "totalLivros": 320,
-  "totalExemplares": 1272,
-  "totalDisponiveis": 1272,
+  "ultimaAtualizacao": "2025-09-30T16:59:54.297Z",
+  "totalLivros": 322,
+  "totalExemplares": 1274,
+  "totalDisponiveis": 1274,
   "livros": [
     {
       "titulo": "Aprendendo a Amar e a Curar ",
@@ -4457,7 +4457,7 @@
       "capa": ""
     },
     {
-      "titulo": "O príncipe e o mendigo ",
+      "titulo": "O Príncipe e o Mendigo ",
       "autor": "Mark Twain ",
       "genero": "Literatura Infantojuvenil",
       "ano": 2012,
@@ -4481,6 +4481,34 @@
       "emprestados": 0,
       "disponiveis": 1,
       "localizacao": "Estante A, A4. Romance",
+      "status": "Disponível",
+      "capa": ""
+    },
+    {
+      "titulo": "Respeitável público ",
+      "autor": "Henrique Schneider ",
+      "genero": "Literatura Infantojuvenil",
+      "ano": 2015,
+      "editora": "Dublinense Ltda.",
+      "cidade": "Porto Alegre ",
+      "exemplares": 1,
+      "emprestados": 0,
+      "disponiveis": 1,
+      "localizacao": "Estante C, C1. Literatura Infantojuvenil",
+      "status": "Disponível",
+      "capa": ""
+    },
+    {
+      "titulo": "Peter Pan",
+      "autor": "Monteiro Lobato ",
+      "genero": "Cultura do RN (Antropologia/História Regional)",
+      "ano": 2011,
+      "editora": "Cecília Bassarani ",
+      "cidade": "São Paulo ",
+      "exemplares": 1,
+      "emprestados": 0,
+      "disponiveis": 1,
+      "localizacao": "Estante C, C13. Cultura do RN",
       "status": "Disponível",
       "capa": ""
     }
