@@ -1,8 +1,8 @@
 {
-  "ultimaAtualizacao": "2025-09-30T17:33:24.179Z",
-  "totalLivros": 342,
-  "totalExemplares": 1294,
-  "totalDisponiveis": 1294,
+  "ultimaAtualizacao": "2025-09-30T17:38:55.668Z",
+  "totalLivros": 339,
+  "totalExemplares": 1284,
+  "totalDisponiveis": 1284,
   "livros": [
     {
       "titulo": "Aprendendo a Amar e a Curar",
@@ -269,20 +269,6 @@
       "localizacao": "Estante A, A3. Romance",
       "status": "Disponível",
       "capa": "https://drive.google.com/open?id=1DOBNesmgHc0GtNM88p-MHWqt-5JpzbyX"
-    },
-    {
-      "titulo": "Viagem ao Centro da Terra",
-      "autor": "Júlio Verne",
-      "genero": "Romance",
-      "ano": "Não informado",
-      "editora": "Nova Fronteira Participações S.A",
-      "cidade": "Rio de Janeiro",
-      "exemplares": 1,
-      "emprestados": 0,
-      "disponiveis": 1,
-      "localizacao": "Estante B, B1. Romance",
-      "status": "Disponível",
-      "capa": "https://drive.google.com/open?id=1ElKFUNtm9x4Vk4Pf3VINcHgsvk2bab_D"
     },
     {
       "titulo": "O Negro no Brasil",
@@ -1391,20 +1377,6 @@
       "capa": "https://drive.google.com/open?id=1kETiJynV8FFM9ZlSjzo7pjpu9tZ1_l8X"
     },
     {
-      "titulo": "Um Rosto no Computador",
-      "autor": "Marcos Rey",
-      "genero": "Romance",
-      "ano": 2003,
-      "editora": "Ática",
-      "cidade": "São Paulo",
-      "exemplares": 7,
-      "emprestados": 0,
-      "disponiveis": 7,
-      "localizacao": "Estante A, A2. Romance",
-      "status": "Disponível",
-      "capa": "https://drive.google.com/open?id=11gbS4gjKfYTBhnaoB3S-GAUxIZR5inbC"
-    },
-    {
       "titulo": "O Burrinho Pedrês",
       "autor": "João Guimarães Rosa",
       "genero": "Novela",
@@ -2229,20 +2201,6 @@
       "localizacao": "Estante A, A2. Romance",
       "status": "Disponível",
       "capa": "https://drive.google.com/open?id=18HLJU8h-FlE6AtpdbDKcbX6xrbSd5aos"
-    },
-    {
-      "titulo": "O Código de Camões",
-      "autor": "Beto Junqueyra",
-      "genero": "Literatura Infantojuvenil",
-      "ano": 2018,
-      "editora": "Estrela Cultural",
-      "cidade": "São Paulo",
-      "exemplares": 2,
-      "emprestados": 0,
-      "disponiveis": 2,
-      "localizacao": "Estante C, C4. Literatura Infantojuvenil",
-      "status": "Disponível",
-      "capa": "https://drive.google.com/open?id=1cWNhlw72r04ZBUug2YNvp2B0gEexLrlX"
     },
     {
       "titulo": "A Última Pedra",
@@ -3757,20 +3715,6 @@
       "capa": ""
     },
     {
-      "titulo": "Viagem ao Centro da Terra",
-      "autor": "Júlio Verne",
-      "genero": "Romance",
-      "ano": 2029,
-      "editora": "Principis",
-      "cidade": "Jandira, SP",
-      "exemplares": 1,
-      "emprestados": 0,
-      "disponiveis": 1,
-      "localizacao": "Estante B, A2. Romance",
-      "status": "Disponível",
-      "capa": ""
-    },
-    {
       "titulo": "Um Aprendiz pela Vida",
       "autor": "Miguel Josino Neto",
       "genero": "Crônica",
@@ -4789,6 +4733,20 @@
       "emprestados": 0,
       "disponiveis": 1,
       "localizacao": "Estante B, B4. Romance",
+      "status": "Disponível",
+      "capa": ""
+    },
+    {
+      "titulo": "Dom Quixote",
+      "autor": "Walcyr carrasco ",
+      "genero": "Literatura Infantojuvenil",
+      "ano": 2021,
+      "editora": "Richamond",
+      "cidade": "São Paulo ",
+      "exemplares": 1,
+      "emprestados": 0,
+      "disponiveis": 1,
+      "localizacao": "Estante C, C5. Literatura Infantojuvenil",
       "status": "Disponível",
       "capa": ""
     }
