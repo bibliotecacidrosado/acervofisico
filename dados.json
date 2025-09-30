@@ -1,8 +1,8 @@
 {
-  "ultimaAtualizacao": "2025-09-30T19:14:16.638Z",
-  "totalLivros": 328,
-  "totalExemplares": 1211,
-  "totalDisponiveis": 1211,
+  "ultimaAtualizacao": "2025-09-30T19:17:20.954Z",
+  "totalLivros": 329,
+  "totalExemplares": 1212,
+  "totalDisponiveis": 1212,
   "livros": [
     {
       "titulo": "A Árvore Que Dava Dinheiro",
@@ -4595,6 +4595,20 @@
       "localizacao": "Estante A, A3. Romance",
       "status": "Disponível",
       "capa": "https://drive.google.com/open?id=15KIHaTv8IjBHLofx91e9JGfmrauuwciq"
+    },
+    {
+      "titulo": "Crispo de papel",
+      "autor": "Benedito Nunes",
+      "genero": "Romance",
+      "ano": 1999,
+      "editora": "Ática",
+      "cidade": "São Paulo ",
+      "exemplares": 1,
+      "emprestados": 0,
+      "disponiveis": 1,
+      "localizacao": "Estante A, A3. Romance",
+      "status": "Disponível",
+      "capa": "https://drive.google.com/open?id=1CYUpXGhGmAY0S0IF4CTktw4y4DrmyDGS"
     }
   ]
 }
