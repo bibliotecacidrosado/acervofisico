@@ -1,8 +1,8 @@
 {
-  "ultimaAtualizacao": "2025-09-30T16:53:09.097Z",
-  "totalLivros": 315,
-  "totalExemplares": 1267,
-  "totalDisponiveis": 1267,
+  "ultimaAtualizacao": "2025-09-30T16:54:03.962Z",
+  "totalLivros": 316,
+  "totalExemplares": 1268,
+  "totalDisponiveis": 1268,
   "livros": [
     {
       "titulo": "Aprendendo a Amar e a Curar ",
@@ -4411,6 +4411,20 @@
       "emprestados": 0,
       "disponiveis": 1,
       "localizacao": "Estante B, B20. Crônicas",
+      "status": "Disponível",
+      "capa": ""
+    },
+    {
+      "titulo": "Persuasão",
+      "autor": "Jane Austen ",
+      "genero": "Romance",
+      "ano": 2014,
+      "editora": "Besta seller ltda",
+      "cidade": "Rio de janeiro ",
+      "exemplares": 1,
+      "emprestados": 0,
+      "disponiveis": 1,
+      "localizacao": "Estante A, A4. Romance",
       "status": "Disponível",
       "capa": ""
     }
