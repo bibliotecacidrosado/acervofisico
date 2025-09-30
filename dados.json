@@ -1,8 +1,8 @@
 {
-  "ultimaAtualizacao": "2025-09-30T16:37:29.369Z",
-  "totalLivros": 305,
-  "totalExemplares": 1257,
-  "totalDisponiveis": 1257,
+  "ultimaAtualizacao": "2025-09-30T16:38:00.225Z",
+  "totalLivros": 306,
+  "totalExemplares": 1258,
+  "totalDisponiveis": 1258,
   "livros": [
     {
       "titulo": "Aprendendo a Amar e a Curar ",
@@ -4271,6 +4271,20 @@
       "emprestados": 0,
       "disponiveis": 1,
       "localizacao": "Estante A, A5. Romance",
+      "status": "Disponível",
+      "capa": ""
+    },
+    {
+      "titulo": "O ponto onde estamos ",
+      "autor": "Paulo Miceli ",
+      "genero": "Romance",
+      "ano": 2008,
+      "editora": "Unicamp ",
+      "cidade": "Campinas, SP ",
+      "exemplares": 1,
+      "emprestados": 0,
+      "disponiveis": 1,
+      "localizacao": "Estante B, B15. Romance",
       "status": "Disponível",
       "capa": ""
     }
