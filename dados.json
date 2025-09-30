@@ -1,8 +1,8 @@
 {
-  "ultimaAtualizacao": "2025-09-30T16:49:52.657Z",
-  "totalLivros": 311,
-  "totalExemplares": 1263,
-  "totalDisponiveis": 1263,
+  "ultimaAtualizacao": "2025-09-30T16:50:54.766Z",
+  "totalLivros": 312,
+  "totalExemplares": 1264,
+  "totalDisponiveis": 1264,
   "livros": [
     {
       "titulo": "Aprendendo a Amar e a Curar ",
@@ -4355,6 +4355,20 @@
       "emprestados": 0,
       "disponiveis": 1,
       "localizacao": "Estante B, B20. Crônicas",
+      "status": "Disponível",
+      "capa": ""
+    },
+    {
+      "titulo": "A estrela sabe",
+      "autor": "Marques Rebelo",
+      "genero": "Romance",
+      "ano": 2009,
+      "editora": "José olympio",
+      "cidade": "Rio de janeiro",
+      "exemplares": 1,
+      "emprestados": 0,
+      "disponiveis": 1,
+      "localizacao": "Estante A, A4. Romance",
       "status": "Disponível",
       "capa": ""
     }
