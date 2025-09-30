@@ -1,8 +1,8 @@
 {
-  "ultimaAtualizacao": "2025-09-30T19:17:20.954Z",
-  "totalLivros": 329,
-  "totalExemplares": 1212,
-  "totalDisponiveis": 1212,
+  "ultimaAtualizacao": "2025-09-30T19:18:46.122Z",
+  "totalLivros": 330,
+  "totalExemplares": 1213,
+  "totalDisponiveis": 1213,
   "livros": [
     {
       "titulo": "A Árvore Que Dava Dinheiro",
@@ -4609,6 +4609,20 @@
       "localizacao": "Estante A, A3. Romance",
       "status": "Disponível",
       "capa": "https://drive.google.com/open?id=1CYUpXGhGmAY0S0IF4CTktw4y4DrmyDGS"
+    },
+    {
+      "titulo": "Histórias arrepiantes de CRIANÇAS-PRODÍGIO ",
+      "autor": "Linda Quilt",
+      "genero": "Literatura Infantojuvenil",
+      "ano": 2011,
+      "editora": "Cia. Das Letras",
+      "cidade": "São Paulo ",
+      "exemplares": 1,
+      "emprestados": 0,
+      "disponiveis": 1,
+      "localizacao": "Estante C, C5. Literatura Infantojuvenil",
+      "status": "Disponível",
+      "capa": "https://drive.google.com/open?id=1R8nKJZpf71Rff8EDHeHbemWrhk0yBTza"
     }
   ]
 }
