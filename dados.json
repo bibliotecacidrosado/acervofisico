@@ -1,8 +1,8 @@
 {
-  "ultimaAtualizacao": "2025-09-30T17:09:29.440Z",
-  "totalLivros": 331,
-  "totalExemplares": 1283,
-  "totalDisponiveis": 1283,
+  "ultimaAtualizacao": "2025-09-30T17:10:37.117Z",
+  "totalLivros": 333,
+  "totalExemplares": 1285,
+  "totalDisponiveis": 1285,
   "livros": [
     {
       "titulo": "Aprendendo a Amar e a Curar ",
@@ -4448,7 +4448,7 @@
       "genero": "Romance",
       "ano": 2001,
       "editora": "Editora Nova fronteira",
-      "cidade": "Rio de janeiro ",
+      "cidade": "Rio de Janeiro ",
       "exemplares": 1,
       "emprestados": 0,
       "disponiveis": 1,
@@ -4611,7 +4611,7 @@
       "capa": ""
     },
     {
-      "titulo": "Um ninho de mafagafos cheio de mafagafinhos",
+      "titulo": "Um Ninho de Mafagafos Cheio de Mafagafinhos",
       "autor": "José Cândido de Carvalho",
       "genero": "Romance",
       "ano": 2011,
@@ -4630,11 +4630,39 @@
       "genero": "Inglês (Língua/Literatura)",
       "ano": 2021,
       "editora": "Roberta Somera ",
-      "cidade": "São paulo",
+      "cidade": "São Paulo",
       "exemplares": 1,
       "emprestados": 0,
       "disponiveis": 1,
       "localizacao": "Estante D, D7. Inglês e Espanhol",
+      "status": "Disponível",
+      "capa": ""
+    },
+    {
+      "titulo": "Comer, rezar, amar",
+      "autor": "Elizabeth Gilbert ",
+      "genero": "Romance",
+      "ano": 2008,
+      "editora": "Objetiva",
+      "cidade": "Rio de janeiro",
+      "exemplares": 1,
+      "emprestados": 0,
+      "disponiveis": 1,
+      "localizacao": "Estante A, A4. Romance",
+      "status": "Disponível",
+      "capa": ""
+    },
+    {
+      "titulo": "Wangari Maathai",
+      "autor": "Ofoego Obioma",
+      "genero": "Literatura Infantojuvenil",
+      "ano": 2018,
+      "editora": "Casa das letras",
+      "cidade": "São Paulo ",
+      "exemplares": 1,
+      "emprestados": 0,
+      "disponiveis": 1,
+      "localizacao": "Estante C, C1. Literatura Infantojuvenil",
       "status": "Disponível",
       "capa": ""
     }
