@@ -1,8 +1,8 @@
 {
-  "ultimaAtualizacao": "2025-09-30T16:54:03.962Z",
-  "totalLivros": 316,
-  "totalExemplares": 1268,
-  "totalDisponiveis": 1268,
+  "ultimaAtualizacao": "2025-09-30T16:54:42.303Z",
+  "totalLivros": 317,
+  "totalExemplares": 1269,
+  "totalDisponiveis": 1269,
   "livros": [
     {
       "titulo": "Aprendendo a Amar e a Curar ",
@@ -4425,6 +4425,20 @@
       "emprestados": 0,
       "disponiveis": 1,
       "localizacao": "Estante A, A4. Romance",
+      "status": "Disponível",
+      "capa": ""
+    },
+    {
+      "titulo": "Victor Jara: Não à ditadura",
+      "autor": "Bruno Doucey",
+      "genero": "Literatura Infantojuvenil",
+      "ano": 2009,
+      "editora": "Edições SM",
+      "cidade": "São paulo ",
+      "exemplares": 1,
+      "emprestados": 0,
+      "disponiveis": 1,
+      "localizacao": "Estante C, C4. Literatura Infantojuvenil",
       "status": "Disponível",
       "capa": ""
     }
