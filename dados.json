@@ -1,8 +1,8 @@
 {
-  "ultimaAtualizacao": "2025-09-30T17:26:56.613Z",
-  "totalLivros": 341,
-  "totalExemplares": 1293,
-  "totalDisponiveis": 1293,
+  "ultimaAtualizacao": "2025-09-30T17:33:24.179Z",
+  "totalLivros": 342,
+  "totalExemplares": 1294,
+  "totalDisponiveis": 1294,
   "livros": [
     {
       "titulo": "Aprendendo a Amar e a Curar",
@@ -4723,20 +4723,6 @@
       "capa": ""
     },
     {
-      "titulo": "Harry Potter e a câmara Secreta ",
-      "autor": "J. k. Rowling ",
-      "genero": "Literatura Infantojuvenil",
-      "ano": 1998,
-      "editora": "Rocco LTDA",
-      "cidade": "Grã-bretanha",
-      "exemplares": 1,
-      "emprestados": 0,
-      "disponiveis": 1,
-      "localizacao": "Estante C, C4. Literatura Infantojuvenil",
-      "status": "Disponível",
-      "capa": ""
-    },
-    {
       "titulo": "As rãs que cantavam como passarinho ",
       "autor": "Ana Cláudia trigueiro",
       "genero": "Literatura Infantojuvenil",
@@ -4751,7 +4737,7 @@
       "capa": ""
     },
     {
-      "titulo": "O negro no Brasil",
+      "titulo": "O Negro no Brasil",
       "autor": "Dantas•Mattos•Abreu",
       "genero": "Literatura Infantojuvenil",
       "ano": 2012,
@@ -4766,15 +4752,43 @@
     },
     {
       "titulo": "O dia em que a minha vida mudou por causa de um chocolate comprado nas ilhas maldivas ",
-      "autor": "Keka reis ",
+      "autor": "Keka Reis ",
       "genero": "Literatura Infantojuvenil",
-      "ano": "6 ano 9 ano ",
-      "editora": "Fontanar 2018",
+      "ano": 2018,
+      "editora": "Fontanar",
       "cidade": "Rio de janeiro ",
       "exemplares": 1,
       "emprestados": 0,
       "disponiveis": 1,
       "localizacao": "Estante C, C4. Literatura Infantojuvenil",
+      "status": "Disponível",
+      "capa": ""
+    },
+    {
+      "titulo": "Rubem fonseca ",
+      "autor": "Rubem fonseca ",
+      "genero": "Poema",
+      "ano": "Ensino medio ",
+      "editora": "Ediouro publicacoes de lazer e cultura ",
+      "cidade": "Rio de janeiro ",
+      "exemplares": 1,
+      "emprestados": 0,
+      "disponiveis": 1,
+      "localizacao": "Estante B, B16. Romance",
+      "status": "Disponível",
+      "capa": ""
+    },
+    {
+      "titulo": "Velhos costumes do meu sertão ",
+      "autor": "Juvenal Lamartine de Fari",
+      "genero": "Romance",
+      "ano": 2021,
+      "editora": "Rilder Medeiros ",
+      "cidade": "Rio grande do Norte ",
+      "exemplares": 1,
+      "emprestados": 0,
+      "disponiveis": 1,
+      "localizacao": "Estante B, B4. Romance",
       "status": "Disponível",
       "capa": ""
     }
