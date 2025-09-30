@@ -1,8 +1,8 @@
 {
-  "ultimaAtualizacao": "2025-09-30T17:08:32.390Z",
-  "totalLivros": 330,
-  "totalExemplares": 1282,
-  "totalDisponiveis": 1282,
+  "ultimaAtualizacao": "2025-09-30T17:09:29.440Z",
+  "totalLivros": 331,
+  "totalExemplares": 1283,
+  "totalDisponiveis": 1283,
   "livros": [
     {
       "titulo": "Aprendendo a Amar e a Curar ",
@@ -4597,7 +4597,7 @@
       "capa": ""
     },
     {
-      "titulo": "A espada e o novelo",
+      "titulo": "A Espada e o Novelo",
       "autor": "Dionisio Jacob",
       "genero": "Romance",
       "ano": 2009,
@@ -4621,6 +4621,20 @@
       "emprestados": 0,
       "disponiveis": 1,
       "localizacao": "Estante A, A4. Romance",
+      "status": "Disponível",
+      "capa": ""
+    },
+    {
+      "titulo": "Romeo and Juliet",
+      "autor": "William Shakespeare ",
+      "genero": "Inglês (Língua/Literatura)",
+      "ano": 2021,
+      "editora": "Roberta Somera ",
+      "cidade": "São paulo",
+      "exemplares": 1,
+      "emprestados": 0,
+      "disponiveis": 1,
+      "localizacao": "Estante D, D7. Inglês e Espanhol",
       "status": "Disponível",
       "capa": ""
     }
