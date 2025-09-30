@@ -1,8 +1,8 @@
 {
-  "ultimaAtualizacao": "2025-09-30T11:15:25.637Z",
-  "totalLivros": 299,
-  "totalExemplares": 1251,
-  "totalDisponiveis": 1251,
+  "ultimaAtualizacao": "2025-09-30T16:29:53.647Z",
+  "totalLivros": 300,
+  "totalExemplares": 1252,
+  "totalDisponiveis": 1252,
   "livros": [
     {
       "titulo": "Aprendendo a Amar e a Curar ",
@@ -4187,6 +4187,20 @@
       "emprestados": 0,
       "disponiveis": 1,
       "localizacao": "Estante D, D3. Formação Pedagógica",
+      "status": "Disponível",
+      "capa": ""
+    },
+    {
+      "titulo": "Madame Bovary",
+      "autor": "Gustave Flaubert",
+      "genero": "Romance",
+      "ano": 1997,
+      "editora": "Copyright",
+      "cidade": "Rio de Janeiro ",
+      "exemplares": 1,
+      "emprestados": 0,
+      "disponiveis": 1,
+      "localizacao": "Estante A, A4. Romance",
       "status": "Disponível",
       "capa": ""
     }
