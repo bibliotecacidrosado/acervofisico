@@ -1,8 +1,8 @@
 {
-  "ultimaAtualizacao": "2025-09-30T16:57:56.968Z",
-  "totalLivros": 319,
-  "totalExemplares": 1271,
-  "totalDisponiveis": 1271,
+  "ultimaAtualizacao": "2025-09-30T16:58:29.386Z",
+  "totalLivros": 320,
+  "totalExemplares": 1272,
+  "totalDisponiveis": 1272,
   "livros": [
     {
       "titulo": "Aprendendo a Amar e a Curar ",
@@ -4387,7 +4387,7 @@
       "capa": ""
     },
     {
-      "titulo": "Enquanto Houver AMOR DO OUTRO LADO",
+      "titulo": "Enquanto Houver Amor do Outro Lado",
       "autor": "Amanda jéssica",
       "genero": "Crônica",
       "ano": 2021,
@@ -4401,7 +4401,7 @@
       "capa": ""
     },
     {
-      "titulo": "Os valores no tempo ",
+      "titulo": "Os Valores no Tempo ",
       "autor": "Miguel Josino Neto",
       "genero": "Crônica",
       "ano": 2015,
@@ -4443,7 +4443,7 @@
       "capa": ""
     },
     {
-      "titulo": "Na urubuquaquá no pinhém",
+      "titulo": "Na Urubuquaquá no Pinhém",
       "autor": "João Guimarães Rosa",
       "genero": "Romance",
       "ano": 2001,
@@ -4463,6 +4463,20 @@
       "ano": 2012,
       "editora": "Martin Claret LTDA",
       "cidade": "São paulo ",
+      "exemplares": 1,
+      "emprestados": 0,
+      "disponiveis": 1,
+      "localizacao": "Estante A, A4. Romance",
+      "status": "Disponível",
+      "capa": ""
+    },
+    {
+      "titulo": "Sagarana",
+      "autor": "João Guimarães Rosa",
+      "genero": "Romance",
+      "ano": 2001,
+      "editora": "editora Nova fronteira",
+      "cidade": "Rio de janeiro ",
       "exemplares": 1,
       "emprestados": 0,
       "disponiveis": 1,
