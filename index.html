@@ -564,8 +564,9 @@
     function extrairGeneros() {
       const generosSet = new Set();
       dadosCompletos.forEach(livro => {
-        if (livro.genero && livro.genero.trim() !== '') {
-          generosSet.add(livro.genero);
+        const genero = String(livro.genero || '').trim();
+        if (genero !== '') {
+          generosSet.add(genero);
         }
       });
       
@@ -612,12 +613,9 @@
 
     function aplicarOrdenacao() {
       livrosFiltrados.sort((a, b) => {
-        let valorA = a[ordenacao.campo] || '';
-        let valorB = b[ordenacao.campo] || '';
-        
-        // Converter para string se não for
-        valorA = String(valorA).toLowerCase();
-        valorB = String(valorB).toLowerCase();
+        // Garantir que os valores sejam strings antes de comparar
+        let valorA = String(a[ordenacao.campo] || '').toLowerCase();
+        let valorB = String(b[ordenacao.campo] || '').toLowerCase();
         
         if (valorA < valorB) return ordenacao.direcao === 'asc' ? -1 : 1;
         if (valorA > valorB) return ordenacao.direcao === 'asc' ? 1 : -1;
@@ -630,27 +628,50 @@
     }
 
     function filtrarLivros(){
+      console.log('Executando filtro...'); // Debug
+      
+      // Verificar se há dados para filtrar
+      if (!dadosCompletos || dadosCompletos.length === 0) {
+        console.log('Nenhum dado disponível para filtrar');
+        return;
+      }
+      
       const termo = document.getElementById('busca').value.toLowerCase();
       const statusFiltro = document.getElementById('filtroStatus').value;
       const generoFiltro = document.getElementById('filtroGenero').value;
       
+      console.log(`Filtrando: "${termo}", status: ${statusFiltro}, gênero: ${generoFiltro}`); // Debug
+      
       livrosFiltrados = dadosCompletos.filter(l => {
-        // Filtro por termo de busca
-        const correspondeTermo = 
-          (l.titulo && l.titulo.toLowerCase().includes(termo)) ||
-          (l.autor && l.autor.toLowerCase().includes(termo)) ||
-          (l.genero && l.genero.toLowerCase().includes(termo)) ||
-          (l.localizacao && l.localizacao.toLowerCase().includes(termo));
-        
-        // Filtro por status
-        const correspondeStatus = statusFiltro === 'todos' || l.status === statusFiltro;
-        
-        // Filtro por gênero
-        const correspondeGenero = generoFiltro === 'todos' || l.genero === generoFiltro;
-        
-        return correspondeTermo && correspondeStatus && correspondeGenero;
+        try {
+          // Converter todos os campos para string de forma segura
+          const titulo = String(l.titulo || '').toLowerCase();
+          const autor = String(l.autor || '').toLowerCase();
+          const genero = String(l.genero || '').toLowerCase();
+          const localizacao = String(l.localizacao || '').toLowerCase();
+          
+          // Filtro por termo de busca
+          const correspondeTermo = 
+            titulo.includes(termo) ||
+            autor.includes(termo) ||
+            genero.includes(termo) ||
+            localizacao.includes(termo);
+          
+          // Filtro por status
+          const correspondeStatus = statusFiltro === 'todos' || l.status === statusFiltro;
+          
+          // Filtro por gênero
+          const correspondeGenero = generoFiltro === 'todos' || l.genero === generoFiltro;
+          
+          return correspondeTermo && correspondeStatus && correspondeGenero;
+        } catch (error) {
+          console.error('Erro ao filtrar livro:', l, error);
+          return false; // Excluir livros com erro da filtragem
+        }
       });
 
+      console.log(`Filtro concluído: ${livrosFiltrados.length} livros encontrados`); // Debug
+      
       // Aplicar ordenação atual aos resultados filtrados
       aplicarOrdenacao();
     }
