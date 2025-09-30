@@ -1,8 +1,8 @@
 {
-  "ultimaAtualizacao": "2025-09-30T17:06:03.736Z",
-  "totalLivros": 329,
-  "totalExemplares": 1281,
-  "totalDisponiveis": 1281,
+  "ultimaAtualizacao": "2025-09-30T17:08:32.390Z",
+  "totalLivros": 330,
+  "totalExemplares": 1282,
+  "totalDisponiveis": 1282,
   "livros": [
     {
       "titulo": "Aprendendo a Amar e a Curar ",
@@ -4603,6 +4603,20 @@
       "ano": 2009,
       "editora": "Comboio de corda",
       "cidade": "São Paulo ",
+      "exemplares": 1,
+      "emprestados": 0,
+      "disponiveis": 1,
+      "localizacao": "Estante A, A4. Romance",
+      "status": "Disponível",
+      "capa": ""
+    },
+    {
+      "titulo": "Um ninho de mafagafos cheio de mafagafinhos",
+      "autor": "José Cândido de Carvalho",
+      "genero": "Romance",
+      "ano": 2011,
+      "editora": "José olympio ",
+      "cidade": "Rio de janeiro",
       "exemplares": 1,
       "emprestados": 0,
       "disponiveis": 1,
