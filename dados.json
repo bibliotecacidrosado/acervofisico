@@ -1,8 +1,8 @@
 {
-  "ultimaAtualizacao": "2025-09-30T16:38:35.214Z",
-  "totalLivros": 307,
-  "totalExemplares": 1259,
-  "totalDisponiveis": 1259,
+  "ultimaAtualizacao": "2025-09-30T16:39:39.676Z",
+  "totalLivros": 308,
+  "totalExemplares": 1260,
+  "totalDisponiveis": 1260,
   "livros": [
     {
       "titulo": "Aprendendo a Amar e a Curar ",
@@ -4294,11 +4294,25 @@
       "genero": "História em Quadrinhos",
       "ano": 2011,
       "editora": "Luiz fernando Emediato ",
-      "cidade": "São paulo ",
+      "cidade": "São Paulo ",
       "exemplares": 1,
       "emprestados": 0,
       "disponiveis": 1,
       "localizacao": "Estante C, C1. Literatura Infantojuvenil",
+      "status": "Disponível",
+      "capa": ""
+    },
+    {
+      "titulo": "Contos de Estimação ",
+      "autor": "Marisa Lajolo",
+      "genero": "Conto",
+      "ano": 2002,
+      "editora": "EDITORA OBJETIVA LTDA",
+      "cidade": "Rio de Janeiro ",
+      "exemplares": 1,
+      "emprestados": 0,
+      "disponiveis": 1,
+      "localizacao": "Estante B, B19. Contos",
       "status": "Disponível",
       "capa": ""
     }
