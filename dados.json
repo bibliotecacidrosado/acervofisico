@@ -1,8 +1,8 @@
 {
-  "ultimaAtualizacao": "2025-09-30T17:41:01.180Z",
-  "totalLivros": 339,
-  "totalExemplares": 1239,
-  "totalDisponiveis": 1239,
+  "ultimaAtualizacao": "2025-09-30T18:30:04.232Z",
+  "totalLivros": 326,
+  "totalExemplares": 1209,
+  "totalDisponiveis": 1209,
   "livros": [
     {
       "titulo": "Aprendendo a Amar e a Curar",
@@ -2133,7 +2133,7 @@
       "capa": "https://drive.google.com/open?id=1NcQKua2RREyNhdoioRQYFhFINZKER3Zt"
     },
     {
-      "titulo": "Eu,minha Irmã e Seu Universo Particular",
+      "titulo": "Eu, minha Irmã e Seu Universo Particular",
       "autor": "Eileen Garvin",
       "genero": "Literatura Infantojuvenil",
       "ano": 2021,
@@ -3547,20 +3547,6 @@
       "capa": "https://drive.google.com/open?id=1f0COzVVMrSG4Wz1Tl9XGL5jOQAuDC8Sd"
     },
     {
-      "titulo": "O Ultimo Moicano",
-      "autor": "James Fenimore Cooper",
-      "genero": "Literatura Infantojuvenil",
-      "ano": 2001,
-      "editora": "ISBN",
-      "cidade": "Sao Paulo",
-      "exemplares": 1,
-      "emprestados": 0,
-      "disponiveis": 1,
-      "localizacao": "Corredor H, CoH. Literatura Infantojuvenil",
-      "status": "Disponível",
-      "capa": "https://drive.google.com/open?id=1u28Mz7t8PL32VTiOndrwxn1q-My2bZOT"
-    },
-    {
       "titulo": "Moby Dick",
       "autor": "Heman Melville",
       "genero": "História em Quadrinhos",
@@ -3715,20 +3701,6 @@
       "capa": ""
     },
     {
-      "titulo": "Vermelho, Branco e Sangue Azul",
-      "autor": "Casey Mcquiston",
-      "genero": "Romance",
-      "ano": 2019,
-      "editora": "Schwarcz",
-      "cidade": "São Paulo",
-      "exemplares": 1,
-      "emprestados": 0,
-      "disponiveis": 1,
-      "localizacao": "Estante B, B2. Romance",
-      "status": "Disponível",
-      "capa": ""
-    },
-    {
       "titulo": "O Universo, os Deuses, os Homens",
       "autor": "Jean-Pierre Vernant",
       "genero": "Crônica",
@@ -3767,20 +3739,6 @@
       "emprestados": 0,
       "disponiveis": 1,
       "localizacao": "Estante B, B2. Romance",
-      "status": "Disponível",
-      "capa": ""
-    },
-    {
-      "titulo": "A Última Carta de Amor",
-      "autor": "Jojo Moyes",
-      "genero": "Romance",
-      "ano": 2016,
-      "editora": "Intrínseca",
-      "cidade": "Rio de Janeiro",
-      "exemplares": 1,
-      "emprestados": 0,
-      "disponiveis": 1,
-      "localizacao": "Estante A, A2. Romance",
       "status": "Disponível",
       "capa": ""
     },
@@ -3837,20 +3795,6 @@
       "emprestados": 0,
       "disponiveis": 1,
       "localizacao": "Estante B, B2. Romance",
-      "status": "Disponível",
-      "capa": ""
-    },
-    {
-      "titulo": "É Assim Que Começa",
-      "autor": "Best-Seller",
-      "genero": "Romance",
-      "ano": 2025,
-      "editora": "Galera Record",
-      "cidade": "Rio de Janeiro",
-      "exemplares": 1,
-      "emprestados": 0,
-      "disponiveis": 1,
-      "localizacao": "Estante B, B15. Romance",
       "status": "Disponível",
       "capa": ""
     },
@@ -4005,20 +3949,6 @@
       "emprestados": 0,
       "disponiveis": 1,
       "localizacao": "Estante A, A18. Romance / Autores Variados",
-      "status": "Disponível",
-      "capa": ""
-    },
-    {
-      "titulo": "O Casamento",
-      "autor": "Nicholas Sparks",
-      "genero": "Romance",
-      "ano": 2012,
-      "editora": "Arqueiro",
-      "cidade": "São Paulo",
-      "exemplares": 18,
-      "emprestados": 0,
-      "disponiveis": 18,
-      "localizacao": "Estante A, A2. Romance",
       "status": "Disponível",
       "capa": ""
     },
@@ -4205,20 +4135,6 @@
       "capa": ""
     },
     {
-      "titulo": "O Ponto Onde Estamos",
-      "autor": "Paulo Miceli",
-      "genero": "Romance",
-      "ano": 2008,
-      "editora": "Unicamp",
-      "cidade": "Campinas, SP",
-      "exemplares": 1,
-      "emprestados": 0,
-      "disponiveis": 1,
-      "localizacao": "Estante B, B15. Romance",
-      "status": "Disponível",
-      "capa": ""
-    },
-    {
       "titulo": "A Volta do Fradim",
       "autor": "Henfil",
       "genero": "História em Quadrinhos",
@@ -4331,34 +4247,6 @@
       "capa": ""
     },
     {
-      "titulo": "Os Valores no Tempo",
-      "autor": "Miguel Josino Neto",
-      "genero": "Crônica",
-      "ano": 2015,
-      "editora": "Jovens Escribas",
-      "cidade": "Natal RN",
-      "exemplares": 1,
-      "emprestados": 0,
-      "disponiveis": 1,
-      "localizacao": "Estante B, B20. Crônicas",
-      "status": "Disponível",
-      "capa": ""
-    },
-    {
-      "titulo": "Persuasão",
-      "autor": "Jane Austen",
-      "genero": "Romance",
-      "ano": 2014,
-      "editora": "Besta Seller Ltda",
-      "cidade": "Rio de Janeiro",
-      "exemplares": 1,
-      "emprestados": 0,
-      "disponiveis": 1,
-      "localizacao": "Estante A, A4. Romance",
-      "status": "Disponível",
-      "capa": ""
-    },
-    {
       "titulo": "Victor Jara: Não à Ditadura",
       "autor": "Bruno Doucey",
       "genero": "Literatura Infantojuvenil",
@@ -4383,20 +4271,6 @@
       "emprestados": 0,
       "disponiveis": 1,
       "localizacao": "Estante A, A5. Romance",
-      "status": "Disponível",
-      "capa": ""
-    },
-    {
-      "titulo": "O Príncipe e o Mendigo",
-      "autor": "Mark Twain",
-      "genero": "Literatura Infantojuvenil",
-      "ano": 2012,
-      "editora": "Martin Claret LTDA",
-      "cidade": "São Paulo",
-      "exemplares": 1,
-      "emprestados": 0,
-      "disponiveis": 1,
-      "localizacao": "Estante A, A4. Romance",
       "status": "Disponível",
       "capa": ""
     },
@@ -4499,20 +4373,6 @@
       "capa": ""
     },
     {
-      "titulo": "O Menino Que Sobreviveu",
-      "autor": "Rhiannon Navin",
-      "genero": "Romance",
-      "ano": 2021,
-      "editora": "Prime",
-      "cidade": "São Jorge",
-      "exemplares": 1,
-      "emprestados": 0,
-      "disponiveis": 1,
-      "localizacao": "Estante A, A4. Romance",
-      "status": "Disponível",
-      "capa": ""
-    },
-    {
       "titulo": "Diário de Um Gato Assassino",
       "autor": "Anne Fine",
       "genero": "Literatura Infantojuvenil",
@@ -4569,20 +4429,6 @@
       "capa": ""
     },
     {
-      "titulo": "Comer, Rezar, Amar",
-      "autor": "Elizabeth Gilbert",
-      "genero": "Romance",
-      "ano": 2008,
-      "editora": "Objetiva",
-      "cidade": "Rio de Janeiro",
-      "exemplares": 1,
-      "emprestados": 0,
-      "disponiveis": 1,
-      "localizacao": "Estante A, A4. Romance",
-      "status": "Disponível",
-      "capa": ""
-    },
-    {
       "titulo": "Wangari Maathai",
       "autor": "Ofoego Obioma",
       "genero": "Literatura Infantojuvenil",
@@ -4593,20 +4439,6 @@
       "emprestados": 0,
       "disponiveis": 1,
       "localizacao": "Estante C, C1. Literatura Infantojuvenil",
-      "status": "Disponível",
-      "capa": ""
-    },
-    {
-      "titulo": "O Silêncio da Chuva",
-      "autor": "Luiz Alfredo, Garcia-Roza",
-      "genero": "Romance",
-      "ano": 2008,
-      "editora": "Claroenigma",
-      "cidade": "Belo Horizonte",
-      "exemplares": 1,
-      "emprestados": 0,
-      "disponiveis": 1,
-      "localizacao": "Estante A, A4. Romance",
       "status": "Disponível",
       "capa": ""
     },
@@ -4659,20 +4491,6 @@
       "ano": 2023,
       "editora": "Timbu",
       "cidade": "Natal",
-      "exemplares": 1,
-      "emprestados": 0,
-      "disponiveis": 1,
-      "localizacao": "Estante C, C1. Literatura Infantojuvenil",
-      "status": "Disponível",
-      "capa": ""
-    },
-    {
-      "titulo": "O Negro no Brasil",
-      "autor": "Dantas•Mattos•Abreu",
-      "genero": "Literatura Infantojuvenil",
-      "ano": 2012,
-      "editora": "Objetiva",
-      "cidade": "Rio de janeiro ",
       "exemplares": 1,
       "emprestados": 0,
       "disponiveis": 1,
