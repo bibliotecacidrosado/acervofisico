@@ -1,8 +1,8 @@
 {
-  "ultimaAtualizacao": "2025-09-30T16:54:42.303Z",
-  "totalLivros": 317,
-  "totalExemplares": 1269,
-  "totalDisponiveis": 1269,
+  "ultimaAtualizacao": "2025-09-30T16:56:28.333Z",
+  "totalLivros": 318,
+  "totalExemplares": 1270,
+  "totalDisponiveis": 1270,
   "livros": [
     {
       "titulo": "Aprendendo a Amar e a Curar ",
@@ -4439,6 +4439,20 @@
       "emprestados": 0,
       "disponiveis": 1,
       "localizacao": "Estante C, C4. Literatura Infantojuvenil",
+      "status": "Disponível",
+      "capa": ""
+    },
+    {
+      "titulo": "Na urubuquaquá no pinhém",
+      "autor": "João Guimarães Rosa",
+      "genero": "Romance",
+      "ano": 2001,
+      "editora": "Editora Nova fronteira",
+      "cidade": "Rio de janeiro ",
+      "exemplares": 1,
+      "emprestados": 0,
+      "disponiveis": 1,
+      "localizacao": "Estante A, A5. Romance",
       "status": "Disponível",
       "capa": ""
     }
