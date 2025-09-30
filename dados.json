@@ -1,8 +1,8 @@
 {
-  "ultimaAtualizacao": "2025-09-30T17:25:31.020Z",
-  "totalLivros": 340,
-  "totalExemplares": 1292,
-  "totalDisponiveis": 1292,
+  "ultimaAtualizacao": "2025-09-30T17:26:56.613Z",
+  "totalLivros": 341,
+  "totalExemplares": 1293,
+  "totalDisponiveis": 1293,
   "livros": [
     {
       "titulo": "Aprendendo a Amar e a Curar",
@@ -4761,6 +4761,20 @@
       "emprestados": 0,
       "disponiveis": 1,
       "localizacao": "Estante C, C1. Literatura Infantojuvenil",
+      "status": "Disponível",
+      "capa": ""
+    },
+    {
+      "titulo": "O dia em que a minha vida mudou por causa de um chocolate comprado nas ilhas maldivas ",
+      "autor": "Keka reis ",
+      "genero": "Literatura Infantojuvenil",
+      "ano": "6 ano 9 ano ",
+      "editora": "Fontanar 2018",
+      "cidade": "Rio de janeiro ",
+      "exemplares": 1,
+      "emprestados": 0,
+      "disponiveis": 1,
+      "localizacao": "Estante C, C4. Literatura Infantojuvenil",
       "status": "Disponível",
       "capa": ""
     }
