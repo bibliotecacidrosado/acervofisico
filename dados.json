@@ -1,8 +1,8 @@
 {
-  "ultimaAtualizacao": "2025-09-30T17:05:19.773Z",
-  "totalLivros": 327,
-  "totalExemplares": 1279,
-  "totalDisponiveis": 1279,
+  "ultimaAtualizacao": "2025-09-30T17:05:53.136Z",
+  "totalLivros": 328,
+  "totalExemplares": 1280,
+  "totalDisponiveis": 1280,
   "livros": [
     {
       "titulo": "Aprendendo a Amar e a Curar ",
@@ -4579,6 +4579,20 @@
       "emprestados": 0,
       "disponiveis": 1,
       "localizacao": "Estante A, A4. Romance",
+      "status": "Disponível",
+      "capa": ""
+    },
+    {
+      "titulo": "Diário de um gato assassino ",
+      "autor": "Anne Fine",
+      "genero": "Literatura Infantojuvenil",
+      "ano": 2004,
+      "editora": "Edições SM",
+      "cidade": "São Paulo ",
+      "exemplares": 1,
+      "emprestados": 0,
+      "disponiveis": 1,
+      "localizacao": "Estante C, C5. Literatura Infantojuvenil",
       "status": "Disponível",
       "capa": ""
     }
