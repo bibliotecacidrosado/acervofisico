@@ -1,8 +1,8 @@
 {
-  "ultimaAtualizacao": "2025-09-30T17:13:20.098Z",
-  "totalLivros": 335,
-  "totalExemplares": 1287,
-  "totalDisponiveis": 1287,
+  "ultimaAtualizacao": "2025-09-30T17:19:57.581Z",
+  "totalLivros": 336,
+  "totalExemplares": 1288,
+  "totalDisponiveis": 1288,
   "livros": [
     {
       "titulo": "Aprendendo a Amar e a Curar ",
@@ -4687,6 +4687,20 @@
       "ano": 2018,
       "editora": "Fgv editora ",
       "cidade": "Rio de Janeiro ",
+      "exemplares": 1,
+      "emprestados": 0,
+      "disponiveis": 1,
+      "localizacao": "Estante C, C1. Literatura Infantojuvenil",
+      "status": "Disponível",
+      "capa": ""
+    },
+    {
+      "titulo": "Minha Querida assombração ",
+      "autor": "Reginaldo prandi",
+      "genero": "Literatura Infantojuvenil",
+      "ano": 2018,
+      "editora": "Rodrigo Rosa",
+      "cidade": "São Paulo ",
       "exemplares": 1,
       "emprestados": 0,
       "disponiveis": 1,
