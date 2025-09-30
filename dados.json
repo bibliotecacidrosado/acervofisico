@@ -1,8 +1,8 @@
 {
-  "ultimaAtualizacao": "2025-09-30T16:50:54.766Z",
-  "totalLivros": 312,
-  "totalExemplares": 1264,
-  "totalDisponiveis": 1264,
+  "ultimaAtualizacao": "2025-09-30T16:51:56.866Z",
+  "totalLivros": 313,
+  "totalExemplares": 1265,
+  "totalDisponiveis": 1265,
   "livros": [
     {
       "titulo": "Aprendendo a Amar e a Curar ",
@@ -4369,6 +4369,20 @@
       "emprestados": 0,
       "disponiveis": 1,
       "localizacao": "Estante A, A4. Romance",
+      "status": "Disponível",
+      "capa": ""
+    },
+    {
+      "titulo": "O sonho de Lampião ",
+      "autor": "Penélope Martins e Marco Haurélio ",
+      "genero": "Literatura Infantojuvenil",
+      "ano": 2022,
+      "editora": "Michele de Souza Barbosa ",
+      "cidade": "São Paulo ",
+      "exemplares": 1,
+      "emprestados": 0,
+      "disponiveis": 1,
+      "localizacao": "Estante C, C1. Literatura Infantojuvenil",
       "status": "Disponível",
       "capa": ""
     }
