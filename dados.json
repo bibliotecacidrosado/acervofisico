@@ -1,8 +1,8 @@
 {
-  "ultimaAtualizacao": "2025-09-30T16:32:17.153Z",
-  "totalLivros": 302,
-  "totalExemplares": 1254,
-  "totalDisponiveis": 1254,
+  "ultimaAtualizacao": "2025-09-30T16:36:24.989Z",
+  "totalLivros": 303,
+  "totalExemplares": 1255,
+  "totalDisponiveis": 1255,
   "livros": [
     {
       "titulo": "Aprendendo a Amar e a Curar ",
@@ -4229,6 +4229,20 @@
       "emprestados": 0,
       "disponiveis": 1,
       "localizacao": "Estante A, A5. Romance",
+      "status": "Disponível",
+      "capa": ""
+    },
+    {
+      "titulo": "Quissama:O império dos capoeiras",
+      "autor": "Maicon Tenfen",
+      "genero": "Religioso (literatura religiosa)",
+      "ano": 2014,
+      "editora": "Editora Biruta",
+      "cidade": "São Paulo ",
+      "exemplares": 1,
+      "emprestados": 0,
+      "disponiveis": 1,
+      "localizacao": "Estante C, B23. Religião",
       "status": "Disponível",
       "capa": ""
     }
