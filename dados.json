@@ -1,8 +1,8 @@
 {
-  "ultimaAtualizacao": "2025-09-30T17:21:10.342Z",
-  "totalLivros": 337,
-  "totalExemplares": 1289,
-  "totalDisponiveis": 1289,
+  "ultimaAtualizacao": "2025-09-30T17:22:48.861Z",
+  "totalLivros": 338,
+  "totalExemplares": 1290,
+  "totalDisponiveis": 1290,
   "livros": [
     {
       "titulo": "Aprendendo a Amar e a Curar",
@@ -4685,7 +4685,7 @@
       "autor": "Marcos Arthur",
       "genero": "Literatura Infantojuvenil",
       "ano": 2018,
-      "editora": "Fgv Editora",
+      "editora": "FGV Editora",
       "cidade": "Rio de Janeiro",
       "exemplares": 1,
       "emprestados": 0,
@@ -4719,6 +4719,20 @@
       "emprestados": 0,
       "disponiveis": 1,
       "localizacao": "Estante C, C1. Literatura Infantojuvenil",
+      "status": "Disponível",
+      "capa": ""
+    },
+    {
+      "titulo": "Harry Potter e a câmara Secreta ",
+      "autor": "J. k. Rowling ",
+      "genero": "Literatura Infantojuvenil",
+      "ano": 1998,
+      "editora": "Rocco LTDA",
+      "cidade": "Grã-bretanha",
+      "exemplares": 1,
+      "emprestados": 0,
+      "disponiveis": 1,
+      "localizacao": "Estante C, C4. Literatura Infantojuvenil",
       "status": "Disponível",
       "capa": ""
     }
