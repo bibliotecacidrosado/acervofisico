@@ -1,8 +1,8 @@
 {
-  "ultimaAtualizacao": "2025-09-30T16:39:51.436Z",
-  "totalLivros": 308,
-  "totalExemplares": 1260,
-  "totalDisponiveis": 1260,
+  "ultimaAtualizacao": "2025-09-30T16:42:58.495Z",
+  "totalLivros": 309,
+  "totalExemplares": 1261,
+  "totalDisponiveis": 1261,
   "livros": [
     {
       "titulo": "Aprendendo a Amar e a Curar ",
@@ -4084,7 +4084,7 @@
       "genero": "Romance",
       "ano": 2012,
       "editora": "Arqueiro",
-      "cidade": "São paulo",
+      "cidade": "São Paulo",
       "exemplares": 18,
       "emprestados": 0,
       "disponiveis": 18,
@@ -4097,8 +4097,8 @@
       "autor": "Jone Austen",
       "genero": "Romance",
       "ano": 2013,
-      "editora": "Martin claret",
-      "cidade": 2009,
+      "editora": "Martin Claret",
+      "cidade": "São Paulo",
       "exemplares": 1,
       "emprestados": 0,
       "disponiveis": 1,
@@ -4219,8 +4219,8 @@
       "capa": ""
     },
     {
-      "titulo": "As aventuras de Robin hood",
-      "autor": "Howard pyle",
+      "titulo": "As aventuras de Robin Hood",
+      "autor": "Howard Pyle",
       "genero": "Romance",
       "ano": 2009,
       "editora": "Martin claret",
@@ -4247,7 +4247,7 @@
       "capa": ""
     },
     {
-      "titulo": "As palejas de oujuara",
+      "titulo": "As Pelejas de Ojuara",
       "autor": "Nei Leandro De Castro",
       "genero": "Romance",
       "ano": 2023,
@@ -4313,6 +4313,20 @@
       "emprestados": 0,
       "disponiveis": 1,
       "localizacao": "Estante B, B19. Contos",
+      "status": "Disponível",
+      "capa": ""
+    },
+    {
+      "titulo": "Sherlock Holmes Um Estudo em Vermelho ",
+      "autor": "Arthur Conan Doyle",
+      "genero": "Romance",
+      "ano": 2019,
+      "editora": "Monique D'Orazio",
+      "cidade": "Barueri SP",
+      "exemplares": 1,
+      "emprestados": 0,
+      "disponiveis": 1,
+      "localizacao": "Estante A, A2. Romance",
       "status": "Disponível",
       "capa": ""
     }
