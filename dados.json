@@ -1,8 +1,8 @@
 {
-  "ultimaAtualizacao": "2025-09-30T16:31:54.712Z",
-  "totalLivros": 301,
-  "totalExemplares": 1253,
-  "totalDisponiveis": 1253,
+  "ultimaAtualizacao": "2025-09-30T16:32:17.153Z",
+  "totalLivros": 302,
+  "totalExemplares": 1254,
+  "totalDisponiveis": 1254,
   "livros": [
     {
       "titulo": "Aprendendo a Amar e a Curar ",
@@ -4215,6 +4215,20 @@
       "emprestados": 0,
       "disponiveis": 1,
       "localizacao": "Estante B, B7. Contos",
+      "status": "Disponível",
+      "capa": ""
+    },
+    {
+      "titulo": "As aventuras de Robin hood",
+      "autor": "Howard pyle",
+      "genero": "Romance",
+      "ano": 2009,
+      "editora": "Martin claret",
+      "cidade": "São Paulo ",
+      "exemplares": 1,
+      "emprestados": 0,
+      "disponiveis": 1,
+      "localizacao": "Estante A, A5. Romance",
       "status": "Disponível",
       "capa": ""
     }
