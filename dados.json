@@ -1,8 +1,8 @@
 {
-  "ultimaAtualizacao": "2025-09-30T19:18:49.467Z",
-  "totalLivros": 331,
-  "totalExemplares": 1214,
-  "totalDisponiveis": 1214,
+  "ultimaAtualizacao": "2025-10-05T00:36:02.514Z",
+  "totalLivros": 328,
+  "totalExemplares": 1211,
+  "totalDisponiveis": 1211,
   "livros": [
     {
       "titulo": "A Árvore Que Dava Dinheiro",
@@ -873,7 +873,7 @@
       "capa": "https://drive.google.com/open?id=1n3vaDrI4L1Rrm5keLc2mMQsg9f8I-jPu"
     },
     {
-      "titulo": "Whaterve",
+      "titulo": "Whatever",
       "autor": "Leonardo Brasiliense",
       "genero": "Romance",
       "ano": 2009,
@@ -969,6 +969,48 @@
       "localizacao": "Estante A, A3. Romance",
       "status": "Disponível",
       "capa": "https://drive.google.com/open?id=12oxf5BMr_cVFqCJjmWgH8Hz0H1XtKqTM"
+    },
+    {
+      "titulo": "Memória do Subsolo",
+      "autor": "Fiódor Dostoiévski",
+      "genero": "Romance",
+      "ano": 2018,
+      "editora": "Kalinka",
+      "cidade": 2018,
+      "exemplares": 1,
+      "emprestados": 0,
+      "disponiveis": 1,
+      "localizacao": "Estante A, A3. Romance",
+      "status": "Disponível",
+      "capa": "https://drive.google.com/open?id=15KIHaTv8IjBHLofx91e9JGfmrauuwciq"
+    },
+    {
+      "titulo": "Crispo de Papel",
+      "autor": "Benedito Nunes",
+      "genero": "Romance",
+      "ano": 1999,
+      "editora": "Ática",
+      "cidade": "São Paulo",
+      "exemplares": 1,
+      "emprestados": 0,
+      "disponiveis": 1,
+      "localizacao": "Estante A, A3. Romance",
+      "status": "Disponível",
+      "capa": "https://drive.google.com/open?id=1CYUpXGhGmAY0S0IF4CTktw4y4DrmyDGS"
+    },
+    {
+      "titulo": "Pollyanna",
+      "autor": "Eleanor H. Porter",
+      "genero": "Romance",
+      "ano": 2014,
+      "editora": "Scipione",
+      "cidade": "Sao Paulo",
+      "exemplares": 1,
+      "emprestados": 0,
+      "disponiveis": 1,
+      "localizacao": "Estante A, A3. Romance",
+      "status": "Disponível",
+      "capa": "https://drive.google.com/open?id=19ASPHnYEO-fYVzY-9-lWUQ9QBnnRgEaf"
     },
     {
       "titulo": "A Botija Que Caiu do Céu",
@@ -2231,12 +2273,12 @@
       "capa": ""
     },
     {
-      "titulo": "Rubem fonseca ",
-      "autor": "Rubem fonseca ",
+      "titulo": "Rubem Fonseca",
+      "autor": "Rubem Fonseca",
       "genero": "Poema",
       "ano": "Ensino medio ",
-      "editora": "Ediouro publicacoes de lazer e cultura ",
-      "cidade": "Rio de janeiro ",
+      "editora": "Ediouro Publicacoes de Lazer e Cultura",
+      "cidade": "Rio de Janeiro",
       "exemplares": 1,
       "emprestados": 0,
       "disponiveis": 1,
@@ -2299,20 +2341,6 @@
       "localizacao": "Estante B, B2. Romance",
       "status": "Disponível",
       "capa": ""
-    },
-    {
-      "titulo": "A Empregada ESTÁ de OLHO",
-      "autor": "Freida Mcfadden",
-      "genero": "Romance",
-      "ano": 2024,
-      "editora": "Arqueiro",
-      "cidade": "São Paulo",
-      "exemplares": 1,
-      "emprestados": 0,
-      "disponiveis": 1,
-      "localizacao": "Estante B, B2. Romance",
-      "status": "Disponível",
-      "capa": "https://drive.google.com/open?id=1i-ZCeQNAmXWn3zo7PE2qiVboHKfuperF"
     },
     {
       "titulo": "A Empregada Está de Olho",
@@ -2551,20 +2579,6 @@
       "localizacao": "Estante B, B2. Romance",
       "status": "Disponível",
       "capa": "https://drive.google.com/open?id=1BuD9dEUQiRwjUdqjGqdKN7R6ysQZfvf9"
-    },
-    {
-      "titulo": "Um Pedido às Estrelas",
-      "autor": "Priscille Sibley",
-      "genero": "Romance",
-      "ano": 2013,
-      "editora": "Benvirá",
-      "cidade": "São Paulo",
-      "exemplares": 1,
-      "emprestados": 0,
-      "disponiveis": 1,
-      "localizacao": "Estante B, B2. Romance",
-      "status": "Disponível",
-      "capa": "https://drive.google.com/open?id=1dUK2SoVYU1rEOue2SgxL_V8jV2pNJ7Pj"
     },
     {
       "titulo": "Vermelho, Branco e Sangue Azul",
@@ -3085,20 +3099,6 @@
       "capa": ""
     },
     {
-      "titulo": "Velhos costumes do meu sertão ",
-      "autor": "Juvenal Lamartine de Fari",
-      "genero": "Romance",
-      "ano": 2021,
-      "editora": "Rilder Medeiros ",
-      "cidade": "Rio grande do Norte ",
-      "exemplares": 1,
-      "emprestados": 0,
-      "disponiveis": 1,
-      "localizacao": "Estante B, B4. Romance",
-      "status": "Disponível",
-      "capa": ""
-    },
-    {
       "titulo": "Cabra das Rocas",
       "autor": "Homero Homem",
       "genero": "Romance",
@@ -3267,12 +3267,12 @@
       "capa": ""
     },
     {
-      "titulo": "A grande ilusão ",
-      "autor": "Luiz Fernando Emediato ",
+      "titulo": "A Grande Ilusão",
+      "autor": "Luiz Fernando Emediato",
       "genero": "Crônica",
       "ano": 2021,
-      "editora": "Fernanda imediato",
-      "cidade": "São Paulo ",
+      "editora": "Fernanda Imediato",
+      "cidade": "São Paulo",
       "exemplares": 1,
       "emprestados": 0,
       "disponiveis": 1,
@@ -3435,8 +3435,8 @@
       "capa": ""
     },
     {
-      "titulo": "As rãs que cantavam como passarinho ",
-      "autor": "Ana Cláudia trigueiro",
+      "titulo": "As Rãs Que Cantavam Como Passarinho",
+      "autor": "Ana Cláudia Trigueiro",
       "genero": "Literatura Infantojuvenil",
       "ano": 2023,
       "editora": "Timbu",
@@ -3505,12 +3505,12 @@
       "capa": ""
     },
     {
-      "titulo": "Histórias que os jornais não contam",
+      "titulo": "Histórias Que os Jornais Não Contam",
       "autor": "Moacyr Scliar",
       "genero": "Literatura Infantojuvenil",
       "ano": 2019,
-      "editora": "L&PM editores ",
-      "cidade": "Porto Alegre ",
+      "editora": "L&PM Editores",
+      "cidade": "Porto Alegre",
       "exemplares": 1,
       "emprestados": 0,
       "disponiveis": 1,
@@ -3561,12 +3561,12 @@
       "capa": "https://drive.google.com/open?id=1QY8YNbAh7yRSqXsCUX1WWdT_UUcusrqg"
     },
     {
-      "titulo": "Minha Querida Assombração ",
+      "titulo": "Minha Querida Assombração",
       "autor": "Reginaldo Prandi",
       "genero": "Literatura Infantojuvenil",
       "ano": 2018,
       "editora": "Rodrigo Rosa",
-      "cidade": "São Paulo ",
+      "cidade": "São Paulo",
       "exemplares": 1,
       "emprestados": 0,
       "disponiveis": 1,
@@ -3827,12 +3827,12 @@
       "capa": "https://drive.google.com/open?id=1GitzeMUMTtity4mwf0BqqY3FzMiwu1u1"
     },
     {
-      "titulo": "O dia em que a minha vida mudou por causa de um chocolate comprado nas ilhas maldivas ",
-      "autor": "Keka Reis ",
+      "titulo": "O Dia em Que a Minha Vida Mudou por Causa de Um Chocolate Comprado nas Ilhas Maldivas",
+      "autor": "Keka Reis",
       "genero": "Literatura Infantojuvenil",
       "ano": 2018,
       "editora": "Fontanar",
-      "cidade": "Rio de janeiro ",
+      "cidade": "Rio de Janeiro",
       "exemplares": 1,
       "emprestados": 0,
       "disponiveis": 1,
@@ -3996,11 +3996,11 @@
     },
     {
       "titulo": "Dom Quixote",
-      "autor": "Walcyr carrasco ",
+      "autor": "Walcyr Carrasco",
       "genero": "Literatura Infantojuvenil",
       "ano": 2021,
       "editora": "Richamond",
-      "cidade": "São Paulo ",
+      "cidade": "São Paulo",
       "exemplares": 1,
       "emprestados": 0,
       "disponiveis": 1,
@@ -4049,6 +4049,34 @@
       "localizacao": "Estante C, C5. Literatura Infantojuvenil",
       "status": "Disponível",
       "capa": "https://drive.google.com/open?id=1JRKhkmXByCxFwarTvuUD3Vk-3weFazR4"
+    },
+    {
+      "titulo": "Memórias de Um Adolescente Brasileiro na Alemanha Nazista",
+      "autor": "Elisabeth Loibl",
+      "genero": "Literatura Infantojuvenil",
+      "ano": 2018,
+      "editora": "Melhoramentos",
+      "cidade": "São Paulo",
+      "exemplares": 1,
+      "emprestados": 0,
+      "disponiveis": 1,
+      "localizacao": "Estante C, C5. Literatura Infantojuvenil",
+      "status": "Disponível",
+      "capa": "https://drive.google.com/open?id=1orpMXcCEpXCXzG1wEmP1CiD4-n2D0Cph"
+    },
+    {
+      "titulo": "Histórias Arrepiantes de Crianças-Prodígio",
+      "autor": "Linda Quilt",
+      "genero": "Literatura Infantojuvenil",
+      "ano": 2011,
+      "editora": "Cia. das Letras",
+      "cidade": "São Paulo",
+      "exemplares": 1,
+      "emprestados": 0,
+      "disponiveis": 1,
+      "localizacao": "Estante C, C5. Literatura Infantojuvenil",
+      "status": "Disponível",
+      "capa": "https://drive.google.com/open?id=1R8nKJZpf71Rff8EDHeHbemWrhk0yBTza"
     },
     {
       "titulo": "O Quarto Pato",
@@ -4135,7 +4163,7 @@
       "capa": "https://drive.google.com/open?id=1U6sHmuxBn2NZgvI5tPOby9sWlWTfT4Gm"
     },
     {
-      "titulo": "Eu, minha Irmã e Seu Universo Particular",
+      "titulo": "Eu, Minha Irmã e Seu Universo Particular",
       "autor": "Eileen Garvin",
       "genero": "Literatura Infantojuvenil",
       "ano": 2021,
@@ -4476,7 +4504,7 @@
       "genero": "Literatura Infantojuvenil",
       "ano": 2017,
       "editora": "Olho de Vidro",
-      "cidade": "Curitiba-Pr",
+      "cidade": "Curitiba",
       "exemplares": 2,
       "emprestados": 0,
       "disponiveis": 2,
@@ -4567,76 +4595,6 @@
       "localizacao": "Estante D, D7. Inglês e Espanhol",
       "status": "Disponível",
       "capa": ""
-    },
-    {
-      "titulo": "Memórias de um Adolescente Brasileiro na Alemanha Nazista ",
-      "autor": "Elisabeth Loibl",
-      "genero": "Literatura Infantojuvenil",
-      "ano": 2018,
-      "editora": "Melhoramentos ",
-      "cidade": "São Paulo ",
-      "exemplares": 1,
-      "emprestados": 0,
-      "disponiveis": 1,
-      "localizacao": "Estante C, C5. Literatura Infantojuvenil",
-      "status": "Disponível",
-      "capa": "https://drive.google.com/open?id=1orpMXcCEpXCXzG1wEmP1CiD4-n2D0Cph"
-    },
-    {
-      "titulo": "Memória do subsolo",
-      "autor": "Fiódor Dostoiévski",
-      "genero": "Romance",
-      "ano": 2018,
-      "editora": "Kalinka",
-      "cidade": 2018,
-      "exemplares": 1,
-      "emprestados": 0,
-      "disponiveis": 1,
-      "localizacao": "Estante A, A3. Romance",
-      "status": "Disponível",
-      "capa": "https://drive.google.com/open?id=15KIHaTv8IjBHLofx91e9JGfmrauuwciq"
-    },
-    {
-      "titulo": "Crispo de papel",
-      "autor": "Benedito Nunes",
-      "genero": "Romance",
-      "ano": 1999,
-      "editora": "Ática",
-      "cidade": "São Paulo ",
-      "exemplares": 1,
-      "emprestados": 0,
-      "disponiveis": 1,
-      "localizacao": "Estante A, A3. Romance",
-      "status": "Disponível",
-      "capa": "https://drive.google.com/open?id=1CYUpXGhGmAY0S0IF4CTktw4y4DrmyDGS"
-    },
-    {
-      "titulo": "Histórias arrepiantes de CRIANÇAS-PRODÍGIO ",
-      "autor": "Linda Quilt",
-      "genero": "Literatura Infantojuvenil",
-      "ano": 2011,
-      "editora": "Cia. Das Letras",
-      "cidade": "São Paulo ",
-      "exemplares": 1,
-      "emprestados": 0,
-      "disponiveis": 1,
-      "localizacao": "Estante C, C5. Literatura Infantojuvenil",
-      "status": "Disponível",
-      "capa": "https://drive.google.com/open?id=1R8nKJZpf71Rff8EDHeHbemWrhk0yBTza"
-    },
-    {
-      "titulo": "Pollyanna",
-      "autor": "Eleanor H. Porter",
-      "genero": "Romance",
-      "ano": 2014,
-      "editora": "Scipione",
-      "cidade": "Sao Paulo ",
-      "exemplares": 1,
-      "emprestados": 0,
-      "disponiveis": 1,
-      "localizacao": "Estante A, A3. Romance",
-      "status": "Disponível",
-      "capa": "https://drive.google.com/open?id=19ASPHnYEO-fYVzY-9-lWUQ9QBnnRgEaf"
     }
   ]
 }
