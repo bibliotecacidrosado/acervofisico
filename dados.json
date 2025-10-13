@@ -1,8 +1,8 @@
 {
-  "ultimaAtualizacao": "2025-10-13T19:47:00.390Z",
-  "totalLivros": 366,
-  "totalExemplares": 1356,
-  "totalDisponiveis": 1356,
+  "ultimaAtualizacao": "2025-10-13T19:47:50.567Z",
+  "totalLivros": 367,
+  "totalExemplares": 1367,
+  "totalDisponiveis": 1367,
   "livros": [
     {
       "titulo": "A Árvore Que Dava Dinheiro",
@@ -5124,6 +5124,20 @@
       "exemplares": 12,
       "emprestados": 0,
       "disponiveis": 12,
+      "localizacao": "Estante D, D10. Atlas Visuais",
+      "status": "Disponível",
+      "capa": ""
+    },
+    {
+      "titulo": "A Pré-Hitória",
+      "autor": "Levi Figuti",
+      "genero": "Atlas",
+      "ano": 2003,
+      "editora": "Ática ",
+      "cidade": "São Paulo ",
+      "exemplares": 11,
+      "emprestados": 0,
+      "disponiveis": 11,
       "localizacao": "Estante D, D10. Atlas Visuais",
       "status": "Disponível",
       "capa": ""
