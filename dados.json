@@ -1,8 +1,8 @@
 {
-  "ultimaAtualizacao": "2025-10-13T19:50:29.261Z",
-  "totalLivros": 370,
-  "totalExemplares": 1378,
-  "totalDisponiveis": 1378,
+  "ultimaAtualizacao": "2025-10-13T19:50:37.653Z",
+  "totalLivros": 371,
+  "totalExemplares": 1387,
+  "totalDisponiveis": 1387,
   "livros": [
     {
       "titulo": "A Árvore Que Dava Dinheiro",
@@ -5181,6 +5181,20 @@
       "emprestados": 0,
       "disponiveis": 1,
       "localizacao": "Estante B, B4. Romance",
+      "status": "Disponível",
+      "capa": ""
+    },
+    {
+      "titulo": "Esqueletos ",
+      "autor": "Marcelo Newton Ferreira Trotta",
+      "genero": "Atlas",
+      "ano": 2003,
+      "editora": "Ática ",
+      "cidade": "São Paulo ",
+      "exemplares": 9,
+      "emprestados": 0,
+      "disponiveis": 9,
+      "localizacao": "Estante D, D10. Atlas Visuais",
       "status": "Disponível",
       "capa": ""
     }
