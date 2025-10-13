@@ -1,8 +1,8 @@
 {
-  "ultimaAtualizacao": "2025-10-13T19:38:58.213Z",
-  "totalLivros": 355,
-  "totalExemplares": 1264,
-  "totalDisponiveis": 1264,
+  "ultimaAtualizacao": "2025-10-13T19:40:29.224Z",
+  "totalLivros": 356,
+  "totalExemplares": 1265,
+  "totalDisponiveis": 1265,
   "livros": [
     {
       "titulo": "A Árvore Que Dava Dinheiro",
@@ -4971,6 +4971,20 @@
       "emprestados": 0,
       "disponiveis": 1,
       "localizacao": "Estante A, A5. Romance",
+      "status": "Disponível",
+      "capa": ""
+    },
+    {
+      "titulo": "Os Miseráveis ",
+      "autor": "Victor Hugo",
+      "genero": "Romance",
+      "ano": 2018,
+      "editora": "Richmond ",
+      "cidade": "São Paulo",
+      "exemplares": 1,
+      "emprestados": 0,
+      "disponiveis": 1,
+      "localizacao": "Estante B, B4. Romance",
       "status": "Disponível",
       "capa": ""
     }
