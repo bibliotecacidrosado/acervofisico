@@ -1,8 +1,8 @@
 {
-  "ultimaAtualizacao": "2025-10-13T19:11:13.720Z",
-  "totalLivros": 329,
-  "totalExemplares": 1212,
-  "totalDisponiveis": 1212,
+  "ultimaAtualizacao": "2025-10-13T19:13:52.318Z",
+  "totalLivros": 330,
+  "totalExemplares": 1213,
+  "totalDisponiveis": 1213,
   "livros": [
     {
       "titulo": "A Árvore Que Dava Dinheiro",
@@ -4603,6 +4603,20 @@
       "ano": 2018,
       "editora": "Globo",
       "cidade": "Rio de Janeiro",
+      "exemplares": 1,
+      "emprestados": 0,
+      "disponiveis": 1,
+      "localizacao": "Estante B, B4. Romance",
+      "status": "Disponível",
+      "capa": ""
+    },
+    {
+      "titulo": "A Noite Que Nunca Acaba",
+      "autor": "Carlos Fialho",
+      "genero": "Romance",
+      "ano": 2016,
+      "editora": "Escribas",
+      "cidade": "Natal",
       "exemplares": 1,
       "emprestados": 0,
       "disponiveis": 1,
