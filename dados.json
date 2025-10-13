@@ -1,8 +1,8 @@
 {
-  "ultimaAtualizacao": "2025-10-13T19:38:53.188Z",
-  "totalLivros": 354,
-  "totalExemplares": 1263,
-  "totalDisponiveis": 1263,
+  "ultimaAtualizacao": "2025-10-13T19:38:58.213Z",
+  "totalLivros": 355,
+  "totalExemplares": 1264,
+  "totalDisponiveis": 1264,
   "livros": [
     {
       "titulo": "A Árvore Que Dava Dinheiro",
@@ -4957,6 +4957,20 @@
       "emprestados": 0,
       "disponiveis": 1,
       "localizacao": "Estante B, B4. Romance",
+      "status": "Disponível",
+      "capa": ""
+    },
+    {
+      "titulo": "A maldição da moleira ",
+      "autor": "Índigo ",
+      "genero": "Romance",
+      "ano": 2007,
+      "editora": "Girafinha",
+      "cidade": "São Paulo ",
+      "exemplares": 1,
+      "emprestados": 0,
+      "disponiveis": 1,
+      "localizacao": "Estante A, A5. Romance",
       "status": "Disponível",
       "capa": ""
     }
