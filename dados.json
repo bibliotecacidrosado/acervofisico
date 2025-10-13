@@ -1,8 +1,8 @@
 {
-  "ultimaAtualizacao": "2025-10-13T19:19:16.786Z",
-  "totalLivros": 335,
-  "totalExemplares": 1230,
-  "totalDisponiveis": 1230,
+  "ultimaAtualizacao": "2025-10-13T19:20:20.640Z",
+  "totalLivros": 336,
+  "totalExemplares": 1231,
+  "totalDisponiveis": 1231,
   "livros": [
     {
       "titulo": "A Árvore Que Dava Dinheiro",
@@ -4691,6 +4691,20 @@
       "emprestados": 0,
       "disponiveis": 1,
       "localizacao": "Estante B, B10. Poema",
+      "status": "Disponível",
+      "capa": ""
+    },
+    {
+      "titulo": "A Instituição Imaginaria Da Sociedade ",
+      "autor": "Cornelius Castoriadis",
+      "genero": "Formação Pedagógica (Educação)",
+      "ano": 1995,
+      "editora": "Paz E Terra ",
+      "cidade": "São Paulo ",
+      "exemplares": 1,
+      "emprestados": 0,
+      "disponiveis": 1,
+      "localizacao": "Estante D, D2. Formação Pedagógica",
       "status": "Disponível",
       "capa": ""
     }
