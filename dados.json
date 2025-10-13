@@ -1,8 +1,8 @@
 {
-  "ultimaAtualizacao": "2025-10-13T19:27:59.110Z",
-  "totalLivros": 344,
-  "totalExemplares": 1249,
-  "totalDisponiveis": 1249,
+  "ultimaAtualizacao": "2025-10-13T19:28:21.540Z",
+  "totalLivros": 345,
+  "totalExemplares": 1253,
+  "totalDisponiveis": 1253,
   "livros": [
     {
       "titulo": "A Árvore Que Dava Dinheiro",
@@ -4817,6 +4817,20 @@
       "emprestados": 0,
       "disponiveis": 1,
       "localizacao": "Estante A, A3. Romance",
+      "status": "Disponível",
+      "capa": ""
+    },
+    {
+      "titulo": "O melhor de mim ",
+      "autor": "Nicholas sparks",
+      "genero": "Romance",
+      "ano": 2011,
+      "editora": "Arqueiro LTDA",
+      "cidade": "Rio de janeiro ",
+      "exemplares": 4,
+      "emprestados": 0,
+      "disponiveis": 4,
+      "localizacao": "Estante A, A2. Romance",
       "status": "Disponível",
       "capa": ""
     }
