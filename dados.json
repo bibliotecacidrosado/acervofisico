@@ -1,8 +1,8 @@
 {
-  "ultimaAtualizacao": "2025-10-13T19:13:52.318Z",
-  "totalLivros": 330,
-  "totalExemplares": 1213,
-  "totalDisponiveis": 1213,
+  "ultimaAtualizacao": "2025-10-13T19:14:48.338Z",
+  "totalLivros": 331,
+  "totalExemplares": 1214,
+  "totalDisponiveis": 1214,
   "livros": [
     {
       "titulo": "A Árvore Que Dava Dinheiro",
@@ -4621,6 +4621,20 @@
       "emprestados": 0,
       "disponiveis": 1,
       "localizacao": "Estante B, B4. Romance",
+      "status": "Disponível",
+      "capa": ""
+    },
+    {
+      "titulo": "Do cancioneiro de D.dinis",
+      "autor": "D.dinis",
+      "genero": "Poema",
+      "ano": 1995,
+      "editora": "FTD",
+      "cidade": "São Paulo ",
+      "exemplares": 1,
+      "emprestados": 0,
+      "disponiveis": 1,
+      "localizacao": "Estante B, B10. Poema",
       "status": "Disponível",
       "capa": ""
     }
