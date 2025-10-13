@@ -1,8 +1,8 @@
 {
-  "ultimaAtualizacao": "2025-10-13T19:17:52.091Z",
-  "totalLivros": 333,
-  "totalExemplares": 1228,
-  "totalDisponiveis": 1228,
+  "ultimaAtualizacao": "2025-10-13T19:18:54.786Z",
+  "totalLivros": 334,
+  "totalExemplares": 1229,
+  "totalDisponiveis": 1229,
   "livros": [
     {
       "titulo": "A Árvore Que Dava Dinheiro",
@@ -4663,6 +4663,20 @@
       "emprestados": 0,
       "disponiveis": 2,
       "localizacao": "Estante B, B3. Romance",
+      "status": "Disponível",
+      "capa": ""
+    },
+    {
+      "titulo": "O Sedutor do Sertão ",
+      "autor": "Ariano Suassuna ",
+      "genero": "Romance",
+      "ano": 2020,
+      "editora": "Edipass",
+      "cidade": "Rio de Janeiro",
+      "exemplares": 1,
+      "emprestados": 0,
+      "disponiveis": 1,
+      "localizacao": "Estante B, B4. Romance",
       "status": "Disponível",
       "capa": ""
     }
