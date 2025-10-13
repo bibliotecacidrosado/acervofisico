@@ -1,8 +1,8 @@
 {
-  "ultimaAtualizacao": "2025-10-13T19:48:49.812Z",
-  "totalLivros": 368,
-  "totalExemplares": 1376,
-  "totalDisponiveis": 1376,
+  "ultimaAtualizacao": "2025-10-13T19:48:58.477Z",
+  "totalLivros": 369,
+  "totalExemplares": 1377,
+  "totalDisponiveis": 1377,
   "livros": [
     {
       "titulo": "A Árvore Que Dava Dinheiro",
@@ -5153,6 +5153,20 @@
       "emprestados": 0,
       "disponiveis": 9,
       "localizacao": "Estante D, D10. Atlas Visuais",
+      "status": "Disponível",
+      "capa": ""
+    },
+    {
+      "titulo": "A Lenda dos Cem",
+      "autor": "Gilvan Lemos",
+      "genero": "Romance",
+      "ano": 1995,
+      "editora": "Civilização Brasileira ",
+      "cidade": "Rio de Janeiro",
+      "exemplares": 1,
+      "emprestados": 0,
+      "disponiveis": 1,
+      "localizacao": "Estante B, B4. Romance",
       "status": "Disponível",
       "capa": ""
     }
