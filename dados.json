@@ -1,8 +1,8 @@
 {
-  "ultimaAtualizacao": "2025-10-13T19:45:41.652Z",
-  "totalLivros": 364,
-  "totalExemplares": 1343,
-  "totalDisponiveis": 1343,
+  "ultimaAtualizacao": "2025-10-13T19:46:50.939Z",
+  "totalLivros": 365,
+  "totalExemplares": 1344,
+  "totalDisponiveis": 1344,
   "livros": [
     {
       "titulo": "A Árvore Que Dava Dinheiro",
@@ -5093,6 +5093,20 @@
       "ano": 2018,
       "editora": "Globo",
       "cidade": "São Paulo",
+      "exemplares": 1,
+      "emprestados": 0,
+      "disponiveis": 1,
+      "localizacao": "Estante B, B4. Romance",
+      "status": "Disponível",
+      "capa": ""
+    },
+    {
+      "titulo": "No Coração Das Trevas",
+      "autor": "Joseph Conrad",
+      "genero": "Romance",
+      "ano": 2018,
+      "editora": "Azougue Editorial",
+      "cidade": "Rio de Janeiro",
       "exemplares": 1,
       "emprestados": 0,
       "disponiveis": 1,
