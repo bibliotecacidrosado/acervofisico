@@ -1,8 +1,8 @@
 {
-  "ultimaAtualizacao": "2025-10-13T19:42:44.027Z",
-  "totalLivros": 358,
-  "totalExemplares": 1267,
-  "totalDisponiveis": 1267,
+  "ultimaAtualizacao": "2025-10-13T19:43:00.691Z",
+  "totalLivros": 359,
+  "totalExemplares": 1268,
+  "totalDisponiveis": 1268,
   "livros": [
     {
       "titulo": "A Árvore Que Dava Dinheiro",
@@ -5013,6 +5013,20 @@
       "emprestados": 0,
       "disponiveis": 1,
       "localizacao": "Estante B, B4. Romance",
+      "status": "Disponível",
+      "capa": ""
+    },
+    {
+      "titulo": "Luz e cores ",
+      "autor": "Aníbal Figueiredo, Maurício pietrocola",
+      "genero": "Física",
+      "ano": 2008,
+      "editora": "FTD",
+      "cidade": "São Paulo ",
+      "exemplares": 1,
+      "emprestados": 0,
+      "disponiveis": 1,
+      "localizacao": "Estante C, C11. Física e Química",
       "status": "Disponível",
       "capa": ""
     }
