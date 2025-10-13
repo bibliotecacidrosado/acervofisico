@@ -1,8 +1,8 @@
 {
-  "ultimaAtualizacao": "2025-10-13T19:18:54.786Z",
-  "totalLivros": 334,
-  "totalExemplares": 1229,
-  "totalDisponiveis": 1229,
+  "ultimaAtualizacao": "2025-10-13T19:19:16.786Z",
+  "totalLivros": 335,
+  "totalExemplares": 1230,
+  "totalDisponiveis": 1230,
   "livros": [
     {
       "titulo": "A Árvore Que Dava Dinheiro",
@@ -4677,6 +4677,20 @@
       "emprestados": 0,
       "disponiveis": 1,
       "localizacao": "Estante B, B4. Romance",
+      "status": "Disponível",
+      "capa": ""
+    },
+    {
+      "titulo": "Viagem numa peneira ",
+      "autor": "Edward lear",
+      "genero": "Poema",
+      "ano": 2013,
+      "editora": "Iluminuras ltda",
+      "cidade": "São Paulo ",
+      "exemplares": 1,
+      "emprestados": 0,
+      "disponiveis": 1,
+      "localizacao": "Estante B, B10. Poema",
       "status": "Disponível",
       "capa": ""
     }
