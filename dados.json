@@ -1,8 +1,8 @@
 {
-  "ultimaAtualizacao": "2025-10-13T19:54:13.609Z",
-  "totalLivros": 376,
-  "totalExemplares": 1417,
-  "totalDisponiveis": 1417,
+  "ultimaAtualizacao": "2025-10-13T19:54:52.553Z",
+  "totalLivros": 377,
+  "totalExemplares": 1429,
+  "totalDisponiveis": 1429,
   "livros": [
     {
       "titulo": "A Árvore Que Dava Dinheiro",
@@ -5264,6 +5264,20 @@
       "exemplares": 10,
       "emprestados": 0,
       "disponiveis": 10,
+      "localizacao": "Estante D, D10. Atlas Visuais",
+      "status": "Disponível",
+      "capa": ""
+    },
+    {
+      "titulo": "Fisica",
+      "autor": "Alberto gaspar",
+      "genero": "Atlas",
+      "ano": 2003,
+      "editora": "editora Ática ",
+      "cidade": "São Paulo ",
+      "exemplares": 12,
+      "emprestados": 0,
+      "disponiveis": 12,
       "localizacao": "Estante D, D10. Atlas Visuais",
       "status": "Disponível",
       "capa": ""
