@@ -1,8 +1,8 @@
 {
-  "ultimaAtualizacao": "2025-10-13T19:40:41.232Z",
-  "totalLivros": 357,
-  "totalExemplares": 1266,
-  "totalDisponiveis": 1266,
+  "ultimaAtualizacao": "2025-10-13T19:42:44.027Z",
+  "totalLivros": 358,
+  "totalExemplares": 1267,
+  "totalDisponiveis": 1267,
   "livros": [
     {
       "titulo": "A Árvore Que Dava Dinheiro",
@@ -4999,6 +4999,20 @@
       "emprestados": 0,
       "disponiveis": 1,
       "localizacao": "Estante C, C11. Física e Química",
+      "status": "Disponível",
+      "capa": ""
+    },
+    {
+      "titulo": "Fantina",
+      "autor": "Duarte Badaró",
+      "genero": "Romance",
+      "ano": 2021,
+      "editora": "Chão ",
+      "cidade": "São Paulo",
+      "exemplares": 1,
+      "emprestados": 0,
+      "disponiveis": 1,
+      "localizacao": "Estante B, B4. Romance",
       "status": "Disponível",
       "capa": ""
     }
