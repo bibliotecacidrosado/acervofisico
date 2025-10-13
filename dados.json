@@ -1,8 +1,8 @@
 {
-  "ultimaAtualizacao": "2025-10-13T19:55:32.652Z",
-  "totalLivros": 378,
-  "totalExemplares": 1430,
-  "totalDisponiveis": 1430,
+  "ultimaAtualizacao": "2025-10-13T19:56:55.559Z",
+  "totalLivros": 379,
+  "totalExemplares": 1444,
+  "totalDisponiveis": 1444,
   "livros": [
     {
       "titulo": "A Árvore Que Dava Dinheiro",
@@ -5293,6 +5293,20 @@
       "emprestados": 0,
       "disponiveis": 1,
       "localizacao": "Estante B, B4. Romance",
+      "status": "Disponível",
+      "capa": ""
+    },
+    {
+      "titulo": "Quimica",
+      "autor": "José Atílio vanin",
+      "genero": "Atlas",
+      "ano": 2002,
+      "editora": "editora atica",
+      "cidade": "São Paulo ",
+      "exemplares": 14,
+      "emprestados": 0,
+      "disponiveis": 14,
+      "localizacao": "Estante D, D10. Atlas Visuais",
       "status": "Disponível",
       "capa": ""
     }
