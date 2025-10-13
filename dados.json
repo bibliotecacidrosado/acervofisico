@@ -1,8 +1,8 @@
 {
-  "ultimaAtualizacao": "2025-10-13T19:38:22.997Z",
-  "totalLivros": 353,
-  "totalExemplares": 1262,
-  "totalDisponiveis": 1262,
+  "ultimaAtualizacao": "2025-10-13T19:38:53.188Z",
+  "totalLivros": 354,
+  "totalExemplares": 1263,
+  "totalDisponiveis": 1263,
   "livros": [
     {
       "titulo": "A Árvore Que Dava Dinheiro",
@@ -4943,6 +4943,20 @@
       "emprestados": 0,
       "disponiveis": 1,
       "localizacao": "Estante C, C11. Física e Química",
+      "status": "Disponível",
+      "capa": ""
+    },
+    {
+      "titulo": "As Mulheres da Casa de Troia",
+      "autor": "Lia Neiva",
+      "genero": "Romance",
+      "ano": 2012,
+      "editora": "Edipass",
+      "cidade": "Rio de Janeiro",
+      "exemplares": 1,
+      "emprestados": 0,
+      "disponiveis": 1,
+      "localizacao": "Estante B, B4. Romance",
       "status": "Disponível",
       "capa": ""
     }
