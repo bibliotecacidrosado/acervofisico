@@ -1,8 +1,8 @@
 {
-  "ultimaAtualizacao": "2025-10-13T19:44:08.900Z",
-  "totalLivros": 362,
-  "totalExemplares": 1341,
-  "totalDisponiveis": 1341,
+  "ultimaAtualizacao": "2025-10-13T19:45:37.629Z",
+  "totalLivros": 364,
+  "totalExemplares": 1343,
+  "totalDisponiveis": 1343,
   "livros": [
     {
       "titulo": "A Árvore Que Dava Dinheiro",
@@ -5064,6 +5064,34 @@
       "genero": "Romance",
       "ano": 2020,
       "editora": "Editora Do Brasil",
+      "cidade": "São Paulo",
+      "exemplares": 1,
+      "emprestados": 0,
+      "disponiveis": 1,
+      "localizacao": "Estante B, B4. Romance",
+      "status": "Disponível",
+      "capa": ""
+    },
+    {
+      "titulo": "Investigar e conhecer ",
+      "autor": "Sônia lopes",
+      "genero": "Física",
+      "ano": 2015,
+      "editora": "Saraíva ",
+      "cidade": "São Paulo ",
+      "exemplares": 1,
+      "emprestados": 0,
+      "disponiveis": 1,
+      "localizacao": "Estante C, C11. Física e Química",
+      "status": "Disponível",
+      "capa": ""
+    },
+    {
+      "titulo": "A Sobrinha do Poeta",
+      "autor": "Stella Maris Rezende",
+      "genero": "Romance",
+      "ano": 2018,
+      "editora": "Globo",
       "cidade": "São Paulo",
       "exemplares": 1,
       "emprestados": 0,
