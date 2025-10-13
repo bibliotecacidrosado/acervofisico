@@ -1,8 +1,8 @@
 {
-  "ultimaAtualizacao": "2025-10-13T19:50:37.653Z",
-  "totalLivros": 371,
-  "totalExemplares": 1387,
-  "totalDisponiveis": 1387,
+  "ultimaAtualizacao": "2025-10-13T19:51:16.132Z",
+  "totalLivros": 372,
+  "totalExemplares": 1393,
+  "totalDisponiveis": 1393,
   "livros": [
     {
       "titulo": "A Árvore Que Dava Dinheiro",
@@ -5194,6 +5194,20 @@
       "exemplares": 9,
       "emprestados": 0,
       "disponiveis": 9,
+      "localizacao": "Estante D, D10. Atlas Visuais",
+      "status": "Disponível",
+      "capa": ""
+    },
+    {
+      "titulo": "Anatomia humana ",
+      "autor": "Prof.dr. Liberato J.A. Di Dio",
+      "genero": "Atlas",
+      "ano": 2003,
+      "editora": "Editora Ática ",
+      "cidade": "São Paulo ",
+      "exemplares": 6,
+      "emprestados": 0,
+      "disponiveis": 6,
       "localizacao": "Estante D, D10. Atlas Visuais",
       "status": "Disponível",
       "capa": ""
