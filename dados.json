@@ -1,8 +1,8 @@
 {
-  "ultimaAtualizacao": "2025-10-13T19:48:58.477Z",
-  "totalLivros": 369,
-  "totalExemplares": 1377,
-  "totalDisponiveis": 1377,
+  "ultimaAtualizacao": "2025-10-13T19:50:29.261Z",
+  "totalLivros": 370,
+  "totalExemplares": 1378,
+  "totalDisponiveis": 1378,
   "livros": [
     {
       "titulo": "A Árvore Que Dava Dinheiro",
@@ -5162,6 +5162,20 @@
       "genero": "Romance",
       "ano": 1995,
       "editora": "Civilização Brasileira ",
+      "cidade": "Rio de Janeiro",
+      "exemplares": 1,
+      "emprestados": 0,
+      "disponiveis": 1,
+      "localizacao": "Estante B, B4. Romance",
+      "status": "Disponível",
+      "capa": ""
+    },
+    {
+      "titulo": "O Ato e o Fato",
+      "autor": "Carlos Heitor",
+      "genero": "Romance",
+      "ano": 2018,
+      "editora": "Edipass",
       "cidade": "Rio de Janeiro",
       "exemplares": 1,
       "emprestados": 0,
