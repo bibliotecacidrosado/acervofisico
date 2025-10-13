@@ -1,8 +1,8 @@
 {
-  "ultimaAtualizacao": "2025-10-13T19:22:10.858Z",
-  "totalLivros": 338,
-  "totalExemplares": 1233,
-  "totalDisponiveis": 1233,
+  "ultimaAtualizacao": "2025-10-13T19:22:51.980Z",
+  "totalLivros": 339,
+  "totalExemplares": 1234,
+  "totalDisponiveis": 1234,
   "livros": [
     {
       "titulo": "A Árvore Que Dava Dinheiro",
@@ -4733,6 +4733,20 @@
       "emprestados": 0,
       "disponiveis": 1,
       "localizacao": "Estante B, B10. Poema",
+      "status": "Disponível",
+      "capa": ""
+    },
+    {
+      "titulo": "Amora ",
+      "autor": "Natalia Borges polesso",
+      "genero": "Conto",
+      "ano": 2015,
+      "editora": "Não editora ",
+      "cidade": "Portalegre ",
+      "exemplares": 1,
+      "emprestados": 0,
+      "disponiveis": 1,
+      "localizacao": "Estante B, B7. Contos",
       "status": "Disponível",
       "capa": ""
     }
