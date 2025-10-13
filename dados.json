@@ -1,8 +1,8 @@
 {
-  "ultimaAtualizacao": "2025-10-13T19:52:49.979Z",
-  "totalLivros": 373,
-  "totalExemplares": 1394,
-  "totalDisponiveis": 1394,
+  "ultimaAtualizacao": "2025-10-13T19:53:25.488Z",
+  "totalLivros": 374,
+  "totalExemplares": 1406,
+  "totalDisponiveis": 1406,
   "livros": [
     {
       "titulo": "A Árvore Que Dava Dinheiro",
@@ -5223,6 +5223,20 @@
       "emprestados": 0,
       "disponiveis": 1,
       "localizacao": "Estante B, B4. Romance",
+      "status": "Disponível",
+      "capa": ""
+    },
+    {
+      "titulo": "A terra",
+      "autor": "Lylian coltrinari",
+      "genero": "Atlas",
+      "ano": 2003,
+      "editora": "editora Ática ",
+      "cidade": "São Paulo ",
+      "exemplares": 12,
+      "emprestados": 0,
+      "disponiveis": 12,
+      "localizacao": "Estante D, D10. Atlas Visuais",
       "status": "Disponível",
       "capa": ""
     }
