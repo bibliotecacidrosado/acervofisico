@@ -1,8 +1,8 @@
 {
-  "ultimaAtualizacao": "2025-10-13T19:23:42.495Z",
-  "totalLivros": 340,
-  "totalExemplares": 1245,
-  "totalDisponiveis": 1245,
+  "ultimaAtualizacao": "2025-10-13T19:24:17.574Z",
+  "totalLivros": 341,
+  "totalExemplares": 1246,
+  "totalDisponiveis": 1246,
   "livros": [
     {
       "titulo": "A Árvore Que Dava Dinheiro",
@@ -4761,6 +4761,20 @@
       "emprestados": 0,
       "disponiveis": 11,
       "localizacao": "Estante D, D2. Formação Pedagógica",
+      "status": "Disponível",
+      "capa": ""
+    },
+    {
+      "titulo": "Limonade: Eram Duas Vezes - Praia A Beça",
+      "autor": "Richard Petit",
+      "genero": "Romance",
+      "ano": 2010,
+      "editora": "Fundamento ",
+      "cidade": "São Paulo",
+      "exemplares": 1,
+      "emprestados": 0,
+      "disponiveis": 1,
+      "localizacao": "Estante B, B4. Romance",
       "status": "Disponível",
       "capa": ""
     }
