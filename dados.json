@@ -1,8 +1,8 @@
 {
-  "ultimaAtualizacao": "2025-10-13T19:33:27.677Z",
-  "totalLivros": 350,
-  "totalExemplares": 1259,
-  "totalDisponiveis": 1259,
+  "ultimaAtualizacao": "2025-10-13T19:35:21.795Z",
+  "totalLivros": 351,
+  "totalExemplares": 1260,
+  "totalDisponiveis": 1260,
   "livros": [
     {
       "titulo": "A Árvore Que Dava Dinheiro",
@@ -4901,6 +4901,20 @@
       "emprestados": 0,
       "disponiveis": 1,
       "localizacao": "Estante B, B4. Romance",
+      "status": "Disponível",
+      "capa": ""
+    },
+    {
+      "titulo": "Carta ao pai ",
+      "autor": "Franz kafka ",
+      "genero": "Romance",
+      "ano": 1919,
+      "editora": "Boa viagem ",
+      "cidade": "São Paulo ",
+      "exemplares": 1,
+      "emprestados": 0,
+      "disponiveis": 1,
+      "localizacao": "Estante A, A4. Romance",
       "status": "Disponível",
       "capa": ""
     }
