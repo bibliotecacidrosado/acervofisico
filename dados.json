@@ -1,8 +1,8 @@
 {
-  "ultimaAtualizacao": "2025-10-13T19:28:21.540Z",
-  "totalLivros": 345,
-  "totalExemplares": 1253,
-  "totalDisponiveis": 1253,
+  "ultimaAtualizacao": "2025-10-13T19:29:52.524Z",
+  "totalLivros": 346,
+  "totalExemplares": 1255,
+  "totalDisponiveis": 1255,
   "livros": [
     {
       "titulo": "A Árvore Que Dava Dinheiro",
@@ -4830,6 +4830,20 @@
       "exemplares": 4,
       "emprestados": 0,
       "disponiveis": 4,
+      "localizacao": "Estante A, A2. Romance",
+      "status": "Disponível",
+      "capa": ""
+    },
+    {
+      "titulo": "Uma longa jornada ",
+      "autor": "Nicholas sparks ",
+      "genero": "Romance",
+      "ano": 2013,
+      "editora": "Arqueiro LTDA ",
+      "cidade": "Rio de janeiro ",
+      "exemplares": 2,
+      "emprestados": 0,
+      "disponiveis": 2,
       "localizacao": "Estante A, A2. Romance",
       "status": "Disponível",
       "capa": ""
