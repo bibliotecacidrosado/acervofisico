@@ -1,8 +1,8 @@
 {
-  "ultimaAtualizacao": "2025-10-13T19:36:06.572Z",
-  "totalLivros": 352,
-  "totalExemplares": 1261,
-  "totalDisponiveis": 1261,
+  "ultimaAtualizacao": "2025-10-13T19:38:22.997Z",
+  "totalLivros": 353,
+  "totalExemplares": 1262,
+  "totalDisponiveis": 1262,
   "livros": [
     {
       "titulo": "A Árvore Que Dava Dinheiro",
@@ -4929,6 +4929,20 @@
       "emprestados": 0,
       "disponiveis": 1,
       "localizacao": "Estante B, B4. Romance",
+      "status": "Disponível",
+      "capa": ""
+    },
+    {
+      "titulo": "Física ciência e tecnologia ",
+      "autor": "Paulo Cesar M. Penteado Carlos Magno A. Torres",
+      "genero": "Física",
+      "ano": 2005,
+      "editora": "Moderna ",
+      "cidade": "São Paulo ",
+      "exemplares": 1,
+      "emprestados": 0,
+      "disponiveis": 1,
+      "localizacao": "Estante C, C11. Física e Química",
       "status": "Disponível",
       "capa": ""
     }
