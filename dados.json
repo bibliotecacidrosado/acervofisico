@@ -1,8 +1,8 @@
 {
-  "ultimaAtualizacao": "2025-10-13T19:25:30.598Z",
-  "totalLivros": 342,
-  "totalExemplares": 1247,
-  "totalDisponiveis": 1247,
+  "ultimaAtualizacao": "2025-10-13T19:26:53.400Z",
+  "totalLivros": 343,
+  "totalExemplares": 1248,
+  "totalDisponiveis": 1248,
   "livros": [
     {
       "titulo": "A Árvore Que Dava Dinheiro",
@@ -4789,6 +4789,20 @@
       "emprestados": 0,
       "disponiveis": 1,
       "localizacao": "Estante B, B10. Poema",
+      "status": "Disponível",
+      "capa": ""
+    },
+    {
+      "titulo": "Anacrônicas e Quase Inventadas",
+      "autor": "Anderson Novello",
+      "genero": "Romance",
+      "ano": 2021,
+      "editora": "Cortez",
+      "cidade": "São Paulo",
+      "exemplares": 1,
+      "emprestados": 0,
+      "disponiveis": 1,
+      "localizacao": "Estante B, B4. Romance",
       "status": "Disponível",
       "capa": ""
     }
