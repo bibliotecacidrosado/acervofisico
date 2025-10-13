@@ -1,8 +1,8 @@
 {
-  "ultimaAtualizacao": "2025-10-13T19:17:30.775Z",
-  "totalLivros": 332,
-  "totalExemplares": 1226,
-  "totalDisponiveis": 1226,
+  "ultimaAtualizacao": "2025-10-13T19:17:52.091Z",
+  "totalLivros": 333,
+  "totalExemplares": 1228,
+  "totalDisponiveis": 1228,
   "livros": [
     {
       "titulo": "A Árvore Que Dava Dinheiro",
@@ -4649,6 +4649,20 @@
       "emprestados": 0,
       "disponiveis": 12,
       "localizacao": "Estante D, D11. História",
+      "status": "Disponível",
+      "capa": ""
+    },
+    {
+      "titulo": "É assim que começa ",
+      "autor": "Collen hoover",
+      "genero": "Romance",
+      "ano": 2022,
+      "editora": "Galera ",
+      "cidade": "Rio de janeiro ",
+      "exemplares": 2,
+      "emprestados": 0,
+      "disponiveis": 2,
+      "localizacao": "Estante B, B3. Romance",
       "status": "Disponível",
       "capa": ""
     }
