@@ -1,8 +1,8 @@
 {
-  "ultimaAtualizacao": "2025-10-13T19:21:15.536Z",
-  "totalLivros": 337,
-  "totalExemplares": 1232,
-  "totalDisponiveis": 1232,
+  "ultimaAtualizacao": "2025-10-13T19:22:10.858Z",
+  "totalLivros": 338,
+  "totalExemplares": 1233,
+  "totalDisponiveis": 1233,
   "livros": [
     {
       "titulo": "A Árvore Que Dava Dinheiro",
@@ -4719,6 +4719,20 @@
       "emprestados": 0,
       "disponiveis": 1,
       "localizacao": "Estante B, B4. Romance",
+      "status": "Disponível",
+      "capa": ""
+    },
+    {
+      "titulo": "Curral de peixe ",
+      "autor": "Ledo ivo",
+      "genero": "Poema",
+      "ano": 1995,
+      "editora": "Topbooks",
+      "cidade": "Rio de janeiro ",
+      "exemplares": 1,
+      "emprestados": 0,
+      "disponiveis": 1,
+      "localizacao": "Estante B, B10. Poema",
       "status": "Disponível",
       "capa": ""
     }
