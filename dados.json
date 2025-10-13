@@ -1,8 +1,8 @@
 {
-  "ultimaAtualizacao": "2025-10-13T19:43:14.078Z",
-  "totalLivros": 360,
-  "totalExemplares": 1278,
-  "totalDisponiveis": 1278,
+  "ultimaAtualizacao": "2025-10-13T19:43:38.690Z",
+  "totalLivros": 361,
+  "totalExemplares": 1340,
+  "totalDisponiveis": 1340,
   "livros": [
     {
       "titulo": "A Árvore Que Dava Dinheiro",
@@ -5040,6 +5040,20 @@
       "exemplares": 10,
       "emprestados": 0,
       "disponiveis": 10,
+      "localizacao": "Estante D, D10. Atlas Visuais",
+      "status": "Disponível",
+      "capa": ""
+    },
+    {
+      "titulo": "O universo ",
+      "autor": "Ronaldo Rogério de Freitas Mourão ",
+      "genero": "Atlas",
+      "ano": 2003,
+      "editora": "editora atica",
+      "cidade": "São paulo",
+      "exemplares": 62,
+      "emprestados": 0,
+      "disponiveis": 62,
       "localizacao": "Estante D, D10. Atlas Visuais",
       "status": "Disponível",
       "capa": ""
