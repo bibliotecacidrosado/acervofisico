@@ -1,8 +1,8 @@
 {
-  "ultimaAtualizacao": "2025-10-13T19:35:21.795Z",
-  "totalLivros": 351,
-  "totalExemplares": 1260,
-  "totalDisponiveis": 1260,
+  "ultimaAtualizacao": "2025-10-13T19:36:06.572Z",
+  "totalLivros": 352,
+  "totalExemplares": 1261,
+  "totalDisponiveis": 1261,
   "livros": [
     {
       "titulo": "A Árvore Que Dava Dinheiro",
@@ -4915,6 +4915,20 @@
       "emprestados": 0,
       "disponiveis": 1,
       "localizacao": "Estante A, A4. Romance",
+      "status": "Disponível",
+      "capa": ""
+    },
+    {
+      "titulo": "O Outro Apaixonado por Marília de Dirceu",
+      "autor": "Jair Vitória ",
+      "genero": "Romance",
+      "ano": 2018,
+      "editora": "Maxi Print",
+      "cidade": "São José dos Campos",
+      "exemplares": 1,
+      "emprestados": 0,
+      "disponiveis": 1,
+      "localizacao": "Estante B, B4. Romance",
       "status": "Disponível",
       "capa": ""
     }
