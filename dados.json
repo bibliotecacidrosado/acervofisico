@@ -1,8 +1,8 @@
 {
-  "ultimaAtualizacao": "2025-10-13T19:29:52.524Z",
-  "totalLivros": 346,
-  "totalExemplares": 1255,
-  "totalDisponiveis": 1255,
+  "ultimaAtualizacao": "2025-10-13T19:30:25.171Z",
+  "totalLivros": 347,
+  "totalExemplares": 1256,
+  "totalDisponiveis": 1256,
   "livros": [
     {
       "titulo": "A Árvore Que Dava Dinheiro",
@@ -4845,6 +4845,20 @@
       "emprestados": 0,
       "disponiveis": 2,
       "localizacao": "Estante A, A2. Romance",
+      "status": "Disponível",
+      "capa": ""
+    },
+    {
+      "titulo": "Alek Ciaran e os Guardiões da Escuridão ",
+      "autor": "Shirley Souza",
+      "genero": "Romance",
+      "ano": 2021,
+      "editora": "Panda Books",
+      "cidade": "São Paulo",
+      "exemplares": 1,
+      "emprestados": 0,
+      "disponiveis": 1,
+      "localizacao": "Estante B, B4. Romance",
       "status": "Disponível",
       "capa": ""
     }
