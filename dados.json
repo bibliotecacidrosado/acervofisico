@@ -1,8 +1,8 @@
 {
-  "ultimaAtualizacao": "2025-10-13T19:26:53.400Z",
-  "totalLivros": 343,
-  "totalExemplares": 1248,
-  "totalDisponiveis": 1248,
+  "ultimaAtualizacao": "2025-10-13T19:27:59.110Z",
+  "totalLivros": 344,
+  "totalExemplares": 1249,
+  "totalDisponiveis": 1249,
   "livros": [
     {
       "titulo": "A Árvore Que Dava Dinheiro",
@@ -4803,6 +4803,20 @@
       "emprestados": 0,
       "disponiveis": 1,
       "localizacao": "Estante B, B4. Romance",
+      "status": "Disponível",
+      "capa": ""
+    },
+    {
+      "titulo": "Viver é feito á mão",
+      "autor": "Nilma Lacerda ",
+      "genero": "Romance",
+      "ano": "Publicado em 2019",
+      "editora": "Positivo ",
+      "cidade": "Curitiba ",
+      "exemplares": 1,
+      "emprestados": 0,
+      "disponiveis": 1,
+      "localizacao": "Estante A, A3. Romance",
       "status": "Disponível",
       "capa": ""
     }
