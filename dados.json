@@ -1,8 +1,8 @@
 {
-  "ultimaAtualizacao": "2025-10-13T19:30:25.171Z",
-  "totalLivros": 347,
-  "totalExemplares": 1256,
-  "totalDisponiveis": 1256,
+  "ultimaAtualizacao": "2025-10-13T19:31:50.495Z",
+  "totalLivros": 348,
+  "totalExemplares": 1257,
+  "totalDisponiveis": 1257,
   "livros": [
     {
       "titulo": "A Árvore Que Dava Dinheiro",
@@ -4859,6 +4859,20 @@
       "emprestados": 0,
       "disponiveis": 1,
       "localizacao": "Estante B, B4. Romance",
+      "status": "Disponível",
+      "capa": ""
+    },
+    {
+      "titulo": "A cidade das sombras dançantes ",
+      "autor": "Pedro veludo ",
+      "genero": "Romance",
+      "ano": "Março de 2023",
+      "editora": "Verba editorial ",
+      "cidade": "São Paulo ",
+      "exemplares": 1,
+      "emprestados": 0,
+      "disponiveis": 1,
+      "localizacao": "Estante A, A4. Romance",
       "status": "Disponível",
       "capa": ""
     }
