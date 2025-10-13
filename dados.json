@@ -1,8 +1,8 @@
 {
-  "ultimaAtualizacao": "2025-10-13T19:14:48.338Z",
-  "totalLivros": 331,
-  "totalExemplares": 1214,
-  "totalDisponiveis": 1214,
+  "ultimaAtualizacao": "2025-10-13T19:17:30.775Z",
+  "totalLivros": 332,
+  "totalExemplares": 1226,
+  "totalDisponiveis": 1226,
   "livros": [
     {
       "titulo": "A Árvore Que Dava Dinheiro",
@@ -4635,6 +4635,20 @@
       "emprestados": 0,
       "disponiveis": 1,
       "localizacao": "Estante B, B10. Poema",
+      "status": "Disponível",
+      "capa": ""
+    },
+    {
+      "titulo": "Os Sujeitos No Universo Da Escola ",
+      "autor": "Verônica Edwards ",
+      "genero": "Formação Pedagógica (Educação)",
+      "ano": 2003,
+      "editora": "Editora Ática",
+      "cidade": "São Paulo ",
+      "exemplares": 12,
+      "emprestados": 0,
+      "disponiveis": 12,
+      "localizacao": "Estante D, D11. História",
       "status": "Disponível",
       "capa": ""
     }
