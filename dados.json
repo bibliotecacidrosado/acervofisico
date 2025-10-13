@@ -1,8 +1,8 @@
 {
-  "ultimaAtualizacao": "2025-10-13T19:56:55.559Z",
-  "totalLivros": 379,
-  "totalExemplares": 1444,
-  "totalDisponiveis": 1444,
+  "ultimaAtualizacao": "2025-10-13T19:57:27.661Z",
+  "totalLivros": 381,
+  "totalExemplares": 1452,
+  "totalDisponiveis": 1452,
   "livros": [
     {
       "titulo": "A Árvore Que Dava Dinheiro",
@@ -5306,6 +5306,34 @@
       "exemplares": 14,
       "emprestados": 0,
       "disponiveis": 14,
+      "localizacao": "Estante D, D10. Atlas Visuais",
+      "status": "Disponível",
+      "capa": ""
+    },
+    {
+      "titulo": "Como Subir em Árvores ",
+      "autor": "Tiago de Melo Andrade",
+      "genero": "Romance",
+      "ano": 2020,
+      "editora": "Akpalô",
+      "cidade": "São Paulo",
+      "exemplares": 1,
+      "emprestados": 0,
+      "disponiveis": 1,
+      "localizacao": "Estante B, B4. Romance",
+      "status": "Disponível",
+      "capa": ""
+    },
+    {
+      "titulo": "O Corpo Humano ",
+      "autor": "Dr. José Guilherme Chaui Berlinck ",
+      "genero": "Atlas",
+      "ano": 2002,
+      "editora": "Ática",
+      "cidade": "São Paulo ",
+      "exemplares": 7,
+      "emprestados": 0,
+      "disponiveis": 7,
       "localizacao": "Estante D, D10. Atlas Visuais",
       "status": "Disponível",
       "capa": ""
