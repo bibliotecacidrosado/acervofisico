@@ -1,8 +1,8 @@
 {
-  "ultimaAtualizacao": "2025-10-13T19:46:50.939Z",
-  "totalLivros": 365,
-  "totalExemplares": 1344,
-  "totalDisponiveis": 1344,
+  "ultimaAtualizacao": "2025-10-13T19:47:00.390Z",
+  "totalLivros": 366,
+  "totalExemplares": 1356,
+  "totalDisponiveis": 1356,
   "livros": [
     {
       "titulo": "A Árvore Que Dava Dinheiro",
@@ -5111,6 +5111,20 @@
       "emprestados": 0,
       "disponiveis": 1,
       "localizacao": "Estante B, B4. Romance",
+      "status": "Disponível",
+      "capa": ""
+    },
+    {
+      "titulo": "Plantas ",
+      "autor": "Fábio Augusto vitta",
+      "genero": "Atlas",
+      "ano": 2002,
+      "editora": "editora Ática ",
+      "cidade": "São Paulo ",
+      "exemplares": 12,
+      "emprestados": 0,
+      "disponiveis": 12,
+      "localizacao": "Estante D, D10. Atlas Visuais",
       "status": "Disponível",
       "capa": ""
     }
