@@ -1,8 +1,8 @@
 {
-  "ultimaAtualizacao": "2025-10-13T19:47:50.567Z",
-  "totalLivros": 367,
-  "totalExemplares": 1367,
-  "totalDisponiveis": 1367,
+  "ultimaAtualizacao": "2025-10-13T19:48:49.812Z",
+  "totalLivros": 368,
+  "totalExemplares": 1376,
+  "totalDisponiveis": 1376,
   "livros": [
     {
       "titulo": "A Árvore Que Dava Dinheiro",
@@ -5138,6 +5138,20 @@
       "exemplares": 11,
       "emprestados": 0,
       "disponiveis": 11,
+      "localizacao": "Estante D, D10. Atlas Visuais",
+      "status": "Disponível",
+      "capa": ""
+    },
+    {
+      "titulo": "Dinossauros",
+      "autor": "Maecelo Newton ferreira trotta",
+      "genero": "Atlas",
+      "ano": 2002,
+      "editora": "Editora Ática ",
+      "cidade": "Rio de Janeiro ",
+      "exemplares": 9,
+      "emprestados": 0,
+      "disponiveis": 9,
       "localizacao": "Estante D, D10. Atlas Visuais",
       "status": "Disponível",
       "capa": ""
