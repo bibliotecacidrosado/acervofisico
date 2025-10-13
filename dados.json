@@ -1,8 +1,8 @@
 {
-  "ultimaAtualizacao": "2025-10-13T19:24:17.574Z",
-  "totalLivros": 341,
-  "totalExemplares": 1246,
-  "totalDisponiveis": 1246,
+  "ultimaAtualizacao": "2025-10-13T19:25:30.598Z",
+  "totalLivros": 342,
+  "totalExemplares": 1247,
+  "totalDisponiveis": 1247,
   "livros": [
     {
       "titulo": "A Árvore Que Dava Dinheiro",
@@ -4775,6 +4775,20 @@
       "emprestados": 0,
       "disponiveis": 1,
       "localizacao": "Estante B, B4. Romance",
+      "status": "Disponível",
+      "capa": ""
+    },
+    {
+      "titulo": "Pau brasileiro ",
+      "autor": "Oswaldo de Andrade ",
+      "genero": "Poema",
+      "ano": 1925,
+      "editora": "Globo",
+      "cidade": "São paulo",
+      "exemplares": 1,
+      "emprestados": 0,
+      "disponiveis": 1,
+      "localizacao": "Estante B, B10. Poema",
       "status": "Disponível",
       "capa": ""
     }
