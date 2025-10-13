@@ -1,8 +1,8 @@
 {
-  "ultimaAtualizacao": "2025-10-13T19:54:52.553Z",
-  "totalLivros": 377,
-  "totalExemplares": 1429,
-  "totalDisponiveis": 1429,
+  "ultimaAtualizacao": "2025-10-13T19:55:32.652Z",
+  "totalLivros": 378,
+  "totalExemplares": 1430,
+  "totalDisponiveis": 1430,
   "livros": [
     {
       "titulo": "A Árvore Que Dava Dinheiro",
@@ -5279,6 +5279,20 @@
       "emprestados": 0,
       "disponiveis": 12,
       "localizacao": "Estante D, D10. Atlas Visuais",
+      "status": "Disponível",
+      "capa": ""
+    },
+    {
+      "titulo": "Acredite no Amor",
+      "autor": "Osho",
+      "genero": "Romance",
+      "ano": 2019,
+      "editora": "Alaude",
+      "cidade": "São Paulo",
+      "exemplares": 1,
+      "emprestados": 0,
+      "disponiveis": 1,
+      "localizacao": "Estante B, B4. Romance",
       "status": "Disponível",
       "capa": ""
     }
