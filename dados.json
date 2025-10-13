@@ -1,8 +1,8 @@
 {
-  "ultimaAtualizacao": "2025-10-13T19:53:37.887Z",
-  "totalLivros": 375,
-  "totalExemplares": 1407,
-  "totalDisponiveis": 1407,
+  "ultimaAtualizacao": "2025-10-13T19:54:13.609Z",
+  "totalLivros": 376,
+  "totalExemplares": 1417,
+  "totalDisponiveis": 1417,
   "livros": [
     {
       "titulo": "A Árvore Que Dava Dinheiro",
@@ -5251,6 +5251,20 @@
       "emprestados": 0,
       "disponiveis": 1,
       "localizacao": "Estante C, C2. Literatura Infantojuvenil",
+      "status": "Disponível",
+      "capa": ""
+    },
+    {
+      "titulo": "Antigas Civilizações ",
+      "autor": "Pedro Paulo A. Funari",
+      "genero": "Atlas",
+      "ano": 1996,
+      "editora": "Ática ",
+      "cidade": "São Paulo ",
+      "exemplares": 10,
+      "emprestados": 0,
+      "disponiveis": 10,
+      "localizacao": "Estante D, D10. Atlas Visuais",
       "status": "Disponível",
       "capa": ""
     }
