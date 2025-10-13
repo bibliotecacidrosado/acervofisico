@@ -1,8 +1,8 @@
 {
-  "ultimaAtualizacao": "2025-10-05T01:04:42.415Z",
-  "totalLivros": 328,
-  "totalExemplares": 1211,
-  "totalDisponiveis": 1211,
+  "ultimaAtualizacao": "2025-10-13T19:11:13.720Z",
+  "totalLivros": 329,
+  "totalExemplares": 1212,
+  "totalDisponiveis": 1212,
   "livros": [
     {
       "titulo": "A Árvore Que Dava Dinheiro",
@@ -4593,6 +4593,20 @@
       "emprestados": 0,
       "disponiveis": 1,
       "localizacao": "Estante D, D7. Inglês e Espanhol",
+      "status": "Disponível",
+      "capa": ""
+    },
+    {
+      "titulo": "As Gêmeas da Família ",
+      "autor": "Stella Maris Rezende ",
+      "genero": "Romance",
+      "ano": 2018,
+      "editora": "Globo",
+      "cidade": "Rio de Janeiro",
+      "exemplares": 1,
+      "emprestados": 0,
+      "disponiveis": 1,
+      "localizacao": "Estante B, B4. Romance",
       "status": "Disponível",
       "capa": ""
     }
