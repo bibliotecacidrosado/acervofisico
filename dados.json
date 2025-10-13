@@ -1,8 +1,8 @@
 {
-  "ultimaAtualizacao": "2025-10-13T19:43:38.690Z",
-  "totalLivros": 361,
-  "totalExemplares": 1340,
-  "totalDisponiveis": 1340,
+  "ultimaAtualizacao": "2025-10-13T19:44:08.900Z",
+  "totalLivros": 362,
+  "totalExemplares": 1341,
+  "totalDisponiveis": 1341,
   "livros": [
     {
       "titulo": "A Árvore Que Dava Dinheiro",
@@ -5055,6 +5055,20 @@
       "emprestados": 0,
       "disponiveis": 62,
       "localizacao": "Estante D, D10. Atlas Visuais",
+      "status": "Disponível",
+      "capa": ""
+    },
+    {
+      "titulo": "Ilegais",
+      "autor": "Luiz Antonio Aguiar",
+      "genero": "Romance",
+      "ano": 2020,
+      "editora": "Editora Do Brasil",
+      "cidade": "São Paulo",
+      "exemplares": 1,
+      "emprestados": 0,
+      "disponiveis": 1,
+      "localizacao": "Estante B, B4. Romance",
       "status": "Disponível",
       "capa": ""
     }
