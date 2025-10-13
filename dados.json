@@ -1,8 +1,8 @@
 {
-  "ultimaAtualizacao": "2025-10-13T19:31:50.495Z",
-  "totalLivros": 348,
-  "totalExemplares": 1257,
-  "totalDisponiveis": 1257,
+  "ultimaAtualizacao": "2025-10-13T19:33:10.974Z",
+  "totalLivros": 349,
+  "totalExemplares": 1258,
+  "totalDisponiveis": 1258,
   "livros": [
     {
       "titulo": "A Árvore Que Dava Dinheiro",
@@ -4873,6 +4873,20 @@
       "emprestados": 0,
       "disponiveis": 1,
       "localizacao": "Estante A, A4. Romance",
+      "status": "Disponível",
+      "capa": ""
+    },
+    {
+      "titulo": "O casamento ",
+      "autor": "Nicholas sparks ",
+      "genero": "Romance",
+      "ano": 2003,
+      "editora": "Arqueiro LTDA ",
+      "cidade": "Rio de janeiro ",
+      "exemplares": 1,
+      "emprestados": 0,
+      "disponiveis": 1,
+      "localizacao": "Estante A, A2. Romance",
       "status": "Disponível",
       "capa": ""
     }
