@@ -1,8 +1,8 @@
 {
-  "ultimaAtualizacao": "2025-10-13T19:43:00.691Z",
-  "totalLivros": 359,
-  "totalExemplares": 1268,
-  "totalDisponiveis": 1268,
+  "ultimaAtualizacao": "2025-10-13T19:43:14.078Z",
+  "totalLivros": 360,
+  "totalExemplares": 1278,
+  "totalDisponiveis": 1278,
   "livros": [
     {
       "titulo": "A Árvore Que Dava Dinheiro",
@@ -5027,6 +5027,20 @@
       "emprestados": 0,
       "disponiveis": 1,
       "localizacao": "Estante C, C11. Física e Química",
+      "status": "Disponível",
+      "capa": ""
+    },
+    {
+      "titulo": "Animais ",
+      "autor": "Dr. José Guilherme Chaui Berlinck",
+      "genero": "Atlas",
+      "ano": 2003,
+      "editora": "Ática ",
+      "cidade": "São Paulo ",
+      "exemplares": 10,
+      "emprestados": 0,
+      "disponiveis": 10,
+      "localizacao": "Estante D, D10. Atlas Visuais",
       "status": "Disponível",
       "capa": ""
     }
