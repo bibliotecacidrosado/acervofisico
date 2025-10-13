@@ -1,8 +1,8 @@
 {
-  "ultimaAtualizacao": "2025-10-13T19:53:25.488Z",
-  "totalLivros": 374,
-  "totalExemplares": 1406,
-  "totalDisponiveis": 1406,
+  "ultimaAtualizacao": "2025-10-13T19:53:37.887Z",
+  "totalLivros": 375,
+  "totalExemplares": 1407,
+  "totalDisponiveis": 1407,
   "livros": [
     {
       "titulo": "A Árvore Que Dava Dinheiro",
@@ -5237,6 +5237,20 @@
       "emprestados": 0,
       "disponiveis": 12,
       "localizacao": "Estante D, D10. Atlas Visuais",
+      "status": "Disponível",
+      "capa": ""
+    },
+    {
+      "titulo": "Almas da terra ",
+      "autor": "Graciliano Ramos ",
+      "genero": "Literatura Infantojuvenil",
+      "ano": 2021,
+      "editora": "Onça-pintada",
+      "cidade": "Rio de janeiro ",
+      "exemplares": 1,
+      "emprestados": 0,
+      "disponiveis": 1,
+      "localizacao": "Estante C, C2. Literatura Infantojuvenil",
       "status": "Disponível",
       "capa": ""
     }
