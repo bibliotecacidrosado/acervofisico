@@ -1,8 +1,8 @@
 {
-  "ultimaAtualizacao": "2025-10-13T19:20:20.640Z",
-  "totalLivros": 336,
-  "totalExemplares": 1231,
-  "totalDisponiveis": 1231,
+  "ultimaAtualizacao": "2025-10-13T19:21:15.536Z",
+  "totalLivros": 337,
+  "totalExemplares": 1232,
+  "totalDisponiveis": 1232,
   "livros": [
     {
       "titulo": "A Árvore Que Dava Dinheiro",
@@ -4705,6 +4705,20 @@
       "emprestados": 0,
       "disponiveis": 1,
       "localizacao": "Estante D, D2. Formação Pedagógica",
+      "status": "Disponível",
+      "capa": ""
+    },
+    {
+      "titulo": "As Aventuras de Tom Sawyer",
+      "autor": "Mark Twain",
+      "genero": "Romance",
+      "ano": 2013,
+      "editora": "Melhoramentos ",
+      "cidade": "São Paulo",
+      "exemplares": 1,
+      "emprestados": 0,
+      "disponiveis": 1,
+      "localizacao": "Estante B, B4. Romance",
       "status": "Disponível",
       "capa": ""
     }
