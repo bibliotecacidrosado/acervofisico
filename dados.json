@@ -1,8 +1,8 @@
 {
-  "ultimaAtualizacao": "2025-10-13T19:40:29.224Z",
-  "totalLivros": 356,
-  "totalExemplares": 1265,
-  "totalDisponiveis": 1265,
+  "ultimaAtualizacao": "2025-10-13T19:40:41.232Z",
+  "totalLivros": 357,
+  "totalExemplares": 1266,
+  "totalDisponiveis": 1266,
   "livros": [
     {
       "titulo": "A Árvore Que Dava Dinheiro",
@@ -4985,6 +4985,20 @@
       "emprestados": 0,
       "disponiveis": 1,
       "localizacao": "Estante B, B4. Romance",
+      "status": "Disponível",
+      "capa": ""
+    },
+    {
+      "titulo": "Física ",
+      "autor": "Antônio máximo Beatriz alvarenga",
+      "genero": "Física",
+      "ano": 2008,
+      "editora": "Scipione",
+      "cidade": "São Paulo ",
+      "exemplares": 1,
+      "emprestados": 0,
+      "disponiveis": 1,
+      "localizacao": "Estante C, C11. Física e Química",
       "status": "Disponível",
       "capa": ""
     }
