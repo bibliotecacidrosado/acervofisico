@@ -1,8 +1,8 @@
 {
-  "ultimaAtualizacao": "2025-10-21T17:02:08.447Z",
-  "totalLivros": 382,
-  "totalExemplares": 1453,
-  "totalDisponiveis": 1453,
+  "ultimaAtualizacao": "2025-10-21T17:06:30.002Z",
+  "totalLivros": 383,
+  "totalExemplares": 1464,
+  "totalDisponiveis": 1464,
   "livros": [
     {
       "titulo": "A Árvore Que Dava Dinheiro",
@@ -5351,6 +5351,20 @@
       "localizacao": "Estante D, D3. Formação Pedagógica",
       "status": "Disponível",
       "capa": "https://drive.google.com/open?id=1XNB5ePatoYHJ1h2M8Teg5CMLaJ0m8b11"
+    },
+    {
+      "titulo": "Educação é lazer a aprendizagem permanente ",
+      "autor": "Liz Cintra Rolim ",
+      "genero": "Formação Pedagógica (Educação)",
+      "ano": 2003,
+      "editora": "Editora ática ",
+      "cidade": "São Paulo ",
+      "exemplares": 11,
+      "emprestados": 0,
+      "disponiveis": 11,
+      "localizacao": "Estante D, D2. Formação Pedagógica",
+      "status": "Disponível",
+      "capa": "https://drive.google.com/open?id=1_2c8NWUFchuX1ALN1-xmXQddbYVQBdVp"
     }
   ]
 }
