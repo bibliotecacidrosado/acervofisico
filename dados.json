@@ -1,8 +1,8 @@
 {
-  "ultimaAtualizacao": "2025-10-13T19:57:27.661Z",
-  "totalLivros": 381,
-  "totalExemplares": 1452,
-  "totalDisponiveis": 1452,
+  "ultimaAtualizacao": "2025-10-21T17:02:08.447Z",
+  "totalLivros": 382,
+  "totalExemplares": 1453,
+  "totalDisponiveis": 1453,
   "livros": [
     {
       "titulo": "A Árvore Que Dava Dinheiro",
@@ -5337,6 +5337,20 @@
       "localizacao": "Estante D, D10. Atlas Visuais",
       "status": "Disponível",
       "capa": ""
+    },
+    {
+      "titulo": "O Brasil Republicano",
+      "autor": "Maria Helena Capelato",
+      "genero": "Formação Pedagógica (Educação)",
+      "ano": 1997,
+      "editora": "Bertrand Brasil",
+      "cidade": "Rio de Janeiro ",
+      "exemplares": 1,
+      "emprestados": 0,
+      "disponiveis": 1,
+      "localizacao": "Estante D, D3. Formação Pedagógica",
+      "status": "Disponível",
+      "capa": "https://drive.google.com/open?id=1XNB5ePatoYHJ1h2M8Teg5CMLaJ0m8b11"
     }
   ]
 }
