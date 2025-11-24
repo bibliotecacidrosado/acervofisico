@@ -1,8 +1,8 @@
 {
-  "ultimaAtualizacao": "2025-11-24T16:32:50.673Z",
-  "totalLivros": 384,
-  "totalExemplares": 1516,
-  "totalDisponiveis": 1516,
+  "ultimaAtualizacao": "2025-11-24T16:39:27.403Z",
+  "totalLivros": 385,
+  "totalExemplares": 1536,
+  "totalDisponiveis": 1536,
   "livros": [
     {
       "titulo": "A Árvore Que Dava Dinheiro",
@@ -5379,6 +5379,20 @@
       "localizacao": "Estante D, A7. Romance",
       "status": "Disponível",
       "capa": "https://drive.google.com/open?id=1Tm-ucGRlGjPjdcedWVSKRSDmhhywqZ-K"
+    },
+    {
+      "titulo": "A Turma da Mônica",
+      "autor": ": Maurício de Souza",
+      "genero": "História em Quadrinhos",
+      "ano": 2002,
+      "editora": "Taisa",
+      "cidade": "Encanto ",
+      "exemplares": 20,
+      "emprestados": 0,
+      "disponiveis": 20,
+      "localizacao": "Estante A, A8. Histórias em Quadrinhos",
+      "status": "Disponível",
+      "capa": "https://drive.google.com/open?id=1PPlU_fygUJsC9FmOuKeB2CmYXIASXSvB"
     }
   ]
 }
