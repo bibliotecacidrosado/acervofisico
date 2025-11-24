@@ -1,8 +1,8 @@
 {
-  "ultimaAtualizacao": "2025-11-24T16:39:27.403Z",
-  "totalLivros": 385,
-  "totalExemplares": 1536,
-  "totalDisponiveis": 1536,
+  "ultimaAtualizacao": "2025-11-24T16:48:22.107Z",
+  "totalLivros": 386,
+  "totalExemplares": 1559,
+  "totalDisponiveis": 1559,
   "livros": [
     {
       "titulo": "A Árvore Que Dava Dinheiro",
@@ -5393,6 +5393,20 @@
       "localizacao": "Estante A, A8. Histórias em Quadrinhos",
       "status": "Disponível",
       "capa": "https://drive.google.com/open?id=1PPlU_fygUJsC9FmOuKeB2CmYXIASXSvB"
+    },
+    {
+      "titulo": "Medo do escuro ",
+      "autor": "Antônio Carlos Pacheco ",
+      "genero": "Conto",
+      "ano": 2021,
+      "editora": "Taisa",
+      "cidade": "Encanto ",
+      "exemplares": 23,
+      "emprestados": 0,
+      "disponiveis": 23,
+      "localizacao": "Corredor G, B7. Contos",
+      "status": "Disponível",
+      "capa": "https://drive.google.com/open?id=17do24WfyuMkoYqbqm2TzEK0t77TeQ-aH"
     }
   ]
 }
