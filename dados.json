@@ -1,8 +1,8 @@
 {
-  "ultimaAtualizacao": "2025-10-21T17:06:30.002Z",
-  "totalLivros": 383,
-  "totalExemplares": 1464,
-  "totalDisponiveis": 1464,
+  "ultimaAtualizacao": "2025-11-24T16:32:50.673Z",
+  "totalLivros": 384,
+  "totalExemplares": 1516,
+  "totalDisponiveis": 1516,
   "livros": [
     {
       "titulo": "A Árvore Que Dava Dinheiro",
@@ -5365,6 +5365,20 @@
       "localizacao": "Estante D, D2. Formação Pedagógica",
       "status": "Disponível",
       "capa": "https://drive.google.com/open?id=1_2c8NWUFchuX1ALN1-xmXQddbYVQBdVp"
+    },
+    {
+      "titulo": " As Palavras de Gwangju",
+      "autor": "Soo Park",
+      "genero": "Conto",
+      "ano": 2025,
+      "editora": "Taisa",
+      "cidade": "Encanto ",
+      "exemplares": 52,
+      "emprestados": 0,
+      "disponiveis": 52,
+      "localizacao": "Estante D, A7. Romance",
+      "status": "Disponível",
+      "capa": "https://drive.google.com/open?id=1Tm-ucGRlGjPjdcedWVSKRSDmhhywqZ-K"
     }
   ]
 }
