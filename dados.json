@@ -1,8 +1,8 @@
 {
-  "ultimaAtualizacao": "2025-11-24T16:48:22.107Z",
-  "totalLivros": 386,
-  "totalExemplares": 1559,
-  "totalDisponiveis": 1559,
+  "ultimaAtualizacao": "2026-05-07T11:53:47.098Z",
+  "totalLivros": 387,
+  "totalExemplares": 1562,
+  "totalDisponiveis": 1562,
   "livros": [
     {
       "titulo": "A Árvore Que Dava Dinheiro",
@@ -5407,6 +5407,20 @@
       "localizacao": "Corredor G, B7. Contos",
       "status": "Disponível",
       "capa": "https://drive.google.com/open?id=17do24WfyuMkoYqbqm2TzEK0t77TeQ-aH"
+    },
+    {
+      "titulo": "Várias Histórias",
+      "autor": "Machado de Assis",
+      "genero": "Conto",
+      "ano": 2002,
+      "editora": "Ática",
+      "cidade": "São Paulo",
+      "exemplares": 3,
+      "emprestados": 0,
+      "disponiveis": 3,
+      "localizacao": "Estante A, A6. Romance / Machado de Assis",
+      "status": "Disponível",
+      "capa": ""
     }
   ]
 }
